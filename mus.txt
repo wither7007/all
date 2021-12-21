@@ -1,0 +1,10 @@
+
+CreationTime             Length FullName
+------------             ------ --------
+9/18/2021 6:59:09 PM     125568 C:\all\bin\AutoCord\0918185908.mp3
+9/18/2021 6:59:45 PM     354240 C:\all\bin\AutoCord\0918185945.mp3
+9/18/2021 7:00:35 PM     172224 C:\all\bin\AutoCord\0918190035.mp3
+9/18/2021 7:05:31 PM       9216 C:\all\bin\AutoCord\0918190531.mp3
+11/20/2021 6:13:15 AM  62134027 C:\all\ex\340-pyjion-1-0.mp3
+11/20/2021 6:13:15 AM  12641528 C:\all\ex\Arash_Abizadeh_on_Hobbes_Ethics.mp3
+11/20/2021 6:13:15 AM  11786163 C:\all\ex\Ben_Rogers_on__Pascal.mp3
