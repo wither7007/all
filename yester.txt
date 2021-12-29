@@ -1,0 +1,14 @@
+3:40 start melody
+One minute
+
+4:46
+5:46
+
+
+ffmpeg -ss 00:04:46 -i yesterday.mp4 -to 00:01:00 -c copy output.mp4
+FFmpeg  -ss  0:10  - i  "yesterday.mp4"  -codec   copy  - t  0:05  "cut.mp4"
+ffmpeg -i yesterday.mp4 -ss 00:00:15 -t 00:00:10 -async -1 clip.mp4
+
+g(f) em A7 aggcs dM7(e) FwithD quick c inter bfl c bf f c
+
+https://www.youtube.com/watch?v=RkxGbEk2UD8

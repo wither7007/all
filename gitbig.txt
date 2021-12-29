@@ -1,0 +1,9 @@
+git verify-pack -v .git/objects/pack/pack-{hash}.idx 
+pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.pack
+
+
+
+git verify-pack -v pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.idx
+
+
+git verify-pack -v .git/objects/pack/pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.idx | sort -k 3 -n | tail -n 5 > blob
