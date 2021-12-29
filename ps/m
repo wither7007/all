@@ -24,3 +24,4 @@
 12_06_21 = ffmpeg -ss 3:01 -i AtumnSynch.mp4 -t 00:28 xAtumnSynch.mp4
 12_17_21 = ffmpeg -ss 15 -i bob3.mp4 -t 36 xbob3.mp4
 12_18_21 = ffmpeg -ss 00:01 -i moonwk.mp3 -t 03:39 xmoonwk.mp3
+12_28_21 = ffmpeg -ss 4:46 -i yesterday -t 1:00 xyesterday

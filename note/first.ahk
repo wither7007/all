@@ -34,7 +34,7 @@ return
 
 
 !l::
-Send, O Tannenbaum, o Tannenbaum, Wie treu sind deine Blatter. Du grunst nicht nur zur Sommerzeit, Nein, auch im Winter, wenn es schneit. O Tannenbaum, o Tannenbaum, Wie treu sind deine Blatter.  O Tannenbaum, o Tannenbaum, Du kannst mir sehr gefallen. Wie oft hat nicht zur Weihnachtszeit. Ein Baum von dir mich hoch erfreut. O Tannenbaum, o Tannenbaum, Du kannst mir sehr gefallen.
+Send, in the chest of the out of tune No peito dos desafinados Also beats a heart Tambem bate um coracao
 return
 
 
