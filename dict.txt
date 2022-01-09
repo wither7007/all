@@ -1,0 +1,13 @@
+
+var dictionary = {};
+
+textArray.forEach(function(item, index) {
+    if(index % 2 === 0) {
+       dictionary[item] = textArray[index + 1];
+    }
+});
+
+for (const key in dictionary) {
+
+    console.log(`${key}: ${dictionary[key]}`);
+}

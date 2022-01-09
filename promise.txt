@@ -1,7 +1,0 @@
-p=Promise.all([1,2,3])
-
-
-
-p.then(y => {
-  console.log(y); 
-});
