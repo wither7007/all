@@ -1,0 +1,18 @@
+  [
+0    "Salvation Army Harbor Light Center",
+1   "1010 Currie Avenue",
+2   "612-767-3100",
+3   "A hot meal open to the public is served Saturday and Sunday at 6 pm.",
+4   "",
+5    "",
+6    "",
+7    "",
+8    "me",
+9   "57",
+10   "",
+11    "1010 Currie Ave, Minneapolis, MN 55403",
+12    "44.9782094",
+13  "-93.2797272",
+14    "ChIJHy06GpMys1IRTcAwCaJaltA",
+15    "salvationarmynorth.org/community/twin-cities-metro/locations/"
+  ],

@@ -1,3 +1,4 @@
+
 #SingleInstance Force
 !a::run, C:\tools\neovim\Neovim\bin\nvim.exe -c "cd c:\all"      ; Correct
 !t::run, C:\Users\jayst\AppData\Local\Microsoft\WindowsApps\wt.exe
@@ -10,16 +11,23 @@ return
 
 !c::run,  C:\tools\neovim\Neovim\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work
 
+
+
 !q:: Send !{f4}
+return
+
++Q:: send !^+1
+return
+
++B:: send !^+2
+return
+!#v:: send !^+1
 return
 
 !h::
 Send, The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away.
 return
 
-!n::
-SendRaw, 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
-return
 
 !x:: Send, after:2020
 return

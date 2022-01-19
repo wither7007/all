@@ -1,0 +1,14 @@
+  var cell = SpreadsheetApp.getActive().getRange('B4');
+  const billy = SpreadsheetApp.getActiveSpreadsheet().getActiveRange()
+  billy.setFontColor("red");
+  var spreadsheet = SpreadsheetApp.getActive();
+  debugger
+  spreadsheet.getCurrentCell().setValue('value');
+  spreadsheet.getCurrentCell().offset(1, 0).activate();
+  var values=
+  var activeRangeList = spreadsheet.getActiveRangeList();
+  spreadsheet.getCurrentCell().offset(1, 0).activate();
+  spreadsheet.getCurrentCell().setValue(activeRangeList);
+  spreadsheet.getCurrentCell().offset(1, 0).activate();
+  spreadsheet.getCurrentCell().setValue(activeRangeList);
+  11, 14

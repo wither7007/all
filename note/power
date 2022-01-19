@@ -1,12 +1,15 @@
 import clipboard
 clipboard.copy("abc")  # now the clipboard content will be string "abc"
-
+curl "https://api.openweathermap.org/data/2.5/weather?q=minneapolis&appid=c1226a736dac2e52a2c456f0dc2c03ba&units=metric"
 traversy smooth
 https://www.youtube.com/watch?v=y9nlfqT4s9s
 %alias_magic h history "-p -l 30" --line
 https://adamtheautomator.com/powershell-delete-file/
+curl https://raw.githubusercontent.com/wither7007/all/main/.gitignore > .gitignore
 curl "https://api.github.com/users/wither7007/repos?per_page=100" | v -
 curl -s https://api.github.com/users/webdevsimplified/repos | jq '.[]|.html_url'
+javascript break      throw new Error();
+
 
 typeof k === 'undefined' ?  console.log("not") : console.log("yes")
 emmet 3 row             (.col>.p3.border.bg-light{row $}
