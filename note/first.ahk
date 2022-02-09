@@ -4,14 +4,12 @@
 !t::run, C:\Users\jayst\AppData\Local\Microsoft\WindowsApps\wt.exe
 !p::runwait, PowerShell.exe -ExecutionPolicy Bypass -Command c:\all\ps\mus.ps1
 ^SPACE::  Winset, Alwaysontop, , A
-#z:: Send, `%paste
+#z:: SendRaw, `%paste
 return
 
 !d::run, C:\tools\neovim\Neovim\bin\nvim.exe "c:\all\note\notes"
 
 !c::run,  C:\tools\neovim\Neovim\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work
-
-
 
 !q:: Send !{f4}
 return
@@ -19,10 +17,6 @@ return
 +Q:: send !^+1
 return
 
-+B:: send !^+2
-return
-!#v:: send !^+1
-return
 
 !h::
 Send, The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away.
@@ -45,7 +39,31 @@ return
 Send, in the chest of the out of tune No peito dos desafinados Also beats a heart Tambem bate um coracao
 return
 
+F1::
+Send, !^+1
+Return
 
+F2::
+Send, !^+2
+Return
+
+
+F3::
+Send, !^+3
+Return
+
+
+F4::
+Send, !^+4
+Return
+
+F5::
+Send, !^+5
+Return
+
+F6::
+Send, !^+6
+Return
 !b::
 Send, Those who are hardest to love, need it the most- Be kind, for every one you meet is fighting a hard battle.  bumblescum North dakot - Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art
 return
@@ -56,7 +74,7 @@ return
 
 
 !s::
-SendRaw, `%load vsc.py
+SendRaw, `%run dataManager.py
 return
 
 
@@ -68,3 +86,11 @@ return
 SendRaw, `%run vsc2.py
 return
 
+
+!3::
+SendRaw, `%run vsc3.py
+return
+
+!4::
+SendRaw, `%run idFinder.py
+return

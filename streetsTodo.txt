@@ -1,0 +1,3 @@
+delete row f1
+insert row f2
+merge row f3

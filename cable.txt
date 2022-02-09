@@ -1,0 +1,9 @@
+voltage current and resistance  
+volts amp watts
+watts -- volts X amps
+5v 2.4A 12W
+1000 mA 1Amp
+
+USb a
+usb c shape of the port
+

@@ -33,3 +33,5 @@
 01_12_22 = ffmpeg -ss 00:00 -i xmichelle.mp4 -t 00:30 xxmichelle.mp4
 01_18_22 = ffmpeg -ss 00:23 -i wildeasy.mp4 -t 00:20 xwildeasy.mp4
 01_18_22 = ffmpeg -ss 00:23 -i wildeasy.mp4 -t 00:35 xwildeasy.mp4
+02_05_22 = ffmpeg -ss 00:22 -i wildeasy.mp4 -t 01:01 xwildeasy.mp4
+02_05_22 = ffmpeg -ss 00:20 -i wildeasy.mp4 -t 00:41 xwildeasy.mp4

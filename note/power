@@ -8,6 +8,23 @@ https://adamtheautomator.com/powershell-delete-file/
 curl https://raw.githubusercontent.com/wither7007/all/main/.gitignore > .gitignore
 curl "https://api.github.com/users/wither7007/repos?per_page=100" | v -
 curl -s https://api.github.com/users/webdevsimplified/repos | jq '.[]|.html_url'
+
+unstage
+git restore --staged .
+remove all changes
+git checkout .
+
+curl 'https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/raw!A1:D5?alt=json&key=AIzaSyCksSrPzSDpTmgJ-FaTT4_Xg6lHb9YtZJw'
+vim date
+pu=strftime('%c')
+vim indent
+:'<,'>normal! >>
+
+#For all unstaged files in current working directory use:
+git checkout -- .
+#For a specific file use:
+git checkout -- path/to/file/to/revert
+
 javascript break      throw new Error();
 
 
