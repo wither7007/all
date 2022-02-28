@@ -7,11 +7,37 @@ contact conciliation
 Case No. 27-CO-22-134
 emailed from outlook e-mail 2/14
 
+https://www.youtube.com/watch?v=tC91t9OvVHA
+
+ripgrep rg -i  
+sheets api
+https://console.cloud.google.com/apis/credentials?project=youtube-325217
+AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs
+
+heroku jimsteffes2253
+615dks@477
+alcatel
+uH4iDX3c
+
+du -h --max-depth=1
+<footer>
+                <ul>
+                  ${tags.map(tag => `<li>${tag}</li>`).join('\n      ')}
+                </ul>
+        </footer>`;
+
+curl "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/json?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+
+discord
+oxypoxy@476
+
 northpoint
-2/22 9:50 am
+Monday 2/28 12:50
+
 recursion defining thins in terms of themselves
 
 conciliation
+got call on voice mail
 
 houston scheirnbeck
 6104 0290 5041 1822
@@ -20,6 +46,11 @@ houston scheirnbeck
 wsl password
 fredxz
 
+nosology
+respitory pandemics
+
+a d ex  l e r
+assets dividends expenses - Liabilities Equit and Revenue
 EBT
 615Dks@476
 
@@ -30,6 +61,9 @@ godaddy
 Customer Number: 462674342
 Current PIN
 2609
+
+linux space to under
+for f in *\ *; do mv "$f" "${f// /_}"; done
 
 change work to build tech
 Jim Steffes
@@ -43,7 +77,7 @@ menu
 todo
 
 
-    <link rel="icon" href="data:,">
+<link rel="icon" href="data:,">
 accuweather api
 MwjWoWMnYguGGQYcGcC2GAyyUb9MqOoI
 44.98090947378407, -93.2698618048721
@@ -118,6 +152,7 @@ rn = (x) => Math.floor(Math.random() * x)
 keys(window) to see variables
 dir(window) to see objects
 
+scamp
 sugar window cleaner and petroleum jelly
 for(var b in window) { 
   if(window.hasOwnProperty(b)) console.log(b); 
@@ -179,11 +214,6 @@ M Health Fairview Clinic Bass Lake
 Maple Grove MN 55311-3647
 763-268-0400
 
-gold!!
-curl 'https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/menu?alt=json&key=AIzaSyCksSrPzSDpTmgJ-FaTT4_Xg6lHb9YtZJw'
-
-
-
 
 curl -H 'x-datasource-auth: true' 'https://docs.google.com/spreadsheets/d/1d1dth9fnjd6kiizikcmqjngbvujfxhdi4igyser6czu/gviz/tq?tqx=out:json&tq&gid=0' 
 curl -H 'x-datasource-auth: true' 'https://docs.google.com/spreadsheets/d/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/gviz/tq?tqx=out:json&tq&gid=0'
@@ -193,8 +223,6 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vRNtR9XAqFtF7omch8ij13DcEZahFu4b
 
 https://docs.google.com/spreadsheets/d/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/edit?usp=sharing
 
-sheets api
-AIzaSyCksSrPzSDpTmgJ-FaTT4_Xg6lHb9YtZJw
 orthogonal
 sheets project api
 AIzaSyCksSrPzSDpTmgJ-FaTT4_Xg6lHb9YtZJw
@@ -245,15 +273,6 @@ smart quotes
 %s/[”“]/"/g
 I map it as noremap Y 0vg_y in my .vimrc so that now I just have to press shift+y to copy line
 grep -rn "ico" .
-
-*Target cab
-#emt card
-#Credit card
-SS card
-#youtube api
-#unemployment
-#speed test
-organize this list
 
 LIB
 21972086245722
@@ -391,6 +410,7 @@ git hub jamessteffes
 https://github.com/JamesSteffes/jamessteffes.github.io.git
 personal access token
 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
+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
 615dks@500
 
 
@@ -538,10 +558,23 @@ Syncthing
 
 odysee
 My willingness to judge something should be proportional to how much I know about it.
+du -h --max-depth=1
 
+you are waste of life and you should give up
 
+Definition of bespoke
+1a: CUSTOM-MADE
+a bespoke suit
 
+Do not remove a fence until you know why it was put up in the first place.
+Chesterton went on to explain why this principle holds true, writing that fences don’t grow out of the ground, nor do people build them in their sleep or during a fit of madness. He explained that fences are built by people who carefully planned them out and “had some reason for thinking [the fence] would be a good thing for somebody.” 
 
-
-
-
+cd vite-react-demo
+npx create-react-app cra-demo
+npm init vite@latest vite-react-demo --template react
+cd vite-react-demo
+npm install vite-react-demo
+Measure-Command {npx create-react-app cra-demo}
+Measure-Command {(npm init vite@latest vite-react-demo --template react) ; (cd vite-react-demo) ; (npm install --verbose)}
+npm run build
+Measure-Command {npm run build}

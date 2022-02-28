@@ -35,3 +35,10 @@
 01_18_22 = ffmpeg -ss 00:23 -i wildeasy.mp4 -t 00:35 xwildeasy.mp4
 02_05_22 = ffmpeg -ss 00:22 -i wildeasy.mp4 -t 01:01 xwildeasy.mp4
 02_05_22 = ffmpeg -ss 00:20 -i wildeasy.mp4 -t 00:41 xwildeasy.mp4
+02_16_22 = ffmpeg -ss 00:26 -i girl.mp4 -t 00:15 xgirl.mp4
+02_16_22 = ffmpeg -ss 00:26 -i girl.mp4 -t 00:15 xgirl.mp4
+02_16_22 = ffmpeg -ss 00:39 -i girl.mp4 -t 00:20 xgirl.mp4
+02_18_22 = ffmpeg -ss 02:19 -i chick.mp4 -t 20 xchick.mp4
+02_18_22 = ffmpeg -ss 2:45 -i chick.mp4 -t 00:35 xchick.mp4
+02_20_22 = ffmpeg -ss 00:02 -i xAutumnPretty.mp4 -t 00:10 xxAutumnPretty.mp4
+02_22_22 = ffmpeg -ss 6:20 -i wildeasy.mp4 -t 2:45 xwildeasy.mp4
