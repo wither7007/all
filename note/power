@@ -1,3 +1,6 @@
+New-Item -ItemType SymbolicLink -Path "c:\new" -Target "c:\all"
+
+
 import clipboard
 clipboard.copy("abc")  # now the clipboard content will be string "abc"
 curl "https://api.openweathermap.org/data/2.5/weather?q=minneapolis&appid=c1226a736dac2e52a2c456f0dc2c03ba&units=metric"

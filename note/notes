@@ -9,6 +9,9 @@ emailed from outlook e-mail 2/14
 
 https://www.youtube.com/watch?v=tC91t9OvVHA
 
+gravity
+9.8 meters per second squared
+
 ripgrep rg -i  
 sheets api
 https://console.cloud.google.com/apis/credentials?project=youtube-325217
@@ -407,16 +410,17 @@ i to insert,
 Esc to leave INSERT mode.
 
 git hub jamessteffes
+615dks@480
 https://github.com/JamesSteffes/jamessteffes.github.io.git
 personal access token
-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
-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
+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
 615dks@500
 
 
 wither7007
+615dks@800
 personal access token
-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
+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
 
 
 Beware the barrenness of a busy life ~ Socrates
@@ -566,6 +570,8 @@ Definition of bespoke
 1a: CUSTOM-MADE
 a bespoke suit
 
+https://use-the-index-luke.com/sql/anatomy/the-leaf-nodes
+
 Do not remove a fence until you know why it was put up in the first place.
 Chesterton went on to explain why this principle holds true, writing that fences don’t grow out of the ground, nor do people build them in their sleep or during a fit of madness. He explained that fences are built by people who carefully planned them out and “had some reason for thinking [the fence] would be a good thing for somebody.” 
 
@@ -578,3 +584,5 @@ Measure-Command {npx create-react-app cra-demo}
 Measure-Command {(npm init vite@latest vite-react-demo --template react) ; (cd vite-react-demo) ; (npm install --verbose)}
 npm run build
 Measure-Command {npm run build}
+npm list --depth=0
+There are two kinds of languages: the ones people complain about and the ones nobody uses

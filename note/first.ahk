@@ -14,9 +14,6 @@ return
 !q:: Send !{f4}
 return
 
-+Q:: send !^+1
-return
-
 
 !h::
 Send, The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away.

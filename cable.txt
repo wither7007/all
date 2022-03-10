@@ -7,3 +7,5 @@ watts -- volts X amps
 USb a
 usb c shape of the port
 
+this new
+
