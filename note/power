@@ -1,4 +1,4 @@
-New-Item -ItemType SymbolicLink -Path "c:\new" -Target "c:\all"
+New-Item -ItemType SymbolicLink -Path "c:\news" -Target "C:\projects\takeout"
 
 
 import clipboard

@@ -7,6 +7,7 @@ contact conciliation
 Case No. 27-CO-22-134
 emailed from outlook e-mail 2/14
 
+A.J. Jacobs
 https://www.youtube.com/watch?v=tC91t9OvVHA
 
 gravity
@@ -16,6 +17,9 @@ ripgrep rg -i
 sheets api
 https://console.cloud.google.com/apis/credentials?project=youtube-325217
 AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs
+
+var b=["jim", "tom", "bill"]
+c=b.map((x)=>(`<h1> ${x}</h1>`)).join("")
 
 heroku jimsteffes2253
 615dks@477
