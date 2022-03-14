@@ -590,3 +590,8 @@ npm run build
 Measure-Command {npm run build}
 npm list --depth=0
 There are two kinds of languages: the ones people complain about and the ones nobody uses
+A very important thing to note is that splice() changes the original array. where as slice() creates a copy of the original array, so there won't be any change in the original one.
+
+Definition of attenuate (Entry 1 of 2)
+transitive verb
+1: to lessen the amount, force, magnitude, or value of : WEAKEN
