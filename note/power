@@ -1,5 +1,5 @@
 New-Item -ItemType SymbolicLink -Path "c:\news" -Target "C:\projects\takeout"
-
+String.fromCharCode(97+Math.floor(Math.random() * 26))
 
 import clipboard
 clipboard.copy("abc")  # now the clipboard content will be string "abc"
@@ -292,6 +292,7 @@ https://www.geeksforgeeks.org/textwrap-text-wrapping-filling-python/
 jq '.[0] | {FileName, Duration}' .\x.json
 exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration}'
 pane alt-shift arrow up
+pane alt-shift- 
 cat .\exif.txt | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique' | v -
 exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration, Comment-xx}'
  ".\01 Summertime.mp3" | jq '.[0] | {FileName, Duration, Artist}'
