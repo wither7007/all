@@ -1,7 +1,8 @@
 # app.py
+import sys
 
 from zipfile import ZipFile
-
-with ZipFile('profile-card-hover.zip', 'r') as zipObj:
-   # Extract all the contents of zip file in current directory
-   zipObj.extractall()
+filename = sys.argv[1]
+with ZipFile(filename, 'r') as zipObj:
+    # Extract all the contents of zip file in current directory
+    zipObj.extractall()
