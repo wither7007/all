@@ -1,3 +1,9 @@
+const el = document.createElement('h1');
+const words = "Hello, World!"
+const text = document.createTextNode(words);
+el.appendChild(text);
+Friedrich Schleiermacher (1768-1834), David Friedrich Strauss (1808-74), and Ludwig Feuerbach (1804-72)
+document.body.appendChild(el);
 NAV net asset value
 commercial paper short term loans to save companies
 money market fund (parent prevents breaking the buck) Reputation!
