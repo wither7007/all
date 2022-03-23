@@ -1,14 +1,25 @@
 import os
 import re
 import clipboard
-clipboard.copy("abc")  # now the clipboard content will be string "abc"
+import touch
+from pathlib import Path
 
-folder = r"c:\all"
+
+folder = r"c:\you\js"
 myFiles = os.listdir(folder)
+newFolder = r"c:\you\js\xyz"
+fp = open(newFolder, 'x')
+fp.close()
+myFiles2 = os.listdir(folder)
 # for count, filename in enumerate(os.listdir(folder)):
 #     print(count, filename)
+list_difference = [element for element in myFiles2 if element not in myFiles]
+print(list_difference)
+touch.touch([list_difference[0]])
+touch.touch('xyz')
 
 
+Path(newFolder).touch()
 def filter_fun(list1):
     # Search data based on regular expression in the list
     return [val for val in list1
