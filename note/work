@@ -47,4 +47,17 @@ especially : the initial lesion of syphilis
 
 
 
+youtube
+dev ed
+ania kubow
+udemy
+ArjanCodes
+If you haven't heard about Piped before, in simple terms, it is an alternative frontend that is designed to be efficient by design, where you can watch YouTube without making any connections to Google's servers and have subscriptions without a google account.
 
+After 8 months of development, I am finally excited to share the project at its current state!
+
+The reason why this project was created was to create a truly unique alternative to Invidious, with performance and stability as the primary goal.
+
+For those of you who want to try out Piped, you may do so at https://piped.kavin.rocks/
+
+If you would like to contribute with code, you may do so at https://github.com/TeamPiped/Piped
