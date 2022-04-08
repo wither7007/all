@@ -15,3 +15,13 @@ data = ((stat[ST_CTIME], path)
 
 for cdate, path in sorted(data):
     print(time.ctime(cdate), os.path.basename(path))
+
+
+'''
+a="Born in Maida Vale, London, Turing was raised in southern England. He graduated at King's College, Cambridge, with a degree in mathematics." 
+b=a.split(' ')
+k=[1,2,3]
+c=list(map(lambda n:n+ " this",b))
+' '.join(c)
+
+'''
