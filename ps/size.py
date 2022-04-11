@@ -4,20 +4,11 @@ import math
 import sys
 
 print("\nName of Python script:", sys.argv[0])
-
 dir_name = sys.argv[1]
-path = dir_name.replace("\\", "/")
-print(path)
-n = len(sys.argv)
-print("\nArguments passed:", end=" ")
 dir_path = sys.argv[1] if len(sys.argv) == 2 else r"."
-for i in range(1, n):
-    print(sys.argv[i], end=" ")
-print("\n\n")
 
 
 def convert_size(size_bytes):
-
     if size_bytes == 0:
         return "0B"
     size_name = ("B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB")
@@ -29,7 +20,7 @@ def convert_size(size_bytes):
 
 # Get list of all files only in the given directory
 list_of_files = filter(
-    lambda x: os.path.isfile(os.path.join(dir_name, x)), os.listdir(dir_name)
+    lambda x: os.path.isfile(os.path.join(dir_path, x)), os.listdir(dir_path)
 )
 # Create a list of files in directory along with the size
 files_with_size = [
