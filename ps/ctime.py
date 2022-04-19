@@ -1,4 +1,4 @@
-from stat import S_ISREG, ST_CTIME, ST_MTIME, ST_MODE
+from stat import S_ISREG, ST_CTIME, ST_MTIME, ST_MODE, ST_ATIME
 import os, sys, time
 
 # Relative or absolute path to the directory
@@ -9,7 +9,8 @@ data = (os.path.join(dir_path, fn) for fn in os.listdir(dir_path))
 data = ((os.stat(path), path) for path in data)
 
 # regular files, insert creation date
-data = ((stat[ST_MTIME], path) for stat, path in data if S_ISREG(stat[ST_MODE]))
+# data = ((stat[ST_MTIME],stat[ST_ATIME] path) for stat, path in data if S_ISREG(stat[ST_MODE]))
+data = ((stat[ST_ATIME], path) for stat, path in data if S_ISREG(stat[ST_MODE]))
 
 for cdate, path in sorted(data):
     print(time.ctime(cdate), os.path.basename(path))

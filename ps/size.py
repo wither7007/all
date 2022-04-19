@@ -4,7 +4,7 @@ import math
 import sys
 
 print("\nName of Python script:", sys.argv[0])
-dir_name = sys.argv[1]
+# dir_name = sys.argv[1]
 dir_path = sys.argv[1] if len(sys.argv) == 2 else r"."
 
 
@@ -24,7 +24,7 @@ list_of_files = filter(
 )
 # Create a list of files in directory along with the size
 files_with_size = [
-    (file_name, os.stat(os.path.join(dir_name, file_name)).st_size)
+    (file_name, os.stat(os.path.join(dir_path, file_name)).st_size)
     for file_name in list_of_files
 ]
 # Iterate over list of files along with size
