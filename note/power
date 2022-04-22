@@ -1,3 +1,5 @@
+$services | ft -auto
+$services | fl
 New-Item -ItemType SymbolicLink -Path "c:\news" -Target "C:\projects\takeout"
 String.fromCharCode(97+Math.floor(Math.random() * 26))
 

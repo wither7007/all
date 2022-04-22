@@ -1,3 +1,3 @@
 #runs vlc with directory
-cd \music\mozart
+cd \music\autumn
 vlc -Z .

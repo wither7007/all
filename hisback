@@ -1,0 +1,29 @@
+his
+sup
+cd \all
+lt
+gs
+fd his
+fdi his
+v .\his
+v .\.gitignore
+fd -a his
+lt .\his
+lt his
+v nhis
+git add .
+exit
+uhis
+cd "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\"
+v .\hisback
+ri .\clean-file, .\jim.txt, .\d2u3CD3.tmp
+v x
+v .\ConsoleHost_history.txt
+ni -ItemType SymbolicLink -Path c:\all\hisL -Target .\ConsoleHost_history.txt
+v .\hisL
+b 1
+cdc
+ni -ItemType SymbolicLink -Path c:\all\hisL -Target C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine
+ri C:\all\hisL
+cd hisL
+u
