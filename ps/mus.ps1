@@ -1,3 +1,3 @@
 #runs vlc with directory
-cd \music\autumn
+cd \you\lquart
 vlc -Z .

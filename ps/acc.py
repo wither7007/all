@@ -31,4 +31,26 @@ def stat_to_json(fp: str) -> dict:
 
 n = stat_to_json(filePath)
 for key, value in n.items():
-    print(f"{key}, {value}")
+    print(f"{key}, {c(value)}")
+
+
+def c(x):
+    try:
+        return time.ctime(x)
+    except:
+        print("An exception occurred")
+
+
+def f(x):
+    try:
+        return x / 0
+    except:
+        print("An exception occurred")
+
+
+if __name__ == "__main__":
+
+    d = {"A": 0, "B": 1, "C": 2}
+
+    for k, v in d.items():
+        d[k] = f(v)

@@ -48,3 +48,956 @@ u
 uhis
 lt
 his
+cd .\hisL\
+lt
+v .\hisback
+u
+cd .\hisL\
+gs
+u
+lt
+ri .\objectkey.txt, .\gdir.exe, usc, usc
+lt
+ri .\nvim.txt, .\vscodvim.txt, .\teach.txt, .\localStorage.txt
+lt
+fm .
+gs
+git add .
+gic
+git push
+Get-ChildItem -Path "C:\all" -Force | Where-Object { $_.LinkType -ne $null -or $_.Attributes -match "ReparsePoint" } | ft FullName,Length,Attributes,Linktype,Target
+mps
+Get-ChildItem -Path "C:\all" -Force | Where-Object { $_.LinkType -ne $null -or $_.Attributes -match "ReparsePoint" } | ft FullName,Length,Attributes,Linktype,Target
+Get-ChildItem -Path . -Force | Where-Object { $_.LinkType -ne $null -or $_.Attributes -match "ReparsePoint" } | ft FullName,Length,Attributes,Linktype,Target
+cd \all
+Get-ChildItem -Path . -Force | Where-Object { $_.LinkType -ne $null -or $_.Attributes -match "ReparsePoint" } | ft FullName,Length,Attributes,Linktype,Target
+v .\duh
+cd .\wither7007.github.io\
+lt
+duh
+git rev-list --objects --all 
+newt3
+cd
+lt
+cd ~
+lt
+gci -Force | rg ss
+cd .\.ssh\
+lt
+ssh-keygen -o -t rsa -C "jimsteffes@outlook.com"
+lt
+v .\id_rsa.pub
+mps
+cd .\git\
+git clone git@github.com:wither7007/debounce.git
+lt
+cd .\debounce\
+lt
+cat .\package.json
+lt
+cat .\README.md
+u
+lt
+git clone git@gitlab.com:cameronmcnz/squash-commits-example.git
+lt
+cd .\squash-commits-example\
+lt
+gb
+gb -a
+git checkout feature
+gb
+git checkout develop
+gb
+git log --graph --oneline --branches
+new
+newt
+git log --graph --oneline --branches
+git log --graph --oneline --branches | v -
+sup
+    echo "    foreach ($i in 1..$n) { cd - }"
+Function b([int]$n = 1) {`
+    echo "foreach ($i in 1..$n) { cd - }"`
+    foreach ($i in 1..$n) { cd - }`
+}
+b 1
+f 1
+sup
+b 1
+f 1
+gcm f
+sup
+Function f([int]$n = 1) {`
+  echo "    foreach ($i in 1..$n) { cd + }"`
+    foreach ($i in 1..$n) { cd + }`
+}
+f 1
+sup
+function graph {`
+  echo " git log --graph --oneline --branches | v -"`
+   git log --graph --oneline --branches`
+}
+graph
+function graph {`
+  echo " git log --graph --oneline --branches | v -"`
+   git log --graph --oneline --branches`
+}
+git rebase -i d53b88d
+graph
+lt
+lt
+gs
+his
+gb
+lt
+git checkout feature
+lt
+newt
+bash
+duh
+u
+cd .\squash-commits-example\
+gb
+gs
+git add .
+gs
+gic
+git push
+cd .\.git\
+lt
+duh
+cd .\objects\
+lt
+duh
+duh | rg '\d\d.*M'
+u
+d3
+cd .\jamessteffes.github.io\
+duh
+mps
+cd .\python\
+duh
+cd .\junk\
+lt
+his
+Get-ChildItem -Path . -Force | Where-Object { $_.LinkType -ne $null -or $_.Attributes -match "ReparsePoint" } | ft FullName,Length,Attributes,Linktype,Target
+code .
+lt
+cd ps
+.\ctime.py
+u
+ctime.py
+u
+ctime.py
+u
+ctime.py
+cd .\python\
+lt
+ctime.py
+start .
+lt
+cd ps
+cd .\junk\
+lt
+cd ps
+lt
+.\mtime.py
+.\mtime.py .
+u
+mtime.py
+mtime.py .
+lt
+gcm mtime.py
+mtime.py
+mtime.py .
+lt
+mtime
+lt
+cdc
+cd C:\projects\python\junk
+lt
+ip
+mps
+cd .\sqllite\
+lt
+.\sqllite.py
+v ipy
+code .
+u
+rgi col
+sup
+rg -i col
+rgh
+cdc
+cd C:\projects\python
+rgh
+rg -i -c col
+rg -i -c column
+mps
+cd .\py\
+u
+cd .\python\
+lt
+u
+cd .\py\
+lt
+v .\startup.py
+ip
+lt
+v .\startup.py
+rgw symbol
+ni -ItemType -path C:\projects\python\start -Target C:\projects\py
+ni -ItemType -Path C:\projects\python\start -Target C:\projects\py
+ni -ItemType SymbolicLink  -Path C:\projects\python\start -Target C:\projects\py
+u
+cd .\python\
+lt
+gw
+code
+code.cmd .
+u
+ip
+exit
+rg -i glob
+gci \temp
+gci > \temp\temp
+gci \temp
+ll
+ls
+xxx .\python-sandbox-traversy-crash-course\
+ls
+cd .\__pycache__\
+lt
+u
+xxx .\__pycache__\
+ls
+lt
+his
+rgw symbol
+ni -ItemType SymbolicLink 'C:\projects\python\ps' -Target \all\ps
+lt
+k
+lt
+.\vsc1.py
+u
+cd bs
+lt
+rgw symbo
+ni -ItemType SymbolicLink -Path C:\projects\pyton\bs -Target C:\projects\bs\
+ni -ItemType SymbolicLink -Path C:\projects\bs -Target C:\projects\bs\
+ni -ItemType SymbolicLink -Path C:\projects\python\bs -Target C:\projects\beaut
+lt
+u
+cd .\python\
+ls
+cd bs
+ri bs
+ni -ItemType SymbolicLink -Path C:\projects\python\bs -Target C:\projects\bs\
+lt
+cd bs
+lt
+u
+cd .\sqllite\
+lt
+rgw symbo
+ni -ItemType SymbolicLink -Path C:\projects\python\ipy -Target C:\projects\lite
+lt
+.\sqllite.py
+lt
+cp .\sqllite.py C:\all\ps\
+ni -ItemType SymbolicLink -Path C:\projects\sqllite\ -Target C:\projects\lite
+lt
+ri .\ipy\
+ni -ItemType SymbolicLink -Path C:\projects\sqllite\ -Target C:\projects\ipy
+rgw symb
+his
+rgw symb
+ni -ItemType SymbolicLink -Path C:\projects\python\ipy -Target C:\projects\sqllite\
+newt
+bash
+curl "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/json?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+Get-ChildItem -File | Sort-Object -Property LastAccessTime -Descending | Select-Object -First 5
+$a=(Get-childitem c:\all\ps -Recurse -Directory).LastAccessTime
+echo $a
+newt
+cd C:\you\
+fd golang
+cd .\travs\
+vlc '.\Learn Go Programming - Golang Tutorial for Beginners.mp4'
+ctime.py
+$env
+$env:
+$env:path
+$env:path -split ";"
+$env:path -split ";" | rg go
+cd
+cd go
+cd bin
+lt
+u
+lt
+u
+go version
+b 2
+u
+gw
+md src
+cd .\src\
+mkc github.com
+mkc wither7007
+md firstapp
+ni .\firstapp\Main.go
+lt
+code .
+lt
+go run .\firstapp\Main.go
+go build .\firstapp\Main.go
+lt
+.\Main.exe
+uu
+u
+tre
+lt
+cd .\src\
+lt
+u
+cd .\pkg\
+lt
+fd .
+fd . | reg fmt
+fd . | rg fmt
+u
+newt
+his
+lt
+cd .\src\
+lt
+go run .\github.com\wither7007\firstapp\Main.go
+code.cmd .
+cd C:\Python39\
+v me.py
+mps
+cd .\py\
+lt
+cd .\modules\
+lt
+v me.py
+dir env: | vim -
+dir env: | v -
+rgw symbol
+ni -ItemType SymbolicLink -path C:\projects\python\mod -Target C:\projects\py\modules\
+lt
+cat .\me.py
+mps
+cd .\python\
+lt
+.\vsc2.py
+echo $pythonpath
+echo $PYTHONPATH
+HIS
+dir env: | v -
+dir env: | v -
+$env:pythonpath
+lt
+sqllite.py
+cd C:\all\ps\
+gci sqll*
+.\sqllite.py
+lt
+mps
+cd .\sqllite\
+lt
+cp .\sqllite.py C:\all\ps\
+u
+sqllite.py
+sqllite.py
+lt
+cd .\ipy\
+lt
+.\group.py
+lt
+v a
+.\group.py
+v ipy
+.\group.py
+lt
+.\sqldel.py
+u
+sqllite.py
+u
+cd .\sqllite\
+lt
+v .\ipy
+lt
+.\sqllite.py
+lt
+.\sqldel.py
+.\sqllite.py
+lt
+.\sqllite.py
+lt
+v ipy
+mps
+cd .\python\
+sup
+f1
+sup
+function f2 {`
+  fd -a --changed-within 2d | more`
+}
+function f1 {`
+  fd -a --changed-within 1d | more`
+}
+f2
+fd -a
+f2
+sup
+f2
+lt
+d3
+cd junk
+lt
+v .\vsc1.py
+u
+f1
+cd ps
+lt
+f1
+u
+f1
+cd .\mod\
+f1
+fdh
+sup
+function f2 {`
+  fd -a -L --changed-within 2d | more`
+}
+function f1 {`
+  fd -a -L --changed-within 1d | more`
+}
+f1
+u
+f1
+cd \all
+f1
+b 1
+sup
+function f2 {`
+  echo "fd -a -L --changed-within 2d | more"`
+  fd -a -L --changed-within 2d | more`
+}
+function f1 {`
+  echo "fd -a -L --changed-within 1d | more"`
+  fd -a -L --changed-within 1d | more`
+}
+function tre {`
+  echo "  tree $Args[0]  /f | v - "`
+  tree $Args[0]  /f | v -`
+}
+f2
+f1
+cd .\ipy\
+f1
+.\group.py
+ctime
+u
+ctime
+f1
+head C:\projects\python\mod\me.py
+head C:\projects\python\start\modules\me.py
+cd ..\py\
+lt
+f1
+cd .\modules\
+lt
+v .\me.py
+ri *
+u
+f1
+fm .
+cd 'C:\Program Files\'
+fdi vl
+d3
+gcm vlc.exe
+cd "C:\Program Files (x86)\VideoLAN\VLC"
+lt
+u
+lt
+u
+lt
+gcm vlc.exe
+cd .\VideoLAN\
+lt
+cd .\VLC\
+lt
+cd lua
+lt
+cd .\Downloads\
+cd .\extensions\
+lt
+cdc
+cp .\vlc_permanents_bookmarks.lua "C:\Program Files (x86)\VideoLAN\VLC\lua\extensions"
+cp .\vlc_permanents_bookmarks.lua "C:\Program Files (x86)\VideoLAN\VLC\lua\extensions" -Force
+cd C:\Program Files (x86)\VideoLAN\VLC\lua\extensions
+cd "C:\Program Files (x86)\VideoLAN\VLC\lua\extensions"
+newt
+cdc
+cd
+cd ~
+cd .\Downloads\
+lt
+cp .\vlc_permanents_bookmarks.lua "C:\Program Files (x86)\VideoLAN\VLC\lua\extensions"
+C:\Program Files (x86)\VideoLAN\VLC\lua\extension
+b 1
+b 2
+lt
+lt
+newt
+cd C:\you\play\
+lt
+vlc .\balls.mp4
+cd C:\all\ps\
+lt
+ctime
+lt
+rg ffm
+lt *.mp4
+lt mp4
+cd C:\you\play\
+lt
+mov.py
+lt
+vlc .\output_selected.mp4
+vlc .\wildI.mp4
+lt
+vlc .\wild1.mp4
+exit
+mps
+cd .\wither7007.github.io\
+cd .\metronome\
+lt
+code.cmd .
+mps
+cd junk
+lt
+mkc sound
+code .
+ni index.html
+u
+cd .\wither7007.github.io\
+cd .\menu\
+u
+cd .\metronome\
+lt
+v .\app.js
+v .\metronome.js
+rgw wild
+his
+gci \all\ps\m*
+mov.py
+lt
+vlc .\output_selected.mp4
+lt
+mv .\output_selected.mp4 w1.mp4
+lt
+vlc .\w1.mp4
+u
+fd wild
+cd .\play\
+lt
+vlc .\w1.mp4
+lt
+u
+md lquart
+fdi esbuild
+cd .\travs\
+ctime
+vlc '.\DEALER - The Number 1 HACK for Debits & Credits.mp4'
+ctime
+vlc '.\Introduction to ESBuild tutorial for React _ JavaScript and Typescript bundling.  Bye bye Webpack.mp4'
+mps
+lt
+ri .\xuh, .\duh, .\service.txt, .\p.py
+lt
+his
+mkc esbuild
+lt
+u
+xxx .\esbuild\
+mkc esbuild
+lt
+npm init -y
+npm install esbuild
+gcm esbuild
+fd -a esbuild
+fdi -a esbuild
+newt
+fdi -a esbuild
+fdi -a esbuild | v -
+cdc
+$Env:Path += ";C:\projects\esbuild\node_modules\.bin\"
+esbuild.cmd --verion
+esbuild.cmd --version
+rgw esbuild
+exit
+his
+$Env:Path += ";C:\projects\esbuild\node_modules\.bin\"
+rgw esbuild
+exbuild --version
+esbuild --version
+gw
+code .
+ni a.ts
+lt
+esbuild .\a.ts --outfile=new.js
+node .\new.js
+lt
+node .\a.ts
+esbuild .\a.ts --outfile=new.js
+lt
+cat .\new.js
+npm install react react-dom @types/react @types/react-dom
+lt
+r .\a.ts, .\new.js
+ri .\a.ts, .\new.js
+md src
+md src\app.tsx
+lt
+cd .\src\
+lt
+ri .\app.tsx\
+md app.tsx
+ri .\app.tsx\
+ni app.tsx
+u
+cd .\ditto\
+lt
+.\ditto.py
+v .\ditto
+mps
+esbuild --version
+lt
+esbuild.cmd .\app.tsx --bundle outfile=out.js
+esbuild .\app.tsx --bundle outfile=out.js
+lt
+esbuild .\app.tsx --bundle outfile=out.js
+esbuild app.tsx --bundle outfile=out.js
+esbuild app.tsx --bundle --outfile=out.js
+lt
+node .\out.js
+more .\out.js
+node .\out.js
+lt
+u
+md public
+cd .\public\
+lt
+ni index.html
+lt
+u
+lt
+fdi dist
+tree /f
+lt
+md .\public\dist
+lt
+node .\browser-build.js
+lt
+node .\browser-build.js
+lt
+npx http-server
+lt
+npm install exbuild-wasm
+npm install esbuild-wasm
+curl "https://www.baseball-reference.com/players/m/molitpa01.shtml"
+cd C:\you\
+lt
+cd .\lquart\
+lt
+vlc .
+u
+cd .\travs\
+ctime
+vlc '.\Advanced Node.js Crash Course _ New Year Gift!.mp4'
+lt
+gw
+u
+cd .\python\
+lt
+code.cmd .
+cd # !/usr/bin/python
+import os
+for root, dirs, files in os.walk(".", topdown=False):
+   for name in files:
+      print(os.path.join(root, name))
+   for name in dirs:
+mps
+cd .\python\
+u
+cd ptyhon
+cd .\python\
+lt
+d3
+cd ps
+lt
+ri .\walk.py
+u
+ni walk.py
+.\walk.py
+lt
+cd .\start\
+lt
+tre
+u
+cd .\mod\
+lt
+uu
+lt
+cd .\py\
+u
+cd .\python\
+lt
+.\walk.py
+rgi col_print
+rg -i col_pr
+.\walk.py
+.\vsc1.py
+.\walk.py
+lt
+.\walk.py
+ip
+lt
+.\walk.py
+rgi import
+sup
+rg -i col
+sup
+his
+sup
+lw
+rgh
+rg -i -l col
+rg -i -l col_col
+rg -i -l col_.*p
+sup
+function rgi ($a) {`
+  rg -i -l $a`
+}
+rgi col
+more .\walk.py
+lt
+.\walk.py
+his
+$env:pythonpath
+exit
+newt
+mps
+cd .\py\
+lt
+cd .\modules\
+lt
+his
+$env:pythonpath
+.\walk.py
+rgi
+rgi im.*my
+u
+cd .\py\
+cd .\modules\
+lt
+cp .\my.py C:\projects\python\
+b 2
+cd .\py\
+u
+cd .\python\
+.\walk.py
+lt
+mv .\my.py mya.py
+.\walk.py
+fd honey
+.\walk.py
+.\walk.py | more
+.\walk.py 
+& C:/Python39/python.exe
+.\walk.py 
+fd
+fd | wc
+wc -help
+wc -h
+man wc
+man gci
+ls | wc
+gci.count
+gci
+gci -Recurse | wc
+wc --help
+(Get-ChildItem | Measure-Object).Count
+gci -Recurse | wc
+gci -Recurse | select Name
+gci -Recurse | select Name | wc
+(Get-ChildItem -Recurse | Measure-Object).Count
+lt
+.\walk.py
+(Get-ChildItem -Recurse | Measure-Object).Count
+gci -Recurse | select Name 
+gci -Recurse | select FullName 
+gci -Recurse | select FullName | wc
+.\walk.py
+tre
+.\walk.py | rg git
+gci -Recurse *git*
+.\walk.py
+.\walk.py | more
+.\walk.py
+fd ctime
+fdi ctime
+gcm ctime.py
+lt
+fdh
+fdi ctime
+d3
+cd ps
+lt
+fd ctime
+u
+fd ctime
+fdh
+fd -L ctime
+fdh
+fd -l -L ctime
+cd .\junk\
+lt
+u
+ctime.py
+git init
+gs
+cp C:\all\.gitignore
+gs
+git add .
+gs
+gic
+u
+cd .\esbuild\
+lt
+mv .\file.js \src\file.ts
+mv .\file.js .\src\file.ts
+.\browser-build.js
+node .\browser-build.js
+cd .\src\
+lt
+ri .\out.js , .\app.tsx
+u
+node .\browser-build.js
+cd .\src\
+lt
+node .\browser-build.js
+lt
+esbuild file.ts --platform=node --bundle  --outfile=index.js
+rgw path.*es
+$Env:Path += ";C:\projects\esbuild\node_modules\.bin\"
+esbuild file.ts --platform=node --bundle  --outfile=index.js
+lt
+esbuild file.ts --platform=node --bundle  --outfile=index.js
+lt
+node .\index.js
+esbuild file.ts --platform=node --bundle  --outfile=index.js
+lt
+node .\index.js
+fm .
+lt
+cat .\file.ts
+fm .
+cat .\file.ts
+exit
+exit
+exit
+exit
+ahk
+cd \all
+lt
+gci *his*
+v .\nhis
+newt
+mps
+cd bs
+lt
+v .\bsp.py
+.\bsp.py
+v .\yyyyy
+cd C:\twit\
+lt
+ri *
+b 1
+lt
+v .\links
+f 1
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0872/twit0872.mp3"
+mps
+cd .\esbuild\
+lb
+lt
+fd esbuild
+fdi esbuilt
+fdi esbuil
+fdi esbuil | v -
+cp node_modules\esbuild-windows-64\esbuild.exe
+cp node_modules\esbuild-windows-64\esbuild.exe C:\all\bin\
+esbuild --version
+lt
+cd .\src\
+rgw esb
+lt
+rgw esb | v -
+esbuild file.ts --bundle --outfile=out.js
+esbuild file.ts --platform=node --bundle --outfile=out.js
+lt
+node .\out.js
+cd \all\ps
+lt
+v .\mus.ps1
+gci C:\you\q*
+gci C:\you\ -Directory
+b 1
+lt
+code.cmd .
+esbuild file.ts --platform=node --bundle --outfile=out.js
+lt
+node .\out.js
+esbuild file.ts --platform=node --bundle --outfile=out.js
+lt
+node .\out.js
+newt
+md C:\you\webdev
+newt3
+bash
+fdh
+fd /you
+fd -a /you
+fd
+cd C:\you\
+fd esb
+vlc '.\travs\Introduction to ESBuild tutorial for React _ JavaScript and Typescript bundling.  Bye bye Webpack.mp4'
+b 1
+fd register
+fdi regis
+fdi esb
+u
+fdi esb
+fdi regis
+npm install -g nodemon
+nodemon version
+nodemon --version
+nodemon -h
+rgw esbui
+his
+mps
+cd .\esbuild\
+lt
+nodemon -h
+newt
+rgw esb
+rgw esb | tail
+cd .\src\
+lt
+nodemon --exec "esbuild file.ts --platform=node --bundle --outfile=out.js" .\file.ts
+nodemon --exec "esbuild ./file.ts --platform=node --bundle --outfile=out.js" .\file.ts
+his
