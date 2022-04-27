@@ -1001,3 +1001,192 @@ lt
 nodemon --exec "esbuild file.ts --platform=node --bundle --outfile=out.js" .\file.ts
 nodemon --exec "esbuild ./file.ts --platform=node --bundle --outfile=out.js" .\file.ts
 his
+esbuild file.ts --platform=node --bundle --outfile=out.js
+esbuild .\file.ts --platform=node --bundle --outfile=out.js
+nodemon --exec "esbuild .\file.ts --platform=node --bundle --outfile=out.js" .\file.ts
+lt
+md dist
+nodemon --exec "esbuild .\file.ts --platform=node --bundle --outfile=out.js --outdir=dist" .\file.ts
+nodemon --exec "esbuild .\file.ts --platform=node --bundle  --outdir=dist" .\file.ts
+lt
+cd .\src\
+lt
+cd .\dist\
+lt
+node .\file.js
+lt
+v index.js
+lt
+node .\file.js
+lt
+node .\file.js
+lt
+v .\file.js
+node .\file.js
+u
+lt
+npm i -D @types/node
+node .\file.js
+lt
+v .\index.js
+node .\file.js
+lt
+node .\file.js
+.\file.js
+gcm node.exe
+lt
+start .
+.\file.js
+pss
+v myfile.txt
+.\file.js
+lt
+.\file.js
+lt
+.\file.js
+cd \all
+gs
+git add .
+gic
+git push
+fd his
+v nhis
+v .\.gitignore
+cd C:\you\
+fd degub
+fd debug
+vlc '.\javs\Debug Node.js apps with Chrome DevTools (and TypeScript).mp4'
+lt
+cd .\src\
+lt
+cd .\dist\
+lt
+node .\file.js
+node --inpsect .\file.js
+node --inspect .\file.js
+lt
+node --inspect .\file.js
+lt
+node --inspect .\file.js
+node --inspect-brk .\file.js
+lt
+.\file.js
+lt
+.\file.js
+node --inspect-brk .\file.js
+cd .\src\
+lt
+cd .\dist\
+lt
+node --inspect-brk .\file.js
+echo JSON_STUFFF | python -m json.tool
+curl 'https://jsonplaceholder.typicode.com/posts/1'
+curl 'https://jsonplaceholder.typicode.com/posts/1' | | python -m json.tool
+curl 'https://jsonplaceholder.typicode.com/posts/1' |  python -m json.tool
+curl 'https://jsonplaceholder.typicode.com/posts/1'
+curl 'https://jsonplaceholder.typicode.com/posts/3' |  python -m json.tool
+curl 'https://jsonplaceholder.typicode.com/posts/1'
+lt
+u
+npm i axios
+b 1
+lt
+cd .\dist\
+lt
+.\file.js
+lt
+mps
+cd .\sheetApi\
+lt
+rgi axi
+v .\data.json
+u
+fd axe
+cd .\node\
+lt
+v .\axe.js
+lt
+.\file.js
+his
+node --inspect .\file.js
+node --inspect-brk .\file.js
+lt
+node --inspect-brk .\file.js
+uu
+lt
+git init
+gs
+xxx .\.git\
+his
+sup
+function nib ($a) {`
+  node --inspect-brk $a`
+}
+exit
+lt
+function:nib
+$function:nib
+cd .\src\
+lt
+cd .\dist\
+lt
+nib .\file.js
+.\file.js
+lt
+nib .\file.js
+b 2
+b 1
+b 2
+mps
+cd .\esbuild\
+lt
+ctime
+cd .\src\
+lt
+cd .\dist\
+lt
+node .\file.js
+nodemon --exec "esbuild .\file.ts --platform=node --bundle  --outdir=dist" .\file.ts
+lt
+nib .\file.js
+lt
+.\file.js
+nib .\file.js
+his
+rgw inspect
+node --inspect-brk .\file.js
+lt
+.\file.js
+sub
+sup
+lt
+nib .\file.js
+v 'C:\projects\esbuild\src\dist\test.js'
+gci | select FullName
+lt
+nodemon --exec "esbuild .\file.ts --platform=node --bundle  --outdir=dist" .\file.ts
+lt
+his
+lt
+nib .\file.js
+lt
+sup
+function nib ($a) {`
+  node --inspect-brk $a`
+}
+nib .\file.js
+.\file.js
+lt
+nib .\file.js
+uu
+sup
+  npm list --depth=0
+npm install debug
+lt
+cd .\src\dist\
+lt
+rgw file
+nib .\file.js
+lt
+nib .\file.js
+his
