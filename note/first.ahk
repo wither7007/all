@@ -3,8 +3,13 @@
 !a::run, C:\tools\neovim\Neovim\bin\nvim.exe -c "cd c:\all"      ; Correct
 !t::run, C:\Users\jayst\AppData\Local\Microsoft\WindowsApps\wt.exe
 !p::runwait, PowerShell.exe -ExecutionPolicy Bypass -Command c:\all\ps\mus.ps1
-^SPACE::  Winset, Alwaysontop, , A
-#z:: SendRaw, `%paste
+
+!z::
+SendRaw, `%paste
+return
+
+!s::
+SendRaw, `%run dataManager.py
 return
 
 !d::run, C:\tools\neovim\Neovim\bin\nvim.exe "c:\all\note\notes"
@@ -70,9 +75,6 @@ Send, The lady doth protest too much, methinks
 return
 
 
-!s::
-SendRaw, `%run dataManager.py
-return
 
 
 !1::

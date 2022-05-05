@@ -1190,3 +1190,882 @@ nib .\file.js
 lt
 nib .\file.js
 his
+u
+lt
+v .\browser-build.js
+.\browser-build.js
+cd .\src\
+lt
+ni index.js
+ni index.html
+fd
+fd -a 
+lt
+fdi -a
+fd -i -a
+sup
+function tre {`
+  echo "  tree $Args[0]  /f | v - "`
+  tree $Args[0]  /f `
+}
+function trev {`
+  echo "  tree $Args[0]  /f | v - "`
+  tree $Args[0]  /f | v -`
+}
+tre
+lt
+cd .\dist\
+lt
+u
+uu
+lt
+.\browser-build.js
+lt
+cd .\dist\
+lt
+u
+code.cmd .
+lt
+tre
+cd .\public\
+lt
+cd .\dist\
+lt
+u
+lt
+.\browser-build.js
+git init
+gs
+cp C:\all\.gitignore
+gs
+git add .
+gs
+gic
+lt
+.\browser-build.js
+newt
+cd C:\you\
+lt
+fd reduce
+cd .\webdev\
+newt
+u
+cd .\play\
+lt
+vlc .\w1.mp4
+ctime
+lt
+vlc .\wild1.mp4
+u
+fd red
+fd reduce
+cd web
+cd .\webdev\
+lt
+vlc '.\Learn JavaScript Array Reduce In 10 Minutes.mp4'
+.\browser-build.js
+curl https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs
+curl "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+git dif
+git diff
+gs
+git add .
+gci
+gic
+cd
+cd .\Downloads\
+lt
+mv .\pen-export-ZEKyRpp.zip C:\projects\esbuild\
+b 1
+b 2
+lt
+u
+lt
+gci \all\ps\z*
+z .\pen-export-ZEKyRpp.zip
+lt
+ri .\pen-export-ZEKyRpp.zip
+lt
+.\browser-build.js
+u
+fd reduce
+fd more
+fd -i more
+fd trav
+trev
+u
+u
+lt
+mv .\pen-export-ZEKyRpp\ pen
+lt
+mv .\pen-export-ZEKyRpp\ pen
+lt
+.\browser-build.js
+gs
+lt
+mv .\pen-export-ZEKyRpp\ pen
+exit
+exit
+exit
+exit
+mps
+lt
+cd .\esbuild\
+lt
+mv .\pen-export-ZEKyRpp\ pen
+lt
+md \you\data
+sup
+bash
+cd C:\you\play\
+gci *.py \all\ps
+gic *.py C:\all\ps
+gic *.py C:\all\ps\
+gci *.py C:\all\ps\
+gci C:\all\ps\ *.py
+cd \all\ps
+lt
+rg ff
+rg ffm
+b 1
+mov.py
+exit
+gw
+cd C:\you\
+cd .\play\
+lt
+exit
+exit
+exit
+cd C:\you\
+lt
+cd .\play\
+lt
+newt
+cd C:\all\ps\
+lt
+sup
+set-alias code "C:\Users\jayst\AppData\Local\Programs\Microsoft VS Code\bin\code.cmd"
+code .
+newt
+ips
+ip
+lt mp4
+ni a.mp4
+ipx
+ip
+lt
+lt
+rgw wild
+ri  '.\Four - Miles Davis.mp3'
+lt
+ctime
+mov.py
+lt
+vlc .\wild1.mp476.mp4
+ri .\wild1.mp476.mp4
+rg duration
+rgi duration
+rgi dur
+newt
+mps
+cd .\python\
+lt
+rgi duration
+lt
+mov.py
+vlc .\wild1.mp4
+cd C:\you\play\
+newt3
+lt
+mov.py
+lt
+vlc .\7_27wild1.mp4
+lt
+cd \all\ps
+rg col.*pri
+cd C:\projects\py\modules\
+lt
+cd \all\ps
+rg my
+rg impor.*my
+rgi impor.*my
+v .\ipy
+rg col.*pri
+v .\my.py
+v .\my.py
+lt
+lt py
+mps
+cd .\python\
+lt
+rgi col.*pr
+v .\walk.py
+ip
+newt
+cd C:\all\ps\
+lt
+git diff
+gs
+git add .
+u
+git add .
+gs
+gic
+git push
+cd ps
+lt
+mov.py
+vlc .\4_20four.mp4
+ri .\4_20four.mp4
+gcm python
+lt
+lw
+ctime
+cd C:\you\play\
+lt
+vlc .\wild1.mp4
+vlc .\wild.mp4
+rgw py
+fd \all\ps
+fd C:\all\ps\
+gci C:\all\ps\
+gci C:\all\ps\ *.py
+mov.py
+lt
+vlc .\7_27wild1.mp4
+u
+lt
+cd .\data\
+lt
+vlc '.\Data Structures in Typescript #2 - Abstract Data Types.mp4', '.\Data Structures in Typescript #3 - Big-O Algorithm Analysis.mp4'
+vlc .
+mps
+lw
+d3
+d3 | rg type
+lt | rg type
+cd junk
+lt
+u
+cd .\esbuild\
+lt
+gs
+git add .
+gic
+esbuild --verwsion
+esbuild --version
+code .
+lt
+mkc data
+ni a.ts
+cdc
+cd C:\projects\esbuild\data
+u
+lt
+.\data.js
+lt
+node .\a.js
+lt
+lt
+mv .\data.js a.js
+rgw nodemon
+his
+u
+lt
+nodemon --exec "a.js" .data\a.ts
+cd data
+lt
+node .\a.js
+lt
+exit
+exit
+exit
+exit
+exit
+pss
+pss
+lt
+ctime
+newt
+mps
+cd .\python\
+lt
+code .
+ctime
+newt
+ip
+mps
+cd .\python\
+rg my
+rgi my
+head .\walk.py
+cd \all
+cd .\note\
+gci ak*
+lt
+gci ah*
+u
+gci ah* -Recurse
+gci gc* -Recurse
+lt
+gci ps8
+gci ps*
+gci *ah* -Recurse
+cd .\note\
+v .\first.ahk
+.\first.ahk
+v .\first.ahk
+.\first.ahk
+v .\first.ahk
+.\first.ahk
+gb
+gs
+git diff
+gs
+git add .
+gic
+lt
+cd C:\twit\
+vlc .\twit0872.mp3
+lt
+v .\.git\
+cat .\file.txt
+cd \all
+newt3
+cd ps
+lt
+rg glob
+rgi glob
+v .\mov.py
+u
+cd .\note\
+lt
+v .\first.ahk
+ahk
+rgi glob
+v .\largest.py
+rgi copy
+v .\vsc1.py
+v .\panda\vsc1.py
+newt
+cd \all\ps
+ctime
+lt
+v .\ctime.py
+ctime
+v .\ctime.py
+cd 
+cd .\.config\
+lt
+cd nvim
+lt
+md undodir)
+md undodir
+gic un*
+gci un*
+gci un* | select FullName
+v
+lt
+v .\init.vim
+v jim
+v .\jim
+lt
+cd .\undodir\
+lt
+u
+lt
+v jim
+lt
+cd .\undodir\
+lt
+u
+v .\jim
+ri .\init.l
+v .\init.vim
+v jim
+cd .\undodir\
+lt
+u
+lt
+v .\jim
+lt .\undodir\
+gci .\undodir\
+v .\init.vim
+lt
+v jim
+ctime
+ctime
+ctime | more
+newt
+bash
+gci -Directory you
+gci -Directory C:\you\
+mps
+cd .\python\
+lt
+.\rand.py
+pip list | v -
+lt
+.\ex.py
+autopep8 .\ex.py
+autopep8 --in-place --aggressive .\ex.py
+lt
+cat .\ex.py
+v two.py
+autopep8 --in-place --aggressive --aggressive .\two.py
+lt
+cat two
+cat .\two.py
+autopep8 --in-place --aggressive --aggressive .\ex.py
+cat .\ex.py
+v .\ex.py
+rgw pip.*list
+his
+rgw pip.*list
+pip list | v -
+run black
+.\run.py black .\ex.py
+gcm run
+gcm run.py
+lt
+.\logo-small.png
+mkc black
+lt
+mv ..\ex.py
+lt
+.\run.py black .\ex.py
+gcm black
+pipenv run black .\ex.py
+exit
+mps
+cd .\python\black\
+lt
+u
+lt
+d3
+md other
+fm .
+cd .\black\
+lt
+vm .
+fm .
+lt
+xxx .\Pipfile
+u
+lt
+gs
+git add .
+gs
+git add .
+gic
+lt
+d3
+newt3
+ip
+$DateTime = Get-Date #or any other command to get DateTime object
+([DateTimeOffset]$DateTime).ToUnixTimeSeconds()
+ctime
+cd C:\you\
+lt
+cd .\cb\
+ctime
+u
+lt
+lt go
+mkc go
+lt
+u
+fd -e go
+cd go
+ni hello.go
+code .
+u
+cd C:\you\
+fd go
+fd -e mp4
+fd -e mp4 go
+cd .\travs\
+lt
+ctime
+v C:\all\ps\ctime.py
+ctime
+fd go
+vlc '.\Learn Go Programming - Golang Tutorial for Beginners.mp4'
+mps
+cd go
+lt
+go run .\hello.go
+go run .\hello.go jim
+lt
+tre
+lt
+md src
+mv .\hello.go .\src\
+lt
+gcm go-outline.exe
+go version
+rgw env
+dir env: | v -
+go get github.com/nsf/gocode
+go install github.com/nsf/gocode
+go install github.com/nsf/gocode@latest
+cd
+cd .\go\
+lt
+tre
+ctime
+lt
+cd .\bin\
+d3
+u
+cd .\pkg\
+d3
+u
+cd .\src\
+lt
+cd .\github.com\
+lt
+cd .\wither7007\
+lt
+.\Main.exe
+u
+fd nsf
+.\go\src\
+cd .\go\src\
+lt
+cd .\github.com\
+lt
+cd .\wither7007\
+lt
+u
+fd nsf
+u
+fd nsf
+u
+fd nsf
+lt
+md bin, pkg
+cd .\src\
+lt
+md github.com
+cd .\github.com\
+md wither7007
+lt
+cd .\wither7007\
+uu
+lt
+mv .\hello.go .\github.com\wither7007\
+cd .\github.com\wither7007\
+lt
+md firstapp
+mv .\hello.go .\firstapp\
+lt
+cd .\firstapp\
+lt
+go build .\hello.go
+lt
+.\hello.exe
+cdc
+go install C:\projects\go\src\github.com\wither7007\firstapp
+lt
+go install .\hello.go
+lt
+uu
+lt
+u
+lt
+u
+lt
+cd .\bin\
+lt
+b 3
+lt
+cd .\wither7007\
+lt
+cd C:\Users\jayst\go\
+lt
+cd .\bin\
+lt
+b 2
+lt
+cd .\firstapp\
+lt
+rgw hello
+his
+go run .\hello.go
+lt
+.\hello.exe
+rgw go.*
+go install .\hello.go
+lt
+uuu
+lt
+u
+cd .\bin\
+lt
+fd hello
+u
+fd hello
+b 3
+lt
+cd .\github.com\
+lt
+cd .\wither7007\
+lt
+cd .\firstapp\
+lt
+rg w hello
+rgw hello
+lt
+go build .\hello.go
+lt
+.\hello.exe
+lt
+his
+func b {`
+go build .\hello.go`
+}
+function b {`
+go build .\hello.go`
+}
+b
+func b {`
+go build .\hello.go`
+}
+sup
+function bg {`
+go build .\hello.go`
+}
+bg
+.\hello.exe
+sup
+function bg {`
+go build .\hello.go`
+C:\projects\go\src\github.com\wither7007\firstapp\hello.exe`
+}
+bg
+ahk
+mps
+newt3
+cd .\go\
+lt
+u
+mkc gos
+go mod init github.com/wither7007/colly
+lt
+go install -u github.com/go-colly/colly/...
+go install  github.com/go-colly/colly/...
+go install  github.com/go-colly/colly/
+go get -u github.com/go-colly/colly/...
+go get  github.com/go-colly/colly/...
+git config --global --add url."git@github.com:".insteadOf "https://github.com/"
+go get  github.com/go-colly/colly/...
+go get -u github.com/gocolly/colly/...
+u
+cd .\go\
+lt
+tre
+code .
+cd
+cd .\.config\
+cd .\nvim\
+lt
+sup
+cd go
+tre
+$function:tre
+tree .
+u
+tree .
+u
+tree . | \all\tree
+tree . > \all\tree
+cd
+cd .\.config\
+tree .
+tree . | v -
+tree . > t.html
+chr .\t.html
+v .\t.html
+code .
+Get-ChildItem -Recurse -File | group Extension -NoElement  | sort Count -Descending
+Get-ChildItem -Recurse -File | group Extension -NoElement  | sort Count -Descending | v -
+u
+Get-ChildItem -Recurse -File | group Extension -NoElement  | sort Count -Descending | v -
+duh > duh
+cd .\.config\
+cd .\nvim\
+lt
+v .\init.vim
+lt
+u
+lt
+chr .\t.html
+lt
+u
+fd duh
+v duh
+sup
+mps
+cd go
+lt
+tree .
+gci -Directory -Recurse
+gci -Directory -Recurse | select FullName
+foreach { $_.Name }
+gci -Directory -Recurse | foreach { $_.Name }
+gci -Directory -Recurse | foreach { $_.fullName }
+sup
+function lds {`
+  gci -Directory -Recurse | foreach { $_.fullName }}
+sup
+function lds {`
+  gci -Directory -Recurse | foreach { $_.fullName }`
+}
+lds
+cd
+lds
+b 1
+lds
+cls
+lds
+lds | v -
+cd C:\projects\go\src\github.com\wither7007\firstapp
+lt
+sup
+function ro {`
+go run .\hello.go`
+}
+ro
+sup
+cd go
+lds
+sup
+function lds {`
+  gci -Directory -Recurse | foreach { $_.fullName }`
+}
+lds
+lt
+code .
+sup
+lds
+function ro {`
+go run .\hello.go`
+}
+lt
+cd C:\projects\go\src\github.com\wither7007\firstapp
+ro
+lt
+sup
+bg
+cp .\hello.exe C:\all\bin\
+u
+hello.exe
+lt
+hello
+u
+hello
+hello
+gci
+hello
+l
+b 2
+mps
+cd go
+lt
+lds
+gci -Directory C:\you\
+gci C:\you\lquart\
+go list
+go help modules
+godoc --http :6060
+go get -u golang.org/x/tools/...
+go install -u golang.org/x/tools/...
+go install golang.org/x/tools/...
+newt
+bash
+lt
+cd .\src\
+lt
+md golang-book
+cd .\golang-book\
+md chapter11
+ni .\chapter11\main.go
+lt
+cd .\chapter11\
+md math
+cd .\math\
+ni math.go
+go install
+cd %HOMEPATH%
+echo %HOMEPATH%
+rgw env
+dir env: | v -
+echo HOMEPATH                       
+$env:HOMEPATH                       
+cd
+lt
+mkc greetings
+go mod init example.com/greetings
+lt
+v greetings.go
+u
+mkc hello
+go mod init example.com/hello
+v hello.go
+go mod edit -replace example.com/greetings=../greetings
+lt
+v .\go.mod
+ go mod tidy
+go run .
+lt
+v .\go.mod
+v .\hello.go
+sup
+hl
+dos2Unix "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
+tail "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
+function hl {`
+  dos2Unix "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"`
+  tail "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" -n 30`
+}
+hl
+hl
+hl
+lt
+hl
+cd C:\you\
+cd .\golang\
+lt
+mv '.\GoLang Packages and Modules _ Beginners Go Tutorial.mp4' goPack.mp4
+lt
+ex .\goPack.mp4
+mps
+cd go
+lt
+uu
+u
+code .
+tree .
+fd -a
+lds
+cd C:\projects\go\src\github.com\wither7007\firstapp
+lt
+sup
+bg
+lt
+bg
+lt
+bg
+lt
+cp .\hello.exe \all\bin
+u
+hello.exe
+lt
+hello.exe
+mps
+lt
+hello
+lt
+his

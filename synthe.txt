@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+   <meta charset="utf-8" />
+   <meta name="description" content="Synthesia is your piano tutor" />
+   <meta name="keywords" content="synthesia,piano,keyboard,midi,song,sheet music,note,piano roll,player piano,piano game" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>Synthesia Unlock Order is Complete</title>
+   
+
+      <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+      <script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
+      <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/cupertino/jquery-ui.css" />
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <style type="text/css">
+      * { margin: 0; }
+      body {
+         line-height: normal;
+         height: 100%;
+         background: #f3f3f3 none;
+         color: #353535;
+         padding: 0px;
+         font-family: Verdana,Helvetica,Arial,sans-serif;
+         font-size: 12px;
+      }
+
+      p, ul { line-height: 1.4em; margin: 1em 0 1em 0; }
+
+      h1 {
+         line-height: normal;
+         background: #d4e1ec;
+         font-family: Georgia, Times New Roman, Serif;
+         width: 910px;
+         height: 30px;
+         margin: 40px 0 20px 0;
+         padding: 10px 10px 10px 10px;
+         font-size: 24px;
+         font-weight: normal;
+         color: #017ab4;
+         clear: both;
+      }
+
+      img { border: 0; }
+      .emphasis { font-weight: bold; }
+
+      .header, .header a { color: White; text-decoration: none; }
+      .header a:hover { text-decoration: underline; }
+
+      .mainTitle { font-size: 54px; }
+      .readable { font-size: 18px; }
+      .serifFont { font-family: Georgia, Times New Roman, Serif; }
+
+      select { width: 350px; }
+
+      footer { display: flex; justify-content: space-evenly; width: 100%; margin: 0 0 2em 0; }
+      footer form { width: auto; padding: 0; margin: 0; }
+      span.spacer::before { content: "|"; color: cornflowerblue; }
+
+      button.btn-link {
+         line-height: normal;
+         vertical-align: baseline;
+         padding: 0;
+      }
+
+      .difficulty { border-radius: 4px; padding: 1px 2px; font-size: 7pt; margin: 1px; }
+      .d-easy { background-color: #dff0d8; color: #6a8f5a; border: 1px solid rgba(129, 174, 110, 0.5); }
+      .d-med { background-color: #ffeeba; color: #b48800; border: 1px solid rgba(189, 150, 31, 0.5); }
+      .d-hard { background-color: #f2dede; color: #ad5555; border: 1px solid rgba(173, 85, 85, 0.5); }
+
+      hr.hr {
+         border: 0;
+         height: 0;
+         border-top: 1px solid rgba(0, 0, 0, 0.15);
+         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+         padding: 0; margin: 5px 0;
+      }
+   </style>
+
+      <style>
+			
+			h1 { height: auto; background: transparent; width: auto; color: black; }
+
+			.bs-callout {
+				padding: 20px;
+				margin: 20px 0;
+				border: 1px solid #eee;
+				border-left-width: 5px;
+				border-radius: 3px;
+
+				
+				line-height: 1.4em;
+
+			}
+
+			h2 { clear: both; }
+
+		   .bs-callout h4 { margin-top: 0; margin-bottom: 5px; }
+		   .bs-callout p:last-child { margin-bottom: 0; }
+		   .bs-callout code { border-radius: 3px; }
+		   .bs-callout + .bs-callout { margin-top: -5px; }
+		   .bs-callout-default { border-left-color: #777; }
+		   .bs-callout-default h4 { color: #777; }
+		   .bs-callout-primary { border-left-color: #428bca; }
+		   .bs-callout-primary h4 { color: #428bca; }
+		   .bs-callout-success { border-left-color: #5cb85c; }
+		   .bs-callout-success h4 { color: #5cb85c; }
+		   .bs-callout-danger { border-left-color: #d9534f; }
+		   .bs-callout-danger h4 { color: #d9534f; }
+		   .bs-callout-warning { border-left-color: #f0ad4e; }
+		   .bs-callout-warning h4 { color: #f0ad4e; }
+		   .bs-callout-info { border-left-color: #5bc0de; }
+		   .bs-callout-info h4 { color: #5bc0de; }
+
+			.step { clear: both; margin-top: 30px; }
+			.step-image-container { margin-right: 20px; margin-bottom: 70px;}
+			.step-image { border: 1px solid #999; border-radius: 4px; background-color: #999; }
+			.step-num { float: left; font-size: 28px; font-weight: bold; padding: 0 7px; margin: 0 10px 3px 0; border: 1px solid #bbb; border-radius: 6px; }
+
+			dl { margin-top: 20px; }
+
+			.glyphicon-large {
+				font-size: 2em;
+				vertical-align: middle;
+			}
+
+			.btn-xlg {
+				font-size: 24px;
+				padding: 16px 36px;
+				text-shadow: 0 1px 3px rgba(0,0,0,.4);
+			}
+
+			
+			h1 {
+				background-color: rgb(212, 225, 236);
+				margin: 60px 0 20px;
+				padding: 10px;
+				font-size: 24px;
+				color: #017ab4;
+			}
+
+			
+			h2 {
+				font-size: 18px;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+				font-weight: 300;
+			}
+
+			@media (max-width: 560px) {
+				h2 { font-size: 14px; }
+			}
+
+      </style>
+
+   <link rel="shortcut icon" href="//www.synthesiagame.com/favicon.ico" type="image/vnd.microsoft.icon" />
+
+   <style>
+      h1 { width: auto; border-radius: 5px; }
+      dl > dt, dl > dd { padding-bottom: 8px; }
+
+      @media (max-width: 560px) { #h1WithLinks { margin: 0px 0 20px !important; } }
+      @media (max-width: 768px) { .readable { font-size: 14px; } }
+      @media (max-width: 610px) {
+         header { display: block; }
+         #navLinks { clear: both; margin-top: 90px; padding-top: 0px !important; }
+         h1 { margin: 17px 0 20px; font-size: 18px; }
+      }
+   </style>
+
+   
+
+</head>
+<body id="pagebody" style="background-image: url('//cdn.synthesia.app/images/headerContent.gif'); background-repeat: repeat-x;">
+
+   <header class="container">
+	<div class="header mainTitle serifFont" style="background-image: url('//cdn.synthesia.app/images/headerIcon.png'); background-repeat: no-repeat; padding-left: 10px; background-position: 8px 8px; top: 23px; text-indent: 52px; position: absolute;"><a href="/" style="text-decoration: none;">Synthesia</a></div>
+   <nav id="navLinks" class="nav header readable" style="padding-top: 44px; padding-right: 10px; text-align: right; word-spacing: 15px; white-space: nowrap;">
+      <a href="/About">About</a>
+      <a href="/store">Songs</a>
+      <a href="/support">Support</a>
+      <a href="/keyboards">Keyboards</a>
+   </nav>
+</header>
+
+
+   <main id="container" class="container">
+
+      
+
+<h1>Synthesia Unlock Order Complete!</h1>
+
+<p class="readable serifFont">Unlocking Synthesia only takes a couple steps.</p>
+
+<p>Congratulations on your purchase of Synthesia!  We hope you'll enjoy it for many years to come.</p>
+<p>If you haven't yet, be sure to <a href="/download" target="_blank">download</a> and install Synthesia first.</p>
+<p>Open Synthesia, click the &quot;Unlock Synthesia&quot; button, type this short code, and click OK:</p>
+<p style="font-size:4em; border: 2px solid black; margin-top:0px; text-align:center; border-radius: 15px; background-color:white; width:300px;">Z8PSf7</p>
+
+<p style="margin-top:40px;" class="readable serifFont">Thanks again!</p>
+
+	<p>You can use your unlock key on as many of your own personal computers as you like.  But, please don't share it with anyone else.</p>
+
+<p>We hope you enjoy Synthesia.  If you have comments or suggestions, please visit the <a href="https://www.synthesiagame.com/forum">forums</a> or <a href="mailto:support@synthesiagame.com">email</a> us.</p>
+
+<p><a href="/ViewReceipt?guid=0927b5e1dcd241d39694559b8e72582a">Click here to download a receipt of this transaction.</a></p>
+
+<p>Enjoy,<br />Nicholas</p>
+
+
+
+      <p style="padding-bottom: 1em;">&nbsp;</p>
+
+      <footer class="header" style="clear:both; background-color: #0177b2; border-radius: 8px; width: 100%; text-align: center; margin-bottom: 10px; margin-top: 30px; padding: 10px 0;">
+         <span></span>
+         <span>&copy; <a href="/legal">Synthesia LLC</a></span>
+         <span class="spacer"></span>
+         <span><a href="http://www.twitter.com/Synthesia">@Synthesia</a></span>
+
+         <span></span>
+      </footer>
+
+   </main>
+
+   
+
+</body>
+</html>
