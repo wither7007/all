@@ -2069,3 +2069,1974 @@ lt
 hello
 lt
 his
+gci \all\bin | more
+hyperfine hello
+hyperfine lt
+hyperfine -i lt
+lt
+gcm lt
+$function:lt
+col
+gci \all\ps *.py
+getProcess.py
+pss
+hyperfine ctime
+ go version -m ~/go/bin/goimports
+go list all
+lt
+lt
+4
+$function:gb
+$function:bg
+lt
+go build .\server.go
+lt
+server
+.\server.exe
+mps
+cd .\git\
+lt
+git clone https://github.com/gyanendraknojiya/GO-Gin-REST-API.git
+cd .\code_snippets\
+lt
+code .
+cd .\BeautifulSoup\
+lt
+.\scrape.py
+lt
+v .\cms_scrape.csv
+u
+lw
+cd .\randomColor\
+lt
+cd meo
+eixt
+mpx
+mps
+cd go
+lt
+gw
+go .
+code .
+lds
+cd C:\projects\go\src\golang-book\chapter11\math
+lt
+u
+lt
+cd .\github.com\
+lt
+cd .\wither7007\
+lt
+cd .\firstapp\
+lt
+sup
+bg
+lt
+cp .\hello.exe \all\bin
+cd \all
+helo
+hello
+hello | v -
+sup
+hl
+hl
+sup
+function bg {`
+go build .\hello.go`
+C:\projects\go\src\github.com\wither7007\firstapp\hello.exe`
+}
+bg
+cp .\hello.exe \all\bin\list.exe
+list
+gcm list
+cp .\hello.exe \all\bin\glist.exe
+glist
+glist | v -
+glist 
+glist | v -
+lt
+$function:gb
+$function:bg
+go build .\ssize.go
+lt
+cp .\ssize.exe \all\bin
+mps
+ssize
+duh
+ssize
+cd court
+lt
+duh | rg lnl
+u
+duh | rg lnl
+kotlinc
+mps
+cd .\junk\
+lt
+mkc kot
+v kfile.kt
+lt
+newt
+v
+kotlinc kfile.kt -include-runtime -d kfile.jar
+lt
+v .\kfile.kt
+v hello.kt
+kotlinc hello.kt -include-runtime -d hello.jar
+java -jar hello.jar
+mps
+cd go
+lt
+lds
+cd C:\projects\go\src\github.com\wither7007\firstapp
+lt
+sup
+bg
+md C:\you\docker
+newt
+cd
+cd .\.config\nvim\
+lt
+v .\init.vim
+lt
+dos2unix.exe .\init.vim
+v .\init.vim
+rgw dos
+ld
+sup
+hl
+dos2unix.exe .\init.vim
+cdc
+v
+v .\init.vim
+rgw dos
+dos2unix.exe .\init.vim
+cdc
+mps
+cd git
+lt
+git clone https://github.com/iamshaunjp/docker-crash-course.git
+lt
+cd .\docker-crash-course\
+lt
+v .\README.md
+gb
+cd C:\you\
+d3
+cd .\docker\
+lt
+ctime
+lt
+.\hello.jar
+rgw java
+lh
+sup
+hl
+gw
+pss
+su
+sup
+alias
+alias kill
+Stop-Process -Id  7652   -Confirm -PassThru
+cd \all
+lt
+d3
+cd bin
+lt
+u
+fd -e exe
+fd -H -e exe
+mps
+cd .\python\
+gw
+code .
+newt
+cls
+rss
+pss
+alias kill
+kill -id 8456   
+rss
+pss
+Shell:startup
+pss
+gci C:\all\ps\ | Sort-Object CreationTime
+sup
+lt all
+$function:lt
+lt C:\all\
+ls
+lt
+lt sql
+fdh
+fc C:\all\
+fd C:\all\
+ fd --full-path 'C:\all\'
+fd . 'C:\all\'
+fd . C:\all\
+fd . C:\all\bin\
+fd . ~
+$env:home
+rgw env
+gw
+code .
+ctime
+l
+lt
+ctime
+cd \all
+ctime
+pip list | rg tab
+mps
+cd .\python\
+lt
+ip
+ipy
+gcm ipy
+fd \all\ps
+fd . \all\ps
+fd . \all\ps | rg i
+sqllite.py
+lt
+cd .\ipy\
+lt
+v .\ipy
+u
+sup
+mps
+cd .\python\
+u
+cd .\sqllite\
+lt
+fd -a | rg i
+function pyhis {`
+  sqllite.py`
+  v C:\projects\sqllite\ipy`
+}
+pyhis
+sup
+function pyhis {`
+  sqllite.py`
+  v C:\projects\sqllite\ipy`
+}
+pyhis
+sqllite.py
+mps
+cd .\python\
+lt
+cd .\ipy\
+lt
+v .\ipy
+.\sqllite.py
+u
+lt
+.\sqllite.py
+sqllite.py
+lt
+cd .\ipy\
+lt
+v .\ipy
+lt
+mps
+cd .\py\
+u
+cd .\python\
+gci *ipy*
+gci *ipy* -Recurse
+lt
+cd ps
+lt
+v .\ipy
+ri ipy
+gci | Sort-Object Length
+ri .\list.exe, .\file.txt
+gci | Sort-Object Length
+ri .\filer.exe
+gci | Sort-Object Length
+gs
+u
+gs
+sup
+function pyhis {`
+  sqllite.py`
+  v C:\projects\sqllite\ipy`
+}
+pyhis
+sup
+function pyhis {`
+  sqllite.py`
+  v C:\projects\sqllite\ipy`
+}
+pyhis
+mps
+cd ditto
+lt
+.\ditto.py
+lt
+ditto
+v .\ditto
+cd all
+cd \all
+cd bin
+gci a*
+.\Autoruns64.exe
+exit
+exit
+exit
+exit
+exit
+exit
+mps
+newt3
+pss
+cd .\python\
+lt
+code .
+cd C:\music\
+lt
+cd .\autumn\
+lt
+vlc -Z .
+ahk
+ctime
+cd .\python\
+ip
+cd .\python\
+duh
+cd bs
+lt
+duh
+xxx .\staff\
+xxx img
+duh
+xxx .\scipy2019-jupyterlab-tutorial\
+duh
+u
+cd bs
+u
+duh
+fd -a .\panda\
+fd . -a .\panda\
+duh
+xxx .\panda\
+duh
+gs
+gic
+gs
+duh
+lt
+ri .\trans.py, .\a.html, .\file.txt, .\ex.py
+lt
+cd ps
+lt
+lw
+ri .\mcut.ps1, .\findf.ps1, .\mp4concat.ps1, .\rank.ps1, .\speedtest.py
+lw
+cat none
+ri .\none
+.\hn.py
+phis
+pyhis
+get-child-item
+cd temp
+cd \temp
+lt
+md a.ps1
+ri .\a.ps1\
+lt
+v a.ps1
+v .\a.ps1
+echo "i'm here in temp"
+b 1
+lt
+pip list | rg page
+newt
+bash
+pyhis
+pyhis
+sup
+exit
+newt
+ph
+u
+lt
+fd xx
+fdi xx
+fdi x
+d3
+lt
+cd ps
+fd x
+u
+fd x
+cd ps
+lt
+.\xx.py
+gs
+u
+rh
+sup
+ph
+pyhis
+cd C:\you\
+cd .\docker\
+lt
+code .
+.\regexII.py
+lt
+gw
+code .
+mps
+cd .\py\
+lt
+cd .\modules\
+lt
+v fil.py
+gs
+git add .
+gic
+ip
+cd C:\you\docker\
+lt
+pip list | rg touch
+pip install touch --user
+cd .\py\
+u
+cd .\python\
+lt
+mv .\touch.py mtouch.py
+vlc .
+cd .\Documents\
+d3
+u
+cd .\OneDrive\
+lt
+cd .\Documents\
+lt
+ri *.png
+lt
+cd C:\you\cb
+lt
+fdi fred
+u
+fdi fred
+cd nb
+cd kb
+gci *miles*
+ex '.\Miles Davis - Blue In Green (Official Audio)-TLDflhhdPCg.mp3'
+md miles
+gci *miles* | % {$_.Name cp .\miles\}
+alias cp
+gci *miles* | % {$_.Name Copy-Item .\miles\}
+gci *miles* | % {cp $_.Name  .\miles\}
+d3
+cd .\miles\
+lt
+vlc .
+exit
+exit
+exit
+exit
+ahk
+mps
+newt3
+cd .\python\
+gs
+code .
+pss
+cd C:\you\
+cd .\cb\
+lt
+d3
+u
+fd miles
+cd kb
+cd .\miles\
+u
+fd evan
+u
+fdi evan
+cd  .\evans\
+lt
+f3
+u
+cd \mus
+cd C:\music\
+lt
+cd .\jazzV\
+lt
+u
+d3
+cd '.\Bach- Brandenburg Concertos #4-6\'
+sup
+vz
+function vz {`
+  vlc -Z .`
+}
+vz
+ph
+b 2
+b 1
+b 3
+b 4
+mps
+cd .\python\
+cd C:\you\docker\
+lt
+md ch
+cp * .\ch\
+gci .\ch\
+tree .
+md .\ch\xxx
+ip
+cd .\python\
+rgi sort
+rg sort
+ph
+cd C:\you\
+cd .\docker\
+lt
+cd .\ch\
+lt
+ri xx
+ri xxx
+lt
+cd .\py\
+u
+cd .\python\
+rg import
+rg important
+gs
+git add .
+gs
+gic
+u
+cd bs
+lt
+v .\bsp.py
+.\bsp.py
+lt
+v .\yyyyy
+cd C:\you\
+cd .\docker\
+lt
+cd ch
+lt
+vlc .
+ip
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '51240' '--' 'c:\projects\python\len.py' 
+cd .\python\
+rg request
+rg req
+rgh
+rg -N req
+rg -N -C 3 req
+rg -N -C 3 req | v -
+rgh
+rg -N -C -I 3 req | v -
+rg -N -C -I 3 req 
+rg -N -C 3 -I  req 
+rg -N -C 3 -I  req | v -
+ahk
+mps
+newt3
+cd C:\music\
+lt
+wsl --set-default-version 2
+pss
+cd C:\you\
+cd .\docker\
+lt
+cd .\ch\
+lt
+vlc .
+cd \all
+fd his
+fd -a his
+gci hi*
+v his
+pss
+Get-Volume
+Get-Volume -DriveLetter C
+cd
+cd "C:\Users\jayst\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\steff007\.local\share\vifm\Trash\`
+"
+cd "C:\Users\jayst\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\steff007\.local\share\vifm\Trash\"
+lt
+ri *
+lt
+b 1
+pss
+ahk
+mps
+newt3
+cd .\next\
+lt
+xxx .\next-crash-course\
+u
+cd .\python\
+duh
+cd .\youDL\
+u
+cd C:\you\
+fd git
+cd .\travs\
+vlc '.\Git clean up strategies.mp4'
+mps
+lt g
+cd git
+lt
+cd all
+cd \all
+lt
+gs
+git add .
+gic
+git push
+cd .git
+duh
+mps
+cd .\python\
+cd .git
+duh
+cd .\objects\
+duh
+duh > duh
+v duh
+cd .31
+gci 31
+cd 31
+lt
+dug
+duh
+uu
+u
+code .
+md git
+ni .\git\pgit.py
+python
+u
+cd .\py\
+lt
+cat .\startup.bak
+cat .\startup.py
+ri .\startup.bak
+v .\startup.py
+b 2
+python
+u
+cd .\python\
+lt
+ip
+cd .\py\
+cd .\modules\
+lt
+v .\fil.py
+from git import Repo
+v j.py
+lt
+v .\fil.py
+u
+lt
+v .\startup.py
+rg exit
+rg import
+newt
+bash
+cd \all
+lt
+cd \all
+v g.py
+.\g.py
+.\g.py
+gs
+.\g.py
+lt
+mv .\g.py C:\projects\python\
+exit
+rh
+ph
+& C:/Python39/python.exe
+lt
+.\gg.py
+cd \all
+lt
+cd 'C:\projects\python\'
+lt
+v .\gg.py
+cd \all
+lt
+v g.py
+lg
+lt
+.\g.py
+v .\string.txt
+.\g.py
+lt
+v .\g.py
+ip
+mps
+d3
+cd bs
+newt3
+u
+cd .\python\
+lt
+code .
+lt
+cd bs
+lt
+.\bsp.py
+v .\yyyyy
+cd C:\twit\
+lt
+b 1
+v .\yyyyy
+gci C:\twit\
+.\bsp.py
+v .\yyyyy
+wget -O C:\twit\ww5-5.mp3 "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/megaphone/ww_772/TWI1804774417.mp3"
+cd \all
+cd .\bash\
+lt
+code .
+lt
+ri *.mp3
+lt
+ri *.mp4
+duh
+gs
+sup
+graph
+cd 
+cd .\.config\nvim\
+lt
+v .\init.vim
+cd C:\you\python\
+lt
+ctime
+mps
+cd .\python\
+ip
+ph
+lt
+ctime
+lt
+vlc '.\How to sort anything by Reuven Lerner at PyCon Sri Lanka 2022.mp4'
+cd .\python\
+rg import.*as
+cd C:\all\bash\
+lt
+mv .\a.py C:\projects\python\
+mps
+cd .\python\
+lt
+b 1
+lt
+b 1
+lt
+mv .\a.py C:\projects\python\sort.py
+b 2
+cd .\python\
+lt
+gw
+u
+cd .\python\
+rg tabulate
+cd C:\you\python\
+lt
+vlc '.\Introducing Asynchronous SQLAlchemy by Sebastiaan Zeeff at PyCon Sri Lanka 2022.mp4.part'
+mps
+cd .\ditto\
+cd \all
+rg xv
+gci *.txt
+v .\finance.txt
+mps
+cd .\ditto\
+lt
+.\ditto.py
+v .\ditto
+lt
+cd \all
+lt
+fd -txt
+fd -etxt
+cat .\clip.txt
+rg xv
+cd C:\you\python\
+lt
+newt
+mps
+cd .\git\
+lt
+git clone https://github.com/codebasics/py.git
+u
+cd .\bs\
+v zod.py
+.\zod.py
+lt
+v .\zod.py
+.\zod.py
+u
+cd .\ditto\
+lt
+v .\x.txt
+u
+cd .\python\
+gs
+git add .
+gic
+duh
+newt
+cd C:\you\
+fd git
+cd .\travs\
+vlc '.\Git clean up strategies.mp4'
+gb
+gb
+git checkout -b clean
+gb
+graph
+cd C:\you\
+fd sort
+cd .\python\
+lt
+vlc '.\How to sort anything by Reuven Lerner at PyCon Sri Lanka 2022.mp4'
+ni sort.py
+lt
+cat .\sort.py
+ri .\sort.py
+code .
+cdc
+cd C:\projects\python
+ip
+lt
+ni sort.py
+gb
+git switch master
+lt
+rg glob
+git switch -
+lt
+sort
+.\sort.py
+lt
+.\sort.py
+gcm sort
+graph
+gs
+gic
+graph
+sup
+function:gic
+$Function:gic
+function gic{`
+  $function:gic`
+  param(`
+    [Parameter()]`
+    [String]$m = "ok"`
+)`
+git commit -am $m`
+        echo "------------------------"`
+}
+graph
+gic "first try"
+gic
+sup
+lt
+function gic{`
+  $function:gic`
+  param(`
+    [Parameter()]`
+    [String]$m = "ok"`
+)`
+git commit -am $m`
+        echo "------------------------"`
+}
+lt
+lt .
+lt all
+lt
+lt g
+sup
+function gic{`
+  param(`
+    [Parameter()]`
+    [String]$m = "ok"`
+)`
+git commit -am $m`
+        echo "------------------------"`
+}
+gic "first new"
+graph
+lt
+.\sort.py
+$function:gic
+gic "new way"
+graph
+git switch master
+.\sort.py
+graph
+git switch clean
+graph
+lt
+graph
+.\sort.py
+graph
+git switch master
+git stash
+graph
+git switch master
+cat .\sort.py
+cp .\sort.py msort.py
+git stash pop
+graph
+gs
+git add .
+lt
+gic "added msort"
+git stash pop
+gs
+lt
+gs
+git diff
+graph
+$function:graph
+gs
+gic "add mods"
+graph
+git switch clean
+lt
+graph
+git switch master
+lt
+git diff
+gb
+lt
+.\sort.py
+gs
+git diff
+lt
+.\sort.py
+gic "merged"
+graph
+lt
+gb
+git switch clean
+lt
+.\sort.py
+$function:graph
+dir env
+alias echo
+echo $function:graph
+sup
+function gic{`
+  echo $function:gic`
+  param(`
+    [Parameter()]`
+    [String]$m = "ok"`
+)`
+git commit -am $m`
+        echo "------------------------"`
+}
+sup
+v C:\Users\jayst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+C:\Users\jayst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+gic
+sup
+C:\Users\jayst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+gic
+sup
+function gic{`
+  param(`
+    [Parameter()]`
+    [String]$m = "ok"`
+)`
+    echo $function:gic`
+`
+git commit -am $m`
+        echo "------------------------"`
+}
+gic
+C:\Users\jayst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+graph
+git rebase -i f7bd801
+graph
+lt
+gb
+git switch master
+lt
+.\sort.py
+git switch -
+graph
+git switch master
+graph
+rgw reba
+git rebase -i d53b88d
+his
+git rebase -i f7bd801
+graph
+git switch clean
+graph
+lt
+.\sort.py
+lt
+graph
+git rebase master clean
+git rebase --abort
+lt
+.\sort.py
+graph
+sup
+hl
+cd all
+cd \all
+graph
+git log
+git log > log
+v log
+graph
+git log --oneline
+git checkout e865847
+git stash list
+git stash list
+git stash
+lt
+gs
+git diff
+sup
+function gs {`
+    echo $function:gs`
+git status`
+}
+gs
+sup
+function gs {`
+    echo $function:gs`
+    echo '----'`
+git status`
+}
+gs
+graph
+gs
+gic
+function gs {`
+    echo $function:gs`
+    echo '----'`
+git status`
+}
+gb
+gsw master
+lt
+v .\sort.py
+lt
+sort
+lt
+lt
+mps
+cd .\python\
+lt
+.\sort.py
+rg tabul
+rg tabul
+rg mtime
+lt
+mps
+cd .\python\
+rg mtime
+rgi atime
+rg atime
+lt
+.\sort.py
+lt
+fm .
+cd .\ps\
+lt
+v .\ctime.py
+lt
+.\access.py
+cp .\access.py \all\ps
+cd \all
+access.py
+cd \you\cb
+access.py
+vlc '.\What Are You Doing The Rest Of Your Life.mp3'
+access.py
+access.py | more
+u
+fd sort
+cd .\python\
+vlc '.\How to sort anything by Reuven Lerner at PyCon Sri Lanka 2022.mp4'
+cd C:\you\cb
+lt
+access.py
+cp C:\projects\python\access.py \all\ps
+access.py
+access.py | more
+tl
+access.py | more
+cd C:\you\
+cd cb
+d3
+u
+fd miles
+cd kb
+cd .\miles\
+lt
+vlc .
+mps
+cd .\python\
+rg chunk
+rgi chunk
+rgi a
+cd .\ps\
+rgi chunk
+u
+%paste
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '57998' '--' 'c:\projects\python\ps\exer.py' 
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58319' '--' 'c:\projects\python\ps\exer.py' 
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58332' '--' 'c:\projects\python\ps\exer.py' 
+cd C:\you\
+fd giant
+md scores
+fd mp4
+$function:lw
+fd mp4 | Format-Wide -Column 2
+cd C:\all\ps
+lt
+fd
+$function:lw
+fd | Format-Wide -Column 2
+gci | select name | Format-Wide -Column 3
+lw
+b 2
+cd C:\you\
+lw
+cd .\cb\
+lw
+u
+cd .\kb\
+lw
+vlc '.\Etta James - What I''d Say (Live).mp3'
+gci *etta* | Format-Wide -Column 3
+vlc '.\Etta James - I''d Rather Go Blind (Live at Montreux 1975).mp3'
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58505' '--' 'c:\projects\python\ps\exer.py' 
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58523' '--' 'c:\projects\python\ps\exer.py' 
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58549' '--' 'c:\projects\python\ps\exer.py' 
+lt
+cd ps
+lt
+.\exer.py
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58560' '--' 'c:\projects\python\ps\exer.py' 
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58585' '--' 'c:\projects\python\ps\exer.py' 
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58643' '--' 'c:\projects\python\ps\exer.py' 
+mps
+cd .\python\
+cd ps
+lt
+.\exer.py
+pip list | v -
+pip install num2words --user
+.\exer.py
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '58779' '--' 'c:\projects\python\ps\exer.py' 
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '59034' '--' 'c:\projects\python\ps\exer.py' 
+u
+mkc midi
+v mid.py
+pip install pygame --user
+pip install mido --user
+pip install rtmidi --user
+bash
+his
+pip install pygame --user`
+pip install mido --user`
+pip install rtmidi --user`
+
+lt
+.\mid.py
+v .\mid.py
+.\mid.py
+v .\mid.py
+.\mid.py
+sup
+f1
+mps
+cd .\python\
+f1
+f2
+cd
+f1
+u
+d3
+cd .\mcoding\
+lt
+cime
+ctime
+cd
+cd .\Downloads\
+lt
+mv *.mid C:\music\midi\
+gci *.mid
+mv *.mid C:\music\midi\
+cd .\Downloads\
+sup
+gci | sort Length
+ri .\VSCode-win32-x64-1.66.2\, .\FigmaSetup.exe, .\wsl_update_x64.msi, .\iobituninstaller.exe
+gci | sort Length
+ri .\VSCode-win32-x64-1.66.2.zip
+rgw volu
+Get-Volume
+cd .\weekly-challenge\
+lt
+cd .\dist\
+lt
+lse
+Get-Volume
+cd
+fd pict
+cd .\OneDrive\
+lt
+cd .\Pictures\
+lt
+mv .\https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_f2f4ffe6-ed37-45f7-b570-bbe2fa185119_3750x2318.png nasdaq.png
+lt
+ex .\nasdaq.png
+ex .\hd-sun.jpg
+Get-Volume
+u
+code .
+exit
+phis
+sup
+ph
+ c:; cd 'c:\projects\python'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.4.1\pythonFiles\lib\python\debugpy\launcher' '61337' '--' 'c:\projects\python\ps\exer.py' 
+cd
+cd .\Downloads\
+lt
+gci *.zip
+ri *.zip
+gci *.zip
+lt
+ri .\hyperfine-musl_1.13.0_amd64.deb, .\rustup-init.exe, .\coreutils-5.3.0.exe, .\hyperfine-musl_1.13.0_amd64.deb
+lt
+ri *.jpg
+lt
+ri *. tar
+fm .
+lt
+python
+exit
+exit
+exit
+exit
+exit
+cd you
+cd C:\you\
+fd sist
+cd .\stones\
+vlc '.\Sister Morphine (2009 Mix).mp3'
+exit
+exit
+exit
+fd waitin
+u
+fd waiting
+vlc '.\Waiting for the Man - Reed and Bowie.mp3'
+sup
+gcm ipython
+u
+lt
+lt py
+gcm python
+ip
+mps
+gcm python
+u
+cd '.\Program Files\'
+lt py
+d3
+u
+cd '.\Program Files (x86)\'
+d3
+u
+d3
+lt py
+fd python
+cd '.\Program Files\'
+gci py*
+u
+cd '.\Program Files (x86)\'
+gci py*
+gci py* -Recurse
+newt3
+ahk
+cd
+cd .\AppData\
+lt
+cd .\Local\
+lt
+cd .\Programs\
+lt
+cd .\Python\
+lt
+cd .\Python310\
+lt
+cdc
+python --version
+lt
+.\python.exe -version
+.\python.exe --version
+fd -a
+gci | select FullName
+sub
+sup
+ip
+ipython
+python
+cd C:\temp\
+lt
+cd .\Python39\
+lt
+fd ipython
+fd ipython.exe
+cd .\Scripts\
+lt
+.\ipython.exe
+lt
+cd .\Scripts\
+lt
+lt
+.\ipython.exe
+u
+pip install ipython
+cd C:\you\
+cd kb
+cd .\miles\
+sup
+vz
+mps
+ip
+mps
+d3
+pthon
+python
+pip list
+vlc pip3
+gcm pip3
+python
+pip3 install clipboard
+python
+cd \temp
+lt
+cd .\Python39\
+lt
+sup
+trev
+rgw pip
+u
+his
+pip3 install tabulate
+pip3 list
+cd .\py\
+lt
+cd .\modules\
+lt
+newt
+mps
+cd .\python\
+lt
+code .
+ph
+duh > duh
+u
+lt
+d3
+u
+f3
+lt | less
+gci
+cd .\.vifm-Trash\
+lt
+ri *
+lt
+mps
+cd .\python\
+rg -i tabulate
+ctime
+ctime
+u
+lt
+cd .\alb\
+ctime
+ctime | more
+ctime | less
+ctime.py | less
+ctime.py | more
+ctime | v -
+ctime
+ctime | v -
+ctime.py
+ctime.py | more
+ctime
+ctime > n
+ctime 
+ctime > n
+v n
+gci | select Name
+gci | select Name | v -
+ex '.\Speak No Evil (Remastered 1998 _ Rudy Van Gelder Edition).mp3'
+ex .\Wave.mp3
+ctime > n
+lt
+gs
+git diff
+gs
+lt
+cd .\midi\
+lt
+u
+duh
+xxx .\.git\
+git init
+gs
+cp C:\all\.gitignore
+gs
+git add .
+duh
+sup
+gic "initial commit"
+graph
+git log
+ctime > n
+ctime 
+ctime > n
+ctime 
+ctime | more
+v duh
+cd .\Python39\
+lt
+duh > duh
+duh > ..duh
+duh > ..\duh
+u
+ & 'C:\Users\jayst\AppData\Local\Programs\Python\Python310\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2022.6.0\pythonFiles\lib\python\debugpy\launcher' '50307' '--' 'c:\projects\python\ps\ctime.py' 
+lt
+v duh
+cd C:\temp\
+lt
+cd .\Python39\
+lt
+cd .\Lib\
+lt
+duh ../../ddd
+duh > ../../ddd
+lt
+gcm more
+ctime 
+mps
+v uni.txt
+grep -axv '.*' .\uni.txt
+grep -axv '.*' uni.txt
+lt
+bash
+grep -axv '.*' test.txt
+v test.txt
+grep -axv '.*' test.txt
+cat .\test.txt
+cd C:\you\
+lt
+cd .\kb\
+cd .\miles\
+lt
+vz
+cd C:\music\
+lt
+vlc .\april.mp3
+rgw wget
+rgw wget | v -
+cd C:\twit\
+lt
+ri .\twit0872.mp3
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0873/twit0873.mp3"
+lt
+ex .\twit0873.mp3
+his
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0874/twit0874.mp3"
+ex .\twit0874.mp3
+vlc .\twit0874.mp3
+cd C:\you\
+fd next
+cd .\kb\miles\
+vz
+b 1
+cd .\nextjs\
+ctime
+mps
+cd .\python\
+lt
+newt
+f1
+fd -a -L --changed within 3d
+fd -a -L --changed-within 3d
+v .\.gitignore
+fd -a -L --changed-within 3d
+v .\.gitignore
+fd -a -L --changed-within 3d
+cp .\.gitignore \all\.gitignore
+fd -a -L --changed-within 3d
+fd -a -L --changed-within 4d
+fd -a -L --changed-within 5d
+graph
+fd -a -L --changed-within 5d | v -
+fd -a -L --changed-within 10d | v -
+cd C:\projects\python\bs\zod.py
+v C:\projects\python\bs\zod.py
+v C:\projects\python\change.py
+cdc
+exit
+cd C:\projects\python
+lt
+gw
+code .
+bash
+lt
+fd -a change
+cd C:\you\
+d3
+cd .\nextjs\
+lt
+cdc
+lt
+lt
+gs
+git diff
+lt
+.\change.py
+cd C:\you\
+cd .\nextjs\
+lt
+lt
+.\change.py
+gci next*
+gci next* | % {ri $_.name}
+lt
+rg -i touch
+rg -i sorted
+rg sorted
+d3
+cd ps
+rg sorted
+rgw pip3
+pip3 install touch
+rh
+ph
+rg glob
+rg randome
+rg random
+rgi sorted
+ph
+lt
+d3
+cd ps
+lt
+v .\xx.py
+u
+rg hamlet
+rgi hamlet
+cd ps
+rg hamlet
+u
+rgh
+rg -L hamlet
+$function:rgi
+rgi hamlet
+rg -L hamlet
+sup
+function rgi ($a) {`
+  rg -i -L $a`
+}
+rgi hamlet
+rgi sorted
+rgi sorted | v -
+sup
+rg -i -L touch
+cd C:\temp\
+lt
+ri .\a.ps1
+lt
+dir
+lt
+cd C:\you\nextjs\
+lt
+ex '.\1 - Introduction & Setup.mp4'
+rgi important
+newt
+mps
+v C:\Users\jayst\AppData\Roaming\Code\User\keybindings.json
+cd
+cd .\AppData\
+lt
+cd .\Roaming\
+lt
+cd code
+lt
+d3
+cd .\User\
+lt
+fd -a
+lt
+gci | select FullName
+v C:\Users\jayst\AppData\Roaming\Code\User\keybindings.json
+v .\settings.json
+lt
+cd .\History\
+lt
+duh
+d3
+cd 259
+cd .\259ce338\
+lt
+dir
+v .\entries.json
+u
+lt
+u
+d3
+lt
+f1
+lt
+v .\settings.json
+git init
+gs
+git add .
+gic
+lt
+cd .git
+duh
+lt
+u
+gs
+git diff
+gs
+git add .
+gic "first changes"
+graph
+lt
+git diff
+git diff > diff
+cdc
+cd C:\Users\jayst\AppData\Roaming\Code\User
+v .\settings.json
+lt
+git reset -hard
+git reset --hard
+v diff
+v .\settings.json
+exit
+gs
+git diff
+gs
+git add .
+gic "not sure"
+cdc
+v .\settings.json
+mps
+cd .\python\
+lt
+gs
+gic
+ni x2
+lt
+ri x2
+ni x2.py
+newt
+ip
+lt
+gci -File
+ph
+ctime
+cd C:\music\midi\
+lt
+lw
+.\april.mid
+cd
+cd .\AppData\
+cd .\Roaming\
+d3
+cd .\Synthesia\
+lt
+v .\settings.xml
+v .\songInfo.xml
+v .\scores.xml
+mv .\scores.xml o_scores.xml
+cdc
+cd C:\Users\jayst\AppData\Roaming\Synthesia
+b 3
+b 1
+.\april.mid
+cd \temp
+lt
+xxx .\Python39\
+cd \
+cd .\temp\
+lt
+ri .\Python39\ -Force -Recurse
+cd C:\you\
+duh
+cd .\data\
+lt
+u
+d3
+xxx .\data\
+rgw volume
+Get-Volume
+duh
+lt
+exit
+cd .\nextjs\
+lt
+u
+cd .\travs\
+lt
+gci | sort Length
+u
+sup
+hl
+get-volume
+d3
+cd .\evans\
+lt
+vnlc '.\Norah Jones - Don''t Know Why (Official Music Video).mp3'
+vlc '.\Norah Jones - Don''t Know Why (Official Music Video).mp3'
+lt
+vlc .
+mps
+mkc ninr
+npx create-next-app ninjalist
+npm install -g npm@8.10.0
+rgw volum
+get-volume
+cd C:\you\
+cd .\category\
+lt
+get-volume
+Repair-Volume -DriveLetter d
+lt
+md d:category
+mv *.* d:\category\
+cd C:\you\python\
+lt
+mps
+lt
+cd .\ninr\
+lt
+cd .\ninjalist\
+lt
+u
+lt
+xxx .\ninNext\
+xxx .\ninr\
+gci -File
+lt
+d3
+his
+get-volume
+lt
+npm install -g npm@8.10.0
+npx create-next-app ninjalist
+wget "https://player.simplecast.com/1eff397d-9a93-43ca-9613-47d6f238fb3d"
+lt
+v .\1eff397d-9a93-43ca-9613-47d6f238fb3d
+curl "https://thenewstack.simplecast.com/episodes/is-java-ready-for-cloud-native-computing" | v -
+get-volume
+wget "https://cdn.simplecast.com/audio/5672b58f-7201-4e0e-b0af-da702259d97f/episodes/1eff397d-9a93-43ca-9613-47d6f238fb3d/audio/5bad9dcb-a4e5-4075-8087-6269bf35d250/default_tc.mp3`
+"
+wget "https://cdn.simplecast.com/audio/5672b58f-7201-4e0e-b0af-da702259d97f/episodes/1eff397d-9a93-43ca-9613-47d6f238fb3d/audio/5bad9dcb-a4e5-4075-8087-6269bf35d250/default_tc.mp3"
+lt
+ex .\default_tc.mp3
+mps
+cd .\bs\
+v .\bsp.py
+bsp
+.\bsp.py
+rgw pip3
+pip3 install requests
+.\bsp.py
+pip3 install beautifulsoup4
+.\bsp.py
+lt
+v .\yyyyy
+v .\links
+his
+rg -i simple
+rg -i simple | v -
+v .\bsp.py
+.\bsp.py
+rg -i mp3
+v .\yyyyy
+v .\links
+v .\bsp.py
+.\bsp.py
+v .\yyyyy
+v .\links
+rgi mp3
+wget "https://player.simplecast.com/dd66e9f2-0631-4117-9a25-bf5a0a956100?dark=false"
+rgw wget
+wget "https://cdn.simplecast.com/audio/5672b58f-7201-4e0e-b0af-da702259d97f/episodes/dd66e9f2-0631-4117-9a25-bf5a0a956100/audio/16286674-e122-4f14-9d0e-71b40870bc47/default_tc.mp3?aid=embed"
+lt
+cd .\ninjalist\
+lt
+gw
+lt
+code .
+tre
+duh
+mps
+lt
+cd .\ninjalist\
+lt
+cat .\package.json
+d3
+npm run dev
+lt
+cd .\pages\
+lt
+mv .\index.js index.jsx
+graph
+rgw git.*hard
+gs
+git reset --hard
+gs
+lt
+ri .\index.jsx
+mv .\index.js index.jsx
+lt
+gs
+mkc ninjas
+ni test.jsx
+u
+mkc comps
+ni Navbar.jsx
+lt
+md Footer.jsx
+u
+b 1
+lt
+xxx .\Footer.jsx\
+ni Footer.js
+mv .\Footer.js Footer.jsx
+u
+cd .\pages\
+lt
+cd .\ninjas\
+lt
+mv .\test.jsx index.jsx
+u
+lt
+cd .\comps\
+ni Layout.js
+lt
+mv .\Layout.js Layout.jsx
+u
+lt
+cd .\pages\
+l
+lt
+mv .\_app.js _app.jsx
+lt
+cp .\_app.jsx _app.js
+lt
+gs
+graph
+git checkout b909076
+lt
+git switch -a
+git switch -
+lt
+git diff
+lt
+ri .\_app.jsx
+lt
+mv .\_app.js app.jsx
+lt
+mv .\app.jsx _app.jsx
+u
+cd page
+cd .\pages\
+lt
+rgi about
+rgi nav
+lt
+sed .\index.jsx
+sed index.jsx
+rgi nav
+v .\index.jsx
+v .\ninjas\index.jsx
+rgi footer
+v .\index.jsx
+rgi footer
+v .\index.jsx
+rgi footer
+v .\ninjas\index.jsx
+lt
+gs
+u
+gs
+git add .
+gic "middle effort"
+graph
+lt
+rgh
+cd C:\temp\
+v a
+lt
+sed -i 's/windows/linux/g' a
+cat a
+v a
+sed -i 's/linux/windowsg' a
+sed -i 's/linux/windows' a
+cat a
+sed -i 's/linux/windows' a
+sed -i 's/linux/windows/g' a
+cat a
+rgh
+rg 'foo' --files-with-matches | xargs sed -i 's/foo/bar/g'
+xargs
+gcm xargs
+cd C:\cygwin64\
+cd .\bin\
+gci x*
+cp .\xargs.exe C:\all\bin\
+gcm xargs
+cd C:\temp\
+lt
+rgw xar
+rg 'foo' --files-with-matches | xargs sed -i 's/foo/bar/g'
+lt
+v a
+rg 'foo' --files-with-matches | xargs sed -i 's/foo/bar/g'
+v a
+rg 'foo' --files-with-matches | xargs sed -i 's/foo/bar/g'
+head a
+rg 'foo' --files-with-matches | xargs sed -i 's/i/bar/g'
+head a
+rg 'i' --files-with-matches | xargs sed -i 's/i/bar/g'
+head a
+sed -i 's/i/bar/g' a
+head a
+rg 'bar'
+rg 'i' --files-with-matches 
+xargs --help
+xargs -h
+man xargs
+his
+cd \all
+lt
+gci *his*
+rg unspla
+wget "https://source.unsplash.com/random/300×300"
+lt
+gci -File | sort date
+his

@@ -11,3 +11,4 @@ out = [b[i : i + 1] for i in range(0, len(b), 4)]
 # print(out)
 my.col_print(b)
 print("done")
+hamlet
