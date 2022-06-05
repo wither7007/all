@@ -1,7 +1,14 @@
+Get-ChildItem  | ? { $_.Name -match '.*node' }
 $services | ft -auto
 $services | fl
 New-Item -ItemType SymbolicLink -Path "c:\news" -Target "C:\projects\takeout"
 String.fromCharCode(97+Math.floor(Math.random() * 26))
+
+code --list-extensions | % { "code --install-extension $_" }
+code --install-extension Angular.ng-template
+--uninstall-extension <ext>
+C:\Users\jayst\AppData\Roaming\Code\User
+Get-Content extensions.txt | ForEach-Object {code --install-extension $_}
 
 import clipboard
 clipboard.copy("abc")  # now the clipboard content will be string "abc"
