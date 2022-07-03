@@ -1,0 +1,20 @@
+k=`
+Αα	Alpha	Νν	Nu
+Ββ	Beta	Ξξ	Xi
+Γγ	Gamma	Οο	Omicron
+Δδ	Delta	Ππ	Pi
+Εε	Epsilon	Ρρ	Rho
+Ζζ	Zeta	Σσς	Sigma
+Ηη	Eta	Ττ	Tau
+Θθ	Theta	Υυ	Upsilon
+Ιι	Iota	Φφ	Phi
+Κκ	Kappa	Χχ	Chi
+Λλ	Lambda	Ψψ	Psi
+Μμ	Mu	Ωω	Omega
+`
+l=k.trim().split('\n').map(line=>line.split('\t'))
+m=l.map((n)=>[[n[0],n[1]],[n[2],n[3]]])
+let flatArray = [].concat(...l);
+a=document.createElement('p')
+a.innerHTML=flatArray.map((m)=>`${m} <br>`))
+document.body.append(a)

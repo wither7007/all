@@ -7211,3 +7211,3935 @@ lt
 ri .\read.js
 hl
 his
+esbuild read.ts --platform=node --bundle --outfile="read.js"
+lt
+u
+ld
+cd .\src\
+lt
+ld
+u
+tre
+esbuild read.ts --platform=node --bundle --outfile="read.js"
+fd
+gci .\public\img\
+gci .\public\img\ | select Name
+u
+lt
+cd .\memory\
+lt
+npm run dev
+newt
+cd C:\you\
+lt
+cd .\webdev\
+lt
+ahk
+mps
+ahk
+ms
+mps
+newt
+cd .\ditto\
+lt
+v .\x2
+v .\ditto
+cd
+cd \all
+rd xvid
+rg xvid
+lt
+ls *.txt
+cat .\3.txt
+cat .\3.txt | v -
+ms
+newt
+git diff
+gs
+git add .
+fd jtest
+lt
+xxx .\jtest\
+gs
+git add .
+gic
+git push
+newt
+cd C:\music\
+lt
+cd .\autumn\
+vz
+mps
+cd .\node\
+lt
+gs
+gic
+gs
+git add .
+gic
+lt
+code .
+ld
+cd mm
+lt
+cd .\memory\
+lt
+cat .\package-lock.json
+cat .\package.json
+npm run dev
+gs
+cd C:\you\
+d3
+cd .\memgame\
+lt
+ip
+lt
+ahk
+vlc .
+mps
+mkc pup
+npm i puppeteer-core
+v pupp.js
+node .\pupp.js
+v pupp.js
+node .\pupp.js
+npm i puppeteer
+lt
+v .\pupp.js
+node .\pupp.js
+lt
+v .\pupp.js
+node .\pupp.js
+lt
+.\example.png
+lt
+code .
+u
+cd .\node\
+rg import
+lt
+node .\pupp.js
+lt
+node .\pupp.js
+gcm chrome
+node .\pupp.js
+C:\Program Files\Google\Chrome\Application\chrome.exe
+"C:\Program Files\Google\Chrome\Application\chrome.exe"
+pss
+start "C:\Program Files\Google\Chrome\Application\chrome.exe"
+lt
+node .\pupp.js
+v .\pupp.js
+node .\pupp.js
+wget https://raw.githubusercontent.com/puppeteer/puppeteer/main/examples/search.js
+lt
+v .\search.js
+node .\search.js
+md C:\you\pup
+node
+bash
+cd C:\music\
+fd -emp4
+fd -emp3
+cd C:\you\
+fd -emp4
+cd .\play\
+lt
+u
+cd .\gut\
+lt
+fd -i kno
+vlc '.\How to play Unknown Legend by Neil Young on the guitar.mp4'
+ms
+MC
+lt
+.\girlNorth2.mid
+mps
+mc
+lt
+cd C:\music\midi\
+fd -i .\LetItBe.mid
+sup
+fdi let
+cdc
+cp .\LetItBe.mid C:\Users\jayst\OneDrive\Documents\MuseScore3\Scores
+ms
+ms
+lt
+vlc .\LetItBe1.mp3
+mps
+newt3
+ld
+f1
+cd .\node\mm\
+lt
+git diff
+git diff | v -
+gs
+git add .
+gic
+code .
+cd C:\you\
+lt
+cd .\memgame\
+lt
+vlc .
+ld
+lt
+ms
+cd C:\music\
+lt
+cd .\mozart20\
+vz
+ahk
+newt
+mc
+lt
+.\LetItBe.mid
+lt
+.\LetItBe.mid
+mps
+cd .\memgame\
+lt
+f1
+u
+lt
+cd .\memgame\
+lt
+u
+cd .\node\mm\
+lt
+cd .\memory\
+lt
+cat .\package.json
+npm run dev
+mps
+cd .\memgame\
+lt
+u
+cd .\node\mm\
+lt
+cd .\memory\
+rg -i prevc
+mc
+lt
+.\LetItBe1.mid
+cd C:\you\
+cd .\gut\
+lt
+vlc '.\COOLHAND LUKE (Paul Newman) - PLASTIC JESUS fingerstyle GUITAR LESSON.mp4'
+vlc '.\Knockin'' On Heaven''s Door By Bob Dylan - Easy Fingerstyle Guitar Lesson.mp4'
+vlc '.\Amazing Grace (My Chains Are Gone) Tutorial VERY EASY - Zeno.mp4'
+vlc '.\Why Is Strumming So Hard 11 Tips for Struggling Players.mp4'
+bash
+cd pup
+gw
+code .
+cd C:\you\
+ld
+cd kb
+ld
+cd .\miles\
+vz
+mps
+cd .\node\
+u
+cd .\pup\
+lt
+node .\pupl.js
+node .\pupp.js
+git init
+gs
+cp C:\all\.gitignore
+gs
+git add .
+gic
+hl 
+node .\pupp.js
+cat .\pupp.js
+node .\pupp.js
+lt
+.\hover.png
+lt
+mp
+mps
+mc
+lt
+ms
+.\LetItBe1.mid
+ms .\apr1.mid
+curl https://www.ultimate-guitar.com/pro/?app_utm_campaign=RegistrationSplash&app_utm_content=&app_utm_medium=Modal&app_utm_source=UltimateGuitar
+curl "https://www.ultimate-guitar.com/pro/?app_utm_campaign=RegistrationSplash&app_utm_content=&app_utm_medium=Modal&app_utm_source=UltimateGuitar"
+curl "https://www.ultimate-guitar.com/pro/?app_utm_campaign=RegistrationSplash&app_utm_content=&app_utm_medium=Modal&app_utm_source=UltimateGuitar" | v -
+mps
+rgw python.*v
+python --version
+cd .\pup\
+lt
+git diff
+lt
+node .\pupp.js
+lt
+.\hover.png
+node .\pupp.js
+lt
+.\hover.png
+node .\pupp.js
+start "C:/Program Files/Google/Chrome/Application/chrome.exe"
+git diff
+gs
+gic
+node .\pupp.js
+lt
+node .\pupp.js
+lt
+.\mission.png
+npm install puppeteer-extra
+lt
+node .\pupex.js
+hl
+node .\pupex.js
+npm i puppeteer-extra-plugin-stealth
+node .\pupex.js
+npm i puppeteer-extra-plugin-adblocker
+u
+cd kb
+cd .\miles\
+vz
+mps
+cd .\node\
+lt
+gw
+code .
+cd C:\you\
+cd .\kb\miles\
+vz
+mps
+cd pup
+rgw npm.*list
+npm list --depth=o
+npm list --depth=0
+npm outdated
+npm update
+mps
+cd node
+gs
+hl
+npm outdated
+npm update
+cd all
+cd \all
+lt
+git log 
+git log | v -
+rg -i xv
+rg -i xvi
+git log --oneline
+git log
+git checkout f7e9e07851
+rgw stash
+git stash
+git checkout f7e9e07851
+rg -i xvi
+git switch -
+git log | v -
+git checkout 2e7443528a67
+rg -i xvi
+git log | v -
+git checkout -
+git log | v -
+git checkout 4e50059ecc
+git log | v -
+rg -i xvi
+git checkout -
+lt
+ms
+bash
+cd C:\you\
+cd gut
+lt nor
+gci -match .*nor
+gci | rg North
+gci | rg North | select name
+gci | rg North 
+ex '.\Girl from the North Country.mp3'
+touch '.\Girl from the North Country.mp3'
+touch '.\Bob Dylan with Johnny Cash - Girl from the North Country (Official Audio).mp3'
+u
+mps
+lt .\pup\
+lt pu
+his
+rc .\pup\ .\node\pup /S /Move
+lt p
+lt pu
+lt pup
+d3
+cd pup
+cd .\node\
+d3
+cd pup
+lt
+gw
+u
+code .
+cd pup
+lt
+gs
+lt png
+ri *.png
+lt
+node .\pupp.js
+lt
+gci *g
+gci -Force
+u
+gci -Force
+gci -Force | rg g
+b 1
+lt
+cd .\.git\
+lt
+u
+xxx .\.git\
+u
+git log
+gs
+git add .
+gci -Force | rg g
+cd .\pup\
+lt
+u
+gci "added pup"
+gic "added pup"
+lt
+lt
+rg
+lt a
+exit
+lt
+gci | rg a
+gcm rg
+lt
+lt lnl
+newt3
+mps
+cd .\node\pup\
+lt
+node .\pupex.js
+lt
+.\adblocker.png
+hl
+node .\pupex.js
+lt
+.\adblocker.png
+node .\pupex.js
+lt
+.\adblocker.png
+mps
+cd .\ditto\
+lt
+v x2
+mc
+ms
+mps
+cd .\node\pup\
+lt
+node .\pupp.js
+gw
+exit
+lt
+.\ditto.py
+v .\ditto
+u
+cd node
+rgi exit
+v .\exit.ts
+cd .\pup\
+lt
+node .\pup.html
+node .\pupp.js
+cat .\pupp.js
+node .\pupp.js
+gs
+git log --oneline | tail -n 4
+git log | v -
+rgw stash
+git stash list
+git stash
+gs
+git log | v -
+git checkout 07615e96d4f
+lt
+v .\pupp.js
+node .\pupp.js
+git switch -
+node .\pupp.js
+gs
+rgw stash
+git stash pop
+node .\pupp.js
+git stash
+node .\pupp.js
+gs
+git stash pop
+git reset -hard
+git reset --hard
+node .\pupp.js
+gs
+git add .
+gic 
+node .\pupp.js
+git reset --hard
+node .\pupp.js
+l    // await page.goto('https://www.kottke.org', { timeout: 0 });
+    // // await page.hover('.playableTile__artwork')
+    // await page.screenshot({ path: 'hover.png' })
+    // await browser.close()t
+lt
+ri *.png
+lt
+rgi google
+gci C:\you\ -Directory
+lt
+node .\ypup.js
+lt
+node .\ypup.js
+lt
+node .\ypup.js
+lt
+.\wiki.png
+lt
+node .\ypup.js
+lt
+v .\item.js
+v .\items.txt
+node .\ypup.js
+v .\items.txt
+node .\ypup.js
+lt
+.\wiki.png
+mps
+cd C:\you\
+cd .\webdev\
+lt
+vlc '.\Learn JavaScript Array Reduce In 10 Minutes.mp4'
+ms
+mc
+lt
+mps
+cd .\node\
+cd .\pup\
+lt
+node .\ypup.js
+lt
+cat .\stuf.txt
+node .\ypup.js
+lt
+cat .\stuf.txt
+node .\ypup.js
+lt
+cat .\stuf.txt
+node .\ypup.js
+lt
+v .\stuf.txt
+node .\ypup.js
+lt
+cat .\stuf.txt
+node .\ypup.js
+lt
+cat .\stuf.txt
+node .\ypup.js
+lt
+cat .\stuf.txt
+v .\stuf.txt
+u
+gs
+git add .
+gic
+cd C:\you\
+lt
+cd .\webdev\
+lt
+touch '.\Web Scraping with Puppeteer & Node.js - Chrome Automation.mp4'
+lt
+mps
+mkc asych
+lt
+gw
+ni call.js
+code .
+lt
+node .\call.js
+ni a.js
+lt
+node .\call.js
+npm init
+npm init -y
+v .\package.json
+node .\call.js
+lt
+node .\call.js
+cp a.js ..
+node .\call.js
+gci .. | rg a
+gci .. | rg a.js
+u
+mv .\asych\ asynch
+lt
+cd .\asynch\
+lt
+u
+rgw symbol
+cd .\asynch\
+lt
+newet
+newt
+u
+cd pu
+cd pup
+cd .\node\pup\
+lt
+fm .
+fd -a .\timer.js
+fd -a time
+ni -ItemType SymbolicLink -Path C:\projects\node\pup\timer.js -Target t.js
+ni -ItemType SymbolicLink -Path t.js -Target C:\projects\node\pup\timer.jss
+lt
+v .\t.js
+ri .\t.js
+ni -ItemType SymbolicLink -Path t.js -Target C:\projects\node\pup\timer.js
+lt
+v .\t.js
+lt
+code .
+lt
+node .\call.js
+lt
+node .\call.js
+lt
+cp .\timer.js timer2.js
+lt
+node .\call.js
+lt
+diff .\t.js .\t2.js
+cat .\t.js
+cat .\t2.js
+lt
+cat .\t.js
+node .\call.js
+lt
+cp .\t.js x.js
+lt
+node .\call.js
+mklink
+gcm mklink
+his
+lt
+newt
+ni -ItemType Hardlink -Path ti.js -Target C:\projects\node\pup\timer.js
+lt
+v .\timer.js
+ni -ItemType Hardlink -Path ti.js -Target C:\projects\node\pup\timerxxx.js
+ni -ItemType Hardlink -Path tiii.js -Target C:\projects\node\pup\timer.js
+v .\tiii.js
+lt
+v .\timer.js
+ni new.js
+v .\new.js
+node .\new.js
+lt
+v .\package.json
+node .\new.js
+uu
+lt
+cd .\asynch\
+lt
+hl
+his
+ni -ItemType Hardlink -Path new.js -Target C:\projects\node\pup\new.js
+lt
+node .\cew.js
+newt
+u
+cd .\node\pup\
+lt
+v .\new.js
+node .\cew.js
+lt
+v .\new.js
+ri *.png
+lt
+lt
+ri .\t.js
+lt
+gci -FollowSymlink
+gci .\x.js
+lt
+v .\x.js
+ri *
+lt
+v timer2
+v .\timer2.js
+rgw hardlin
+ni -ItemType -Path time.js -Target ..\node\pup\timer2.js
+ni -ItemType HardLink -Path time.js -Target ..\node\pup\timer2.js
+ni -ItemType HardLink -Path time.js -Target C:\projects\node\pup\timer2.js
+lt
+node .\imp.js
+npm init -y
+v .\package.json
+node .\imp.js
+lt
+v .\time.js
+node .\imp.js
+lt
+v .\timer2.js
+node .\imp.js
+rgi exit
+u
+rgi exit
+rgi exit | more
+node .\imp.js
+mc
+lt
+lt let
+vlc .\LetItBe2.mp3
+ms
+lt
+cd .\pup\
+lt
+node .\ypup.js
+lt
+node .\ypup.js
+exit
+node .\ypup.js
+rgi import
+u
+rg import
+rg import | more
+node .\ypup.js
+cd .\pup\
+node .\ypup.js
+lt
+v .\stuf.txt
+node .\ypup.js
+lt
+cat .\stuf.txt
+node .\ypup.js
+lt
+v .\stuf.txt
+node .\ypup.js
+lt
+v .\stuf.txt
+node .\ypup.js
+lt
+v .\stuf.txt
+node .\ypup.js
+lt
+node .\ypup.js
+lt
+node .\ypup.js
+lt
+v .\stuf.txt
+node .\ypup.js
+lt
+v .\stuf.txt
+gs
+git add .
+gic
+rgw esbuild
+lt
+esbuild ypup.js --platform=node --bundle --outfile="modn.js"
+lt
+node .\modn.js
+mv .\modn.js modn.cjs
+node .\modn.cjs
+esbuild ypup.js --platform=node --bundle --outfile="modn.cjs"
+node .\modn.cjs
+esbuild ypup.js --platform=node --bundle --outfile="modn.cjs"
+node .\modn.cjs
+v .\modn.cjs
+lt
+v .\modn.cjs
+his
+esbuild ypup.js --platform=node --bundle --outfile="modn.cjs"
+node .\modn.cjs
+v .\modn.cjs
+mc
+lt
+ms
+lt
+.\apr1g.mid
+cd C:\you\
+cd gut
+lt
+fd king
+vlc '.\Knockin'' On Heaven''s Door By Bob Dylan - Easy Fingerstyle Guitar Lesson.mp4'
+gci \all\ps | rg cut
+cut
+cd \all\ps
+lt
+v .\cut.py
+lt py
+cat .\xx.py
+fm .
+mov.py
+pip3 install moviepy
+rgw volue
+rgw volume
+cd C:\music\
+d3
+cd .\autumn\
+lt
+vz
+gs
+mc
+lt mid
+code .
+ni mid.py
+ri exp*.*
+lt
+ri un*
+ri ver*
+lt
+ri new* -WhatIf
+ri new* 
+lt
+cat .\dup.py
+lt
+gci leg*
+lt
+.\dup.py
+mus .\april.mid
+b 1
+gcm mus
+cat c:\all\ps\mus.ps1
+ms .\april.mid
+lt
+lt let
+lt
+.\dup.py
+ms .\april.mid
+.\dup.py
+mus
+b 1
+foreach (3 in 1..1) {echo 'hi'}
+gcm b
+$function:b
+foreach ($i in 1..1) {echo 'hi'}
+foreach ($i in 1..3) {echo 'hi'}
+lt
+lt mid
+cd
+cd .\Downloads\
+cdc
+ms
+mc
+lt
+cd
+cd .\Downloads\
+lt
+mus .\knockin_on_heavens_door.mid
+b 1
+ms .\knockin_on_heavens_door.mid
+lt
+cp C:\music\midi\LetItBe.mid let.mid
+mc
+lt
+.\dup.py
+lt
+cp C:\music\midi\LetItBe.mid let.mid
+.\dup.py
+lt
+lt let
+.\dup.py
+newt
+ip
+ip
+ahk
+mc
+lt
+.\test.mid
+lt
+.\make.py
+lt
+.\test.mid
+lt
+.\make.py
+.\test.mid
+.\make.py
+.\test.mid
+lt
+.\make.py
+.\test.mid
+.\make.py
+mc
+newt
+ms
+lt
+lt girl
+v .\girlNorth.mscx
+v .\girlNorth.mscz
+newt
+cd
+cd .\Downloads\
+lt
+'.\Bob Dylan - (Stuck Inside of Mobile with the) Memphis Blues Again.pdf'
+& '.\Bob Dylan - (Stuck Inside of Mobile with the) Memphis Blues Again.pdf'
+.\Prelude_in_C_Major-Bach_guitarTAB.pdf
+pss
+Stop-Process -id 4800
+cd C:\you\
+lt
+v .\duh
+rgw rc\s
+rc .\mcoding\ d:\ /s /move
+ms
+lt
+pup
+sup
+mid .\21amazgrace.mid
+rgw volume
+get-volume
+cd C:\music\
+lt
+cd C:\you\
+cd .\hawk\
+lt
+vz
+ahk
+mc
+b 1
+mc
+lt
+ex .\LetItBe1.mscz
+ctime
+ex .\LetItBe1.mid
+ex .\LetItBe1tw.mscz
+ex .\girlNorth.mscx
+ms
+cdc
+cd C:\you\
+fd account
+cd .\travs\
+lt
+ex '.\DEALER - The Number 1 HACK for Debits & Credits.mp4'
+u
+md acctg
+newt3
+bash
+d3
+lt cc
+ms
+mc
+lt
+ms
+gw
+mps
+newt3
+cd .\asynch\
+lt
+ni as.js
+code .
+cd C:\music\autumn\
+vz
+b 1
+lt
+node .\as.js
+ni x.html
+his
+cd C:\twit\
+lt
+ri *
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0878/twit0878.mp3"
+lt
+ex .\twit0878.mp3
+his
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0879/twit0879.mp3"
+vlc .\twit0879.mp3
+ms
+cd C:\music\midi\
+fd -i gir
+mc
+cdc
+b 1
+cp .\girlNorth.mid C:\Users\jayst\OneDrive\Documents\MuseScore3\Scores
+bash
+lt
+cd .\memgame\
+lt
+u
+xxx .\memgame\
+cd .\node\
+lt
+cd C:\music\
+lt
+cd C:\you\
+lt
+cd .\lquart\
+lt
+vz
+mps
+cd node
+d3
+cd mm
+lt
+gw
+u
+cd .\asynch\
+lt
+code .
+cdc
+cd
+cd .\Downloads\
+lt
+mv .\old-callbacks.zip, .\promises-async-await.zip C:\projects\asynch
+b 2
+lt
+gcm z.py
+z .\old-callbacks.zip
+lt
+z .\promises-async-await.zip
+lt
+ri *.zip
+mps
+newt3
+ahk
+cd C:\you\
+cd kb
+cd .\miles\
+vz
+mps
+cd .\node\
+lt
+f1
+f2
+d3
+u
+cd .\asynch\
+f1
+ld
+lt
+u
+rgw rc\s
+rc .\asynch\ C:\projects\node /s /move
+lt as
+cd .\node\
+lt as
+d3
+f1
+hl
+f1
+md async
+f1
+ld
+rgw rc\s
+rc .\old-callbacks\ .\async\ /s /move
+ld
+rc .\promises-async-await\ .\async\ /s /move
+f1
+rc .\as.js, .\not.js .\async\
+rgw rc\s
+rc .\as.js .\async\
+f1
+rc .\as.js .\async\ /move
+f1
+mv .\as.js, .\not.js .\async\
+f1
+gci .\async\
+f3
+d3
+gci
+cd .\async\
+lt
+tre
+hl
+u
+fd old
+fd asyn
+fd await
+u
+fd old
+d3
+his
+fdi zip
+gci *.zip -Recurse
+exit
+lt
+f1
+cd .\node\
+lt
+cd .\async\
+lt
+tre
+cd .\dist\
+lt
+cat .\script.js
+lt
+u
+gs
+git add .
+gic 
+code .
+cd C:\all\ps\
+lt
+v .\removBlank.py
+cd .\node\
+cd .\async\
+lt
+cd .\dist\
+lt
+removBlank.py .\script.js
+uu
+cd mm
+u
+gs
+mc
+ms
+mps
+bash
+cd 
+cd .\Downloads\
+lt
+mv .\promises-async-await.zip C:\projects\node\async\
+mps
+cd .\node\
+lt
+cd .\async\
+lt
+z .\promises-async-await.zip
+lt
+ri .\promises-async-await.zip
+lt
+gs
+u
+gs
+git add .
+gs
+cd .\async\
+lt
+cd .\promises-async-await\
+lt
+cd .\src\
+lt
+v .\script.js
+hl
+gci \all\ps\*.py
+g3
+f3
+removBlank.py .\script.js
+cd
+cd .\Downloads\
+lt
+mv .\old-callbacks.zip C:\projects\node\async\
+mps
+cd .\node\async\
+lt
+z .\old-callbacks.zip
+ri .\old-callbacks.zip
+gs
+git add .
+lt
+cd .\old-callbacks\
+lt
+cd .\dist\
+lt
+removBlank.py .\script.js
+newt
+cd C:\you\
+lt
+cd .\webdev\
+lt
+touch '.\JavaScript Callbacks, Promises, and Async _ Await Explained.mp4'
+lt
+vlc '.\JavaScript Callbacks, Promises, and Async _ Await Explained.mp4'
+mps
+cd .\node\
+f1
+ip
+gcm ex
+ex
+newy
+newt
+mps
+cd node
+lt
+gs
+git add .
+gs
+gic
+u
+lt m
+cd .\node\
+lt
+mkc card
+ni index.html
+ni style.css
+mps
+cd C:\you\
+lt
+cd .\travs\
+f3
+vlc '.\CSS Grid Crash Course 2022.mp4'
+mps
+f1
+cd .\node\mm\
+lt
+cd .\memory\
+lt
+mps
+newt3
+lt
+gs
+u
+gs
+git add .
+gic
+cd card
+g:
+lt
+cd '.\My Drive\'
+lt
+rc .\Genghis\ C:\you\ /s
+rc .\Genghis\ C:\you\gen /s
+c:
+cd C:\you\
+d3
+lt g
+cd .\gen\
+lt
+tre
+cd .\Genghis1\
+lt
+ex '.\01 Track 1.mp3'
+vlc .
+mps
+newt3
+mkc form
+ni index.html
+code .
+ahk
+cd \all\ps
+lt
+v .\mus.ps1
+$data = @('Zero','One','Two','Three')
+data[1]
+$data
+$data[1]
+cd C:\you\
+cd kb
+cd .\miles\
+vz
+Get-Random -Minimum 1 -Maximum 11
+$a = Get-Random -Minimum 1 -Maximum 11
+$a
+cd C:\you\
+d3
+cd .\hawk\
+cdc
+$data = @('\you\lquart','\you\lquart','C:\you\hawk','C:\you\hawk')
+$a = Get-Random -Minimum 0 -Maximum $data.count
+$a
+$a = Get-Random -Minimum 0 -Maximum $data.count
+$a
+$data = @('\you\lquart','\you\lquart','C:\you\hawk','C:\you\hawk')
+$a = Get-Random -Minimum 0 -Maximum $data.count
+cd $data[$a]
+$data = @('\you\lquart','\you\lquart','C:\you\hawk','C:\you\hawk')
+$a = Get-Random -Minimum 0 -Maximum $data.count
+cd $data[$a]
+$data = @('\you\lquart','\you\lquart','C:\you\hawk','C:\you\hawk')
+$a = Get-Random -Minimum 0 -Maximum $data.count
+cd $data[$a]
+u
+cd \mus
+cd C:\music\
+d3
+cd .\autumn\
+cdc
+lt wyn
+u
+lt wyn
+cd .\wynt\
+lt
+cdc
+lt
+.\mus.ps1
+newt
+ld
+lt
+rgw rc.*s
+rc .\form\ .\node\form /s /move
+ld
+lt
+cd .\newdebug\
+u
+cd .\node\
+lt
+f1
+gs
+git add .
+gic
+gw
+ahk
+mps
+newt3
+pss
+cd
+cd .\Downloads\
+lt
+start .
+mps
+newt3
+ahk
+lt
+cd .\node\
+lt
+gw
+code .
+f1
+cd .\card\
+ni card.html
+ms
+cd C:\you\
+fdi new
+cd .\gut\
+vlc '.\COOLHAND LUKE (Paul Newman) - PLASTIC JESUS fingerstyle GUITAR LESSON.mp4'
+mc
+ms
+bash
+cd
+cd .\Downloads\
+lt
+md C:\music\pick
+mv .\00703407-singalongwitheasyfingerpickinggtraccompaniment.zip C:\music\pick\
+cd C:\music\pick\
+lt
+mv .\00703407-singalongwitheasyfingerpickinggtraccompaniment.zip pick.zip
+lt
+z .\pick.zip
+lt
+vlc .\14-How-Deep-Is-Your-Love.mp3
+vlc .\20-Redemption-Song.mp3
+vlc .\26-Wonderful-Tonight.mp3
+mps
+cd .\node\card\
+lt
+f1
+cat .\style.css
+cd .\node\form\
+f1
+v .\index.html
+lt
+v .\two.html
+lt
+fm .
+rgi center
+rgi grid
+u
+ld
+cd form
+lt
+rgi grid
+rgi center
+cat i3
+cat .\i3.html
+fm .
+cd C:\you\
+duh
+duh | more
+get-volume
+rgw rc\s
+rc .\acctg\ d:\acctg /s /move
+get-volume
+ahk
+newt3
+ms
+cd C:\you\
+cd .\gut\
+fdi kno
+vlc '.\Knockin'' On Heaven''s Door By Bob Dylan - Easy Fingerstyle Guitar Lesson.mp4'
+mc
+fdi kno
+ms .\knockin_on_heavens_door.mscz
+lt
+lt doo
+cd C:\you\gut\
+lt
+fdi un
+vlc '.\How to play Unknown Legend by Neil Young on the guitar.mp4'
+bash
+cd C:\music\midi\
+lt
+fdi gold
+ms .\AfterTheGoldrush.mid
+& '.\Journey_-_Don''t_Stop_Believin.mid'
+lt kn
+.\cocaine.mid
+ms
+mc
+lt
+.\knock.mid
+.\apr1.mid
+lt mid
+ms .\LetItBe.mid
+mps
+lt
+cd .\node\
+lt
+gw
+code .
+rgi grid
+cd .\form\
+lt
+u
+f2
+lt
+cat .\x.html
+cd .\mm\
+lt
+cd .\memory\
+lt
+cd .\src\
+lt
+u
+lt
+cat .\package.json
+npm run dev
+get-volume
+his
+mps
+mkc newv
+npm init @vitejs/app .
+npm init vite
+lt
+cd .\myv\
+lt
+npm install
+lt
+cat .\package.json
+npm run dev
+lt
+u
+lt
+rc .\myv\ ..\node\myv /s /move
+u
+cd .\node\
+gs
+lt
+cd .\myv\
+lt
+npm run dev
+mps
+cd .\node\myv\
+lt
+npm run dev
+u
+mkc gits
+git clone git@github.com:gitdagray/react_axios_requests.git
+lt
+cd .\react_axios_requests\
+lt
+tre
+tre | more
+u
+lt
+gs
+git add .
+gic
+cd .\myv\
+lt
+cat .\package.json
+npm i axios
+gs
+cat .\package.json
+lt
+cd .\src\
+lt
+mkc posts
+ni posts.jsx
+mps
+newt3
+cd node
+d3
+cd .\lot\
+lt
+v .\lotFun.js
+cat .\la.js
+cat .\mod.ts
+lt
+v .\mod.ts
+lt
+node .\posts.jsx
+lt
+npm init
+lt
+npm init -y
+lt
+v .\package.json
+node .\posts.jsx
+lt
+cp .\posts.jsx posts.js
+node .\posts.js
+cd \yo
+cd C:\you\
+ld
+mkc react
+lt
+lt
+gs
+git add .
+gic
+cat .\package.json
+npm run dev
+cd C:\you\
+fdi bach
+cd .\class\
+lt
+mkc clav
+cdc
+lt
+u
+lt
+vz
+b 2
+b 1
+mps
+cd .\node\
+lt
+cd .\myv\
+lt
+cd .\src\
+cd .\posts\
+lt
+node .\ax2.js
+mps
+cd .\bs\
+lt
+b .\bsp.py
+v .\bsp.py
+bsp
+.\bsp.py
+v .\bsGetImg
+v .\bsp.py
+newt3
+.\bsp.py
+v .\bsp.py
+.\bsp.py
+lt
+v .\yyyyy
+cd C:\twit\
+lt
+wget "https://pdst.fm/e/cdn.twit.tv/audio/twig/twig0668/twig0668.mp3"
+lt
+vlc .\twig0668.mp3
+node .\ax2.js
+cd C:\you\class\
+cdc
+v C:\all\ps\mus.ps1
+mps
+cd .\node\myv\
+lt
+cd src
+lt
+cd .\posts\
+lt
+rgw esbuild
+lt
+esbuild posts.jsx --bundle --outfile=AppBundle.js --loader:.js=jsx
+lt
+node .\AppBundle.js
+esbuild posts.jsx --bundle --outfile=AppBundle.js --loader:.js=jsx
+rgw esbuild.*node
+esbuild posts.jsx --platform=node  --bundle --outfile=AppBundle.js --loader:.js=jsx
+lt
+node .\AppBundle.js
+npm init -y
+v .\package.json
+esbuild posts.jsx --platform=node  --bundle --outfile=AppBundle.js --loader:.js=jsx
+node .\AppBundle.js
+esbuild posts.jsx --platform=node  --bundle --outfile=AppBundle.cjs --loader:.js=jsx
+lt
+node .\AppBundle.cjs
+his
+exit
+esbuild posts.jsx   --bundle --outfile=AppBundle.js --loader:.js=jsx
+cat .\posts.js
+lt
+rgi github
+node .\ax.js
+mv .\ax.js ..\..\coolax.js
+uu
+lt
+mv .\coolax.js ..
+b 2
+lt
+u
+lt
+cat .\package.json
+npm run dev
+u
+cd .\node\myv\
+lt
+cd .\src\
+rgi typi
+mc
+lt
+fdi bach
+fdi pre
+fdi c
+cd C:\music\midi\
+f3
+fdi ba
+fdi 846
+b 1
+fdi 846
+cd
+cd .\Downloads\
+lt
+mv .\bach_846.mid C:\music\midi\
+cd C:\music\midi\
+lt
+ms .\bach_846.mid
+cd
+cd .\Downloads\
+lt
+ms .\bach-prelude-and-fugue.mid
+lt
+ms .\bach_846.mid
+mc
+lt
+vlc .\bach_846.mp3
+cd C:\music\midi\
+fdi leg
+g
+g:
+lt
+cd '.\My Drive\'
+lt
+cd .\music\
+lt
+f3
+ri .\Newhart.mid, '.\Neil_Young_-_Rockin''_in_the_Free_World.mid', '.\ZARA SA JHOOM LOON.mid'
+f3
+ms '.\mz_545_1 (1).mid'
+ri '.\mz_545_1 (1).mid'
+ms .\redroost.mid
+c:
+Get-Volume
+cd C:\you\
+duh > duh
+v .\duh
+cd C:\you\
+xxx .\docker\
+xxx .\physics\
+duh > duh
+get-volume
+v .\duh
+cd C:\you\aud\
+lt
+u
+xxx .\aud\
+cd .\gen\
+lt
+u
+xxx .\Genghis1\
+cd .\sheet\
+lt
+u
+Get-Volume
+cd np
+lt
+u
+xxx .\np\
+xxx .\tech\
+ld
+cd .\folk\
+lt
+u
+xxx .\folk\
+d3
+cd .\javs\
+lt
+u
+d3
+xxx .\golang\
+cd .\gould\
+lt
+u
+xxx .\gould\
+trev
+xxx .\category\
+cd .\funnyv\
+cdc
+v C:\all\ps\mus.ps1
+cd C:\music\
+mkc gmidi
+g:
+cd '.\My Drive\'
+lt
+cd .\music\
+lt
+cp * C:\you\funnyv
+cd C:\you\
+fd Neil
+cd C:\music\
+d3
+cd .\gmidi\
+lt
+rgw rc\s
+g:
+cd '.\My Drive\'
+cd .\music\
+lt
+cp *.* C:\music\gmidi\
+c:
+cd C:\music\
+cd .\gmidi\
+lt
+get-volume
+mps
+cd .\node\
+cd .\async\
+lt
+cd .\src\
+lt
+cat .\script.js
+lt
+v .\script.js
+gci \all\ps\*.py
+lt
+removBlank.py .\script.js
+v .\script.js
+u
+ld
+cd .\dist\
+lt
+v .\script.js
+uu
+rgi google
+rgi google.*sheet
+mps
+cd .\node\
+lt
+lt gi
+cd gits
+lt
+cd .\react_axios_requests\
+lt
+cd .\src\
+lt
+lt
+v .\Post.js
+u
+lt
+fdi app
+cd .\src\
+l
+lt
+v .\App.js
+mc
+ms
+cd C:\you\
+cd gut
+fdi nei
+ffmpeg -i '.\Neil Young ''Unknown Legend''.mp4' NeilLegend.mp3
+start .
+mc
+lt
+.\knock.mid
+mps
+cd .\node\myv\
+lt
+cd src
+lt
+cd .\posts\
+lt
+cd C:\you\
+cd .\react\
+lt
+vlc rea
+vlc '.\React Axios API Requests _ Axios with React JS Tutorial.mp4'
+mps
+vlc '.\React Axios API Requests _ Axios with React JS Tutorial.mp4'
+cd .\node\myv\
+lt
+gs
+git add .
+gs
+u
+git add .
+gic
+cd .\myv\
+lt
+mps
+cd pup
+fdi pup
+mps
+cd .\node\
+gs
+git add .
+gic
+code .
+cd pup
+lt
+node .\ypup.js
+cd C:\you\
+fdi google
+cd .\webdev\
+vlc '.\How to log in to Google with Puppeteer.mp4'
+mps
+cd .\node\pup\
+lt
+node .\ypup.js
+u
+rgi exit
+node .\ypup.js
+ms
+node .\ypup.js
+lt
+node .\xpup.js
+ahk
+mps
+newt3
+cd .\node\pup\
+u
+code .
+cd .\pup\
+lt
+node .\xpup.js
+cd C:\you\
+rgi google
+fd google
+bash
+cd .\webdev\
+vlc '.\How to log in to Google with Puppeteer.mp4'
+newt
+cd .\node\pup\
+lt
+node .\xpup.js
+mps
+cd pup
+cd node
+rgi stealth
+gs
+git add .
+gs
+gic
+cd pup
+lt
+node .\pupex.js
+mv .\pupex.js pupex.cjs
+node .\pupex.cjs
+lt
+.\stealth.png
+lt
+node .\voice.cjs
+cp .\voice.cjs voice.js
+node .\voice.cjs
+node .\voice.js
+gcm chrome
+cp .\voice.cjs voice.js
+node .\voice.js
+npm run install
+npm install
+npm audit fix
+node .\voice.js
+rgi application
+start "C:/Program Files/Google/Chrome/Application/chrome.exe";
+node .\voice.js
+rgw puppeteer
+npm i puppeteer
+node .\voice.js
+rgw stealth
+rgw npm.*list
+npm list --depth=0
+lt
+node .\voice.cjs
+lt
+v .\package.json
+node .\voice.js
+lt
+node .\ypup.js
+npm list --depth=0
+node .\voice.cjs
+node .\voice.js
+his
+npm install puppeteer-extra
+npm i puppeteer-extra-plugin-stealth
+node .\voice.js
+npm install puppeteer-extra
+npm install
+node .\voice.js
+ms
+cd
+cd .\Downloads\
+lt
+ms .\Beatles_Beatles__While_my_guitar.mid
+ms .\Jimmy_Smith_-_Chicken_Shack.mid
+cd C:\music\
+lt
+cd .\pick\
+lt
+vlc .\10-The-First-Cut-Is-The-Deepest.mp3
+vlc .\27-You-Are-So-Beautiful.mp3
+vlc .\30-Your-Song.mp3
+ms
+vlc .\27-You-Are-So-Beautiful.mp3
+mps
+newt
+cd .\node\myv\
+gs
+u
+gs
+git add .
+gic "added pup voice"
+gil
+f1
+cd .\pup\
+lt
+u
+gw
+code .
+cd pup
+lt
+node .\voice.js
+gs
+git diff
+node .\voice.js
+gs
+git diff
+node .\voice.js
+gs
+node .\voice.js
+gs
+node .\voice.js
+ms
+u
+cd .\myv\
+lt
+u
+cd .\pup\
+lt
+node .\alert.js
+lt
+node .\voice.js
+lt
+u
+cd .\node\
+lt
+gs
+git add .
+gic
+cd pup
+lt
+ri .\voice.cjs
+node .\voice.js
+git clone git@github.com:marianc000/signInWithGoogle.git
+lt
+cd .\signInWithGoogle\
+xxx .\.git\
+lt
+u
+lt
+node .\all.js
+lt
+node .\voice.js
+mps
+newt3
+cd
+cd .\Downloads\
+lt
+ms '.\Blues Licks - Blues - Fast Blues Licks___WWW.MIDISFREE.COM.mid'
+lt
+ms '.\Blues Licks - Blues Licks From Arlen Roth___WWW.MIDISFREE.COM.mid'
+lt
+ms .\12barblues_ms.mid
+lt
+ms .\Boogie_Woogie_Improv.mid
+mc
+lt
+.\b1.mid
+cd C:\music\
+fdi rock
+cd .\gmidi\
+v '.\How To Play ''Old Time Rock & Roll'' by Bob Seger _ HDpiano (Part 1) Piano Tutorial-5nWpotKSzZ0.mp4'
+vlc '.\How To Play ''Old Time Rock & Roll'' by Bob Seger _ HDpiano (Part 1) Piano Tutorial-5nWpotKSzZ0.mp4'
+fdi rock
+ms .\Led_Zeppelin_-_Immigrant_Song.mid
+mc
+lt
+fdi .\apr1.mid
+ms .\apr1.mid
+lt
+.\apr1.mid
+cd C:\music\
+cd .\gmidi\
+fdi moon
+fdi bee
+f3
+fdi 13
+ms .\Pathétique-1.mid
+f3 | more
+g:
+cd  '.\My Drive\'
+lt
+cd .\Takeout\
+lt
+u
+d3
+cd .\midi\
+lt
+exit
+gw
+ahk
+his
+cd C:\twit\
+wget "https://pdst.fm/e/cdn.twit.tv/audio/ww/ww0780/ww0780.mp3"  ##get windows weekly
+wget "https://pdst.fm/e/cdn.twit.tv/audio/ww/ww0781/ww0781.mp3"  ##get windows weekly
+mps
+newt3
+cd .\node\
+lt
+gs
+git add .
+gs
+cd .\pup\signInWithGoogle\
+lt
+uu
+gic
+f1
+f2
+cd .\myv\
+lt
+cat .\package.json
+npm run dev
+newt
+npm run dev
+u
+code .
+cd C:\you\
+ld
+cd .\travs\
+fdi reac
+vlc '.\React App - Breaking Bad API.mp4'
+u
+fdi react
+cd .\memgame\
+vlc '.\Build a Memory Game with React #3 - Creating a Card Grid.mp4'
+u
+lt lot
+cd lot
+lt
+fm .
+rgi wn
+lt
+v .\mod.ts
+cd
+cd .\Downloads\
+lt
+mv '.\winning_numbers (1).csv' wn.csv
+cp .\wn.csv C:\projects\node\myv\
+cd .\myv\
+lt
+cd C:\twit\
+his
+lt
+ex .\twit0879.mp3
+his
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0880/twit0880.mp3"
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0879/twit0879.mp3"
+his
+mps
+ahk
+newt3
+cd C:\twit\
+lt
+hl
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0880/twit0880.mp3"
+ahk
+lt
+ex .\twit0880.mp3
+ms
+mps
+gw
+cd .\node\myv\
+gs
+code .
+u
+code .
+cd .\myv\
+lt
+u
+git add .
+gic
+cd .\myv\
+npm run dev
+cd C:\you\
+cd .\travs\
+lt
+fd re
+vlc '.\React App - Breaking Bad API.mp4'
+mps
+cd .\git\
+lt
+fdi break
+u
+fdi break.*bad
+cd .\wither7007.github.io\
+ld
+u
+d3
+cd .\git\
+d3
+u
+d3
+u
+d3
+cd '.\Program Files\'
+mps
+fdi app.css
+newt3
+u
+f3
+d3
+cd .\memgame\
+lt
+vlc '.\Build a Memory Game with React #8 - Flipping Cards.mp4'
+cd .\node\mm\
+u
+cd .\myv\
+lt
+cd C:\you\
+cd .\gut\
+lt
+vlc '.\Knockin'' On Heaven''s Door By Bob Dylan - Easy Fingerstyle Guitar Lesson.mp4'
+ms
+rgi choice
+lt
+cd .\node\mm\
+rgi choice
+mps
+cd .\node\
+git clone git@github.com:bradtraversy/breaking-bad-cast.git 
+lt
+cd .\breaking-bad-cast\
+lt
+cd .\src\
+lt
+v .\App.css
+ms
+u
+git clone git@github.com:bradtraversy/expense-tracker-react.git
+bash
+gci C:\you\ -Directory
+cd C:\you\
+cd .\react\
+lt
+vlc '.\React Axios API Requests _ Axios with React JS Tutorial.mp4'
+get-volume
+u
+duh > duh
+v .\duh
+cat duh
+gci .\card\
+xxx .\card\
+cat duh
+rgw rc.*
+rc .\play\ d:\ /s /move
+get-volume
+cd .\react\
+lt
+newt3
+mps
+ahk
+cd .\node\
+lt
+code .
+cd .\myv\
+lt
+npm run dev
+mps
+cd node
+lt
+git clone git@github.com:bradtraversy/react-crash-2021.git
+bash
+cd C:\you\
+cd .\react\
+lt
+cat .\output.log
+lt
+v .\output.log
+lt
+v .\output.log
+mv '.\React JS Crash Course.mp4.part' no
+lt
+ld
+lt
+v .\output.log
+bash
+duh
+u
+duh > duh
+v duh
+get-volume
+mps
+cd .\node\myv\
+gs
+git add .
+gs
+u
+gs
+git add .
+cd ex
+cd .\expense-tracker-react\
+xxx .git
+u
+cd .\react-crash-2021\
+xxx .\.git\
+u
+gs
+git add .
+gs
+gic
+git clone git@github.com:bvaughn/live-stream-deep-dive-react-profiler.git
+cd C:\you\
+cd .\react\
+lt
+ms
+cd C:\you\gut\
+lt
+vlc '.\Knockin'' On Heaven''s Door By Bob Dylan - Easy Fingerstyle Guitar Lesson.mp4'
+mps
+cd  .\node\
+rgi timeout
+rgi timeout | more
+gs
+git add .
+cd .\live-stream-deep-dive-react-profiler\
+xxx .\.git\
+u
+gs
+git add .
+gic
+cd .\myv\
+cd C:\you\gut
+lt
+b 2
+gw
+code .
+npm run dev
+u
+rgi sheets
+curl  "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+rgi sheets
+his
+esbuild mod.ts --bundle --outfile=ax.js
+rgi .\ax.js
+rgi ax
+rgi ax\.js
+cd lot
+lt
+lse
+u
+lt
+lt
+cd .\myv\
+cd .\myv\
+npm run dev
+mps
+ahk
+newt3
+ld
+lt m
+cd .\node\
+lt
+ld
+code .
+cd .\myv\
+npm run dev
+cd C:\you\
+cd .\travs\
+lt
+cd
+cd down
+cd .\Downloads\
+lt
+mc
+cdc
+b 1
+lt
+mv .\Opus_27_No_2_Moonlight_Sonata_1st_movement.mscz C:\Users\jayst\OneDrive\Documents\MuseScore3\Scores\moon.mscz
+mc
+lt
+ms .\moon.mscz
+cd
+cd .\Downloads\
+lt
+b 1
+cdc
+b 2
+cd .\Downloads\
+mv .\Mozart_-_Symphony_No._41_-_Jupiter.mscz moz41Jup.mscz
+mc
+lt
+cd
+cd .\Downloads\
+lt
+mv .\moz41Jup.mscz C:\Users\jayst\OneDrive\Documents\MuseScore3\Scores
+mc
+lt
+ms
+lt
+ms .\moz41Jup.mscz
+gci -Directory C:\you\
+bash
+cd C:\you\
+cd .\travs\
+fdi react
+f3
+u
+cd .\lazy\
+lt
+vlc '.\Wittgenstein Changes His Mind.mp3', '.\Roger Penrose - Why Did Our Universe Begin.mp3'
+vlc '.\Roger Penrose - Why Did Our Universe Begin.mp3' '.\Wittgenstein Changes His Mind.mp3'
+ahk
+mps
+cd .\node\
+newt3
+code .
+cd .\myv\
+npm run dev
+ms
+cd C:\you\gut\
+fdi kno
+cdc
+u
+md radio
+bash
+cd C:\you\
+cd .\gut\
+lt
+vlc '.\How to play Unknown Legend by Neil Young on the guitar.mp4'
+cd \all\ps
+lt
+fdi ffm
+fdi peg
+cat .\cut.py
+rg ffm
+v .\cut.py
+rgi ffm
+v .\mov.py
+get-volum
+get-volume
+cd C:\you\
+cd gut
+md cut
+f3
+fdi '.\Knockin'' On Heaven''s Door By Bob Dylan - Easy Fingerstyle Guitar Lesson.mp4'
+fdi knock
+vlc '.\Knocking On Heaven''s Door - EASY 4 Chord Guitar Lesson (Bob Dylan).mp4'
+cp '.\Knocking On Heaven''s Door - EASY 4 Chord Guitar Lesson (Bob Dylan).mp4' .\cut\kohStrum.mp4
+cd .\cut\
+lt
+mov.py
+echo 7*60
+mov.py
+lt
+mv .\458_700kohStrum.mp4 strum.mp4
+lt
+vlc .\strum.mp4
+u
+sup
+f3
+set-alias aud "C:\Program Files\Audacity\Audacity.exe"
+adu '.\Bob Dylan - Knockin'' On Heaven''s Door (Official Audio).mp3'
+aud '.\Bob Dylan - Knockin'' On Heaven''s Door (Official Audio).mp3'
+vlc '.\Free Guitar Strumming Course - Pattern 13 Bob Dylan Strumming - Tutorial #16.mp4'
+mps
+rgi touch
+rgh
+rg -e py touch
+rgh
+rg -f py touch
+rg touch
+rg touch -f py
+rgh
+rg -tpy touch
+rg -tpy touch | more
+cd .\python\
+rg -tpy touch | more
+ld
+rg -tpy touch | more
+lt py
+rg -tpy touch | more
+v .\mtouch.py
+v .\x.py
+cd \all\ps
+rg -tpy touch | more
+mps
+rg -tpy touch | more
+cd C:\you\
+fdi react
+get-volume
+ip
+u
+cd .\python\
+lt py
+v .\x.py
+choco install neovim --pre 
+cd 
+cd .\.config\
+ld
+cd .\nvim\
+lt
+git init
+git add .
+gs
+cd .\plugged\
+lt
+xxx .\jupyter-vim\
+u
+git add .
+cd .\.git\
+lt
+duh
+u
+tre
+gic
+v .\init.vim
+v
+v .\init.vim
+v
+v .\init.vim
+v
+choco install neovim --pre --force
+pss
+ahk
+mps
+newt3
+pss
+cd .\node\
+gs
+lt pytho
+gci ..\python\
+cp ..\python\x.py
+code .
+cd C:\you\
+cd .\react\
+lt
+newt
+sup
+ip
+mps
+newt
+cd C:\you\
+cd .\react\
+mv 'Full React Tutorial #9 - Intro to React Dev Tools.mp4', '9 - Intro to React Dev Tools.mp4'
+mv 'Full React Tutorial #9 - Intro to React Dev Tools.mp4' '9 - Intro to React Dev Tools.mp4'
+lt
+lt 9
+lt
+v .\filename.txt
+mv .\filename.txt fn.ps1
+.\fn.ps1
+lt
+cd .\node\
+mv .\x.py winMover.py
+cd C:\twit\
+lt
+vlc .\twit0880.mp3
+cd C:\you\
+get-volume
+cd .\kb\
+cd .\miles\
+gcm vz
+vz
+ahk
+mps
+newt3
+cd .\node\
+gs
+git add .
+gic
+code .
+cd .\myv\
+gs
+git diff
+npm run dev
+cd .\node\
+lt
+cd .\myv\
+lt
+cd .\src\
+lt
+his
+cd C:\projects\node\myv\src
+lt
+esbuild setP.jsx --bundle --outfile=AppBundle.js --loader:.js=jsx
+v .\AppBundle.js
+esbuild setP.jsx --bundle --outfile=AppBundle2.js --loader:.js=jsx
+lt
+v a
+lt
+vimdiff a b
+ vim -d a b
+ v -d a b
+lt
+v -d .\AppBundle.js .\AppBundle2.js
+ri a b
+ri a, b
+hl
+cdc
+his
+esbuild setP.jsx --bundle --outfile=AppBundle.js --loader:.js=jsx
+lt
+ri .\AppBundle.js, .\AppBundle2.js
+lt
+esbuild setP.jsx --bundle --outfile=a1.js --loader:.js=jsx
+esbuild setP.jsx --bundle --outfile=a2.js --loader:.js=jsx
+lt
+v .\a2.js
+sup
+function ve($x) {`
+  nvim +$ $x`
+}
+lt
+ve .\uni.txt
+function his(){`
+dos2Unix "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"`
+Copy-Item "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt" -destination "c:\all\his"`
+nvim +$ C:\all\his`
+}
+his
+all
+$function:npml
+function:TabExpansion2
+function:fdh
+function:f1
+hl
+lt
+mps
+newt
+cd .\python\
+gs
+git add .
+gic
+v dir.py
+lt
+.\dir.py
+.\dir.py | more
+lt
+cd .\buku\
+lt
+cdc
+v change.py
+v pyc.py
+lt
+.\pyc.py
+b 3
+b 1
+b 2
+mps
+cd .\buku\
+lt
+b 1
+cd .\python\
+lt
+v .\pyc.py
+rgi import
+rgi important
+v .\a1.js
+mps
+cd lot
+cd .\node\
+cd lot
+lt
+v .\mod.ts
+exit
+lt
+cdc
+cd
+cd .\Downloads\
+lt
+mv '.\winning_numbers (2).csv' C:\projects\node\myv\src\win.cvs
+lt win
+lt
+rgw esbu.*\.ts
+lt .\file.ts
+esbuild file.ts --platform=node --bundle --outfile="read.js"
+lt
+node .\read.js
+lt
+esbuild file.ts --platform=node --bundle --outfile="read.js"
+node .\read.js
+esbuild file.ts --platform=node --bundle --outfile="read.js"
+node .\read.js
+node .\read.js | more
+lt
+cp .\file.ts file.cjs
+lt
+node .\file.cjs
+cp .\file.cjs file.js
+node .\file.js
+npm init
+npm init -y
+lt
+v .\package.json
+node .\file.js
+mps
+cd .\node\
+cd lot
+lt
+cdc
+lt
+cp .\win.cvs C:\projects\node\lot\win.cvs
+lt
+lse
+mv .\win.cvs .\wn.csv -Force
+lse
+cd .\node\
+rgw npm.*list
+npm list --depth=0
+npm list --depth=0 | v -
+cd .\myv\
+lt
+cd .\src\
+lt
+cdc
+u
+cd C:\projects\node\myv\src
+lt
+v bu.js
+lt
+node .\bu.js
+v .\bu.js
+mv .\bu.js bu.cjs
+v .\bu.cjs
+node .\bu.cjs
+lt
+v .\out.js
+esbuild .\setP.jsx --bundle --platform=node --external:./node_modules/*
+esbuild .\setP.jsx --bundle --platform=node --external:./node_modules/* > p.js
+lt
+v .\p.js
+node .\p.js
+lt
+his
+lt
+gs
+uu
+git add .
+gic
+b1
+b 1
+rgw esbu | tail
+esbuild file.ts --platform=node --bundle --outfile="read.js"
+cat .\read.js
+lt
+esbuild file.ts --platform=node --outfile="readnb.js"
+lt
+cat .\readnb.js
+lt
+v .\readnb.js
+cd C:\you\
+fdi esbui
+cd .\travs\
+vlc '.\Introduction to ESBuild tutorial for React _ JavaScript and Typescript bundling.  Bye bye Webpack.mp4'
+u
+fdi reduce
+cd .\travs\
+ex '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4'
+vlc '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4'
+ms
+cd C:\you\
+ld
+cd .\radio\
+lt
+vlc '.\Subterranean Homesick Alien.mp3'
+vz
+mps
+cd .\bs\
+lt
+v .\bsp.py
+lt
+.\bsp.py
+v .\yyyyy
+.\bsp.py
+lt
+v .\yyyyy
+cd C:\all\
+lt
+v .\greek.txt
+newt
+mps
+cd .\node\
+gs
+git add .
+git diff
+gic
+code .
+mkc greek
+ni index.html, script.js, style.css
+newt3
+mps
+cd .\node\
+lt
+f3
+d3
+code .
+ahk
+aud
+Get-CimInstance -ClassName Win32_Desktop
+ms
+mc
+lt
+.\aprPart1.mid
+Get-ComputerInfo
+Get-ComputerInfo | v -
+bash
+mps
+cd .\node\
+git submodule add https://github.com/chaconinc/DbConnector
+mkc sub
+git submodule add https://github.com/wither7007/debounce
+lt
+gs
+u
+git add .
+gs
+gic
+cd .\sub\
+lt
+ni x
+u
+gs
+cd .\sub\
+lt
+gs
+gic
+git add .
+gic
+u
+cd C:\you\
+cd gut
+lt
+ld
+cd C:\music\
+ld
+cd .\pick\
+lt
+vlc .\20-Redemption-Song.mp3
+mps
+cd .\node\
+cd lot
+lt
+his
+cd C:\projects\node\lot
+lt
+node .\nodeb.js
+lt
+mv .\nodeb.js nodeb.cjs
+node .\nodeb.cjs
+lt
+node .\nodeb.cjs
+lt
+node .\out.js
+node .\nodeb.cjs
+node .\out.js
+node .\nodeb.cjs
+lt
+node .\out.cjs
+lt
+gs
+git add .
+gs
+cd ..
+git add .
+gs
+gic
+b1
+b 1
+lt
+node .\out.cjs
+node .\nodeb.cjs
+node .\out.cjs
+lt
+node .\nodeb.cjs
+lt
+node .\out.cjs
+node .\out.cjs | more
+node .\nodeb.cjs
+node .\out.cjs | more
+node .\nodeb.cjs
+node .\out.cjs | more
+node .\nodeb.cjs
+node .\out.cjs | more
+rgw node.*list
+rgw npm.*list
+npm list --depth=0
+npm list --depth=0 | more
+npm list --depth=0 | v -
+lt
+cp .\mod.ts mod.js
+node .\mod.js
+lt
+node .\mod.js  --experimental-fetch
+npm install node-fetch@2
+node .\mod.js
+gil
+his
+gil
+git revert 5bd177365e77
+gs
+git add .
+gic
+git revert 5bd177365e77
+git revert --skip
+lt
+git reset --hard 5bd177365e77
+lt
+git log --oneline | more
+git log | v -
+git log | v -
+git reset --hard b4147ca6b561f0
+gs
+lt
+lse
+u
+cd .\lot\
+lt
+node .\cvs.js
+lt
+node .\cvs.js
+lt
+cp .\cvs.js cvs.json
+node .\cvs.js
+lt
+cp .\wn.csv wn.json
+node .\cvs.js
+lt
+node .\cvs.js
+lt
+node lt
+lot
+lt
+node .\cvs.js
+newt
+lt
+node .\poo.js
+lt
+node .\poo.js
+lt
+node .\poo.js
+cp wn.csv wn.js
+node .\poo.js
+cdc
+cd 
+cd .\Downloads\
+lt
+mv '.\winning_numbers (1).csv' C:\projects\node\lot\wn.csv
+mv '.\winning_numbers (1).csv' C:\projects\node\lot\wn.csv -Force
+mps
+lt
+cd .\node\
+gs
+cd .\lot\
+lt
+fm .
+lt
+gs
+u
+lt
+xxx sub
+gs
+git add .
+gs
+gic
+cd lot
+lt
+lse
+his
+exit
+his 
+cd C:\projects\node\lot
+mps
+ld
+cd .\node\myv\
+lt
+npm run dev
+mps
+cd .\node\myv\
+lt
+cd src
+lt
+ri .\myfun.js
+lt
+ri .\dblClick.js
+lt
+ri .\dblClick.js
+uu
+exit
+u
+gs
+git add .
+gic
+mkc derived
+his
+npm init vite
+lt
+cd der
+lt
+cd \lnl
+cd \
+md lnl
+cd lnl
+wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL182.mp3
+hl
+his
+wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL181.mp3
+wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL180.mp3
+cd 'C:\music\Bach- Brandenburg Concertos #4-6\'
+vz
+b 1
+ahk
+ms
+aud
+mc
+lt
+fd door
+cd C:\music\gut
+cd C:\you\gut\
+lt
+fdi yo
+aud '.\Neil Young ''Unknown Legend''.mp4'
+his
+ffmpeg -i '.\Neil Young ''Unknown Legend''.mp4' NeilLegend.mp3
+fdi leg
+aud .\NeilLegend.mp3
+fdi nei
+vlc '.\How to play Unknown Legend by Neil Young on the guitar.mp4'
+ahk
+mps
+newt3
+cd .\node\
+gs
+code .
+newt
+cd C:\you\
+ld
+cd .\wohltemp\
+lt
+vlc '.\Bach Das Wohltemperierte Klavier The Well Tempered Clavier Book I András Schiff.mp3'
+d3
+cd .\derived\
+lt
+cd der
+lt
+cd .\src\
+lt
+mv .\junk.js ..\..\..
+uuu
+lt
+mv .\junk.js chunk.js
+mv .\junk.js chunk2.js
+v .\winMover.py
+his
+cd C:\twit\
+lt
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0881/twit0881.mp3"
+u
+cd .\webdev\
+lt
+cd C:\twit\
+lt
+ex .\twig0668.mp3
+vm .
+fm .
+lt
+ex .\twit0881.mp3
+lt
+g:
+lt
+cd '.\My Drive\'
+lt
+lt ph
+b 2
+lt
+cp .\twit0881.mp3 'G:\My Drive\phone\'
+lt
+cd node
+mps
+cd .\node\
+lt
+ld
+cd .\myv\
+u
+ld
+gci -File
+gw
+cd C:\you\
+fdi redu
+cd .\travs\
+vlc '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4'
+cd \all
+lt mov
+cd ps
+lt py
+code .
+cd C:\twit\
+vz
+cd \all\ps
+ip
+lt
+mov.py
+lt
+mov.py
+lt
+vlc .\120_10twit0881.mp3
+newt
+cd C:\you\
+lt
+cd gut
+mov.py
+lt
+vlc '.\60_20How to play Plastic Jesus on acoustic guitar (Made Easy).mp4'
+mov.py
+lt
+vlc '.\1000_10Why Is Strumming So Hard 11 Tips for Struggling Players.mp4'
+ri '.\1000_10Why Is Strumming So Hard 11 Tips for Struggling Players.mp4'
+mov.py
+lt
+vlc '.\100_200Why Is Strumming So Hard 11 Tips for Struggling Players.mp4'
+lt
+ri '.\100_200Why Is Strumming So Hard 11 Tips for Struggling Players.mp4', '.\100_200Why Is Strumming So Hard 11 Tips for Struggling Players.mp4'
+lt
+ri '.\1000_10Why Is Strumming So Hard 11 Tips for Struggling Players.mp4'
+lt
+mov.py
+lt
+vlc '.\10_20Paul Newman - Plastic Jesus (Cool Hand Luke OST).mp4'
+mov.py
+lt
+vlc '.\20_30Neil Young ''Unknown Legend''.mp4'
+mov.py
+lt
+vlc '.\5_10Neil Young ''Unknown Legend''.mp4'
+ex '.\5_10Neil Young ''Unknown Legend''.mp4'
+vlc '.\5_10Neil Young ''Unknown Legend''.mp4'
+mov.py
+lt
+vlc '.\300_5Unknown Legend - a Neil Young cover..mp4'
+mov.py
+lt
+vlc '.\300_305Neil Young ''Unknown Legend''.mp4'
+mov.py
+lt
+fm .
+lt
+fm .
+ri '.\10_20Paul Newman - Plastic Jesus (Cool Hand Luke OST).mp4', '.\60_20How to play Plastic Jesus on acoustic guitar (Made Easy).mp4'
+lt
+lt '.\Neil Young ''Unknown Legend''.mp4'
+lt nei
+mov.py
+lt
+ex '.\300_330Neil Young ''Unknown Legend''.mp4'
+mov.py
+lt
+ri '.\4_1Neil Young ''Unknown Legend''.mp4'
+mov.py
+lt
+vlc '.\20_120Neil Young ''Unknown Legend''.mp4'
+ri '.\20_120Neil Young ''Unknown Legend''.mp4'
+ms
+mps
+newt3
+code .
+mps
+newt3
+cd C:\you\
+lt
+cd .\travs\
+lt
+gcm fd
+fdi reduce
+ex '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4'
+ex '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4' | rg duration
+cd C:\you\
+sup
+function ex3 ($a) {`
+  exiftool -j $a | rg duration`
+}
+cd .\travs\
+lt
+ex3 '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4'
+ex '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4'
+sup
+function ex3 ($a) {`
+  exiftool -j $a | rg Duration`
+}
+ex3 '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4'
+vlc '.\Reduce Advanced - Part 4 of Functional Programming in JavaScript.mp4'
+ms
+mc
+lt
+get-volume
+cd node
+rgi \.front
+fdi index.html
+cd .\form\
+lt
+rgi \.toggle
+u
+rgi toggle
+cd card
+u
+cd .\myv\
+lt
+npm run dev
+cd
+cd \
+lt vid
+cd vid
+lt
+u
+xxx vid
+ld
+cd .\marx\
+lt
+u
+xxx .\marx\
+cd .\javs\
+lt
+u
+xxx javs
+ld
+xxx .\wither7007.github.io\
+cd '.\Program Files\'
+u
+cd .\projects\
+lt
+ld
+xxx .\picard\
+xxx .\panda\
+lt jim
+d3
+xxx .\heroku\
+cd .\imagen\
+l
+lt
+u
+xxx .\imagen\
+cd .\jsd\
+lt
+u
+xxx jsd
+duh > duh
+ms
+mps
+newt3
+sup
+gcm chrome.exe
+ahk
+cd .\node\
+lt
+git diff
+cd .\myv\
+lt
+u
+git add .
+gic
+cd .\myv\
+npm run dev
+cd .\node\
+code .
+ld
+cd .\derived\
+lt
+cd der
+lt
+npm run dev
+his
+cd C:\projects\node\derived\der
+lt
+npm install
+npm run dev
+bash
+newt
+mps
+lt
+v duh
+cd C:\you\
+lt
+cd .\stand\
+lt
+vz
+u
+cd .\derived\
+lt
+cd .\node\derived\
+cd .\der\
+lt
+cd .\src\
+lt
+mv .\Number.jsx .\components\
+mps
+newt3
+exit
+exit
+exit
+cd C:\all\ps\
+cd .\you
+cd C:\you\
+ld
+d3
+cd .\stand\
+lt
+v .\mus.ps1
+b 1
+cd .\node\
+ld
+cd .\derived\
+u
+code .
+gs
+git add .
+git diff
+gs
+git diff -cached
+git diff --cached
+git diff --name-only --cached
+git diff head
+fdi ign
+fdi ignore
+v .\.gitignore
+git diff head
+v .\.gitignore
+gs
+git diff head
+v .\.gitignore
+gic
+graph
+cd .\.git\
+lt
+duh > duh
+v duh
+u
+xxx .git
+git init
+lt ignor
+git add .
+gic "initial commit"
+git log
+cd .\derived\
+lt
+cd der
+lt
+his
+mps
+cd .\node\derived\
+lt
+cdc
+rc .\der\ C:\projects\node\derived /s /move
+lt
+cd .\der\
+lt
+u
+xxx .\der\
+newt
+mps
+cd .\node\
+cd .\derived\
+lt
+xxx der
+lt
+lt
+npm run dev
+gs
+git diff
+git diff | v -
+u
+xxx .git
+git init
+gs
+git add .
+gs
+git diff -vv
+gic "initial commit"
+tre
+gw
+gb
+git branch -a
+git checkout -b useref
+gs
+gb
+sup
+git checkout master
+gb
+git checkout useref
+gb
+lt
+git diff
+gb
+git checkout master
+gs
+git status
+gb
+git diff
+git switch useref
+lt
+gb
+gic "changed words in h1"
+gb
+git checkout master
+gb
+graph
+gb
+git switch useref
+graph
+gb
+git log --oneline
+newt
+sup
+git log --oneline | v -
+git diff a5244f5 5a46b70
+gb
+graph
+lt
+git diff
+gb
+gic "revert to clean app"
+gb
+git switch master
+hl
+git diff a5244f5 5a46b70
+git log --oneline
+gb
+git switch useref
+git log
+git log --oneline
+git diff 94819c4 5a46b70
+git log --oneline
+git diff 5a46b70 94819c4
+git log --oneline
+git diff 5a46b70 94819c4
+git diff
+newt
+cd C:\you\
+cd .\webdev\
+lt
+touch '.\Learn useRef in 11 Minutes.mp4'
+lt
+vlc '.\Learn useRef in 11 Minutes.mp4'
+u
+mkc noGit
+his
+npm init vite
+lt
+cd .\clean\
+lt
+cd .\src\
+lt
+v .\App.jsx
+ahk
+mps
+newt3
+ld
+lt
+cd .\node\
+code .
+cd \you\
+ld
+lt
+cd .\lou\
+lt
+vz
+bash
+cd .\node\derived\
+lt
+npm run dev
+cd C:\you\
+cd .\webdev\
+lt
+vlc '.\Learn useRef in 11 Minutes.mp4'
+ms
+aud
+ms
+mps
+newt3
+ahk
+cd C:\you\
+d3
+cd .\lou\
+u
+cd  .\stand\
+vz
+bash
+cd C:\you\
+lt
+mv .\shorther\ shorter
+cd C:\you\
+cd .\webdev\
+lt
+gw
+cd .\node\
+gb
+git diff
+npm run dev
+git diff
+newt
+git diff
+cd .\derived\
+u
+code .
+git diff
+git diff | v -
+cd .\derived\
+npm run dev
+mps
+lt
+vlc '.\Learn useRef in 11 Minutes.mp4'
+cd C:\music\
+lt
+cd .\pick\
+lt
+vlc .\17-Let-It-Be.mp3
+ms
+mc
+lt
+v .\Let_it_be.mscx
+cd C:\you\
+lt
+lt rea
+cd .\react\
+lt
+fm .
+f3
+mps
+newt3
+cd .\node\
+git diff
+gb
+git switch master
+npm run dev
+ld
+cd .\myv\
+git diff
+u
+cd .\derived\
+lt
+npm run dev
+code .
+cd .\node\
+lt
+ld
+his
+ni -ItemType SymbolicLink  -Path C:\projects\python -Target C:\projects\node\python
+ni -ItemType SymbolicLink  -Path C:\projects\node\python -Target C:\projects\python
+cd .\node\
+lt
+cd .\python\
+lt
+u
+git diff
+gs
+git add .
+gic "clean version of webdev ref video"
+gb
+git switch master
+gs
+lt
+d3
+hl
+ni -ItemType SymbolicLink  -Path C:\projects\node\python -Target C:\projects\python
+lt
+gs
+git add .
+gic "added python link"
+graph
+ms
+control panel
+gw
+code .
+lt
+gb
+gw
+git switch useref
+git diff
+git log
+ahk
+gw
+code .
+lt ax
+function:ax
+function:lt
+sup
+git log -p -2
+git log -p -1
+git log --oneline
+gb
+git log -p -1
+git log | more
+gic
+git log
+git log | v -
+lt
+git log | v -
+gs
+git diff
+gs
+git add .
+gs
+gic 'added fuzzy prototype'
+hl
+git log -p -1
+git log --oneline
+sup
+function glm {`
+  git log | v -`
+}
+glm
+git reset --hard HEAD^
+glm
+lt
+graph
+git diff
+sup
+function gol {`
+  git log --online`
+}
+gol
+sup
+function gol {`
+  git log --oneline`
+}
+gol
+lt
+git  diff
+lt
+git diff
+gic "changed one line"
+hl
+git log -p -1
+hl
+git reset --hard HEAD^
+hl
+glm
+sup
+gcm gvm
+function gvm {`
+  git log | v -`
+}
+gcm gvm
+lt
+cd .\myv\
+lt
+cd src
+lt
+start .
+gcm v
+gcm nvim
+mc
+ms
+lt
+aud .\Let_it_belong.mp3
+lt
+git diff
+gs
+gb
+git switch master
+lt
+git diff
+gw
+npm run dev
+git diff
+cd .\myv\
+npm run dev
+cd .\node\
+gs
+git diff
+gs
+gci "removed comments, added instance for axios export"
+gic "removed comments, added instance for axios export"
+mps
+newt3
+ahk
+code .
+cd \all\ps
+lt
+v .\mus.ps1
+.\mus.ps1
+b 1
+mps
+cd .\node\myv\
+lt
+cd src
+lt
+ld
+cd .\posts\
+lt
+fm .
+u
+npm run dev
+mps
+cd .\node\myv\
+lt
+cd .\src\
+lt
+gic "before cleanup works"
+lt
+fm .
+cd \
+ld
+cd .\.vifm-Trash\
+lt
+lt jsc
+lt jsx
+cdc
+cp '.\000_main.jsx' C:\projects\node\myv\src
+lt
+mv .\000_main.jsx main.jsx
+lt
+rgi  grid
+rgi console
+ri .\file.ts
+rgi console
+git diff
+sup
+gvm
+git diff | v -
+sup
+gil
+his
+cd C:\twit\
+wget "https://pdst.fm/e/cdn.twit.tv/audio/ww/ww0783/ww0783.mp3"  ##get windows weekly 7/1
+newt
+cd .\node\myv\
+lt
+npm run dev
+sup
+gvm
+gs
+gic "more cleanup works"
+gs
+npm run dev
+gil
+hl
+gvm
+git diff | v -
+npm run dev
+cd C:\twit\
+lt
+ex .\ww0783.mp3
+vlc .\ww0783.mp3
+mps
+lt
+cd .\node\
+lt
+v .\coolax.js
+node .\coolax.js
+rgw npm.*list
+npm list --depth=0
+npm i axios
+npm list --depth=0
+node .\coolax.js
+npm run dev
+npm run dev
+his
+sup
+Get-MyCommands
+Get-MyCommands | v -
+getc
+all
+cld
+gw
+vq
+hl
+getc | v -
+Get-MyCommands | v -
+sup
+function vd{`
+  git diff | v -`
+}
+cd .\node\
+lt
+vd
+sup
+gvm
+ms
+aud
+sup
+vd
+gs
+npm run dev
+vd
+cd .\myv\
+npm run dev
+md cool
+mv .\coolax.js .\cool\
+lt
+gci -File
+gci -File *.ts
+v .\winMover.py
+mv .\winMover.py \all\ps
+gs
+git reset HEAD --hard
+gs
+git run dev
+npm run dev
+uu
+lt x
+u
+lt x
+control panel
+cd .\xampp\
+lt
+u
+lt
+cd .\xampp\
+lt
+u
+get-volume
+xxx .\xampp\
+u
+ld
+lt
+cd .\projects\
+lt
+ld
+u
+ld
+get-volume
+cd you
+gcm duh
+sup 
+du
+du -h
+cd .\wynt\
+lt
+u
+xxx .\wynt\
+d3
+cd .\stand\
+lt
+cdc
+cd C:\all\ps\
+lt
+v .\mus.ps1
+cd C:\xampp\
+lt
+duh > duh
+v duh
+trev
+gcm pkzip
+gcm 7z
+7z -h
+7z -h | v -
+u
+7z -r C:\temp\zarchive.zip c:\xampp
+7z a C:\temp\zarchive.zip c:\xampp
+cd \temp
+lt
+du -h
+duh
+ld
+start
+start .
+his
+mp
+mps
+newt3
+mkc grid
+ni index.html, style.css, script.js
+code .
+ahk
+u
+cd .\node\
+rgi roboto
+lt
+lt
+cd grid
+mkc img
+his
+wget "https://source.unsplash.com/random/300×300" -o pic.jpg
+lt
+.\pic.jpg
+his
+wget "https://source.unsplash.com/random/300×300"
+lt
+wget "https://source.unsplash.com/random/300×300" -o t.jpg
+wget -h
+lt
+mv .\300×300 t.jpg -Force
+.\t.jpg
+wget "https://source.unsplash.com/random/300×300" -O x.jpg
+lt
+.\x.jpg
+fm .
+ri *
+lt
+v a.ps1
+lt
+.\a.ps1
+1..10 | % { write "loop $_" }
+his
+1..2 | % {wget "https://source.unsplash.com/random/300×300" -O x.jpg}
+lt
+ri .\x.jpg
+1..2 | % {wget "https://source.unsplash.com/random/300×300" -O $_x.jpg}
+1..2 | % {wget "https://source.unsplash.com/random/300×300" -O "$_x".jpg}
+1..2 | % { write "$_" }
+1..2 | % {wget "https://source.unsplash.com/random/300×300" -O "$_".jpg}
+1..2 | % {wget "https://source.unsplash.com/random/300×300" -O "$_"}
+lt
+mv 1 1.jpg
+.\1.jpg
+1..2 | % {wget "https://source.unsplash.com/random/300×300" -O "$_"}
+lt
+foreach($i in 1..10){`
+    Write-Host $i`
+}
+v b.ps1
+foreach($i in 1..10){`
+    Write-Host "time" $i`
+}
+foreach($i in 1..10){`
+    Write-Host "time"$i`
+}
+foreach($i in 1..10){`
+    Write-Host "time"+$i`
+}
+foreach($i in 1..10){`
+    Write-Host "time{$1}"`
+}
+foreach($i in 1..10){`
+    Write-Host "time'$1'"`
+}
+foreach($i in 1..10){`
+    Write-Host "time$1"`
+}
+"Today is {0:M/d/yy}."                 -f $(Get-Date)
+foreach($i in 1..10){`
+    Write-Host "time${$1}"`
+}
+$name = 'Slim Shady'
+Write-Host "My name is $name"
+foreach($i in 1..10){`
+    Write-Host "time$i"`
+}
+lt
+$name = 'Slim Shady'
+foreach($i in 1..10){`
+    Write-Host "time$i"`
+}
+his
+1..2 | % {wget "https://source.unsplash.com/random/300×300" -O "$_.jpg"}
+lt
+gci | ? {$_.Name -match 'a-z'}
+gci | ? {$_.Name -match '[a-z]'}
+gci | ? {$_.Name -match '\d'}
+his
+u
+cd .\py\
+u
+cd .\python\
+rgi pillow
+rgi pil
+rgi pil | more
+lt image
+v .\imageSize.py
+rgi glob
+v .\imageSize.py
+ahk
+mps
+newt3
+lt
+cd .\grid\
+code .
+cd .\node\
+rgi export
+rgi export | more
+lt
+cd .\myv\
+rgi export | more
+v src\posts\posts.jsx
+git diff
+gs
+gs
+git init
+gs
+gc C:\all\.gitignore
+copy C:\all\.gitignore
+lt
+gs
+git add .
+gs
+gic "initial commit"
+ms
+cd C:\all\ps\
+v .\mus.ps1
+$data = @('C:\you\funnyv','C:\you\class','C:\music\autumn','\you\lquart','C:\you\stand','C:\you\hawk')
+foreach ($n in $data)`
+{`
+  gci &n`
+}
+$data = @('C:\you\funnyv','C:\you\class','C:\music\autumn','\you\lquart','C:\you\stand','C:\you\hawk')
+foreach ($n in $data)`
+{`
+  gci $n`
+}
+foreach ($n in $data)`
+{`
+  gci $n`
+} 
+$data = @('C:\you\funnyv','C:\you\class','C:\music\autumn','\you\lquart','C:\you\stand','C:\you\hawk')
+foreach ($n in $data)`
+{`
+  gci &n | more`
+}
+foreach ($n in $data)`
+{`
+  gci $n | more`
+}
+cd C:\you\
+lt
+cd .\funnyv\
+lt mid
+gci *.mid
+gci *.mid | % {mv $_.Name c:\temp}
+gci *.mid
+gci *.mid | % {mv $_.Name c:\temp}
+gci *.mid
+mps
+cd .\grid\
+lt
+md j.py
+zzz .\j.py\
+xxx .\j.py\
+ni j.py
+cd .\python\
+gci glob
+rgi glob
+b 1
+cd .\grid\
+ip
+lt
+lt
+v .\out.py
+sup
+ph
+lt
+v .\out.py
+def stx(n):
+    return f' <img src="/img/{n}" style="width:100%"'
+result=[]
+result.append('<div class="column">')    
+result += list(map(stx, filelist))
+result+=['</div>']
+print(result)
+with open('out.py',mode="wt") as f:    f.write(s)
+lt
+Get-Command
+his

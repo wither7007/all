@@ -1,0 +1,3 @@
+does this save
+
+ne = [line for line in content if line.strip() != ""]
