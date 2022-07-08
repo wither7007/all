@@ -1,3 +1,7 @@
-does this save
 
 ne = [line for line in content if line.strip() != ""]
+
+def sum(x, y):
+    return x+y
+sum(1, 2)
+In the example, x and y are the parameters, while1 and 2 are the arguments.

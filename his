@@ -11143,3 +11143,1503 @@ with open('out.py',mode="wt") as f:    f.write(s)
 lt
 Get-Command
 his
+Get-MyCommands
+tskl
+gcm gc
+(Get-Command xxx).ScriptBlock
+sup
+gs
+git diff
+sup
+vd
+lt
+lse
+cd \all
+fd ahk
+cd .\note\
+.\first.ahk
+v .\first.ahk
+cd \all
+cd .\note\
+lt
+v .\power
+ni python
+ahk
+ph
+gs
+git add .
+u
+git add .
+gic
+mps
+cd .\grid\
+git diff
+gs
+git add .
+gs
+gic
+code .
+u
+rgw rc\s
+rc .\grid\ C:\projects\node\grid /s /move
+cd .\node\
+ld
+cd .\grid\
+lt
+xxx .\.git\
+u
+gs
+git add .
+gs
+gic
+cd .\grid\
+lse
+u
+cd .\myv\
+lt
+cd .\src\
+lt
+cd .\posts\
+lt
+cp .\posts.jsx ..\..\..\grid\
+b 2
+b 1
+cd grid
+lt
+npm list depth=0
+rgw npm.*list
+npm list --depth=0
+u
+code .
+ahk
+mps
+newt3
+cd .\node\
+code .
+bash
+cd C:\you\
+lt
+md aretha
+lt
+ld
+md blue
+cd .\node\grid\
+lt
+v .\posts.jsx
+mv .\posts.jsx posts.js
+ld
+lt
+node .\posts.js
+npm i axios
+rgw esbuild.*bundle
+lt pos
+esbuild .\posts.js --bundle --outfile=ax.js
+lt
+v .\ax.js
+node .\ax.js
+lt
+node .\posts.js
+node .\posts.js | more
+u
+lt ax
+v .\axe.js
+cd .\grid\
+node .\posts.js | more
+lt
+node .\posts.js
+mps
+cd node
+v .\ax.js
+lt
+v .\axe.js
+cd .\grid\
+lt
+node .\posts.js
+lt
+node .\posts.js
+hl
+esbuild .\posts.js --bundle --outfile=ax.js
+lt
+v .\ax.js
+esbuild .\posts.js --bundle --outfile=ax.js
+u
+mps
+ahk
+newt3
+his
+mkc ex
+ni index.html, style.css, script.js
+git init && git add .
+gs
+xxx .\.git\
+git init && git add . && gic
+sup
+gol
+su
+jj
+gs
+xxx .\.git\
+git init && git add . && gic "initial commit"
+gil
+sup
+gvm
+lt
+code .
+ahk
+mps
+newt3
+cd .\node\
+gs
+gvm
+sup
+vd
+u
+ld
+lt
+sup
+function ld {`
+  gci -directory |  sort LastWriteTime`
+}
+ld
+cd ex
+lt
+vd
+gs
+git add . && gci "basic clean"
+git add . && gic "basic clean"
+vd
+gol
+gw
+code .
+npm i axios
+lt
+node .\sub.js
+v .\package.json
+node .\sub.js
+fd axios
+lt
+cd .\node_modules\
+fd axios
+u
+lt
+rgw esbuild.*bundle
+f3
+esbuild .\sub.js --bundle --outfile=ax.js
+lt
+v math.js
+lt
+node .\math.js
+lt
+hl
+hl | v -
+esbuild .\math.js --bundle --outfile=ax.js
+lt
+esbuild .\math.js --bundle --outfile=ax.js
+node .\ax.js
+his
+esbuild .\math.js --bundle --outfile=ax.js
+cd C:\you\
+rgi esbuild
+fdi esbuild
+cd travs
+vlc '.\Introduction to ESBuild tutorial for React _ JavaScript and Typescript bundling.  Bye bye Webpack.mp4'
+lt
+cd node
+rgi build
+rgi buildsyn
+d3
+u
+lt es
+cd .\esbuild\
+lt
+npm list --depth=0
+fdi index
+lt
+ld
+rgw rc.*
+d3
+rc .\ex\ C:\projects\esbuild\ex /s /move
+ld
+cd .\exiftool\
+u
+cd .\esbuild\
+ld
+gs
+cd .\ex\
+lt
+u
+lt
+gs
+u
+gs
+cd .\esbuild\
+lt
+gs
+git diff
+git add .
+gic
+lt
+ld
+code .
+f1
+lt
+node .\browser-build.js
+node .\browser-build.cjs
+f1
+cd .\public\node\
+lt
+node .\file.js
+u
+f1
+cd .\dist\
+lt
+cat .\index.html
+cat .\out.js
+lt
+l
+u
+lt
+node .\browser-build.cjs
+f1
+trev
+ld
+cd .\src\
+lt
+lse
+lt
+ld
+u
+ld
+cd .\public\
+ld
+cd .\dist\
+lt
+lse
+u
+cd .\node\
+lt
+node .\file.js
+u
+fdi my-m
+fdi
+u
+fdi
+fdi my.*
+cd .\public\
+lt
+cd  node
+lt
+cdc
+uu
+cd .\src\
+lt
+cp .\my-module.js C:\projects\esbuild\public\node
+b 2
+lt
+node .\file.js
+u
+gs
+git add .
+gs
+gol
+xxx .git
+git init && git add . && gic "good working experimental version"
+v .\.gitignore
+fdi index
+sup
+fd index
+cd src
+lse
+u
+fd index
+cd src
+lt
+u
+fd in
+cd .\dist\
+lt
+u
+cd .\public\
+lt
+cd dist
+lt
+u
+fd ind
+fdi ind
+u
+fdi ind
+sup
+lt
+node .\browser-build.cjs
+hl
+node .\browser-build.cjs
+cd C:\you\
+fd train
+cd .\blue\
+vz
+ld
+cd .\public\
+f1
+cd .\node\
+lt
+node .\file.js
+uu
+b 1
+v .\my-module.js
+uu
+fd my-mod
+cp src\my-module.js .\public\node\
+b 2
+lt
+cd  .\node\
+lt
+node .\file.js
+cd
+cd .\Downloads\
+lt
+ld jpg
+gci *.jpg
+gw
+mps
+ld
+f1
+cd .\esbuild\
+lt
+gs
+git diff
+vd
+f1
+cd src
+lt
+u
+fdi index.html
+cd .\public\dist\
+lt
+lse
+uu
+vd
+code .
+cd .\public\dist\
+lt
+ni style.css
+uu
+lt
+node .\browser-build.cjs
+ld
+u
+cd .\node\
+ld
+fd grid
+vlc '.\CSS Grid Crash Course 2022.mp4'
+b 1
+ld
+sup
+function ld {`
+  gci -directory |  sort LastWriteTime`
+}
+ld
+cd .\esbuild\
+lt
+gs
+git add . && gic "clean work"
+gb
+ld
+md grid
+cd .\grid\
+ni index.html, style.css, script.js
+gw
+code .
+u
+gs
+vd
+git add .
+vd
+code .
+ms
+aud
+cd C:\you\
+gdi bach
+fdi bach
+cd .\gut\
+lt
+fdi con
+vlc '.\Bach''s C major prelude, deconstructed.mp4'
+mc
+lt
+vlc .\Let_it_beAll.mp3
+ms
+lt
+fdi know
+fdi knoc
+cd C:\you\gut\
+fdi knoc
+b 1
+cdc
+b 1
+cp '.\Bob Dylan - Knockin'' On Heaven''s Door (Official Audio).mp3' C:\Users\jayst\OneDrive\Documents\MuseScore3\Scores
+u
+cd .\travis\
+fd grid
+fdi gri
+fdi grid
+u
+cd .\travs\
+fd gri
+vlc '.\CSS Grid Crash Course 2022.mp4'
+mps
+ahk
+newt3
+code .
+lt
+f1
+cd .\esbuild\
+lt
+gs
+git add . && gci "working commit"
+git add . && gic
+code .
+cd C:\you\
+lt
+cd .\travs\
+lt
+vlc '.\CSS Grid Crash Course 2022.mp4'
+ahk
+mps
+newt3
+cd C:\you\
+cd .\travis\
+u
+cd .\travs\
+lt
+vlc '.\CSS Grid Crash Course 2022.mp4'
+mps
+ld
+cd .\esbuild\
+gs
+vd
+gs
+gic "one change"
+lt
+mkc cards
+ni index.html, style.css,script.js
+mkc img
+rgw splash
+1..4 | % {wget "https://source.unsplash.com/random/300×300" -O "$_.jpg"}
+lt
+u
+code .
+ld
+cd .\cards\
+cd .\img\
+u
+lt
+node .\n.js
+lt
+node .\n.js
+cd img
+node ..\n.js
+bash
+cd C:\you\
+cd .\webdev\
+lt
+cd C:\you\
+cd .\radio\
+vz
+vlc '.\How to create Responsive Image Gallery Layout using CSS display Grid _ HTML and CSS Tutorial.mp4'
+mps
+cd .\esbuild\
+ld
+cd .\cards\
+lt
+cdc
+cd
+cd .\Downloads\
+lt
+mv .\pure-javascript-image-zoom.zip C:\projects\esbuild\cards\zoom.zip
+b 2
+lt
+gci \all\ps\z*
+z.py .\zoom.zip
+lt
+mv .\pure-javascript-image-zoom\ zoom
+mv .\pure-javascript-image-zoom\ oom
+lt
+Rename-Item .\pure-javascript-image-zoom\ zoom
+lt
+cd .\pure-javascript-image-zoom\
+lt
+cd .\dist\
+lt
+lse
+ahk
+mps
+newt3
+his
+cd C:\twit\
+lt
+ri *
+wget "https://pdst.fm/e/chtbl.com/track/E91833/cdn.twit.tv/audio/twit/twit0882/twit0882.mp3" ##twit 7/5
+lt
+ex .\twit0882.mp3
+cd .\esbuild\
+ld
+gw
+code .
+vd
+gs
+git add .
+gs
+vd
+hl
+gs
+git diff
+gol
+vd
+lt
+vlc .\twit0882.mp3
+gs
+git add .
+gic
+const start = Date.now();
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+rgi date.*now
+cd node
+rgi temporal
+rgi temporal | v -
+cd temp
+lt
+v .\temp.ts
+v .\temx.js
+fm .
+u
+mps
+ahk
+newt3
+cd .\esbuild\
+code .
+ni j.py
+cd .\esbuild\
+ip
+ms
+mc
+lt
+.\l1.mid
+ahk
+mps
+newt3
+cd .\esbuild\
+vd
+code .
+vd
+rgw git.*p
+git log -p -2
+git log -p -1
+git log -p -0
+u
+mkc testgit
+cd .\esbuild\
+git log --stat option
+git log --stat 
+git log
+sup
+gvm
+git log --stat | v -
+vd
+gs
+git add .
+gic
+git log --stat | v -
+rgw git.*div.*p
+his
+git log -p -1
+lt
+cd .\testgit\
+lt
+git init
+v x
+lt
+vd
+gs
+git add .
+vd
+lt
+v x
+gs
+vd
+gs
+hl
+gs
+gic "after x"
+vd
+his
+git log -p -1
+v x
+gs
+git diff
+git log -p -1
+gs
+gic "commit three"
+gol
+gvm
+git log -p -1
+git log -p -2
+git log -p -1
+git log --stat | v -
+v y
+lt
+gs
+gic "4th"
+git log -p -1
+git add .
+gic "four"
+git log -p -1
+v y
+git diff
+gs
+gic "5th"
+vd
+git log -p -1
+git log --stat | v -
+sup
+hit
+his
+function gstat {`
+  git log --stat | v -`
+}
+function gp {`
+  git log -p -1`
+}
+gstat
+gp
+sup
+function gitp {`
+  git log -p -1`
+}
+gitp
+sup
+function gs {`
+    echo $function:gs`
+    echo '----'`
+git status`
+}
+function gstat {`
+  git log --stat | v -`
+}
+function gitp {`
+  git log -p -1`
+}
+function gsw($a) {`
+git switch $a`
+}
+function gol {`
+  git log --oneline`
+}
+function gvm {`
+  git log | v -`
+}
+cd .\esbuild\
+gstat
+gitp
+gw
+code .
+ahk
+mps
+newt3
+cd .\esbuild\
+sup
+cd .\esbuild\
+gitp
+sup
+gstat
+gitp
+gitp | v -
+gs
+git add .
+gic "cleaned up closure, move clos to src"
+cd .\esbuild\
+code .
+sup
+function gitp {`
+  git log -p -1 | v -`
+}
+gitp
+lt
+sup
+v "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
+ahk
+mps
+sup
+cd .\esbuild\
+gitp
+vd
+gs
+git add .
+gic "more closure, added junk.js"
+gitp
+gol
+u
+newt3
+b 1
+mps
+cd .\esbuild\
+code .
+fdi cube
+fdi graph
+fd graph
+lt
+sup
+rgi cube
+vd
+gs
+git add .
+gs
+vd
+gitp
+gs
+git status -vv
+git status -vv | v -
+sup
+function gstage {`
+  git status -vv | v -`
+}
+gs
+gstage
+gol
+gic "css prettied"
+gitp
+his
+cd C:\lnl\
+lt
+ri *
+wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL184.mp3
+wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL183.mp3
+cd \lnl
+lt
+vlc .
+ri *
+mps
+cd .\esbuild\
+gol
+gitp
+f3
+v .\browser-build.cjs
+gitp
+v .\browser-build.cjs
+fdi my.*mod
+lt
+node .\browser-build.cjs
+cd .\public\dist\
+lt
+cp my* ..
+lt
+u
+lt
+cp my* ..\src\
+git diff
+rgw git.*hard
+git reset HEAD --hard
+gs
+u
+cd .\src\
+lt
+v .\my-module.js
+cp .\my-module.js .\my-module.ts
+lt
+gs
+u
+gs
+lt
+node .\browser-build.cjs
+cd .\public\dist\
+lt
+uu
+cd .\src\
+lt
+u
+lt
+node .\browser-build.cjs
+gol
+sup
+gvm
+rgw git.*hard
+git reset HEAD --hard
+gs
+git add .
+gs
+git diff
+git stash list
+git stash
+sup
+gvm
+git stash pop
+git stash
+gvm
+git checkout dc036a9402a693
+git switch -
+gs
+git stash list
+git stash pop
+hl
+gs
+git stash lis
+git stash list
+git stash
+hl
+git checkout dc036a9402a693
+u
+cd .\esbuild\
+cd .\dist\
+lt
+u
+lt
+f1
+gs
+lt
+node .\browser-build.cjs
+git diff
+git switch -
+git stash list
+hl
+git reset –hard
+git reset –-hard
+rgw git.* reset
+rgw git.*reset
+git reset HEAD --hard
+git diff
+lt
+node .\browser-build.cjs
+git diff
+vd
+git reset HEAD --hard
+lt
+git switch -
+gvm
+git stash -list
+rgw git.*stas
+git stash list
+git stash pop
+fdi index
+fdi index.html
+lt
+node .\browser-build.cjs
+git reset HEAD --hard
+lt
+gvm
+git checkout 3c7000c30f
+git switch -
+gvm
+git checkout 1916086d0bd0f58fe
+f1
+fdi index.html
+ld
+cd src
+lt
+lse
+git switch -
+cd .\esbuild\
+gvm
+git switch dc036a9402a
+git checkout dc036a9402a
+git switch -
+u
+fdi index.html
+cd src
+lt
+git checkout dc036a9402a
+lse
+cd .\esbuild\
+git checkout bb733d9fefda
+git checkout ab9beaed00dd2df
+git switch -
+gvm
+gb
+git switch master
+gvm
+gb
+git checkout dc036a9402a
+fdi index.html
+cd .\public\dist\
+lse
+lt
+u
+ld
+u
+ld
+lt
+v .\browser-build.cjs
+node .\browser-build.cjs
+lt
+lse
+rgw git.*reset
+git reset head --hard
+rgw
+sup
+gvm
+gb
+git switch master
+gvm
+lse
+u
+code .
+lt
+lt
+node .\browser-build.cjs
+cd .\src\
+lt
+lse
+cd .\public\
+lt
+cd .\dist\
+lt
+lse
+uu
+cd .\src\
+lse
+lt
+u
+lt
+node .\browser-build.cjs
+cd .\src\
+cp .\my-module.js my-module.ts
+u
+node .\browser-build.cjs
+rgi alert
+fdi alert
+node .\browser-build.cjs
+u
+cd .\esbuild\
+gs
+git add .
+gic "sort of works"
+cd src
+lt
+lse
+mc
+ms
+aud
+b 1
+git diff
+u
+lt
+node .\browser-build.cjs
+lt
+git diff
+git diff | v -
+sup
+gstat
+lt
+gitp
+cd .\src\
+lt
+cp clos.js clos.ts
+u
+lt
+node .\browser-build.cjs
+cd src
+lt
+u
+node .\browser-build.cjs
+git diff
+gvm
+sup
+vd
+gs
+git add .
+sup
+gs
+gstage
+sup
+function gstage {`
+  git status -vv | v -`
+}
+gstage
+vd
+gic "works added ts to all functions"
+gitp
+lt
+node .\browser-build.cjs
+vd
+gol
+cd .\src\
+lt
+u
+lt
+node .\browser-build.cjs
+cd src
+lt
+node .\clos2.js
+v .\clos2.js
+lt
+u
+lt
+node .\browser-build.cjs
+git diff
+vd
+lt
+node .\browser-build.cjs
+Get-ChildItem -Path c:\ -File | Select Name
+Get-ChildItem -Path c:\ -File | Select FullName
+Get-ChildItem *.cjs -File | Select FullName
+v bu.ps1
+gs
+git add .
+gic "another clean"
+lt
+bu
+.\bu.ps1
+v .\bu.ps1C:\projects\esbuild\browser-build.cjs
+lt
+v .\bu.ps1
+cp .\bu.ps1 \all\ps
+cd src
+lt
+bu.ps1
+lt
+u
+.\bu.ps1
+cd .\src\
+git
+lt
+bu.ps1
+u
+rgw node.*conf
+his
+v .\browser-build.cjs
+vd
+cd .\src\
+cdc
+u
+cp .\browser-build.cjs vwork.cjs
+node --version
+cd C:\you\
+fdi blue
+cd .\blue\
+vz
+gitp
+lt
+node .\vwork.cjs
+lt
+node .\vwork.cjs
+cd .\src\
+lt
+u
+node .\vwork.cjs
+v c:/projects/esbuildi/src/my2.ts
+node .\vwork.cjs
+cd .\src\
+lt
+node .\my2.js
+gci my2
+gci my2*
+u
+lt
+gci vw
+gci vw*
+gci vw* | select FullName
+v bud.psq
+lt
+mv .\bud.psq bud.psq
+mv .\bud.psq bud.ps1
+cp .\bud.ps1 \all\ps
+cd src
+lt
+bud.ps1
+lt
+bud
+lt
+node .\my2.js
+hl
+bud
+lt
+v .\my2.js
+bud
+lt
+v .\my2.js
+bud
+lt
+cd .\src\
+lt
+v .\my2.js
+u
+lt
+bud
+cd src
+lt
+ri *
+bud
+lt
+cd src
+lt
+v .\file.js
+u
+lt
+xxx .\src\
+bud.ps1
+lt
+bud.ps1
+bud
+lt
+bud
+lt
+bud
+lt
+uu
+bud
+cd .\esbuild\src\
+lt
+bud
+lt
+bud
+u
+gv
+gv | v -
+gvm
+vd
+gs
+git add .
+gic "set up bud ps1 and vwork.cjs works"
+hl
+bud
+vd
+bud
+ms
+mc
+lt
+lt msc
+gic *.mp3
+gci *.mp3
+gci let*
+lt
+cd C:\you\
+fdi giant
+hl
+bud
+lt
+bud
+lt
+bud
+lt
+bud
+u
+gs
+cat .\src\c.js
+git add .
+gs
+vd
+sup
+gstage
+sup
+gstage
+sup
+function gstage {`
+  git status -vv | v -`
+}
+gstage
+gic "good multiple exports axios still commented"
+gil
+sup
+gstat
+newt
+gstat
+git checkout 0366e81c1480
+fdi index.html
+cd src
+lse
+lt
+v .\browser-build.cjs
+vd
+node .\browser-build.cjs
+git stash list
+git stash
+vd
+git stash pop
+vd
+git stash list
+git stash
+git stash list
+git switch -
+git stash list
+cd src
+lse
+gb
+gil
+gvm
+git stash list
+git stash pop
+gb
+gil
+git log
+git switch -
+gs
+lse
+gvm
+git stash
+rgw git.*hard
+git reset head --hard
+lse
+gvm
+git checkout d0cfad0f4fd
+lse
+git stash list
+git switch -
+git stash list
+gvm
+u
+lt
+bud
+cd .\src\
+lse
+git stash list
+git stash
+git stash list
+git stash drop
+git stash list
+gvm
+gstat
+lt
+u
+gw
+cd .\src\
+lt
+newt
+cd C:\you\
+fdi esb
+& '.\travs\Introduction to ESBuild tutorial for React _ JavaScript and Typescript bundling.  Bye bye Webpack.mp4'
+mps
+cd .\esbuild\
+npm i react react-dom @types/react @types/react-dom
+mkc react
+code .
+ni app.tsx
+gcm esbuild
+esbuild app.tsx --bundle --outfile=out.js
+more .\out.js
+lt
+node .\out.js
+u
+v .\browser-build.cjs
+lt
+cd .\react\
+lt
+node .\bb.js
+cp .\bb.js bb.cjs
+node .\bb.cjs
+lt
+u
+u
+lt
+cd .\node\
+lt
+ld
+cd .\myv\
+lt
+cd .\src\
+lt
+v .\App.jsx
+ni style.css
+lt
+hl
+node .\bb.cjs
+lt
+npx http-server
+lt
+node .\bb.cjs
+npx http-server
+newt
+node .\bb.cjs
+npx http-server
+node .\bb.cjs
+v bb
+v .\bb.cjs
+lt
+vd
+ld
+vd
+u
+v .\.gitignore
+vd
+lt
+gs
+git add .
+vd
+sup
+gstage
+gic "react from scratch attemp"
+gvm
+u
+ld
+f1
+cd .\esbuild\
+gitp
+f .\.gitignore
+v .\.gitignore
+v C:\all\.gitignore
+cp .\.gitignore c:\all
+v .\.gitignore
+gstat
+cd .\react\
+lt
+gw
+lt
+rgw npx
+npx http-server
+ahk
+mps
+newt3
+cd .\esbuild\
+code .
+ld
+trev
+sup
+gcm tree
+cd .\react\
+lt
+cd .\esbuild\
+code .
+cd .\react\
+lt
+gitp
+gvm
+npx http-server
+lt
+ld
+u
+v .\.gitignore
+duh
+git remote -r .\react\
+git rm -r .\react\
+gs
+gic "removed react"
+gitp
+lt
+ld
+gvm
+git checkout da3a1844c6b9a
+ld
+git switch -
+ld
+get-volume
+npm list -depth=0
+mkc react
+lt
+gcm bud.ps1
+u
+lt
+ri bu*
+lt
+v C:\all\ps\bud.ps1
+lt
+v .\vwork.cjs
+cd .\react\
+lt
+vd
+u
+lt
+ri .\clos.js
+lt
+v .\browser-build.cjs
+v .\vwork.cjs
+gs
+git add .
+gic "removed junk from esbuild"
+gitp
+cd .\react\
+cd .\youDL\
+u
+cd C:\you\
+fdi esbui
+& '.\travs\Introduction to ESBuild tutorial for React _ JavaScript and Typescript bundling.  Bye bye Webpack.mp4'
+lt
+ni x.ts
+lt
+vd
+gs
+git add .
+gs
+vd
+gs
+gstage
+gs
+lt
+esbuild.exe .\x.ts -outfile:x.js
+esbuild.exe .\x.ts --outfile=x.js
+lt
+node .\x.js
+gs
+git add .
+vd
+gstage
+lt
+v .\x.js
+v .\x.ts
+more .\x.ts
+ni app.tsx
+lt
+git add .
+lt
+esbuild.exe .\app.tsx --bundle --outfile=out.js
+lt
+node .\out.js
+gs
+git add .
+vd
+gstage
+more .\out.js
+v .\out.js
+lt
+cp .\app.tsx appN.tsx
+git add .
+lt
+node .\bb.cjs
+lt
+node .\bb.cjs
+lt
+node .\bb.cjs
+lt
+rgw npx
+npx http-server
+node .\bb.cjs
+cd
+cd .\Downloads\
+lt
+mv .\icons8-synchronize-16.png ico.png
+mv .\ico.png C:\projects\esbuild\react\
+lt
+gs
+git add .
+gic "good working esbuild react video"
+his
+cd C:\temp\
+cd C:\twit\
+lt
+wget "https://pdst.fm/e/cdn.twit.tv/audio/ww/ww0785/ww0785.mp3"  ##get windows weekly 7/1
+wget "https://pdst.fm/e/cdn.twit.tv/audio/ww/ww0784/ww0784.mp3"  ##get windows weekly 7/1
+ahk
+mps
+newt3
+bash
+cd C:\you\
+cd .\webdev\
+lt
+vlc '.\VS Code 1.69 Release Party 🎉.mp4'
+mps
+cd .\node\
+gitp
+cd .\myv\
+lt
+u
+lt ign
+rgw link
+gs
+ri .\.gitignore
+gs
+cd C:\all\
+gitp
+gic "clean additions"
+gs
+git add .
+gvm
+gs
+git commit --amend -m “this fixes the previous oopsies”
+gvm
+his
