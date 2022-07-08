@@ -12643,3 +12643,24 @@ gs
 git commit --amend -m “this fixes the previous oopsies”
 gvm
 his
+gs
+v .\.gitignore
+gs
+v .\.gitignore
+git commit --amend -m “this fixes the previous oopsies again”
+git add .
+git commit --amend -m “this fixes the previous oopsies again”
+gvm
+gs
+git push
+rgw link
+cdc
+ni -ItemType SymbolicLink -Path C:\projects\node -Target .\.gitignore
+ni -ItemType SymbolicLink -Path C:\projects\node\.gitignore -Target .\.gitignore
+lt
+ri .\.gitignore
+lt
+hl
+his
+ni -ItemType SymbolicLink -Path  .\.gitignore -Target C:\projects\node
+his
