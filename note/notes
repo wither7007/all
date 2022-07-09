@@ -6,13 +6,19 @@ boots
 
 I'd accept $50 if you're first one to schedule pickup (off Medicine Lake in Plymouth MN). Please direct future communications to jimsteffes@outlook.com.
 
-Steel Toe, Yes, available. I'm at 3409 E. Medicine Lake Plymouth MN. Phone (612) 461-2365. Boots are 11.5 EE, new in box. First one to pick them up, gets them. Jim Steffes
+Steel Toe, Yes, available. I'm at 3409 E. Medicine Lake Plymouth MN. Phone (612) 461-2365. Boots are 11.5 EE.https://www.youtube.com/watch?v=eiRrggf1EF4 First one to pick them up, gets them. Jim Steffes
+
+vscode switch slashes
+s/\\/\//g
 
 housing update
   sent a message from wither7007@gmail.com
 four seasons
 bike gears
 lottery clean up
+
+apt-get update
+apt-get upgrade 
 
 const chunk = (arr, size) =>
   Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
