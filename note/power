@@ -1,3 +1,5 @@
+
+gci | ? {$_.Name -match 'siv.*usin'} | % {touch.exe $_.Name}
 Get-ChildItem  | ? { $_.Name -match '.*node' }
 $services | ft -auto
 $services | fl

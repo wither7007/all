@@ -1,0 +1,630 @@
+'["items = Array.from(document.querySelectorAll(\'.item\'))\\ncl=(f)=>{\\n    var m=\\"word\\"\\n    console.log(`${m}  ${f}`)\\n}\\nitems = Array.from(document.querySelectorAll(\'.item\'))\\nitems[0].addEventListener(\\"click\\"
+(e)=>cl(e))\\n"
+"items = Array.from(document.querySelectorAll(\'.item\'))\\ncl=(f)=>{\\n    var m=\\"word\\"\\n    debugger\\n    console.log(`${m}  ${f}`)\\n}\\nitems = Array.from(document.querySelectorAll(\'.item\'))\\nitems[0].addEventListener(\\"click\\"
+(e)=>cl(e))\\n"
+"f"
+"f.target.textContent"
+"f.target.textContent=\\"changed\\""
+"items = Array.from(document.querySelectorAll(\'.item\'))\\ncl=(f)=>{\\n    var m=\\"word\\"\\n    f.target.textContent=\\"change\\"\\n    console.log(`${m}  ${f}`)\\n}\\nitems[0].addEventListener(\\"click\\"
+(e)=>cl(e))\\n"
+"items = Array.from(document.querySelectorAll(\'.item\'))\\ncl=(f)=>{\\n    var m=\\"word\\"\\n    f.target.textContent=\\"change\\"\\n    console.log(`${m}  ${f}`)\\n}\\nitems.forEach((x)=>x.addEventListener(\\"click\\"
+(e)=>cl(e)))\\n"
+"f"
+"for (a in f){console.log(f))"
+"for (a in f){console.log(f)}"
+"for (a in f){console.log(a)}"
+"fruits = [\\"Banana\\"
+ \\"Orange\\"
+ \\"Apple\\"
+ \\"Mango\\"];"
+"fruits.sort()"
+"fruits"
+"\\"jim\\".slice(2)"
+"fruits.sort((a
+b)=>a-b)"
+"k=\\"jim\\""
+"k[1]"
+"fruits.sort((a
+b)=>a[1]-b[1])"
+"fruits.sort((a
+b)=>a-b)"
+"[\'test\'
+\'array\'
+\'sort\'].sort((a
+b) => a.charCodeAt(1)-b.charCodeAt(1));"
+"\\"jim\\".split(\\"\\")"
+"\\"jim\\".charCodeAt(2)"
+"d={\\n\\"31\\": \\"\\"
+      \\"32\\": \\" \\"
+     \\"33\\": \\"!\\"
+     \\"34\\": \\"\\\\\\"\\"
+    \\"35\\": \\"#\\"
+    \\n\\"36\\": \\"$\\"
+     \\"37\\": \\"%\\"
+     \\"38\\": \\"&\\"
+     \\"39\\": \\"\'\\"
+     \\"40\\": \\"(\\"
+    \\n\\"41\\": \\")\\"
+     \\"42\\": \\"*\\"
+     \\"43\\": \\"+\\"
+     \\"44\\": \\"
+\\"
+     \\"45\\": \\"-\\"
+    \\n\\"46\\": \\".\\"
+     \\"47\\": \\"/\\"
+     \\"48\\": \\"0\\"
+     \\"49\\": \\"1\\"
+     \\"50\\": \\"2\\"
+    \\n\\"51\\": \\"3\\"
+     \\"52\\": \\"4\\"
+     \\"53\\": \\"5\\"
+     \\"54\\": \\"6\\"
+     \\"55\\": \\"7\\"
+    \\n\\"56\\": \\"8\\"
+     \\"57\\": \\"9\\"
+     \\"58\\": \\":\\"
+     \\"59\\": \\";\\"
+     \\"60\\": \\"<\\"
+    \\n\\"61\\": \\"=\\"
+     \\"62\\": \\">\\"
+     \\"63\\": \\"?\\"
+     \\"64\\": \\"@\\"
+     \\"65\\": \\"A\\"
+    \\n\\"66\\": \\"B\\"
+     \\"67\\": \\"C\\"
+     \\"68\\": \\"D\\"
+     \\"69\\": \\"E\\"
+     \\"70\\": \\"F\\"
+    \\n\\"71\\": \\"G\\"
+     \\"72\\": \\"H\\"
+     \\"73\\": \\"I\\"
+     \\"74\\": \\"J\\"
+     \\"75\\": \\"K\\"
+    \\n\\"76\\": \\"L\\"
+     \\"77\\": \\"M\\"
+     \\"78\\": \\"N\\"
+     \\"79\\": \\"O\\"
+     \\"80\\": \\"P\\"
+    \\n\\"81\\": \\"Q\\"
+     \\"82\\": \\"R\\"
+     \\"83\\": \\"S\\"
+     \\"84\\": \\"T\\"
+     \\"85\\": \\"U\\"
+    \\n\\"86\\": \\"V\\"
+     \\"87\\": \\"W\\"
+     \\"88\\": \\"X\\"
+     \\"89\\": \\"Y\\"
+     \\"90\\": \\"Z\\"
+    \\n\\"91\\": \\"[\\"
+     \\"92\\": \\"\\\\\\\\\\"
+    \\"93\\": \\"]\\"
+     \\"94\\": \\"^\\"
+     \\"95\\": \\"_\\"
+    \\n\\"96\\": \\"`\\"
+     \\"97\\": \\"a\\"
+     \\"98\\": \\"b\\"
+     \\"99\\": \\"c\\"
+     \\"100\\": \\"d\\"
+    \\n\\"101\\": \\"e\\"
+    \\"102\\": \\"f\\"
+    \\"103\\": \\"g\\"
+    \\"104\\": \\"h\\"
+    \\"105\\": \\"i\\"
+    \\n\\"106\\": \\"j\\"
+    \\"107\\": \\"k\\"
+    \\"108\\": \\"l\\"
+    \\"109\\": \\"m\\"
+    \\"110\\": \\"n\\"
+    \\n\\"111\\": \\"o\\"
+    \\"112\\": \\"p\\"
+    \\"113\\": \\"q\\"
+    \\"114\\": \\"r\\"
+    \\"115\\": \\"s\\"
+    \\n\\"116\\": \\"t\\"
+    \\"117\\": \\"u\\"
+    \\"118\\": \\"v\\"
+    \\"119\\": \\"w\\"
+    \\"120\\": \\"x\\"
+    \\n\\"121\\": \\"y\\"
+    \\"122\\": \\"z\\"
+    \\"123\\": \\"{\\"
+    \\"124\\": \\"|\\"
+    \\"125\\": \\"}\\"
+    \\n\\"126\\": \\"~\\"
+    \\"127\\": \\"\\"\\n}"
+"d"
+"for (n in d){console.log(n)}"
+"for (n in d){console.log(d[n]
+n)}"
+"d={\\n    \\"31\\": \\"\\"
+      \\"32\\": \\" \\"
+     \\"33\\": \\"!\\"
+     \\"34\\": \\"\\\\\\"\\"
+    \\"35\\": \\"#\\"
+    \\n    \\"36\\": \\"$\\"
+     \\"37\\": \\"%\\"
+     \\"38\\": \\"&\\"
+     \\"39\\": \\"\'\\"
+     \\"40\\": \\"(\\"
+    \\n    \\"41\\": \\")\\"
+     \\"42\\": \\"*\\"
+     \\"43\\": \\"+\\"
+     \\"44\\": \\"
+\\"
+     \\"45\\": \\"-\\"
+    \\n    \\"46\\": \\".\\"
+     \\"47\\": \\"/\\"
+     \\"48\\": \\"0\\"
+     \\"49\\": \\"1\\"
+     \\"50\\": \\"2\\"
+    \\n    \\"51\\": \\"3\\"
+     \\"52\\": \\"4\\"
+     \\"53\\": \\"5\\"
+     \\"54\\": \\"6\\"
+     \\"55\\": \\"7\\"
+    \\n    \\"56\\": \\"8\\"
+     \\"57\\": \\"9\\"
+     \\"58\\": \\":\\"
+     \\"59\\": \\";\\"
+     \\"60\\": \\"<\\"
+    \\n    \\"61\\": \\"=\\"
+     \\"62\\": \\">\\"
+     \\"63\\": \\"?\\"
+     \\"64\\": \\"@\\"
+     \\"65\\": \\"A\\"
+    \\n    \\"66\\": \\"B\\"
+     \\"67\\": \\"C\\"
+     \\"68\\": \\"D\\"
+     \\"69\\": \\"E\\"
+     \\"70\\": \\"F\\"
+    \\n    \\"71\\": \\"G\\"
+     \\"72\\": \\"H\\"
+     \\"73\\": \\"I\\"
+     \\"74\\": \\"J\\"
+     \\"75\\": \\"K\\"
+    \\n    \\"76\\": \\"L\\"
+     \\"77\\": \\"M\\"
+     \\"78\\": \\"N\\"
+     \\"79\\": \\"O\\"
+     \\"80\\": \\"P\\"
+    \\n    \\"81\\": \\"Q\\"
+     \\"82\\": \\"R\\"
+     \\"83\\": \\"S\\"
+     \\"84\\": \\"T\\"
+     \\"85\\": \\"U\\"
+    \\n    \\"86\\": \\"V\\"
+     \\"87\\": \\"W\\"
+     \\"88\\": \\"X\\"
+     \\"89\\": \\"Y\\"
+     \\"90\\": \\"Z\\"
+    \\n    \\"91\\": \\"[\\"
+     \\"92\\": \\"\\\\\\\\\\"
+    \\"93\\": \\"]\\"
+     \\"94\\": \\"^\\"
+     \\"95\\": \\"_\\"
+    \\n    \\"96\\": \\"`\\"
+     \\"97\\": \\"a\\"
+     \\"98\\": \\"b\\"
+     \\"99\\": \\"c\\"
+     \\"100\\": \\"d\\"
+    \\n    \\"101\\": \\"e\\"
+    \\"102\\": \\"f\\"
+    \\"103\\": \\"g\\"
+    \\"104\\": \\"h\\"
+    \\"105\\": \\"i\\"
+    \\n    \\"106\\": \\"j\\"
+    \\"107\\": \\"k\\"
+    \\"108\\": \\"l\\"
+    \\"109\\": \\"m\\"
+    \\"110\\": \\"n\\"
+    \\n    \\"111\\": \\"o\\"
+    \\"112\\": \\"p\\"
+    \\"113\\": \\"q\\"
+    \\"114\\": \\"r\\"
+    \\"115\\": \\"s\\"
+    \\n    \\"116\\": \\"t\\"
+    \\"117\\": \\"u\\"
+    \\"118\\": \\"v\\"
+    \\"119\\": \\"w\\"
+    \\"120\\": \\"x\\"
+    \\n    \\"121\\": \\"y\\"
+    \\"122\\": \\"z\\"
+    \\"123\\": \\"{\\"
+    \\"124\\": \\"|\\"
+    \\"125\\": \\"}\\"
+    \\n    \\"126\\": \\"~\\"
+    \\"127\\": \\"\\"\\n    }\\nconsole.log(JSON.stringify(d))"
+"Array.from(d)"
+"d"
+"Object.values(d)"
+"Array.from(Object.values(d))"
+"Object.keys(d)"
+"Object.entries(d)"
+"e=Array.from(Object.entries(d))"
+"Array.fron(d)"
+"f"
+"`<div class=\\"grid\\">${f} </div>`"
+"a"
+"a()"
+"a"
+"a.map((n)=>(n[0])"
+"a.map((n)=>(n[0]))"
+"resp"
+"console.log(\'Initialization complete\'
+ Temporal.Now.instant());"
+"const now = new Date();"
+"now=new Date()"
+"now"
+"const standardTime = Temporal.ZonedDateTime.from({\\n  timeZone: \'Europe/Zurich\'
+\\n  year: 1995
+\\n  month: 11
+\\n  day: 30
+\\n  hour: 3
+\\n  minute: 24
+\\n});"
+"$0.children"
+"[ \'img\'
+ \'index.html\'
+ \'n.js\'
+ \'script.js\'
+ \'style.css\' ].map(f)=>f"
+"console.log(\'🥗\')"
+"k=()=>console.log(\'k\')\\nsetTimeout(() => {\\n   k \\n}
+ 100);"
+"k"
+"k=()=>console.log(\'k\')\\nsetTimeout(() => {\\n   k \\n}
+ 1000);"
+"k"
+"k=()=>console.log(\'this is tiemout\')\\nsetTimeout(() => {\\n   k \\n}
+ 1000);"
+"k()"
+"k=()=>console.log(\'this is tiemout\')\\nsetTimeout(() => {\\n   k \\n}
+ 1000);"
+"k=()=>console.log(\'this is tiemout\')\\nsetTimeout(() => {\\n   k()\\n}
+ 1000);"
+"k=()=>console.log(\'this is tiemout\')\\nsetTimeout(k
+ 500)"
+"setTimeout(k()
+ 500)"
+"setTimeout(k()
+ 1500)"
+"k=()=>console.log(\'this is tiemout\')\\nsetTimeout(k()
+ 5000)"
+"my=()=>console.log(\'this is tiemout\')\\nsetTimeout(my()
+ 5000)"
+"function myF(){\\n    console.log(\'this is myF\')\\n}\\nsetTimeout(myF()
+ 5000)"
+"function myF(){\\n    console.log(\'this is myF\')\\n}\\nsetTimeout(myF()
+ 50000)"
+"function myF(){\\n    console.log(\'this is myF\')\\n}\\nsetTimeout(myF()
+ 5000)"
+"function myF() {\\n    console.log(\'this is myF\')\\n}\\nsetTimeout(myF()
+ 50000)"
+"function myF() {\\n    console.log(\'this is myF\')\\n}\\nvar x =setTimeout(myF()
+ 50000)"
+"x"
+"function myF() {\\n    console.log(\'this is new myF\')\\n}\\nvar x = setTimeout(myF()
+ 50000)"
+"const start = Date.now();\\n\\nconsole.log(\'starting timer...\');\\n// expected output: starting timer...\\n\\nsetTimeout(() => {\\n  const millis = Date.now() - start;\\n\\n  console.log(`seconds elapsed = ${Math.floor(millis / 1000)}`);\\n  // expected output: seconds elapsed = 2\\n}
+ 2000);\\n"
+"start"
+"Date.now()"
+"const d = new Date();\\nlet text = d.toLocaleString();"
+"text"
+"function myF() {\\n    console.log(\'this is new myF\')\\n}\\nvar x = setTimeout(()=>{\\n    myF()
+ 500\\n}"
+"function myF() {\\n    console.log(\'this is new myF\')\\n}\\nvar x = setTimeout(()=>{\\n    myF()
+ 500\\n})"
+"function myF() {\\n    console.log(\'this is new myF\')\\n}\\nvar x = setTimeout(()=>{\\n    myF()
+ 5000\\n})"
+"function myF() {\\n    console.log(\'this is new myF\')\\n}\\nsetTimeout(()=>{\\n    myF()
+ 5000\\n})"
+"myF()"
+"setTimeout(()=>{\\n    myF()
+ 5000\\n})"
+"const d = new Date();\\nlet text = d.toTimeString();"
+"const de = new Date();\\nlet stext = d.toTimeString();"
+"stext"
+"setTimeout(() => {\\n  console.log(\\"Delayed for 1 second.\\");\\n}
+ \\"1000\\")"
+"pp=()=>console.log(\'this is pp\')\\nsetTimeout(()=>pp
+1000)"
+"pp()"
+"pp=()=>console.log(\'this is pp\')\\nsetTimeout(()=>pp()
+1000)"
+"tt=()=>pp()"
+"tt()"
+"pp()"
+"for (var i = 0; i < 3; i++) {\\n    // debugger\\n    const log = () => {\\n        console.log(i)\\n        console.log(\'here\')\\n    }\\n    setTimeout(log
+ 100)\\n\\n}"
+"for (let i = 0; i < 3; i++) {\\n    // debugger\\n    const log = () => {\\n        console.log(i)\\n        console.log(\'here\')\\n    }\\n    setTimeout(log
+ 100)\\n\\n}"
+"for (let i = 0; i < 3; i++) {\\n    // debugger\\n    const log = () => {\\n        console.log(`i is ${i}`)\\n    }\\n    setTimeout(log
+ 1000)\\n}"
+"for (let i = 0; i < 3; i++) {\\n    // debugger\\n    const log = () => {\\n        console.log(`i is ${i}`)\\n    }\\n    setTimeout(log
+ 10000)\\n}"
+"df=()=>(new Date())"
+"df()"
+"console.log(df())"
+"const d = new Date();\\nconst options = { weekday: \'long\'
+ year: \'numeric\'
+ month: \'long\'
+ day: \'numeric\'
+ hour: \'numeric\' };\\n\\nconsole.log(d.toLocaleDateString(\'de-DE\'
+ options));"
+"const dx = new Date();\\nconst options = { weekday: \'long\'
+ year: \'numeric\'
+ month: \'long\'
+ day: \'numeric\'
+ hour: \'numeric\' };\\n\\nconsole.log(d.toLocaleDateString(\'de-DE\'
+ options));\\nlet text = dx.toLocaleString();"
+"const dx = new Date();\\nconst options = { weekday: \'long\'
+ year: \'numeric\'
+ month: \'long\'
+ day: \'numeric\'
+ hour: \'numeric\' };\\n\\nconsole.log(dx.toLocaleDateString(\'de-DE\'
+ options));"
+"const dx = new Date();\\nconst options = { weekday: \'long\'
+ year: \'numeric\'
+ month: \'long\'
+ day: \'numeric\'
+ hour: \'numeric\' };\\n\\nconsole.log(dx.toLocaleDateString(\'en-US\'
+ options));"
+"dx"
+"const dx = new Date();\\nconst options = { weekday: \'long\'
+ year: \'numeric\'
+ month: \'long\'
+ day: \'numeric\'
+ hour: \'numeric\' };\\nconst op2={hour: \'numeric\'
+ minute: \'numeric\'}\\n\\nconsole.log(dx.toLocaleDateString(\'en-US\'
+ op2));"
+"const op2={hour: \'numeric\'
+ minute: \'numeric\'
+ second: \'numeric\'}\\n\\nconsole.log(dx.toLocaleDateString(\'en-US\'
+ op2));"
+"const dx = new Date();\\nconst options = { weekday: \'long\'
+ year: \'numeric\'
+ month: \'long\'
+ day: \'numeric\'
+ hour: \'numeric\' };\\nconst op2={hour: \'numeric\'
+ minute: \'numeric\'
+ second: \'numeric\'}\\n\\nconsole.log(dx.toLocaleDateString(\'en-US\'
+ op2));"
+"dx.getSeconds"
+"dx.getSeconds()"
+"function formatDate(date) {\\n  return [\\n    padTo2Digits(date.getMonth() + 1)
+\\n    padTo2Digits(date.getDate())
+\\n    date.getFullYear()
+\\n  ].join(\'/\');\\n}\\n"
+"function padTo2Digits(num) {\\n    return num.toString().padStart(2
+ \'0\');\\n  }\\n  \\n  function formatDate(date) {\\n    return [\\n      padTo2Digits(date.getMonth() + 1)
+\\n      padTo2Digits(date.getDate())
+\\n      date.getFullYear()
+\\n    ].join(\'/\');\\n  }\\n"
+"new Date();"
+"const start = Date.now();\\nconst dx = formatDate(start)"
+"ondragstart"
+"start=Date.now()"
+"formatDate(start)"
+"function padTo2Digits(num) {\\n  return num.toString().padStart(2
+ \'0\');\\n}\\n\\nfunction formatDate(date) {\\n  return [\\n    padTo2Digits(date.getMonth() + 1)
+\\n    padTo2Digits(date.getDate())
+\\n    date.getFullYear()
+\\n  ].join(\'/\');\\n}\\n\\n// 👇️ 10/24/2022 (mm/dd/yyyy)\\nconsole.log(formatDate(new Date()));"
+"let date = new Date();"
+"date.getSeconds()"
+"let date = new Date();"
+"date.getSeconds()"
+"date.getHours()"
+"let date = new Date();"
+"date.getSeconds()"
+"et start = new Date(); // start measuring time\\n\\n// do the job\\nfor (let i = 0; i < 100000; i++) {\\n  let doSomething = i * i * i;\\n}\\n\\nlet end = new Date(); // end measuring time\\n\\nalert( `The loop took ${end - start} ms` );"
+"let start = new Date(); // start measuring time\\n\\n// do the job\\nfor (let i = 0; i < 100000; i++) {\\n  let doSomething = i * i * i;\\n}\\n\\nlet end = new Date(); // end measuring time\\n\\nalert( `The loop took ${end - start} ms` );"
+"alert(`Loading started ${performance.now()}ms ago`);"
+"function i(){\\n    p=\\"word\\"\\n}"
+"p=\'not\'"
+"p"
+"function i(){\\n    p=\\"word\\"\\n    function j(){\\n        console.log(p)\\n    }\\n    j()\\n}"
+"i()"
+"if (Math.random() > 0.5) {\\n  var x = 1;\\n} else {\\n  var x = 2;\\n}\\nconsole.log(x);"
+"console.log(typeof i);"
+"console.log(typeof z);"
+"var n=n+2"
+"let n=n+2"
+"let n"
+"let n=n+2"
+"let n=1"
+"let n=n+2"
+"n"
+"let n=3"
+"n"
+"n=3"
+"n"
+"var n =3"
+"var n =6"
+"n"
+"let n=8"
+"n"
+"console.log(n)"
+"let n =8"
+"nn=9"
+"window.nn"
+"console.log(n)"
+"console.log(nn)"
+"n=2"
+"console.log(n)"
+"let n =8"
+"console.log(n)"
+"let x = 1;\\n\\n{\\n  var x = 2; // SyntaxError for re-declaration\\n}"
+"XMLDocument"
+"console.log(x)"
+"let x=88"
+"console.log(x)"
+"function n(){\\n    let n =22\\n    function o(){\\n        let n=33\\n    }\\n    console.log(n)\\n}"
+"n"
+"n()"
+"function n(){\\n    let n =22\\n    function o(){\\n        let n=33\\n        console.log(`n inside o ${n}`)\\n    }\\n    console.log(n)\\n}"
+"n()"
+"n()o()"
+"i()"
+"n=makeFunc()"
+"n()"
+"makeAdder(2)"
+"p=makeAdder(2)"
+"p(3)"
+"const size16 = makeSizer(16);"
+"size16()"
+"const size16 = makeSizer(26);"
+"size16()"
+"const size16 = makeSizer(36);"
+"size16()"
+"c()"
+"c"
+"c()"
+"size16()"
+"size32()"
+"size12()"
+"function EmployeeDetails() {\\n  var name: \\"Mayank\\";\\n  var age = 30;\\n  var designation = \\"Developer\\"
+\\n  var salary = 10000;\\n\\n\\n  \\n  return {\\n    name: name
+\\n    age: age
+\\n    designation: designation\\n  }\\n}\\n\\nvar newEmployee = EmployeeDetails()"
+"function EmployeeDetails() {\\n  var name: \\"Mayank\\";\\n  var age = 30;\\n  var designation = \\"Developer\\"
+\\n  var salary = 10000;\\n\\n\\n  \\n  return {\\n    name: name
+\\n    age: age
+\\n    designation: designation\\n  }\\n}\\n"
+"name"
+"function EmployeeDetails() {\\n  var name= \\"Mayank\\";\\n  var age = 30;\\n  var designation = \\"Developer\\"\\n  \\n  return {\\n    \\"name\\": name
+\\n    \\"name\\": age
+\\n    \\"designation\\": designation\\n  }\\n}\\n"
+"var newEmployee = EmployeeDetails()\\n"
+"newEmployee"
+"counter"
+"counter.value()"
+"counter.increment()"
+"counter.value()"
+"outer()"
+"k=outer()"
+"k"
+"function outer() {\\n  const x = 5;\\n  if (Math.random() > 0.5) {\\n    const y = 6;\\n    return () => console.log(x
+ y);\\n  }\\n}\\n\\nouter()(); // logs 5 6\\n"
+"document.body.style.backgroundColor=\\"blue\\""
+"document.body.style.display=\\"flex\\""
+"document.getElementsByTagName(\'h1\')"
+"Array.from(document.getElementsByTagName(\'h1\')"
+"Array.from(document.getElementsByTagName(\'h1\'))"
+"r=Array.from(document.getElementsByTagName(\'h1\'))"
+"r.forEach((n)=>(console.log(n))"
+"r.forEach((n)=>(console.log(n)))"
+"r[1].style.color=\\"blue\\""
+"r[1].innerHTML=\\"blue\\""
+"resp"
+"function quad(x) {\\n    return Math.pow(x
+ 4)\\n}"
+"quad(2)"
+"const dir = \'c:/projects/esbuild/src/\'\\nconst mod = [\'my2.ts\'
+\'file.ts\']\\nmod.map((x)=>dir+x[1])"
+"const dir = \'c:/projects/esbuild/src/\'\\nconst mod = [\'my2.ts\'
+\'file.ts\']\\nmod.map((x)=>dir+x)"
+"window.a"
+"outer"
+"outer()"
+"outer()()"
+"for (let i=0; i<10; i++)\\n{console.log(i)} // logs 5 6}"
+"outer()"
+"p=outer()"
+"p"
+"p()"
+"p(2)"
+"p(8)"
+"x = Array(40).fill(2)\\n"
+"x"
+"dc"
+"card2"
+"flipped"
+"key"
+"card"
+"skey"
+"$0.classList"
+"focus()"
+"a=[\'one\'
+ \'two\'
+ \'three\']\\na.map((n)=>`<div class=\\"child-${n} child\\">${n}</div>`)"
+"a=[\'one\'
+ \'two\'
+ \'three\']\\na.map((n)=>`<div class=\\"child-${n} child\\">${n}</div>`).join(\\"\\\\n\\")"
+"b=a.map((n)=>`<div class=\\"child-${n} child\\">${n}</div>`).join(\'\\\\n\')\\ncopy(b)"
+"addEventListener"
+"a=[\'one\'
+ \'two\'
+ \'three\']"
+"c=a.map((v)=>`.child-${v} \\\\{\\\\n\\\\}`)"
+"copy(c)"
+"c=a.map((v)=>`.child-${v} \\\\{\\\\}`).join(\'\\\\n\')\\ncopy(c)"
+"c=a.map((v)=>`.child-${v}: \\\\{  \\\\}`).join(\'\\\\n\')\\ncopy(c)"
+"c=a.map((v)=>`.child-${v} \\\\{  \\\\}`).join(\'\\\\n\')\\ncopy(c)"
+"c=a.map((v)=>`.child-${v} \\\\{  \\\\}\\\\n`).join(\'\\\\n\')\\ncopy(c)"
+"c=a.map((v)=>`.child-${v} \\\\{\\\\n\\\\}`)"
+"c = a.map((v
+i) => `.child-${v} \\\\{  \\\\}\\\\n`).join(\'\\\\n\')"
+"a = [\'one\'
+ \'two\'
+ \'three\']\\nc = a.map((v
+i) => `.child-${v} \\\\{  \\\\}\\\\n`).join(\'\\\\n\')"
+"c"
+"const numbers = [1
+ 2
+ 3
+ 4];\\nconst filteredNumbers = numbers.map((num
+ index) => {\\n  if (index < 3) {\\n    return num;\\n  }\\n});"
+"const numbers = [1
+ 2
+ 3
+ 4];\\n filteredNumbers = numbers.map((num
+ index) => {\\n  if (index < 3) {\\n    return num;\\n  }\\n});"
+" filteredNumbers = numbers.map((num
+ index) => {\\nindex===3?444:888\\n});"
+"const numbers = [1
+ 2
+ 3
+ 4];\\n filteredNumbers = numbers.map((num
+ index) => {\\nindex===3?444:888\\n});"
+"flipped"
+"boxes"
+"for (box of boxes){console.log(box)}"
+"boxes[1]"
+"boxes[1].style.fontSize=\\"230px\\""
+"boxes[1].style.transform=rotate(0deg)"
+"boxes[1].style.transform=\\"rotate(0deg)\\""
+"boxes[1].style.transform=\\"rotate(90deg)\\""
+"boxes[1].style.transform=\\"rotateY(90deg)\\""
+"boxes[1].style.transform=\\"rotateY(0deg)\\""
+"boxes[1].style.position=\\"absolute\\""
+"boxes[1].style.transform=\\"rotateY(90deg)\\""
+"boxes[1].style.transform=\\"rotateY(0deg)\\""
+"boxes[1].style.transform=\\"rotateY(45deg)\\""
+"boxes[1].style.transform=\\"rotateX(45deg)\\""
+"boxes[1].style.transform=\\"rotate(45deg)\\""
+"boxes[1].style.fontSize=\\"20px\\""
+"boxes[1].style.position=\\"static\\""
+"boxes[1].style.transform=\\"scale(2)\\""
+"boxes[1].style.transform=\\"scale(5)\\""
+"e"
+"e.target.style.fontSize=\\"33px\\""
+"e.target.style.fontSize"
+"e.target.style.fontSize===\\"\\""
+"$0.parentElement"
+"$0.parentElement.parentElement"
+"fs"
+"document.getElementsByClassName(\'f\')"
+"fs"
+"fs[1].style.transform.fontsize=\\"2px\\""
+"fs[1].style.fontSize=\\"2px\\""
+"fs[1].style.fontSize=\\"12px\\""
+"fs[1].style.fontSize=\\"22px\\""
+"fs[1].style.position=\'absolute\'"
+"fs[0].style.position=\'absolute\'"
+"fs[1].style.transform=\\"rotateY(90deg)\\""
+"fs[1].style.transform=\\"rotateY(0deg)\\""
+"fs[3].style.position=\'absolute\'"
+"fs[1].style.transform=\\"rotateY(90deg)\\""
+"fs[3].style.position=\'static\'"]'

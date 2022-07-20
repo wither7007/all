@@ -24,6 +24,9 @@ return
 Send, The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away.
 return
 
+!y::
+Send, And so from hour to hour we ripe and ripe, And then from hour to hour we rot and rot; And thereby hangs a tale.  As You Like It, Act 2, Scene 7.
+return
 
 !x:: Send, after:2020
 return

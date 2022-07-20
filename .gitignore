@@ -1,3 +1,5 @@
+
+col
 filex
 *.jpg
 *.mp3
@@ -7,6 +9,7 @@ filex
 *.mp4
 *.mp3
 # Logs
+/bs
 his
 logs
 package-lock.json
@@ -96,7 +99,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
