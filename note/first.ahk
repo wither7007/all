@@ -80,19 +80,3 @@ return
 
 
 
-!1::
-SendRaw, `%run vsc1.py
-return
-
-!2::
-SendRaw, `%run vsc2.py
-return
-
-
-!3::
-SendRaw, `%run vsc3.py
-return
-
-!4::
-SendRaw, `%run idFinder.py
-return

@@ -5,3 +5,10 @@ def sum(x, y):
     return x+y
 sum(1, 2)
 In the example, x and y are the parameters, while1 and 2 are the arguments.
+
+
+import re
+
+p = re.compile('^.+-.+-.+$')
+l1 = ["AB.22-01-01", "AB.33-01-44", "--4", "AA.44--05", "--"]
+l2 = [ s for s in l1 if p.match(s) ]
