@@ -134,3 +134,35 @@ If you would like to contribute with code, you may do so at https://github.com/T
   /* CSS */
   
 }
+
+https://www.youtube.com/watch?v=8X4u9sca3Io
+git --version
+ssh-keygen -t ed25519 -C "jimsteffes@outlook.com"
+eval "$(ssh-agent -s)"
+touch ~/.ssh/config
+v ~/.ssh/config
+cd .ssh
+lt
+ssh-add ~/.ssh/id_ed25519
+v ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+add key to github.com
+
+
+
+Disillusionment of Ten O'Clock
+ The houses are haunted
+ By white night-gowns.
+ None are green,
+ Or purple with green rings,
+ Or green with yellow rings,
+ Or yellow with blue rings.
+ None of them are strange,
+ With socks of lace
+ And beaded ceintures.
+ People are not going
+ To dream of baboons and periwinkles.
+ Only, here and there, an old sailor,
+ Drunk and asleep in his boots,
+ Catches tigers
+ In red weather.
