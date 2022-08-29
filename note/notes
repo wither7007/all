@@ -17,6 +17,12 @@ steff007 stars1
 #!/bin/bash
 #!/bin/zsh
 
+int add(int x, int y) {
+    return x + y;
+}
+ 
+The add() function takes two parameters, x and y. If the function is called as add(2, 3), then 2, 3 are the arguments.
+
 hostgator
 CreateAProWebsite
 ss card
