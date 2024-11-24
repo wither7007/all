@@ -1,0 +1,20 @@
+XMore Details and Demo
+Version:10.1.10
+Author:Themeco
+
+ Premium theme
+Description:The ultimate WordPress theme, with multiple unique designs, live Customizer and over 20 Extensions with each purchase. Feature rich. Clean code. ThemeForest's fastest selling theme of all time.
+
+child theme
+https://lfinsaas.com
+
+Missions, Inc.Not Downloadable
+Version:1.0.0
+Author:L. Finsaas Design
+
+Parent Theme:x
+
+ Custom theme Child Theme
+Description:A custom theme for Missions, Inc. built on the X Theme Framework.
+
+Availability:This child theme is not available for you to download or buy. Please check the availability of its parent theme below.

@@ -1,0 +1,34 @@
+My cat’s breath smells like cat food
+Yay sleep! That's where I'm a Viking!
+The doctor said my nose wouldn't bleed so much if I just kept my finger out of there
+
+document.querySelector('body').style="border-top: 100px solid black"
+
+ replace word discussion
+https://askubuntu.com/questions/20414/find-and-replace-text-within-a-file-using-commands
+CAESAR: Let me have men about me that are fat;
+Sleek-headed men and such as sleep o'nights:
+Yond Cassius has a lean and hungry look;
+He thinks too much: such men are dangerous.
+
+ANTONY: Fear him not, Caesar; he's not dangerous;
+He is a noble Roman, and well given.
+
+CAESAR: Would he were fatter! But I fear him not:
+
+
+find /directory/path -type f -name "*.out" -exec sed -i 's/keystring/newstring/g' {} +
+
+!cool 
+curl 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Talking_Heads_discography/daily/20210928/20220930' | jq '.'
+
+linux trash output
+llllkj > /dev/null 2>&1
+
+“My solitude doesn’t depend on the presence or absence of people; on the contrary, I hate who steals my solitude without, in exchange, offering me true company.”
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '';
+
+The following content may contain suicide or self-harm topics.
+Viewer discretion is advised. Learn more

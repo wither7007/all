@@ -1,0 +1,21 @@
+remove event listeners
+d.replaceWith(d.cloneNode(true));
+
+
+for (property in ob ) {
+  console.log(`${property}: ${ob[property]}`);
+}
+Object.keys( window );
+
+const el = document.createElement('h1');
+const words = "Hello, World!"
+const text = document.createTextNode(words);
+el.appendChild(text);
+
+
+let add_element = () => {
+    const template = document.createElement('div');
+    template.innerHTML = "Content inside DIV";
+    
+    document.body.appendChild(template);
+}

@@ -1,0 +1,58 @@
+Program Revenue $4,061,361
+Grants and Contributions $388,498
+
+Net Investment Income and Other $1,202,507
+TOTAL REVENUE $5,652,366
+
+Supportive Housing $1,971,332
+Domestic Violence Services $1,174,345
+Withdrawal Management &
+Detox Services $1,292,607
+SUPPORTING SERVICES
+Management and General $1,393,285
+Fundraising and Development $289,468
+TOTAL EXPENSE $6,121,037
+
+PROGRAMS
+Supportive Housing $1,971,332
+Domestic Violence Services $1,174,345
+Withdrawal Management &
+Detox Services $1,292,607
+SUPPORTING SERVICES
+Management and General $1,393,285
+Fundraising and Development $289,468
+TOTAL EXPENSE $6,121,037
+
+STATEMENT OF FINANCIAL POSITION
+Current Assets $6,478,984.38
+Property and Equipment $1,148,533.91
+Resident Trust Fund $25,555.85
+TOTAL ASSETS $7,653,075.44
+
+Liablities $738,537.73
+Resident Trust Fund $25,555.85
+Net Assets $6,888,981.86
+TOTAL LIABILITIES AND NET ASSETS $7,653,075.44
+
+[
+    "Contact",
+    "Email contact available with a Pro subscription",
+    "Fundraising Contact",
+    "Kristin Rigg",
+    "Development Director",
+    "Fundraising contact phone: (763) 559-1883",
+    "krigg@missionsinc.org",
+    "Physical Address",
+    "3409 EAST MEDICINE LAKE BOULEVARD ",
+    "PLYMOUTH, MN 55441 ",
+    "Payment Address",
+    "3409 EAST MEDICINE LAKE BOULEVARD ",
+    "PLYMOUTH, MN 55441 ",
+    "International Address",
+    "3409 E. Medicine Lake Blvd. ",
+    "Plymouth MI 55411",
+    "International tel: ",
+    "Donation Payable",
+    "Legal name of organization: Missions Inc. Program",
+    "EIN for payable organization: 41-0693952"
+]

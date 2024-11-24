@@ -1,0 +1,170 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell -nologo": {
+            "source": "PowerShell",
+            "args": [
+                "-nologo"
+            ]
+        }
+    },
+    //important made emmet put line breaks in multiple img s
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "d"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.navigateLeft"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        }
+    ],
+    "html.format.contentUnformatted": "grid-template-areas, pre,code,textarea,style",
+    "emmet.syntaxProfiles": {
+        "html": {
+            "inline_break": 1
+        }
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        "*html": "html"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Visual Studio Light",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "sqltools.format": {
+        "reservedWordCase": "upper"
+    },
+    "vim.vimrc.enable": true,
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "m"
+            ],
+            "commands": [
+                {
+                    "command": "editor.emmet.action.matchTag"
+                }
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "powershell.integratedConsole.showOnStartup": false,
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-w>": false
+    },
+    "python.formatting.provider": "black",
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "on",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    // todo deleted because of emmit problems
+    // "files.associations": {
+    //     "*.scss": "css"
+    // },
+    "liveSassCompile.settings.generateMap": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    // someone on web told me to add this line
+    // "java.project.sourcePaths": [
+    //     ""
+    // ],
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "redhat.telemetry.enabled": true,
+    "intelephense.phpdoc.classTemplate": {
+        "summary": "$1",
+        "tags": [
+            "@package ${1:$SYMBOL_NAMESPACE}"
+        ]
+    },
+    "timeline.excludeSources": [],
+    "workbench.settings.openDefaultKeybindings": true,
+    "jupyter.askForKernelRestart": false,
+    "notebook.lineNumbers": "on",
+    "powershell.promptToUpdatePowerShell": false,
+    "editor.inlineSuggest.enabled": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.formatOnSave": true,
+    "json.maxItemsComputed": 15000,
+    "blockman.n01LineHeight": 0,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "diffEditor.wordWrap": "on",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "blockman.n04ColorComboPreset": "Classic Light (Gradients)",
+    "editor.inlayHints.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.insertSpaces": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false,
+        "css": false,
+        "html": false,
+        "javascript": false
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.columnSelection": true,
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\Neovim\\bin\\nvim.exe",
+    "vscode-neovim.logLevel": "warn",
+    "window.zoomLevel": -1,
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    //todo change sort order to alpha
+    //  "explorer.sortOrder": "modified"
+    // "php.validate.executablePath": "c:\xampp\php\php.exe"
+    // Toggle between terminal and editor focus
+}

@@ -1,0 +1,53 @@
+// Place your key bindings in this file to override the defaults
+[
+    // Toggle between terminal and editor focus
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "command": "vscode-neovim.compositeEscape1",
+        "key": "j",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "j"
+    },
+    {
+        "command": "vscode-neovim.compositeEscape2",
+        "key": "k",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "k"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "alt+x",
+        "command": "debug.openView"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.closeEditorsInOtherGroups"
+    },
+    {
+        "key": "alt+x",
+        "command": "python.execInTerminal-icon"
+    }
+]

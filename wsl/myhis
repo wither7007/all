@@ -1,0 +1,3642 @@
+$HISTFILE
+for a in {1..5}\ndo \n    touch a\ndone
+cat 1
+ls | head -n 1
+alias wi='whereis '
+wi win32yank
+pwd win32yank
+pwd | win32yank -i
+alias clip='win32yank.exe -i'
+ls | clip
+cat ~/.zshrc | nvim -c 'normal ggVG"+yZQ' --headless - #! vim macro
+cat ~/.zshrc | nvim -c  - #! vim macro
+cat ~/.zshrc | nvim -c 'normal' - #! vim macro
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then\n  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"\n: 1660083709:0;cd ~
+unsetopt BEEP
+export ZSH="/home/steff007/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+wi fd
+ld | rg fun
+ls | rg fun
+fd --changed-within 1d
+fd --changed-within 2d
+man fd | v -
+man fd -H | v -
+fd -H --changed-within 2d
+v .lesshst
+v duh
+cd n
+lt | head -n 2
+lt | head -n 5
+se pwd
+pwd | win32yank.exe -i
+cd /mnt/c/projects/zsh
+alias cdc='pwd | win32yank.exe -i'
+fd 'fun'
+se ln
+ln -s /home/steff007 /mnt/c/projects/zsh/z
+cd z
+cd /bin
+man () {man $1 | v -}
+man fd
+ps | rg linu > clip
+ps | rg linu > win32yank.exe -i
+ls > win32yank.exe -i
+se win32
+ps | rg linu " win32yank.exe -i\n: 1660145766:0;ps | rg linu
+ps | rg linu | clip
+docker ps -q
+ls | xargs
+ls *sh*
+ls *sh* | xargs cat
+ls *sh* | xargs wc
+manv () {man $1 | v -}
+help alias
+man xargs
+manv () {man $1 | v -c set nonumber -}
+manv xargs
+se declare
+v -c setnonumber
+v -c set nonumbers
+v -c 'set nonumbers'
+nvim -c 'set nonumbers'
+nvim -c 'set nonumber'
+manv () {man $1 | v -c 'set nonumber' -}
+ls *fun
+ls *fun*
+alias --help
+se () {    history | rg $1}
+se git.*c
+se 'git.*c'
+se 'git'
+manv ln
+rg compgen
+alias rgh='rg -help| -v'
+alias rgh='rg -help | v -'
+se docker
+se within
+alias fdh='fd -help | v -'
+se .*
+fd -H --changed-within 1d
+se 'docke.*q'
+docker port 344bf90e09e7 80
+docker ps -aq | xargs
+docker ps -aq | xargs docker stop | xargs docker rm #!remove all
+docker -ls
+sudo apt-get update \nsudo apt-get -y install apt-transport-https ca-certificates curl gnupg lsb-release \n# 2. GPG key \ncurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg \n# 3. Use stable repository for Docker \necho \ \n  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \ \n  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get -y purge python3.8\nsudo apt-get -y autoremove
+python3.1
+python3.10
+PYTHONPATH=/usr/bin/python3.10
+export PYTHONPATH
+sudo apt-get -y install apt-transport-https ca-certificates curl gnupg lsb-release
+se echo
+echo $PYTHONPATH
+apps | rg pyth
+se dock
+se 'doc.*q'
+docker ps -aq
+docker image tag m2pcdsm3/python-slim-buster-acoustid:latest steff007:new
+docker image push steff007:new
+se 'docker.*tag'
+docker image tag m2pcdsm3/python-slim-buster-acoustid:latest steff007/python:new
+docker login
+docker image push steff007/python:new
+docker image tag m2pcdsm3/python-slim-buster-acoustid:latest jimsteffes/python:new
+docker image push jimsteffes/python:new
+wi yt-dlp
+rm python3.8
+sudo rm python3.8
+wi python3
+python 3.1
+python 3.10
+v /usr/local/bin/yt-dlp
+v ~/.bash_history
+yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3  https://www.youtube.com/watch\?v\=cduB1qlZg1c -o '%(title)s.mp3'
+yt-dlp -f "best[height<=?720]"  --embed-metadata  https://www.youtube.com/watch\?v\=WcQ3-M4-jik '%(title)s.%(ext)s'yt-dlp -f "best[height<=?720]"  --embed-metadata  https://www.youtube.com/watch\?v\=WcQ3-M4-jik '%(title)s.%(ext)s'
+yt-dlp --version
+se 'yt-dlp'
+se 'youtube'
+curl https://www.youtube.com/oembed\?url\=http://www.youtube.com/watch\?v\='VA770wpLX-Q'\&format\=json
+set 'yt-dl'
+se 'yt-dl'
+yt-dlp -j https://www.youtube.com/watch\?v\=cduB1qlZg1c 
+yt-dlp -j https://www.youtube.com/watch\?v\=cduB1qlZg1c  > b.json
+./wrap.sh
+p3 yd.py
+p3 -m pip install requests
+pip list > p
+pip
+python3.10 -m pip install requests
+python3.10 -m pip install requests | less
+python3.10 -m pip install requests | nl
+pip3 list
+wi pip3
+alias python
+man alias
+alias python='p3'
+fd pyt
+md python
+su
+wi pip
+fd a
+fd -d 1 a
+fd -d 1 '\.a'
+fd -d 1 '\.'
+rm -rf alpha-prj
+cat apps
+trash apps
+fd -d 1 '^a'
+mkdir alpha-prj
+p3 -m venv alpha-prj/alpha-venv
+cd alpha-prj
+which pip
+python3 -m pip install --upgrade pip
+python3 -m pip install 'pandas>0.25.3'
+pip install ipython
+pip freeze > requirements.txt
+v requirements.txt
+p3 a.py
+manv chmod
+man chmod
+chmod 777 a.py
+ls /usr/bin
+ls /usr/bin | rg py
+a.py
+se 'v.*pip'
+v /usr/local/bin/pip
+sudo v /usr/local/bin/pip
+sudo nvim /usr/local/bin/pip
+se 'pip list'
+#! /usr/bin/python3.10
+pip freeze > freeze.txt
+v freeze.txt
+pip list | rg req
+python --version
+pip install -r freeze.txt
+pip install clipboard
+fd -d 1 -e py
+source alpha-prj/alpha-venv/bin/activate
+fd tmux
+fd -H tmux
+fd -d 1 -H tmux
+fd -d 1 du*
+fd -d 1 d.*
+fd -d 1 'd.*'
+docker pull m2pcdsm3/python-slim-buster-acoustid
+from os import walk\nfilenames = next(walk(mypath), (None, None, []))[2]  # [] if no file
+grep -rnw '.' -e '^t'
+grep --include=\*.{py} -rnw '.' -e "os"
+fd -d 1 py
+grep --include=\*.{py} -rnw '.' -e ".*imp"
+grep --include=\*.{py} -rnw '.' -e ".*"
+fd '\.m.*'
+fd '\.'
+se 'fd\s'
+se 'fd\s' | column
+fd 'f.*'
+fd 'm.*'
+ls | column
+fd Doc
+fd 'Doc.*'
+fd 'D.*'
+fd '.*Beg.*'
+fd -I '.*Do.*'
+ls -adl .git*
+fd -I 'mp\d' -x cp {} -d {//}
+fd -I 'mp\d' -x cp {} -d {..}
+fd -I 'mp\d'
+md /mnt/c/you/dock
+fd -I 'mp\d' -x cp {} -d {/mnt/c/you/dock}
+cd /mnt/c/you/dock
+fd -I 'mp\d' -x cp {} -d {/mnt/c/you/dock/}
+ls /mnt/c
+fd -I 'mp\d' -x cp {} /mnt/c/you/dock/
+fd -I 'mp\d' -x mv {} /mnt/c/you/dock/
+ls /mnt/c/you/dock
+se 'git.*or'
+se 'deac'
+se activate
+docker image ls
+se 'dock.*ubun'
+cd /mnt/c/you
+touch 'Docker For Beginners - From Docker Desktop to Deployment [i7ABlHngi1Q].mp4'
+ph
+se path
+ld py
+lt py
+pc
+se yt-
+v b.json
+cat b.json
+wc b.json
+bash yt.sh
+yt-dlp -j  https://www.youtube.com/watch\?v\=YesDodQ2Y7o\&t\=20s > b.json
+rg 'json'
+xxx dir
+rm -rf dir
+rm -rf mosh
+yt-dlp -j $USERVAR >b.json
+v readb.py
+source ~/alpha-prj/alpha-venv/bin/activat
+bash readb.py
+bash s.sh
+whereis python
+decativate
+se deac
+exit 
+se activ
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg lsb-release -y
+echo \\n"deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\n$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+docker run -ti --name=ubuntu-test ubuntu:latest
+se 'apt-list'
+se 'list'
+se 'apt'
+aps
+eixt
+printf "%s\n" "deb [arch=amd64] https://download.docker.com/linux/debian buster stable" |\\nsudo tee /etc/apt/sources.list.d/docker.list
+sudo apt-get -y remove docker docker-engine docker.io
+alias apps
+apt list --installed | v -
+docker 
+docker ls -a
+se 'docker.*ub'
+docker run -it ubuntu bash
+cd python3
+p3 readb.py
+rm 'Sabine Hossenfelder on Physics and the Big Questions | Closer To Truth Chats.mp4'
+mkdir docker
+mv Dockerfile.dockerfile Dockerfile
+md src
+md src/html
+cd src
+mv index.html html
+docker info
+cat Dockerfile
+docker build .
+docker
+docker stop 51b2ad4c448f
+docker stop 005fd28b1726
+docker stop b0f979b886a0
+docker build -t hello-internet .\ndocker images\ndocker run -d -p 80:80 4dbccaee670e
+docker start intelligent_galois
+docker stop intelligent_galois
+docker rm intelligent_galois
+docker rmi ce678b5aae66
+docker run -d -p 80:80 4dbccaee670e
+docker stop $(docker ps -a -q) #!stop all images
+docker rm 056b595bb20d
+docker rm hello-internet
+docker rmi hello-internet
+docker images -1
+docker images -q
+docker build -t hello-internet .
+docker run -d -p 80:80 056b595bb20d
+docker exec -it 056b595bb20d /bin/sh
+docker exec -it 9d5108fdb7fd /bin/sh
+docker stop 9d5108fdb7fd
+docker rm $(docker ps -a -q) #!remove all images
+docker rmi $(docker images -q)
+RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh)"
+curl "https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh"
+https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.shlt
+mv 'A Linux Dev Environment on Windows with WSL 2, Docker Desktop and More.mp4' /mnt/c/you/dock
+lsb_release -a
+docker build --tag arithmetic .
+docker run arithmetic
+docker run -it arithmetic
+docker run -i -t arithmetic
+docker run -i -t arithmetic sh
+docker attach --h
+docker attach 4660925d0eb7
+docker run -i -t ubuntu sh
+find crawl_dir/ -type f -print0 | xargs -n1 -0 -P32 ./process
+find /mnt/c/you -type f -print0 | xargs -n1 -0 -P32 ./process
+docker commit tender_germain myimage:version1
+declare -a se
+docker commit myubuntuv1 myimage:version2
+h3 | v -
+docker run -it --name=myubuntuv2 myimage:version2 bash
+docker run -it --name=myubuntuv3 myimage:version2 bash
+find /mnt/c/you -type f -print0 | xargs -n1 -0 -P32 
+find /mnt/c/you -type f -print0 | xargs -n1 -0 -P32 | v -
+docker run -it -v /mnt/c:/host/c alpine sh
+se 'docker.*run'
+docker attach --help
+docker attach dazzling_spence
+docker image history xcad2k/hackbox
+docker image history xcad2k/hackbox > hb
+docker image history --no-trunc xcad2k/hackbox > hb
+v hb
+docker image history --no-trunc xcad2k/hackbox > /mnt/all/hack.txt
+docker image history --no-trunc xcad2k/hackbox > /mnt/c/all/hack.txt
+docker image history --no-trunc --format xcad2k/hackbox > /mnt/c/all/hack.txt
+docker image history --format xcad2k/hackbox > /mnt/c/all/hack.txt
+docker image history --help
+docker image history --format string xcad2k/hackbox > /mnt/c/all/hack.txt
+docker run -it -v /mnt/c:/host/c myimage:version2 bashdocker run -it -v /mnt/c:/host/c myimage:version2 bash
+cd host
+cd /host
+docker run -it -v /mnt/c:/host/c ubuntu bash
+docker images | v -
+docker run -it -v /mnt/c:/host/c xcad2k/hackbox bash
+docker run -it -v /mnt/c:/host/c xcad2k/hackbox
+tr ':' $'\n' <<< string1:string2:string3:string4:string5
+tr ':' $'\n' <<< echo $PATH
+LS
+ps $0
+se '\$0'
+se '.*'
+md dotfiles
+lua
+nnn
+free
+free -m
+alias ls='exa -al --color=always --group-directories-first' # my preferred listing\nalias la='exa -a --color=always --group-directories-first'  # all files and dirs\nalias ll='exa -l --color=always --group-directories-first'  # long format\nalias lt='exa -aT --color=always --group-directories-first' # tree listing\nalias l.='exa -a | egrep "^\."'
+alias lt
+l. t
+l pip
+fd git
+fd '\.git'
+fdi '\.git'
+fd -H -I '\.git'
+fd -d 1 -H -I '\.git'
+fd tras
+ld .
+ls -la | grep "^d"
+ls -la
+fd d 1 -td
+se 'fd d'
+fd -td -d 1
+fdi '\..*'
+fd '\..*'
+fd -d 1 '\..*'
+fd -d 1 '^\..*'
+ls -a | egrep '^\.'
+ls -a | egrep '^\.r'
+ls -a | egrep '^l'
+fd -H -I -d 1 '\.git'
+sudo apt-get -y install python3.8-minimal
+python3.8-minimal
+fd -H -I pyth
+sudo apt -y install python3.8-minimal
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+dpkg -l | grep -E '*python*' | less
+sudo dpkg-reconfigure python3*
+apt-get autoclean
+sudo dpkg-reconfigure python3.8
+python3.8
+sudo apt install python3.8
+source ~/alpha-prj/alpha-venv/bin/activate
+sudo apt-get autoclean
+sudo apt-get autoremove
+v /var/lib/dpkg/info/python3.8-minimal.postinst
+sudo apt install trash-cli -y
+trash-put clip
+man trash-cli
+trash-cli -h
+trash-cli -help
+trash-put temp
+trash-restore
+cat clip
+alias trh="trash-put "
+trh freeze.txt
+fd bin
+fd /boot
+fd . '/boot'
+fd --full-path '/boot'
+cd /boot
+fd --full-path '/dev'
+fd --full-path '/etc'
+fd -H -I 'git'
+fd -d 1 -H -I 'git'
+alias fdi="fd -d 1 -H -I "
+fdi req
+fdi 'p.*'
+fdi '^p.*'
+echo alias fdi="fd -d 1 -H -I "
+echo alias fdi="fd -d 1 -H -I " >> .bash_aliases
+alias rmt="trash-put "
+rm -rf .git
+tree link
+tree powerlevel10k
+md test
+cd test
+md normal bare
+cd bare
+git init --bare
+uu
+se 'git.*remot'
+git init
+echo "# wdot" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/wdot.git\ngit push -u origin main
+git init --bare $HOME/dotfiles
+ugit init --bare $HOME/dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias | rg con
+git commit -am "added bare"
+config config --local status.showUntrackedFiles no
+cofig add .bashrc
+config add .bashrc
+config commit -m 'add my .bashrc'
+alias config
+cd $HOME/dotfiles
+config git-log
+config add .
+git log
+config checkout
+config branch
+config log
+config remote -v
+config remote 
+config nnn
+se 'config'
+config add .bash_aliases
+config status
+config commit -m 'add my .bash_alias'
+config push
+config push none
+config push --set-upstream none master
+config push --set-upstream master
+config push --set-upstream master master
+cd dotfiles
+git add .
+rmt dotfiles
+docker run -it --name=myubuntuv1 myimage:version1 bash
+docker run -it --name=myubuntuv4 myimage:version1 bash
+se 'docker run'
+tmus ls
+fdi tmux
+fdi con
+rm -rf test
+docker run -it -v /mnt/c:/host/c myimage:version2 bash
+man delare
+printf hi
+man coproc
+man while
+man 2 intro
+bash gh.sh
+gh
+v gh.sh
+gh repo create test1234
+gh repo create test1234 --public
+md test1234
+rm test1234
+se 'trash'
+md test1234 && cd test1234
+cd test1234
+source ../git.sh
+man gh
+gh --version
+gh --help | v -
+apt list | v -
+apt list --installed| v -
+apt list -installed | rg -v 'lib.*'
+apt list --installed | rg -v 'lib.*'
+apt list --installed | rg -v 'lib.*' | rg -v 'v.*'
+apt list --installed | rg -v 'lib.*' | rg -v 'v.*' | v -
+apt list --installed | rg -v 'lib.*' | rg -v 'v.*' | rg -v 'no.*' v -
+apt list --installed | rg -v 'lib.*' | rg -v 'v.*' | rg -v 'no.*' | v -
+apt list --installed | rg -v 'lib.*' | rg -v 'v.*' | rg -v 'no.*' 
+apt list --installed | rg -v 'lib.*' | rg -v 'v.*' 
+apt list --installed | rg -v 'lib.*' | rg -v 'v.*|no.*' 
+apt list --installed | grep -e '.*lib'
+rg -0
+alias wi
+whereis rg
+wi which
+ls | rg 'sh|tmp'
+ls | rg 'sh|up'
+ls | rg 'sh|b.*'
+ls | rg 'sh|^t'
+ls | rg -v 'sh|^t'
+ll | rg -v 'sh|^l'
+ll | rg -v 'sh|^l|^d'
+ll | rg -v 'sh|^l|^d|Dec'
+ll | rg -v 'sh|^l|^d|Dec|Aug'
+ll | rg -v 'sh|^l|^d|Dec|Aug' #! rg invert word list
+se '\#\s'
+history | rg '#'
+se #
+se '#\s'
+se '#'
+se '#!' | rg -v 'pyth'
+se 'rh\s'
+gh browse
+se 'auth'
+gh repo create test12345
+gh repo create test12345 --public
+ls -alFt
+ls -alFt | head 
+ls -alFt | less
+ls g.sh
+ls g.*
+cat $(ls g*)
+ls g*
+rg test
+rg test123
+rg -d 1 test123
+rg --max-depth=1 test123
+ll *sh
+ll *.sh
+se 'test'
+se 'test.*5'
+se 'test.*5' | rg 'pu'
+se 'test.*5' | rg 'pu' | v -
+source ../35.sh
+v 35.sh
+cd 35
+git push -u origin main
+git push --set-upstream origin main
+fd -d 1 git
+alias fdi=fd -d 1 -H -I
+alias fdi='fd -d 1 -H -I'
+fdi git
+md 35 && cd 35
+echo "# test12345" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/test12345.git\ngit push -u origin main
+lt > lt
+cat lt
+ga .
+git diff
+git commit -m 'file'
+git push
+md 36 && cd 26
+md 36 && cd 36
+cd 36
+echo "# test12345" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/test12345.git\ngit push -u origin main
+alias | rg 'ls'
+rmt 36
+rmt 35
+rmt test1234
+rmt win32yank.exe
+se 'lis'
+gh search repos cli shell
+gh search repos cli shell #! search all repos
+curl https://api.github.com/users/wither7007/repos
+printenv | v -
+gh --help
+gh --help reference
+weather () {\n    curl "https://wttr.in/${1}"\n: 1660795230:0;weather
+gh auth status
+gh ls
+gh pr
+gh codespace code
+gh repo clone act
+actlr
+cd act
+gh auth refresh -h github.com -s delete_repo
+gh repo delete act
+gh repo delete test12345
+se 'curl'
+curl https://api.github.com/users/wither7007/repos | v-
+curl https://api.github.com/users/wither7007/repos | v 
+curl https://api.github.com/users/wither7007/repos | rg 'clone'
+man curl
+curl --silent https://api.github.com
+curl --silent https://api.github.com | tr ',' '\n'
+curl --silent https://api.github.com | tr ',' ''
+curl --silent https://api.github.com | tr ',' ' '
+curl --silent https://api.github.com | tr ',' ' ' #! good github api split
+curl --silent https://api.github.com | tr ',' ' ' | v -
+curl -silent "https://api.github.com/users/wither7007"
+curl -silent "https://api.github.com/users/wither7007" | v -
+se 'gh\s'
+gh repo clone jim
+cd jim
+git remote -v
+gh repo delete jim
+gh repo delete test1234
+rm -rf jim
+rm -rf act
+curl -silent https://api.github.com/users/wither7007/repos | rg 'clone'
+curl -silent https://api.github.com/users/wither7007/repos | rg 'clone' | v -
+gh search repos traversy
+gh search repos traversy | v -
+source tj.sh
+bash tj.sh
+v tj.sh
+rm tj.sh
+docker run -i -t ubuntu
+sudo apt-get install -y git-extras
+compgen -c | rg '^g'
+declare -f |v -
+declare -F |v -
+declare -F 
+declare -f 
+_last
+compgen -A function | column | rv -v "^_"
+compgen -A function | column | rg -v "^_" | column
+help urlglobber
+man urlglobber
+set | grep " ()"
+set
+set | less
+print -l ${(ok)functions} | column
+title
+print -l ${(ok)functions} | rg -v "^_"| column
+run-help
+prompt_ip
+print -l ${(ok)functions} | rg -v "^_" | v -
+compaudit
+cat ~/.bashrc | nvim -c 'normal ggVG"+yZQ' --headless -
+print -l ${(ok)functions} | rg -v "^_"| column | v -
+omz_history
+print -l ${(ok)functions}
+pip list | less
+pip list 2> fileName
+v fileName
+pip list 2> fileName #! redirect error to file
+ld | h 1
+ld | rg 'st'
+virtualenv --python=python3 ~/venv/testproj
+md stable
+p3 -m venv stable
+fdi bin
+ls bin
+exit && exit
+md stable\np3 -m venv stable\ncd stable\nsource bin/activate
+alias mkc
+md j && cd j
+\nmd stable\np3 -m venv stable\ncd stable\nsource bin/activate\npip list
+se 'i3'
+p3 -m venv none
+v e
+pip list 2> e
+v activate.csh
+pip --version
+/home/steff007/j/none/bin/python3.10 -m pip install --upgrade pip
+pip freeze
+pip list 2> null
+v /home/steff007/.local/lib/python3.10/site-packages/pip/_internal/utils/logging.py
+python -v
+python3 -v
+python3 -V
+alias laf='ls -lAhp | grep -v /'
+laf
+alias shutdown='logout-sync && sudo shutdown -h now'
+shutdown
+p3 -m bpytop
+alias tree='tree -aI ".git|.venv"'
+alias tree='tree -aI ".git|.venv|.*npm'
+alias tree='tree -aI ".git|.venv|.npm'
+alias tree='tree -aI ".git|.venv|.node'
+alias tree='tree -aI ".git|.venv|.*npm"'
+nvim -S
+__is_linux() {\n    local uname="$(uname -a)"\n    if [[ "$uname" =~ Linux ]]; then\n        return\n    fi\n    false\n: 1660848864:0;__is_linux
+$uname
+uname="$(uname -a)"
+uname
+se 'declare'
+declare -f | rg 'ux'
+which p3
+$ ve python3.10 .venv2
+source ve.sh python3.10
+bash ve.sh
+se chmod
+chmod +x ve.sh
+./ve.sh
+se 'chmod'
+./ve.sh p
+./ve.sh python3.10
+cd j
+cd none
+bin/activate
+chmod +x activate
+v activate
+rm -rf j
+p3 -m venv st
+cd st
+printf "%s" "Hello, Welcome to Baeldung"
+if [ $marks -gt 100 ]; then\nprintf "You have entered incorrect marks: $marks\n "\n: 1660855097:0;cat j.sh
+f3 () { \n        echo Hello I\'m function 3\n        echo Bye!\n: 1660877409:0;f3
+md junk && cd junk
+chmod -x j.sh
+source j.sh
+f4
+chmod +x j.sh
+sh j.sh
+bash j.sh
+f5
+printf \njim
+printf \n
+echo \n
+echo -e \n
+./j.sh
+v j.sh
+printf 'f4\nwhat\'s up'
+printf "what's"
+printf "what"
+printf 'what'
+printf 'Hello\nworld\n'
+printf 'what\n'
+type -a printf
+man printf
+printf
+printf a
+printf $HOME
+printf $HOME\n
+echo $
+V='linux'
+printf "$V"
+printf "$V\n"
+echo $V
+printf "$V\n\n"
+printf "$V\n\n\t$V"
+printf "$V\n\n\t$V\n"
+printf Today date = $(date)\n
+printf "Today date = $(date)\n"
+printf "Today date = $(ls)\n"
+printf "Today date = $(ls ..)\n"
+printf "Today date = $(ls ..| rg s)\n"
+printf "Today date = $(ls ..| rg mp3)\n"
+Z=$(printf "director is ${ls}")
+Z
+printf "${ls }"
+Z=$(printf "director is $(ls)")
+$Z
+Z=$(printf "director is $(ls ..)")
+echo $Z
+printf "\n\n: 1660879193:0;printf "\n
+printf "\n \n: 1660879308:0;ls \n: 1660879324:0;ls
+{ echo
+echo jim
+jim=1
+echo $jim /
+echo $jim / echo do
+echo " this\nis "
+jim="this is ${ls}"
+jim="\n: 1660882799:0;$jim
+jim="what\n: 1660882837:0;jim = " this is\n$(ll)\ntil quote"
+jim="dirt $(ls)"
+jim="dirt $(ls)\ndone"
+echo $jim
+var="Example String."
+echo "Changing All to LOWERCASE" | tr [:upper:] [:lower:]
+echo "Changing All to LOWERCASE" | tr  [:lower:]
+echo "${var^^}"
+$var
+echo $var
+echo "$var" | awk '{print tolower($0)}'
+$PATH
+echo $PATH | sed 's/c/xxx/g'
+echo $PATH | sed 's/\s/\n/g'
+echo -e $PATH | sed 's/\s/\n/g'
+echo -e $PATH | sed 's/\s/\n\n/g'
+echo -e $PATH | sed 's/\s/xx\ n/g'
+echo  $PATH | sed 's/\s/xx\ n/g'
+echo  $PATH | sed 's/\s/xx\/g'
+echo  $PATH | sed 's/\s/xx/g'
+echo  $PATH | tr ";" "\n"
+echo "jim is me"
+echo "jim is me" | tr "i","xxx"
+echo  $PATH | tr ":" "\n"
+echo "jim is me" | tr "i" "xxx"
+echo "jim is me" | tr "i" "\n"
+echo "jim is me" | tr "i" "\t"
+echo  $PATH | tr ":" "\t"
+ls | tr "\s" "x"
+echo "a,b" | sed -e $'s/,/\\n/g\n: 1660883836:0;echo "a,b" | sed -e $'s/,/\\n/g'
+echo "a,b" | tr ',' '\n'
+echo  "There is more than one way to skin a cat\n> but skinned cats are never very cuddly.\n> You would be better off skinning a catfish and\n> likely less inclined to cuddle it afterwards." > cats
+cat cats
+rm cats
+v .gitconfig
+figlet hello
+bash ye.sh
+v ye.sh
+echo 'foo,bar,baz' | perl -pe 's/,/,\n/g'
+echo 'foo,bar,baz' | perl -pe 's/,/\n/g'
+echo $PATH | perl -pe 's/:/\n/g'
+perl --version
+fdi a
+alias fdi='fd -d 1 -H -I '
+fdi "a"
+fdi "txt"
+ll m*
+ls m*
+touch 'Making Python 5x FASTER with Guido van Rossum and Mark Shannon - Talk Python To Me.mp3'
+mv 'Making Python 5x FASTER with Guido van Rossum and Mark Shannon - Talk Python To Me.mp3' /mnt/c/you/lazy
+mv 'A History of Soviet Atheism. Antireligious campaign in the USSR under Lenin, Stalin, and Khrushchev.mp3' /mnt/c/you/lazy
+echo " $(basename $0) [-v] [-h] -u user -s server"
+echo basename
+man basename
+basename pwd
+basename $(pwd)
+echo basename $0
+sh k.sh
+sh k.sh 2
+sh k.sh 2 3
+sh k.sh 2 
+sh k.sh "jim"
+sh k.sh "jim is here"
+mv k.sh junk
+chmod +x k.sh
+./k.sh "jim" "tom"
+ll | rg 'wx'
+rg #
+./k.sh a
+./k.sh "a"
+./k.sh "b"
+./k.sh "f"
+cat k.sh
+./k.sh
+v k.sh #!/usr/bin/env bash
+./k.sh 1
+cls
+alias cls
+./k.sh "jim" 2
+./k.sh "a" 2 "bill is bill"
+./k.sh "b" 2 "bill is bill"
+hr() {\n  local start=$'\e(0' end=$'\e(B' line='qqqqqqqqqqqqqqqq'\n  local cols=${COLUMNS:-$(tput cols)}\n  while ((${#line} < cols)); do line+="$line"; done\n  printf '%s%s%s\n' "$start" "${line:0:cols}" "$end"\n: 1660889024:0;hr
+find . -type f -executable -maxdepth 1
+v c.sh -f "jim"
+./c.sh -f "jim"
+./c.sh
+./c.sh -f "jim" -d "frumious"
+./c.sh -d "frumious"
+man aplay
+aplay
+echo \<Welcome\>\<to\>\<geeksforgeeks\>
+hostname=`hostname`\necho $hostname
+hostname=`path`\necho $hostname
+hostname=`ls`\necho $hostname
+p=`ls *.sh`
+cd /var
+cd log
+v dpkg.log
+wi ex
+ex
+for name in joey suzy bobby;do echo $name;done
+for a in $(ls): doc echo $a;done
+for a in $(ls): do echo $a;done
+for a in $(ls); do echo $a;done
+for a in $(ls); do cat $a;done
+find . -maxdepth 1 -type f -executable 
+for a in $(ls | rg 'sh'); do cat $a;done
+for a in $(ls | rg 'n.*sh'); do cat $a;done
+for a in $(ls | rg 'n.*sh'); do ls $a;done
+lll
+hexdump -C -n 8 /dev/random
+v rnd.sh
+sh rnd.sh
+File="TestFile1" ; if [ -e $File ] ; then echo "The file $File exists." ; else echo "The file $File does not exist." ; fi\nThe file TestFile1 does not exist.
+echo " X=1 ; if [ $X -eq 1 ] ; then echo "X equals 1" ; else echo "X does not equal 1" ; fi" 
+echo " X=1 ; if [ $X -eq 1 ] ; then echo "X equals 1" ; else echo "X does not equal 1" ; fi" | tr ";" "/n"
+se "PA.*tr"
+echo "abc" | tr "a" "xxxx"
+echo " X=1 ; if [ $X -eq 1 ] ; then echo "X equals 1" ; else echo "X does not equal 1" ; fi" | tr ";" "\n"
+ld -d
+ls -d
+printf "today is `date`"
+seq 5
+for a in seq 5; echo $a;
+for a in seq 5; do echo $a; done;
+for a in `seq 5`; do echo $a; done;
+md kk && cd kk
+for I in $(seq -w 5000) ; do touch file-$I ; done
+rm -rf kk
+ls T; ec=$?; echo $ec
+"$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "
+cur -I "https://www.linuxfoundation.org/blog/classic-sysadmin-viewing-linux-logs-from-the-command-line/"
+curl -I "https://www.linuxfoundation.org/blog/classic-sysadmin-viewing-linux-logs-from-the-command-line/"
+curl -I "https://google.com"
+curl -I "https://facebook.com"
+curl -I "https://usbank.com"
+curl -I "https://umn.edu"
+sh ye.sh
+md ex
+fd activ
+sh exif/bin/activate
+sh exif/bin/activate.csh
+exif/bin/activate
+se 'activ'
+se 'list.*2'
+pip list 2>error
+v null
+v error
+cd /mnt/c
+cd Downloads
+cp tag.jpg /home/steff007/ex
+4
+b 1
+cp tag.jpg /home/steff007/ex/p.jpg
+pip install piexif
+wget "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/ffmpeg/7:4.4.2-0ubuntu0.22.04.1/ffmpeg_4.4.2.orig.tar.xz"
+apt list | rg ffm
+ffmpgeg --version
+ffmpeg -V
+ffmpeg --version
+ffmpeg -h
+se "python.*m"
+p3 -m pip install ffprobe
+p3 -m pip install ffmpeg
+pip install ffmpeg-python
+ffmpeg -version
+se 'activate'
+mkc () {\n  mkdir $1\n  cd $1\n: 1660948363:0;fd -d 1 func
+mkc ex
+se 'menv'
+se 'pyth.*m'
+se 'pyth.*en'
+p3 -m venv exif
+se 'l.*ffm'
+p3 -m pip install ffmpeg-python
+ffmpeg
+cp 'How to use Exiftool with Python.mp4' /home/steff007/ex/use.mp4
+p3 ex.py use.mp4
+p3 ex.py use.mp4 | v -
+v ex.py
+apt list | rg exif
+exif -v
+apt list --installed | rg exif
+sudo apt install exiftool
+sudo apt -y install exiftool
+set 'pip.*2>'
+set 'pip.inst.*'
+se 'pip.*2>'
+apps |rg 'ip'
+apps |rg 'ip' 2>n
+install ipythonh3
+wi exif
+exiftool use.mp4
+se 'pip.*m'
+pip list 2>a
+fdi ipython
+fd -E mnt* ipy
+cd /home/steff007/.local/lib/python3.10/site-packages
+fd ipython
+cd IPython
+p3 -m pip show ipython
+fd -tx
+fd -E mnt -tx
+fd -E mnt -tx | rg 'ip.*'
+fd -E mnt -tx | rg 'ipy.*'
+python3 -m pip --version
+fday
+rm -rf stable
+rm -rf st/ stable
+fd -E ex --changed-within=2d
+fd -E ex --changed-within=3d
+fd  --changed-within=5d
+wi exiftool
+sh yv.sh
+ps -A
+ps -a -N
+ps -r
+top -n 10
+top 
+ps -a
+ld you
+ls you
+ll you
+l you
+l you | rg '^d'
+l you | rg '^d.*gu'
+l you | rg '^d.*p'
+ld | column
+ll | rg '^d'
+ls | rg '^d'
+alias 1
+cd -3
+se '^cd\s'
+se 'cd\s'
+wi ipython
+fdi local
+fd ipy
+ipython3
+iptyhon
+alias p3
+ipython
+v ipython
+python
+python3
+whereis python3
+/usr/bin/python3.10
+fdi ipyth
+v ipython3
+p3 myip.py
+fd myip
+fd -a myip
+p3 /home/steff007/.local/bin/myip.py
+alias ip="p3 /home/steff007/.local/bin/myip.py"
+alias ip
+se 'pip.*ipy\n: 1660967961:0;se 'pip.*ipy'
+fd acti
+source exif/bin/activate
+fd -d 1 ip
+l4
+p3 ipysql.py | less
+ls | more
+ls | less
+p3 ipysql.py | v -
+p3 proc.py
+fd mp3
+ri x
+ls mp4
+exif 'How to use Exiftool with Python.mp4'
+exiftool 'How to use Exiftool with Python.mp4'
+fdi mp4
+cp 'How to use Exiftool with Python.mp4' /home/steff007/ex.mp4
+fdi mp
+fdi 'mp'
+rm LNL183.mp3
+p3 proc.py | less
+se 'fd.*with'
+fd --changed-within=30min
+fd --changed-within 2weeks
+whos
+ipx
+exiftool .
+exiftool . | v -
+man exiftool
+exiftool -T -createdate 'Git Bare Repository - A Better Way To Manage Dotfiles.mp4'
+exiftool -j 'Git Bare Repository - A Better Way To Manage Dotfiles.mp4'| v -
+alias ex="exiftool -j $1 | v -"
+exiftool -j 'Git Bare Repository - A Better Way To Manage Dotfiles.mp4'
+unalias ex
+ex () { exiftool -j $1 | v - }
+ex 'Git Bare Repository - A Better Way To Manage Dotfiles.mp4'
+ripgrep
+se () {    history | ripgrep $1 }\nmanv () {man $1 | v -c 'set nonumber' - }\nwi () {whereis $1}\nmkc () {\n  mkdir $1\n  cd $1\nex () { exiftool -j $1 | v - }
+se () {    history | rg $1 }
+se2 () {    history | rg $1 }
+mand () {man $1 | v -}
+mand ls
+se2
+se2 'what'
+unalias se
+alas
+unalias wi
+fdi mp3
+fdi 'mp.*'
+se 'exift'
+exiftool -T -FileModifyDate ex.mp4
+exiftool -T -Description ex.mp4
+ex ex.mp4
+fd fun
+se 'dock'
+se 'descri'
+se 'exi.*-T'
+ls py
+alias ls
+ls py*
+rg mp4
+rg mp4 | v -
+alias | rg tras
+rmt alpha-prj
+se 'within'
+fd --changed-within=1d
+fd -E ex --changed-within=1d
+fd -E ex --changed-within=5d
+fd -E ex --changed-within=2weeks
+pip list 2>/dev/null
+pip list 2>/dev/null | rg ff
+p3 ffm.py ex.mp4
+p3 ffm.py ex.mp4 |v -\n: 1660977729:0;p3 ffm.py ex.mp4 |v -
+fd -a ffm
+p3 /home/steff007/ffm.py ex.mp4
+alias ffm="p3 /home/steff007/ffm.py "
+fd 'mp4
+fdi 'mp4'
+ffm 'Build YOUR OWN Dockerfile, Image, and Container - Docker Tutorial.mp4' | v -
+alias ffm
+cd zsh
+fd -d 1 tf
+head -n 2 a.js
+cat services.txt
+cat services.txt | clip
+head -n 1 $(fd -d 1 -tf)
+head -n 1 $(fd -d 1 -tf) | less
+fd 2
+fd -d 1 2
+v 2
+fdi 2
+ls | rg 2
+cat 2
+rm 2
+rm *.jpg
+rm test
+alias | rg 'tra'
+rmt string.txt uni.txt
+fdi
+rm paul.pdf speedtest.py typ.py vsc1.py class.py
+rm a.js file.txt 
+rm re.mp3
+fdi -tf | column
+rm duh duh.txt
+v walk
+v walk.py
+p3 walk.py
+rm walk.py his a.sh services.txt
+cd his
+rm -rf his
+rm -rf newdebug sql
+wi z
+man zip
+sudo apt -y install p7Zip-full #! zip per https://7ziphelp.com/7zip-for-linux
+https://7ziphelp.com/7zip-for-linux
+printenv | rg -i histor
+echo $HISTORY
+echo HISTORY
+_
+alias omz_history
+fdi history
+fdi ex
+alias fdi
+fd -H -I history
+fd -E local -H -I history
+fd -E .local -H -I history
+fd -E .local -H -I '$history'
+fd -E .local -H -I '$y'
+v .bash_history
+ls .bash_history
+ll .bash_history
+fd -E .local -H -I '_history'
+fd -H --changed-within=1d
+fd -E ex -H --changed-within=1d
+fd -E 'ex|local' -H --changed-within=1d
+fd -E 'ex' -E 'local' -H --changed-within=1d
+fd -E 'ex' -H --changed-within=1d
+fd -E 'ex' -H --changed-within=1h
+v .cache/p10k-steff007/prompt-19
+fd  -H -I --changed-within=1h
+v cache/zsh/history
+tmux kill-session -a #! kill all
+tmux kill-session -a
+pkill -f tmux #! kill all
+tmux ls
+fd -E 'ex' -H -I --changed-within=1h
+ls | rg du
+sudo apt install sd
+rg .
+rg . -name "a"
+fd . "a"
+fd -d 1 txt
+fd -d 2 txt
+fd py
+fd $py
+fd '$py'
+fd 'py$'
+fd 'e$'
+fd 'mp4$'
+fd 'mp3$'
+fd -I 'mp4$'
+fd -I 'mp\d$'
+fd -I 'mp3$'
+fd -I -i 'roll'
+fd -I -i 'beat'
+fd -I -i 'roll' | column
+fd -I -i -a 'roll' | column
+fd -I -i 'roll' 
+fd tdxt
+fd txt
+fd "*.txt"
+fd dates
+sed 
+sed dates.txt
+sed '/s/http/xxx' dates.txt
+sed '/s/h/xxx' dates.txt
+sed '/s/a/xxx' dates.txt
+sed '/s/htt/xxx' dates.txt
+sed '/s/htt/xxx' p
+sed '/s/h/xxx' p
+sed '/s/h/xxx/' p
+sed '/s/h/xxx/g' p
+sed 's/h/xxx/g' p
+sed -i 's/h/xxx/g' p
+cd stones
+fd '.*\d'
+fd '\sI'
+fd '\sIt'
+fd '\d\s'
+ls | rg 'su'
+ll | rg 'sug'
+find . | rg 'sub'
+find . | rg 'sug'
+ls Brown\ Sugar\ \(2009\ Remaster\).mp3
+ll Brown\ Sugar\ \(2009\ Remaster\).mp3
+fd 'sug'
+fd 'sug' -x ll
+fd 'sug' -x ls
+ls -arht
+fd -e sh
+fd -e sh -X nvim
+convert
+fd -e jpg
+git clone https://github.com/jez/as-tree\ncd as-tree\nmake install
+sh d.sh
+source d.sh
+bash d.sh
+chmod +x d.sh
+v d.sh
+./d.sh
+ls | sort -V
+ll -sh
+ll -sh | rg '\dM'
+ll -sh | rg '\d+M'
+ll -sh | rg '\d+M|G'
+ll -sh | rg '\d+[M|G]'
+ll -r -sh | rg '\d+[M|G]'
+ll -r
+ls -r
+se tmux
+se
+alias se
+history | rg 'tmux'
+pkill -f tmux
+pkill -f tmux && exit
+alias manv
+comgen -A function
+compgent -a function
+compgeng -a function
+compgen -A function | column | rg -v "^_"
+ii
+ls -sh
+apps
+dpkg -l
+sudo apt-qq list p7Zip-full
+sudo apt list p7Zip-full
+free -h 
+vim ~/.zsh_history
+echo $(data)
+echo $(dat3)
+date > clip
+alias cdc
+echo test | clip
+echo date
+echo $(date)
+echo $(date) | clip
+v $(echo $HISTFILE)
+alias ehis="v $(echo $HISTFILE)"
+free -h
+7z
+man 7z
+l3
+man df
+df -h #! disk usage
+g:
+cd mnt
+cd /mnt
+cd g
+cd wsl
+free -w
+free -wh
+apt list
+apt list --installed
+apt list --installed | rg v
+apt list --installed | rg time
+bash -c ls
+uname -c cat /etc/os-version
+uname -c cat /etc/os-release
+bash -c uname -a
+bash -c cat /etc/os-release
+bash -c 'cat /etc/os-release'
+bash -c 'ps'
+for f in *; echo f; done
+for f in *; do echo f; done
+for f in *; do echo $f; done #~ quick loop
+for f in *; do echo $f; done #! quick loop
+ehis
+ls | sort -k1.3,1n
+rev duh.txt
+rev duh.txt | sort | rev
+ls -lX
+read -p "Please type the desired hostname: " NEW_HOSTNAME
+read  "Please type the desired hostname: " NEW_HOSTNAME
+man read
+md input
+rm input
+rd input
+alias | rg tmux
+alias axit'pkill -f tmux && exit '
+source .bash_aliases
+compgen -A function
+compgen -A function | column
+detect-clipboard
+compgen -A function | rg -v '^+'
+compgen -A function | rg -v '^_' | sort
+zsh_stats
+declare -f
+fc -l 1
+declare -f zsh_stats
+declare -f fc
+alias fc
+man whence
+man fc
+man zshbuiltins
+man ps
+ps -ejH
+ps axms
+ps axms | wc
+ps axms | v -
+read -p 'Username: ' uservar
+fd sh
+v x.sh
+bash x.sh
+sh x.sh
+source x.sh
+chmod +x x.sh
+./x.sh
+take v
+rm -rf v
+fdi alp
+fdi activ
+fdi ss
+tree | v -
+se 'duh.txt'
+rm -rf as-tree
+fd -h
+df -h -T
+df -h -T | rg -v 'tmp'
+df -Th | rg -v 'tmp'
+watch df -Th | rg -v 'tmp'
+watch df -Th
+sudo du etc
+sudo du /etc
+sudo du -h /etc
+sudo du -h ~/.local
+cd .local/share
+cd Trash
+trash-empty
+cd ex
+ll -h
+ncdu
+asdf
+zsh-syntax-highlighting
+cat /etc/os-release > os-8-21
+v os-8-21
+sudo apt upgrade
+wi alias
+whereis alias
+whence alis
+whence alias
+v .save.js
+node
+chmod +x interesting.sh
+sh interesting.sh
+bash interesting.sh
+source interesting.sh
+se '\./'
+v interesting.sh
+./interesting.sh
+cat /etc/os
+caot /etc/os-release
+cat os-8-21
+cat /etc/os-release
+rm null
+alias rm
+fdi py
+fd --changed-within=2d
+fd --changed-within=3d
+fd --changed-within=4d
+fd -E stable --changed-within=4d
+cd stable
+fdi act
+cd in
+fd | les
+fd | less
+se 'venv'
+for a in $(ls *.sh); do head $a; done
+for a in $(ls *.sh); do {head $a}; done
+for a in $(ls *.sh); do {head $a; echo '-------'}; done
+manv head
+unalias rg
+manv ls
+fd \.con
+fd -d 1 \.
+v .tmux.conf
+vim
+cd Users
+cd jayst
+take jim
+rd jim
+se 'decl'
+se 'decl' | v -
+declare -a testvar
+echo ${testvar[0]}
+declare testvar[1]="200"
+declare testvar[0]="200"
+declare testvar[2]="200"
+echo ${testvar[*]}
+echo ${testvar[2]}
+$testvar
+echo $testvar
+for a in $testvar; echo $a; done;
+for a in $testvar; do echo $a; done;
+for a in ls; do echo $a; done;
+for a in $(fd -d 1); do echo $a; done;
+for a in $(fd -d 1 sh); do echo $a; done;
+source for.sh
+v for.sh
+head 2 reg.html
+source ~/functions.sh
+ll du*
+se 'head'
+head -n 2 duh.txt
+for a in $(fd -d 1 sh); \n  head -n 2 $a\ndone;
+for a in $(fd -d 1 sh); \n  head -n 2 $a\n: 1661139489:0;ls sh
+ll sh
+for a in $(fd -d 1 sh); \n  do head -n 2 $a\ndone;
+se 'for\s\n: 1661139707:0;se 'for\s'
+for a in $(fd -d 1 sh); do head -n 2 $a $a; done;
+for a in $(fd -d 1 sh); do head -n 2 $a $a; done; | v -
+cat functions.sh
+man take
+sudo apt install network-manager
+nmcli d wifi list
+nmcli
+lspci
+for a in $(fd -d 1 sh); do head -n 2 $a $a; done; > a
+for a in $(fd -d 1 sh); do head -n 2 $a $a; done; 
+for a in $(fd -d 1 \.sh); do head -n 2 $a $a; done; 
+alias g
+sh functions.sh
+bash functions.sh
+v functions.sh
+se 'delclare'
+declare -f git
+ghh
+glog
+gwch
+alias | rg git
+tl
+g
+tmux list-sessions
+declare -f mkvenv
+zplug "MichaelAquilina/zsh-autoswitch-virtualenv"
+echo 'deb http://download.opensuse.org/repositories/shells:/zsh-users:/zsh-autosuggestions/Raspbian_9.0/ /' | sudo tee /etc/apt/sources.list.d/shells:zsh-users:zsh-autosuggestions.list\ncurl -fsSL https://download.opensuse.org/repositories/shells:zsh-users:zsh-autosuggestions/Raspbian_9.0/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/shells_zsh-users_zsh-autosuggestions.gpg > /dev/null\nsudo apt update\nsudo apt install zsh-autosuggestions
+python 
+capsh
+captoinfo
+exa --tree
+exa --tree tmp
+exa --tree .docker
+exa -1
+exa --long --header --git | less
+exa --long --header --git | tail
+exa --long --header --git | head
+exa --long --header --git
+exa --recurse
+exa --recurse | v -
+exa *.sh
+exa --long --header *.sh
+exa --long --header *.py | rg 'aug'
+exa --long --header *.py | rg 'Aug'
+exa --long --header *.py | rg '\d*k'
+exa --long --header *.py | rg '\dk'
+exa --long --header *.py | rg '\d'
+exa --long --header  | rg 'k\d'
+exa --long --header *.py
+man exa
+exa
+exa -m
+exa -l
+manv exa
+exa -s accessed
+exa long -s accessed
+exa -long -s accessed
+exa --long -s accessed
+exa -r -L 1
+exa -r -L 1 -T
+exa -r -L 2 -T
+exa -r -L 2 -T | less
+exa -r -L 2 -T | v -
+alias exat='exa -r -L 2 -T | v -'
+alias exat='exa -r -L 3 -T | v -'
+alias exat
+exa -r -L 3 -T 
+exat | less
+alias lf
+exa  -a --group-directories-first -s modified
+exa  -a --group-directories-first -s modified -X
+exa  -a --group-directories-first -s modified -x
+alias exam='exa  -a --group-directories-first -s modified -x'
+rm files.7z
+cd vscode
+v extensions.txt
+ls rea
+ls rea*
+exa -F
+lr -h
+cd lnl
+rm lnl
+rm -rf lnl
+cd tpro
+rd tpro
+rm -rf tpro
+source functions.sh
+se 'doc'
+se 'doc' | less
+curl  https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | v -
+rg python
+rg -m 1 python
+rg -max-depth 1 python
+rg -max-depth 1 bash
+rgh
+rg --max-depth 1 bash
+rg --max-depth 1 googl
+rg --max-depth 2 googl
+cd powerlevel10k
+load
+wi
+wi dpkg
+cp zsh-autosuggestions_0.7.0-1+3.1_amd64.deb ~/
+dpkg -i zsh-autosuggestions_0.7.0-1+3.1_amd64.deb
+sudo dpkg -i zsh-autosuggestions_0.7.0-1+3.1_amd64.deb
+apt list | rg zsh
+exa bin
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions % git clone https://github.com/zsh-users/zsh -syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting % source ~/.zshr
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions 
+ls sw*
+exa 35.sh
+apt list| rg 'zsh'
+printenv
+printenv | rg -i editor
+echo $EDITOR
+nvim
+source ~/.zshrc
+export EDITOR=nvim
+bind
+bindkey
+bindkey '"\C-u":"Hello!"'
+bindkey -X
+man bindkey
+help
+ls -lhrt
+ls 
+lfcd size
+lfcd
+lfcd -s inode
+v ~/.zshrc
+se 'dec
+declare -f se
+man declare
+se 'compgen'
+compgen -A function | rg -v '^_'
+compgen -A function | rg -v '^_' | sort | column
+declare -f url-quote-magic
+declare -f url-quote-magic | less
+uname -a
+docker run -i --rm itchyny/gojq
+docker ls
+docker run -i --rm ghcr.io/itchyny/gojq
+gojq
+apt list --installed 
+0install run https://apps.0install.net/gui/vs-code.xml
+apt list --installed | rg go
+echo 'libpangoft2-1.0-0/fo'
+echo 'libpangoft2-1.0-0/fo' | grep '.*p
+echo 'libpangoft2-1.0-0/fo' | grep '.*p'
+echo 'libpangoft2-1.0-0/fo' | grep '.*/'
+echo 'libpangoft2-1.0-0/fo' | rg '.*/'
+abc|rg 'a'
+echo abc|rg 'a'
+ls | rg '2'
+ls | sed "s/a/xxx/g"
+ls | sed "s/s/xxx/g"
+ls | rg s | sed "s/s/xxx/g"
+ls | rg s | sed "s/s/bat/g"
+ls | rg sh | sed "s/s/bat/g"
+ls | rg sh | sed "s/sh/bat/g"
+ls | rg \.sh | sed "s/sh/bat/g"
+ls | rg \.sh 
+ls | rg '\.sh'
+ls | rg '\.sh' | sed "s/sh/bat/g"
+v .zcompdump-DESKTOP-8JMUDRE-5.8
+ll z*
+ll .z*
+man sed
+ls | head -n1
+ls | head -n3
+ls | head -n33
+netstat -anp
+netstat -anp | tail
+netstat -anp | tail n2
+netstat -anp | tail -
+netstat -anp | tail -n2
+netstat -anp | tail -n2 2>a
+ls > x
+sed 's/h/xxx/g' x
+sed -i 's/h/xxx/g' x
+sed -i 's/\d/xxx/g' x
+cat x > grep '\d'
+cat x | grep 'x'
+cat x | grep '\d'
+cat x | grep '/\d/'
+cat x | grep '/x/'
+grep -rIl '[[:space:]]$' .
+grep 'goog'
+grep 'ls\s'
+printf "today is `date`\n"
+grep 'ls\s' | grep '\d'
+grep 'ls\s' | grep 't'
+printf "today is `date`\n" | grep 'a'
+printf "today is `date`\n" | grep '\d'
+printf "today is `date`\n" | grep '/\d/'
+grep bash /etc/passwd
+grep ste /etc/passwd
+compgen -c
+compgen -c | columns
+compgen -c | column
+compgen -c | sort | column
+compgen -a | sort | column
+alias vi
+alias gupa
+for x in ${compgen -a}; do echo $x; done 
+for x in $(compgen -a); do echo $x; done 
+for x in $(compgen -a); do alias $a $x; done 
+for x in $(compgen -a); do alias $x; done 
+for x in $(compgen -a); do alias $x >>alt; done 
+v alt
+echo $(sort alt)
+cat alt
+sort alt
+echo "$(sort alt)"
+alias | sort
+alias | sort | v -
+printf "$USER user can run $(compgen -c | wc -l) commands on $HOSTNAME.\n"
+ps -aux | grep $d
+su root
+whoami
+systemctl
+ls -1 *.h | sed 's/^/    /' | sed 's/$/ \\/'
+ls -1 *.sh | sed 's/^/    /' | sed 's/$/ \\/'
+ls -1 *.sh | sed 's/^/    /' | sed 's/$/ ppppp/'
+ls -2
+ls -1 *.sh | sed 's/^/    /' | sed 's/$/ \n/'
+ls -1 *.sh | sed 's/^/ echo    /' | sed 's/$/ \n/'
+ls -1 *.sh | sed 's/^/ cat    /' | sed 's/$/ \n/' > n.sh
+source n.sh
+v n.sh
+ls -1 *.sh | sed 's/^/ cat/' 
+ls -1 *.sh | sed 's/^/ cat /' 
+for a in $(ls -1 *.sh | sed 's/^/ cat /'); do echo $a; done
+duh > duh.txt
+alias ld
+for x in alias; do echo $x; done
+for x in $(alias); do echo $x; done
+for x in $(alias); do {echo $x; echo '--------'}; done
+cd /mnt/c/Users/jayst
+cd 
+ls *.sh
+fd 'ip.*py'
+fd 'ipys.*py'
+mv ipysql.py scripts
+v ipysql.py 
+wi python3.10
+wi python3.10 | sed '/s/\s/\n/g'
+wi python3.10 | sed '/s/a/bbbbb/g'
+echo 'abc' | sed '/s/a/c'
+echo 'abc' | sed 's/a/c'
+echo 'abc' | sed 's/a/c/g'
+echo 'abc' | sed 's/a/c/'
+wi python3.10 | sed 's/a/bbbbb/g'
+wi python3.10 | sed 's/\d/bbbbb/g'
+wi python3.10 | sed 's/p/bbbbb/g'
+wi python3.10 | sed 's/p/\n/g'
+wi python3.10 | sed 's/\s/\n/g'
+wi python3.10 
+c you
+ls | sed 's/\s/---\n/g'
+ls | sed 's/\s/xxx\n/g'
+ls | sed 's/\s/\n/g'
+ls | sed 's/\s/\n---/g'
+abc| sed '/s/a/c/'
+echo abc| sed '/s/a/c/'
+echo abc| sed 's/a/c/'
+ls | sed 's/\s/---/g'
+ls | sed 's/s/---/g'
+ls | sed 's/s/---/g' | tail
+ls | sed 's/s/---/g' | tail -n2
+rgi ex\s
+rgi exif\s
+se 'install'
+fd -d 1 ^\.
+head -n2 duh.txt
+ls ffm
+ls ffm.py
+ll ffm.py
+fd -d 1 -x head n1
+fd -d 1 -x head ll
+fd -d 1 -x head 
+fd -d 1 -tf -x head n1
+fd -d 1 -tf -x head 
+fd -d 1 -tf -x { head n1 }
+find . -name "*.py" -exec echo {} \;
+fd d 1 . -name "*.py" -exec echo {} \;
+fd d 1 . -name "*.py" -x echo {} \;
+fd d 1 "*.py" -x echo {} \;
+fd -d 1 "*.py" -x echo {} \;
+fd -d 1 -tf -x 'head n1'
+fd -d 1 -tf -x echo
+fd -d 1 -tf -x echo {}
+alias ex
+exif
+lt mp4
+fd mp4
+find . -maxdepth 1 -name "*.py" -exec echo {} \;
+find . -maxdepth 1 -name "*.py" -exec ll {} \;
+find . -maxdepth 1 -name "*.py" -exec ls {} \;
+find . -maxdepth 1 -name "*.py" -exec ls -l {} \;
+find . -maxdepth 2 -name "*.py" -exec ls -l {} \;
+se 'awk'
+ps | sed 's/a/xxxxxxxxxx/g'
+ps | awk 'BEGIN{FS="|"} {print $2 " " $1}'
+ps | awk  {print $2 " " $1}'
+ps | awk  '{print $2 " " $1}'
+pst
+pstree #! system tree
+exiftool -T -Description -FileModifyDate ex.mp4
+exiftool -T -Description -FileModifyDate ex.mp4 |awk  '{print $2 " " $1}'
+exiftool -j -Description -FileModifyDate ex.mp4
+se 'docker' | v -
+curl "https://8000-cs-338141290872-default.cs-us-central1-pits.cloudshell.dev/dotfiles/"
+curl "https://8000-cs-338141290872-default.cs-us-central1-pits.cloudshell.dev/ap.txt"
+wget "https://8000-cs-338141290872-default.cs-us-central1-pits.cloudshell.dev/ap.txt"
+v ap.txt
+docker run -d -p 80:80 \\n    -v $PWD/index.html:/usr/share/caddy/index.html \\n    -v caddy_data:/data \\n    caddy
+docker rmi $(docker ps -a -q) #!remove all images
+se 'docker.*rmi'
+tree -d
+tree -d | v -
+tree -f
+tree -f | less
+tree | wc -l
+tree wc
+find . | wc
+find . | wc -l
+find . | wc -lh
+alias 'user'
+fd config
+fd -td config
+fd -tdH config
+fd -td -H config
+cd .config
+v nvim
+exa -r
+exat
+landscape-sysinfo
+lt | rg sh
+alias rg
+wi rg
+rg --version
+rm -rf ex
+rm zsh-autosuggestions_0.7.0-1+3.1_amd64.deb
+exa -tree
+se 'exa'
+eams
+exam
+#!/bin/bash\ninput=".bashrc"\nwhile IFS= read -r line\n  echo "$line"\ndone < "$input"
+v y.sh
+du 
+du .
+man du
+alias du
+ll -S
+ll -S -l
+ll -l -S
+alias ll
+ls -l -S
+ls -h
+ll -H
+ls -lSr #! sort by size
+cargo install du-dust
+sudo apt install tealdeer
+sudo npm install -g tldr
+more /etc/passwd
+ls -lSh
+ls -lSh #sort size revers
+ls -Sh #sort size revers
+ls -sh #sort size revers
+ls -lsh #sort size revers
+ls -lS
+echo "
+echo "jim $PATH"
+v read.sh
+source read.sh
+lsa
+alias | rg ls
+l
+man ls
+tldr
+tldr ls
+ls -ltr
+tldr ps
+ls find
+v .fdignore
+fd -H -I .
+fd -H -I -E .cache
+fd -H -I -E .cache -E .local
+fd -H -I -E .cache -E .local -E .config
+ls |sed -e 's/\b[0-9]\{4\}\b/number/g'
+echo '12345' |sed -e 's/\b[0-9]\{4\}\b/number/g'
+v live.txt
+sed -e 's/\b[0-9]\{4\}\b/number/g' live.txt
+cat live.txt
+sed -e 's/\b[0-9]\{3\}\b/number/g' live.txt
+sed -e 's/\bof\b/xxx/g' live.txt
+ls | sed 's/[a-z]/vvv/g'
+ls | sed 's/\.sh/bat/g'
+ls | sed 's/\.sh/\.bat/g'
+ls | sed 's/\n/\.bat/g'
+ls | sed 's/\n\n/\.bat/g'
+ls | sed 's/\w/\.bat/g'
+ls | sed 's/\s/\.bat/g'
+ls | sed 'g/\./\.bat/g'
+ls | sed 's/\./\.bat/g'
+ls | v -
+m=$(ls)
+for a in $m; do echo $a; done
+source k.sh
+$p
+v =$(ll)
+v =$(ls -lhrt)
+v =$(ls)
+v k.sh
+f=$(ls)
+v=$(ls)
+echo $v
+tr -cd "[:print:]"
+tr -cd "[:print:]" < $(ls)
+tldr tr
+ls | tr "\n" "x"
+ls | tr "\n" ", "
+ls | tr "\n" "\t    "
+ll | cut -f1 -d
+ll | echo "Hello: world" | cut -f1 -d":"
+echo "Hello: world" | cut -f1 -d":"
+ll | -cut -f1 -d"\s"
+ll | cut -f1 -d"\s"
+ll | cut -f1 -d" "
+ll | cut -f1 -d" " --complement
+p3 replace.py
+v SampleFile.txt
+v replace.py
+python3 -m timeit '"-".join(str(n) for n in range(100)); print(n)'
+alias python='python3'
+python -c "import math;print(math.sin(1)"
+python -c "import math;print(math.sin(1))"
+python -c "import math;print(math.tan(1))"
+python -c "import math;print(math.tan(math.pi))"
+se 'tim'
+python3 -m timeit '"-".join(str(n) for n in range(100)): print(n)'
+python3 -m timeit '"-".join(str(n) for n in range(100))
+python3 -m timeit '"-".join(str(n) for n in range(100))'
+se 'tr\s'
+ls | tr "\n" "xxx"
+ls | tr "\n" " list "
+fdi -epy
+fd -epy -x ls
+cd you/class
+stat
+stat output.log
+fd -epy -x stat | rg 'Access'
+fd -epy -x fd -epy -x fd -epy -x stat | rg 'Access'
+fd -epy -x fd -epy -x fd -epy -x 
+fd -epy -x fd -epy -x fd -epy -x ls
+fd -epy -x fd -epy -x fd -epy -x ll
+fd -epy -x fd -epy -x fd -epy -x ls -a
+fd -epy -x fd -epy -x fd -epy -x ls -al
+fd -epy -x fd -epy -x fd -epy -x ls -al; stat
+fd -epy -x fd -epy -x fd -epy -x stat | rg 'Access.*2'
+fd -epy -x fd -epy -x fd -epy -x stat 
+fd -epy -x fd -epy -x fd -epy -x stat | rg 'file'
+fd -epy -x fd -epy -x fd -epy -x stat | rg 'ile'
+fd -epy -x fd -epy -x fd -epy -x stat | rg 'File'
+fd -epy -x fd -epy -x fd -epy -x stat | rg 'acces'
+fd -epy -x fd -epy -x fd -epy -x stat | rg -i 'acces'
+fd -epy -x fd -epy -x fd -epy -x stat | rg -i 'acces.*2'
+fd -epy -x stat | rg 'Access.*2'
+fd -epy -x stat | rg 'Access.*2' | sed 's/c/xxx/g'
+ls | sed 's/\r/\.bat/g'
+fd -epy > /mnt/all/pys
+fd -epy > /mnt/c/all/pys
+man time
+/usr/bin/time -f "%E real,%U user,%S sys" sleep 2
+/usr/bin/time -f "%E real,%U user,%S sys" fd .
+ls &> out.log
+v out.log
+/usr/bin/time -f "%E real,%U user,%S sys" fd . %> ou
+/usr/bin/time -f "%E real,%U user,%S sys" fd . &> ou
+/usr/bin/time -f "%E real,%U user,%S sys" fd -H -I . &> ou
+v Users/jayst/AppData/Local/pypa/virtualenv/wheel/3.9/image/1/CopyPipInstall/pip-21.2.3-py3-none-any/pip/_vendor/urllib3/contrib/_securetransport/bindings.py
+cat "Users/jayst/AppData/Local/pypa/virtualenv/wheel/3.9/image/1/CopyPipInstall/pip-21.2.3-py3-none-any/pip/_vendor/urllib3/contrib/_securetransport/bindings.py"
+v ou
+ls &>/dev/null &
+fdfind command
+fd | wc
+fd | wc &
+which fdfind
+which fd
+ln -s $(which fd) ~/findy
+ln -s $(which fd) ~/findy #! cool alias
+which  findy
+which python
+which python3
+which python3.10
+pushd scripts
+pushd .npm
+2
+pushd
+job
+ls &>/dev/null tee> ~/xx &
+v ~/xx
+fd -H -I
+fg 2
+fg
+cd /all
+fd -epy 
+fd -epy -l
+fd -epy -X ls -lhd --color=always
+ls -lhd
+fd -epy --list-details
+fd --list-details
+fd -l
+fd -X -l
+fd -X stats
+fd -X stats > a
+fd -X stats 
+fd -X stats  | less
+fd -epy -x stat
+fd -epy -x stat > kk &
+v kk
+fd -epy -x stat | rg 'File'
+fd -epy -x stat | rg 'File' | wc
+fd -epy -x stat | rg 'File' | v -
+fd -epy -x stat | rg -i 'File.*all' | v -
+fd -py
+fd -e py
+tldr find
+fd -a -e py
+fd -a -e py > pys &
+fd -a -e py -x ls 
+fd -a -e py -x head -n1
+fd -a -e py -x head -n1 | v -
+fd -a -e py -x stat
+fd -a -e py -x stat | v -
+fd -a -e py -x stat > /mnt/c/all/pss &
+fd -a -e py | awk '{for (i=1;i<3;i++) {getline};\nprint NR,$0}'
+v employee.txt
+cat employee.txt |  awk '/manager/ {print}' employee.txt
+cat employee.txt |  awk '{print NR,$0}'
+fd -a -e py | awk '{print NR,$0}'
+fd -a -e py -x stat 
+v key
+cat key | awk 'NR%2{printf "%s ",$0;next;}1'
+fd -a -e py -x stat | awk 'NR%2{printf "%s ",$0;next;}1'
+fd -a -e py -x stat | grep 'File'
+fd -a -e py -x stat | grep 'File:Access'
+fd -a -e py -x stat | grep 'File|Access'
+fd -a -e py -x stat | grep 'Access'
+fd -a -e py -x stat | grep 'Access.*\d'
+fd -a -e py -x stat | grep 'Access.*\2'
+vim -c ":% normal Jj" key
+v -c ":% normal Jj" key
+cat key
+fd -a -e py -x stat | grep 'Access.*2'
+fd -a -e py -x stat | awk 'Access.*2'xxxxx
+fd -a -e py -x stat | awk 'Access.*2'xxxxx'
+fd -a -e py -x stat | awk 'Access.*2'
+fd -a -e py -x stat | awk '/Access.*2/'
+awk 'BEGIN { printf "Sr No\vName\vSub\vMarks\n" }'
+awk 'BEGIN { fd }'
+awk 'BEGIN { fd . }'
+fd -a -e py -x stat | grep -E "Access|File"
+fd -a -e py -x stat | grep -E "Access.*2|File"
+mpx
+v /mnt/c/projects/git/realPython/materials/python-sqlite-sqlalchemy/project/examples/example_3/app/albums/routes.py
+v /mnt/c/projects/git/pTodo/venv/Lib/site-packages/pip/_internal/operations/install/legacy.py
+cd git
+cd pTodo
+cd venv
+tree -ds
+rm -rf 2021-dataclasses GO-Gin-REST-API
+ls -l | awk '{for (i=1;i<3;i++) {getline};\nprint NR,$0}'
+for a in $(fd - 1 -td); echo $a; done
+for a in $(fd - 1 -td); do echo $a; done
+for a in $(fd d- 1 -td); do echo $a; done
+for a in $(fd -d 1 -td); do echo $a; done
+ps -aux
+duh > duh2.txt
+fd -a -e py -x stat | grep -E "Access.*2|File" > pys
+v pys
+se 'v.*j'
+v -c ":% normal Jj" pys
+cd jamessteffes.github.io
+cd app333
+cd projects/jamessteffes.github.io
+rm -rf app333
+...
+cd c
+alias rmdir
+tldr rmdir
+duh > duh2.txt &
+ahk
+cd youtube
+popd
+rm -rf youtube
+rm -rf node_modules
+df
+rm -rf derived
+rm -rf mm
+ls temp
+cd temp
+rm proj.tar
+tar cfv /mnt/c/temp/proj.tar projects
+fd -H -I -e mp4
+fd -H -I -e mp4 -x stat
+fd -H -I -e mp4 -x stat | rg "File|Size"
+time fd -epy
+fd /user/bin
+fd /usr/bin
+cd /usr/bin
+fd time
+stat time
+time ls
+time pwd
+/usr/bin/time fd
+time ping howtoforge.com
+man ping
+time ping -c 5 howtoforge.com
+wget https://github.com/sharkdp/hyperfine/releases/download/v1.14.0/hyperfine_1.14.0_amd64.deb\nsudo dpkg -i hyperfine_1.14.0_amd64.deb
+time fd
+time fd > x
+hyperfine fd
+wi time
+time -o ttt fd .
+v ttt
+time -o ~/zzz fd /mnt/c
+/usr/bin/time -o /home/time-output.txt ping howtoforge.com
+/usr/bin/time -o /home/steff007/time-output.txt ping howtoforge.com
+/usr/bin/time -o /home/steff007/time-output.txt ping -c 5 howtoforge.com
+v time-output.txt
+script s
+v s
+cat s
+script p
+fd --changed-within=2m
+fd --changed-within=5
+fd --changed-within=8
+fd -H -I --changed-within=8min
+cd /users
+cd Users/jayst/Downloads
+cd AppData/Roaming
+xxx npm
+rm -rf npm
+lr
+find AndroidStudioProjects
+rm -rf AndroidStudioProjects
+fd stree
+sudo bash
+fd . /mnt/c
+hyperfine fd /mnt/c
+hyperfine --show-output fd /mnt/c
+se 'tmux'
+ls -ahr
+ls -lhr
+ls -lhr | tail
+--shell zsh 'for i in {1..10000}; do echo test; done'
+shell zsh 'for i in {1..10000}; do echo test; done'
+zsh 'for i in {1..10000}; do echo test; done'
+md 
+mkdir input
+for a in $(fd -d 1 -td); do rm -rf $a; done
+ll | rg '^l'
+cd .local
+cd lib
+cd python3.10
+p3 -m pip list
+p3 -m pip list 2>x
+se 'pip.*lis'
+docker run -ti ubuntu:latest bash
+docker ps --format $FORMAT
+docker ps -l
+docker commit ea391c73e8c6 
+docker tag b6ed5785687bf77dc5b34732b013c76a0369f96344fed4c201330241d9fc3c89 my-image
+docker run -ti my-image
+docker commit adoring_austin image2
+docker run -ti image2
+docker commit amazing_sammet image3
+docker run -ti image3
+docker commit sharp_mendel image4
+docker images
+docker run -ti image4
+docker commit keen_lewin image5
+docker run -ti image5
+docker attach sharp_shtern
+docker run --name example -d ubuntu bash -c "sleep 4; echo sleep"
+docker ps
+docker logs example
+docker run --name example -d ubuntu bash -c "sleep 4; echo sleepier"
+docker run --name example2 -d ubuntu bash -c "sleep 4; echo sleepier"
+docker logs example2
+ptre
+ptree
+watch pstree
+p3 pro.py
+take maria
+se 'declar'
+declare -f take
+declare -f take | clip
+declare -f takedir
+se 'p3.*env'
+fd act
+source /bin/-activate
+fd 
+cd bin
+source activate
+pip list 2>/dev/null 
+p3 -m pip install mariadb
+p3 -m pip install mysqlient
+p3 -m pip install mysqclient
+pip install mysqlclient
+pip3 install mysqlclient
+sudo apt install -y python3-dev default-libmysqlclient-dev build-essential
+p3 -m pip install mysqlclient
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install python3-dev  # for python3.x installs
+p3 -m pip install mysqlclient 2> er
+v er
+rm -rf maria
+se 'p3.*insta'
+pipenv shell
+pip3 install pipenv
+p3 -m pip install pipenv
+p3 -m venv db
+cd db
+source bin/activate
+pip install mysql-connector-python
+pip list
+se 'python'
+i3
+p3
+se 'ipython'
+p3 -m pip install ipython
+se 'p.*env'
+su py
+ls -l home
+ll /home
+cat /etc/passwd
+sudo useradd py
+cat /etc/passwd | grep py
+cat /etc/default
+cd /etc/default
+v useradd
+sudo useradd -m py
+ls -l /home
+cat /etc/passwd | sort
+cat /etc/passwd | grep 'x:'
+cat /etc/passwd | grep 'x:[0-5]'
+cat /etc/passwd | grep 'x:[0-5]{1}'
+cat /etc/passwd | grep 'x:[0-5]{1,}'
+cat /etc/passwd | grep 'x:[5-9]'
+cat /etc/passwd | rg nologin
+cat /etc/passwd | rg nologin | sed 's/\d/xx'
+cat /etc/passwd | rg nologin | sed 's/\d/xx/g'
+cat /etc/passwd | rg nologin | sed 's/\d/xxxxx/g'
+cat /etc/passwd | rg nologin | sed 's/nologin/xxxxx/g'
+sudo useradd -r sysuser
+cat /etc/passwd | v -
+cat /etc/passwd | rg 'x:[2-9]
+cat /etc/passwd | rg 'x:[2-9]'
+cat /etc/passwd | rg 'x:^[2-9]'
+cat /etc/passwd | rg 'x:[1-2]'
+login py
+sudo login py
+se 'user'
+sudeo userdel py
+sudo userdel py
+cat /etc/passwd | rg 'x:[1-2]' | sort
+\tcat /etc/shadow
+\tcat /etc/shadowsudo
+sudo\tcat /etc/shadowsudo
+sudo cat /etc/shadow
+sudo cat /etc/shadow | grep 'stef'
+cd lazy
+stat -c %s 
+stat -ch %s Schopenhauer.mp3
+stat -c %s Schopenhauer.mp3
+stat -c %s lazy
+stat -c %s lazy/
+fd -H | xargs l -l
+fd -H | xargs ls -l
+fd -H -tf | xargs ls -l
+fd -H -tf | xargs stat
+fd -H -tf 
+stat Charlie\ Parker\ -\ The\ \ Levin_Wilson\ Controversy\ part\ 1..mp3
+stat %s Charlie\ Parker\ -\ The\ \ Levin_Wilson\ Controversy\ part\ 1..mp3
+stat -c %s Charlie\ Parker\ -\ The\ \ Levin_Wilson\ Controversy\ part\ 1..mp3
+fd -H -tf -x stat -c %s
+fd -H -tf -x stat -c %n %s
+fd -H -tf -x stat -c %ns
+fd -H -tf -x stat -c %n
+du --apparent-size --block-size=1  "/etc/passwd"\nfileName="/etc/hosts"\nmfs=$(du --apparent-size --block-size=1  "$fileName" | awk '{ print $1}')\necho "$fileName size = ${mfs}"
+cp yv.sh y1.sh
+md linux
+md /mnt/c/you/linux
+bash y1.sh
+v y1.sh
+alias python3
+fd activate
+mp4/bin/activate
+source mp4/bin/activate
+v 
+source m/mnt/c/all/bash/p4/bin/activate
+source /mnt/c/all/bash/p4/bin/activate
+fd -a activat
+source /mnt/c/all/bash/mp4/bin/activate
+deactivate
+v fix_corrupt
+wi sd
+man sd
+sd
+which sd
+curl https://sh.rustup.rs -sSf | sh
+v output.log
+source "$HOME/.cargo/env"
+se 'sd'
+zsh
+cargo install sd
+v yv
+fd -h ac
+fd -H ac
+fd -H -d 1
+hyperfine --shell zsh 'for i in {1..10000}; do echo test; done'
+$SHELL
+echo $SHELL
+env | grep -v 'LS'
+cat /etc/passwd | grep 'nol'
+cat /etc/passwd | grep -v 'nol'
+fd . | grep 'awk'
+manv find
+find . -iregex 'awk'
+find . -regex 'awk'
+find . -regex 'awk.*'
+find . -regex '.*awk.*'
+find . -regex '.*awk'
+find . -regex '^L'
+find . -regex '^L.*'
+find . -name '^L.*'
+find . -name '*.*'
+find ./ -type f -regex '\.\/c*'
+find ./ -type f -regex '\.\/C*'
+find ./ -type f -regex '\.\/L*'
+find ./ -type f -regex '\.L*'
+find ./ -type f -regex '\.*L'
+find ./ -type f -regex '.*L'
+find ./ -type f 
+find ./ -type f -regex '.*'
+find ./ -type f -regex '.*x'
+find ./ -type f -regex '.*x.*'
+a=find ./ -type f -regex '.*x.*'
+a=(find ./ -type f -regex '.*x.*')
+a
+a=$(find ./ -type f -regex '.*x.*')
+$a
+a=$(find ./ -type f -regex '.*awk.*')
+echo $a | less
+ls "*.*"
+ls *
+fd d 1
+fd -d 1 *.mp4
+fd -d 1 '*.mp4'
+fd -d 1 'mp4'
+fd 'mp4'
+fd 'mp4' |  sed -e 's/ /_/g'`; done
+ls | sed 's/sys/\.bat/g'
+ls | sed 's/ /\.bat/g'
+ls | sed 's/ /_/g'
+ls | sed 's/'Linux /_/g'
+ls | sed 's/\'Linux /_/g'
+ls | sed 's/\\'Linux /_/g'
+ls | sed 's/\''Linux /_/g'
+ls | sed 's/\''Linux.*- /_/g'
+ls | sed 's/\''Linux.*- //g'
+fd 'mp4' | sed 's/\''Linux.*- //g'
+fd 'mp4' | echo $0
+fd 'mp4' | -x echo {}
+fd 'mp4' -x echo {}
+fd 'mp4' | xargs echo {} | sed 's/\''Linux.*- //g'
+curl "https://raw.githubusercontent.com/wither7007/all/main/.bash_history" > google_hist
+v google_hist
+fd -H -esh | xargs -I {} sh -c 'stat {}'
+fd -H -d 1 -esh | xargs -I {} sh -c 'stat {}'
+stat --format='%n --- %x' $(ls)
+fd -H -d 1 -esh | xargs -I {} sh -c 'echo '========';stat {}'
+fd -H -d 1 -emp4 | xargs -I {} sh -c 'echo '========';stat {}'
+fd -H -d 1 -emp4 | xargs -I {} sh -c 'echo '========' {}'
+fd -H -tf -d 1 -emp4 | xargs -I {} sh -c 'echo '========' {}'
+fd 'under'
+fd 'under' -x echo {}
+fd 'under' -x echo cp {} x
+fd -H -tf -d 1 -emp4 'wget' | xargs -I {} sh -c 'echo ' {}'
+fd -H -tf -d 1 -emp4 'wget' | xargs -I {} sh -c 'echo  {}'
+fd -H -tf -d 1 -emp4 'tar' | xargs -I {} sh -c 'echo  {}'
+ls | cat
+for f in *; do\n    [[ -e $f ]] || continue\n    ...\ndone
+cd /
+fd 'cros'
+for f in *; do echo $f; done
+find . -type f -print0 | while IFS= read -r -d '' filename; do\necho $IFS  ...\ndone
+ls | while read filename; do\n  echo change\noned...
+ls | while read filename; do\necho change\ndone
+ls | while read filename; do\necho change\ndone
+ls | while read filename; do;echo change;done
+# Good!\nfor f in *; do\n    [[ -e $f ]] || continue\n  echo $f\ndone
+# Good!;for f in *; do;    [[ -e $f ]] || continue;  echo $f;done
+for f in *; do;    [[ -e $f ]] || continue;  echo $f;done
+wc -c b.json
+for a in $(ls); 
+for a in $(ls); do echo $a; done;
+shopt -s nullglob
+$0
+axit
+touch ' ( noth ) '
+for i in *'('*')'*\n    mv "$i" `echo $i | sed 's/\(.*\) (.*).\(.*\)/\1.\2/'`\ndone
+ls -d -- *\(*\)* | sed 's/\(.*\) (.*)\(.*\)/mv -- "&" "\1\2"/'
+for file in ./*; do mv "$file" "${file/ (*)/}"; done
+7za a -t7z files.7z *.*
+cp files.7z /mnt/c/all
+ls -S
+ls -Sl
+ls -Slr
+cat ou
+rm hyperfine_1.14.0_amd64.deb ou files.7z
+ls -Slra #!sort by size reverse
+rm ex.mp4
+rename
+se 'update'
+sudo apt update
+sudo apt install rename
+rename employee.txt rname
+wi rename
+wc -c b
+wc -c p
+stat p
+cat p
+v p
+man rename
+ls *.txt
+touch x.pdf
+take non
+touch x.pdf a.txt
+rename -v 's/.txt/.pdf/' *.txt
+rename '' '_' *
+rename 'a' '_' *
+find * -type f -name "* *" 
+find * -type f -name "*.*" -exec rename "s/\s/_/g" {} \;
+find * -type f -name "*.*" 
+mv 'jim is' jim is.txt
+mv 'jim is' 'jim is.txt'
+mv 'jim is.txt' `this is`
+mv 'jim is.txt' "this is".txt
+touch 'jim is'
+find * -type f -name "*"
+fd ','
+fd -H '.*,'
+fd -H '.*,.*'
+fd -H '-'
+fd -H '('
+find * -type f -name "*" -exec rename "s/\(/_/g" {} \;
+fd -H '\('
+fd -H '\)'
+fd -H '\,'
+fd -H ','
+fd -H 'e,'
+fd -H 'Docker'
+find * -type f -name "*" -exec rename "s/,/_/g" {} \;
+fd -H -I 'Docker'
+fd 'mp4' -x echo {} | sed 's/\''Linux.*- //g'
+fd 'mp4' -x echo {}; sed 's/\''Linux.*- //g'
+se 'fd.*bash'
+se 'xa.*bash'
+se 'fin.*bash'
+fd '\('
+fd '\(.*'
+fd '\(.*no'
+fd '\(.*no' -x rm
+fd '\(.*no' 
+ls *.pdf
+se '7z'
+7z t archive.zip *.* -r
+7z a archive.7z .
+7z.exe a -t7z archive.7z . -xr
+7z a -t7z archive.7z . -xr
+7z a -t7z archive.7z -xr.
+7z a -tzip archive.zip *.txt -x
+manv 7z
+fd -td
+fd -d 1 -td
+fd -H -d 1 -td
+v ex.txt
+tar --exclude='file1.txt' --exclude='.cache' -zcvf backup.tar.gz .
+tar --exclude='file1.txt' --exclude={'.cache', '.rustup'} -zcvf backup.tar.gz .
+tar --exclude={'.cache', '.rustup'} -zcvf backup.tar.gz .
+tar --exclude='file1.txt' --exclude='.cache' --exclude='.rustup' -zcvf backup.tar.gz .
+tar --exclude='.cache' --exclude='.rustup' -zcvf backup.tar.gz .
+tar --exclude='.cache' --exclude='.rustup' --exclude '.npm' -zcvf backup.tar.gz .
+tar --exclude='.cache' --exclude='.rustup' --exclude '.npm' --exclude '.config' -zcvf backup.tar.gz .
+tar --exclude='.cache' --exclude='.rustup' --exclude '.npm' --exclude '.config' --exclude '.local' -zcvf backup.tar.gz .
+npm list
+npm list -g
+find * -type f -name "*" -exec rename "s/\s/_/g" {} \;
+find * -type f -name "*" -exec rename "s/'/_/g" {} \;
+find * -type f -name "*" -exec rename "s/'//g" {} \;
+find * -type f -name "*" -exec rename "s/\'//g" {} \;
+fd -I '''
+fd -I "'"
+fd -I 
+fd -I 'bg'
+cp Linux_Crash_Course_-_Data_Streams_\(stdin,_stdout_\&_stderr\).mp4 x.mp4
+sudo -v ; curl https://rclone.org/install.sh | sudo bash
+rclone config
+fd -HI 'hi'
+fd -d 1 -HI 'history'
+fd -d 1 -HI '\.git'
+take dots
+gh auth login
+md you/bash
+ls you/
+cd all/bas
+cd all/bash
+fd -e mp4
+fd -emp4
+fd -I -H -emp4
+fd -I -H -emp4 -x mv /mnt/c/all/bash/
+ln -l .bash_history /mnt/c/all/bhist
+ln  .bash_history /mnt/c/all/bhist
+ln  .bash_history /mnt/c/all/
+ln  .bash_history /mnt/c/all
+cp .bash_history /mnt/c/all/whis.txt
+se 'env'
+p3 -m venv mp4
+fd -I -H -emp4 
+fd -I -H -emp4 | less
+se 'fd.*rename'
+se 'name'
+take te
+wi gh
+se 'gh'
+gh repo create words --public
+echo "# words" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/words.git\ngit push -u origin main
+cd node
+gst
+fd -I -H -ejs
+fd -I -H -ejs | xargs echo
+fd -I -H -ejs | xargs echo {}
+printf "%s\n" *lt
+printf "%s\n" *
+fd -I -H -ejs | xargs -n1 echo
+fd -d 1 -I -H -ejs | xargs -n1 echo
+fd -d 2 -I -H -ejs | xargs -n1 echo
+fd -d 2 -I -H -ejs | rg 'a.*' |xargs -n1 echo
+fd -d 2 -I -H -ejs | rg 'goog.*' |xargs -n1 echo
+v pup/search.js
+fd -d 2 -I -H -ejs | rg 'pup.*' |xargs -n1 echo
+fd -d 2 -I -H -ejs | rg 'sheet.*' |xargs -n1 echo
+v cool/sheet.js
+fd -d 3 -I -H -ejs | rg 'sheet.*' |xargs -n1 echo
+curl "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data\?alt\=json\&key\=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+fd -d 3 -I -H -ets | rg 'sheet.*' |xargs -n1 echo
+v esbuild/src/sheet.js
+fd -ets
+fd -ets -x echo
+fd -ets -x rg 'sheet'
+fd -ets -x rg 'sheet' | v -
+curl  "https://sheets.googleapis.com/v4/spreadsheets/1AeXz0cVvC6iY6wDqsXkXYwowRjfJyLoWGltHJEUCD4Y/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+curl  "https://sheets.googleapis.com/v4/spreadsheets/1AeXz0cVvC6iY6wDqsXkXYwowRjfJyLoWGltHJEUCD4Y/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs" #! sheets api
+curl  "https://sheets.googleapis.com/v4/spreadsheets/1AeXz0cVvC6iY6wDqsXkXYwowRjfJyLoWGltHJEUCD4Y/physics/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs" #! sheets api
+curl  "https://sheets.googleapis.com/v4/spreadsheets/1AeXz0cVvC6iY6wDqsXkXYwowRjfJyLoWGltHJEUCD4Y/values/physics?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs" #! sheets api
+sudo apt install -y jq
+jq -h
+curl  "https://sheets.googleapis.com/v4/spreadsheets/1AeXz0cVvC6iY6wDqsXkXYwowRjfJyLoWGltHJEUCD4Y/values/physics?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs" >j.json #! sheets api
+jq --version
+cat j.json
+v .bash_aliases
+alias curl='curl -L -s'
+jq '.' j.json
+jq '.values' j.json
+se '#!
+se '#!'
+echo $PATH | perl -pe 's/:/\n/g' #! split path
+curl 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Talking_Heads_discography/daily/20210928/20210930' | jq '.'
+cat j.json | jq '.'
+for a in $(cat plays); echo $a; done
+for a in $(cat plays); do echo $a; done
+cat plays | while IFS= read -r i; do echo -n "$i" 
+cat plays | while IFS= read -r i; do echo -n "$i" | echo; done
+cat plays | while IFS= read -r i; do echo -n "$i" | wc -c; done
+cat plays | while IFS= read -r i; do echo -n "$i" |  done
+cat plays | while IFS= read -r i; do echo -n "$i";  done
+man mapfile
+printf "Line 1\nLine 2\nLine 3\nLine 4\nLine 5" | mapfile
+v a.py
+fd -epy
+pwd
+fd -d 1 'pl'
+fd 'sql'
+fd -d 2 'sql'
+fd -d 2 'ip'
+fd -d 2 'sq'
+cp ip
+cp ipysql.py ~
+md pys
+mv ipysql.py pys
+wi python
+/usr/bin/python3.10 ipysql.py
+wi neovim
+/usr/libexec/neovim
+wi v
+wi nvim
+/usr/bin/nvim
+fd -a
+v ~/pys/ipysql.py
+chmod +x ipy.sh
+/usr/bin/python3.10 ~/pys/ipysql.py
+cd monk
+cp Misterioso.mp3 ~/non
+3
+cd con
+stat Misterioso.mp3
+stat x.pdf
+fd --changed-within=8min
+se 'rename'
+fd --changed-within=8min | xargs stat
+fd --changed-within=10min | xargs stat
+ls M*
+ls M?
+ls [a-c]
+ls [a-c]*
+ls [a-z]*
+ls [a|t]*
+ls [a-t]*
+ls [aliasz]*
+lt *.json
+hyperfine -w 3 'sed -E "s/\"/\'/g" *.json
+hyperfine -w 3 'sed -E "s/\"/\'/g" *.json'
+hyperfine -w 3 'sed -E "s/\"/\'/g" *.json >/dev/null' 'sd "\"" "\'" *.json >/dev/null' --export-markdown out.md\n: 1661843257:0;hyperfine ls -lhr | tail
+hyperfine 'ls -lhr | tail'
+hyperfine 'ls -lhr | tail' --export-markdown out.md
+cat out.md
+cat out.md | clip
+find ~/.cache
+hyperfine 'find /'
+cat bash_benchmark_script \n#!/bin/bash\nfor i in $(seq 1 1000);\ndo bash -c ":" ;\ndone
+se 'cat.*>'
+cat > a
+cat a
+time bash a
+hyperfine 'bash a'
+bash -c ":"
+bash -c "echo jim"
+bash -c "echo jim; echo steffes"
+bash -c "echo jim; echo steffes; find ."
+time 'bash -c "echo jim; echo steffes; find ."'
+hpyerfine bash -c "echo jim; echo steffes; find ."
+hyperfine bash -c "echo jim; echo steffes; find ."
+time bash -c "echo jim; echo steffes; find ."
+fd . --changed-within=5mins
+fd . --changed-within=5months
+fd . --changed-within=1months
+cd dock
+exiftool -j -Description -FileModifyDate Build\ a\ custom\ Linux\ Desktop\ in\ Docker\!.mp4
+cd linux
+se '!# size'
+se '!#'
+se '#!.*si'
+ls -lSr
+fd "_-"
+cd te
+fd ip
+which ipysql
+which ipysql.py
+ls -lSrh
+se 'backup'
+se 'backup' | v -
+tar --exclude='.cache' --exclude='.rustup' --exclude '.npm' --exclude '.config' --exclude '.local' --exclude 'db' --exclude '.oh-my-zsh'  -zcvf backup.tar.gz .
+tar --exclude='.cache' --exclude='.tldr' --exclude='.rustup' --exclude '.npm' --exclude '.config' --exclude '.local' --exclude 'db' --exclude '.oh-my-zsh'  -zcvf backup.tar.gz .
+fd 'histo'
+fd -HI 'history'
+fd -HI 'z.*history'
+history
+declare -f omz_history
+alias history
+alias v
+cd .cache
+du -h | sort
+du -h | rg '\d\dM'
+du -h | rg '\d\dM' | v -
+rm -rf bazel
+rm -rf bazel_binaries
+fd 'cach.*his'
+fd -H -I 'cach.*his'
+fd -H -I 'histor'
+fd -H -I 'c.*histor'
+fd -H -I 'z.*histor'
+fd -H -I -a 'z.*histor'
+fd -H -I -a | rg 'z.*history'
+v /home/steff007/.cache/zsh/history
+fd -H -I -a | rg 'z.*history$'
+cd findy
+findy
+rm findy
+fd mp.*
+fd 'mp.*'
+cd you/linux
+cp Linux_Crash_Course_-_Bash_Aliases.mp4 ~/
+p3 ffm.py Linux_Crash_Course_-_Bash_Aliases.mp4| v -
+cd non
+p3 ffm.py Misterioso.mp3| v -
+p3 ffm.py Misterioso.mp3 | v -
+exiftool -j Misterioso.mp3
+exiftool -j Misterioso.mp3 | v -
+j1
+jq
+se 'jq'
+exiftool -j Misterioso.mp3 | jq '.'
+exiftool -j Misterioso.mp3 | jq '.' |v -
+p3 ffm.py Linux_Crash_Course_-_Bash_Aliases.mp4| jq '.'
+p3 ffm.py Linux_Crash_Course_-_Bash_Aliases.mp4 | v -
+jq '.values' mp4.json
+p3 ffm.py Linux_Crash_Course_-_Bash_Aliases.mp4 | jq '.'
+p3 ffm.py Linux_Crash_Course_-_Bash_Aliases.mp4 > mp4.json
+v mp4.json
+bind -p
+while read line; do\necho $line\ndone >plays
+v plays
+rm plays
+while read line; do\necho $line\ndone > ffm.py
+while read line; do\necho $line\ndone < ffm.py
+cat ffm.py
+v backup.tar.gz
+md tar
+tar -xf backup.tar.gz ~/tar/
+tar -xf backup.tar.gz -C ~/tar/
+v ffm.py
+cat plays
+rm ffm.py
+tar -xf backup.tar.gz ffm.py
+tar -tf backup.tar.gz
+\twi gzip
+ip3
+cd python
+wi hyperfine
+sh time.sh
+man seq
+seq 10
+seq -s "jim" 10
+seq -s "jim " 10
+seq -s " jim " 10
+seq -s " jim " 1000
+fc -2
+fc -e 3
+fc -e vi 1 5
+$HISTFILE\nfor a in {1..5}\ndo \n    touch a\ndone\ncat 1\nls | head -n 1\nalias wi='whereis '
+alias hf='hyperfine'
+hf 'for x i in `seq 3`; do echo $x; done'
+for x i in `seq 3`; do echo $x; done
+hf 'for x i in `seq 3`; do echo $x; done' --s
+hf --s 'for x i in `seq 3`; do echo $x; done'
+hf ls
+fd -th
+fd -tf
+fd -d 1 -tf
+fd -d 2 -tf
+md sh
+cd projects/
+cd sh
+sc r
+source r.sh
+day=$(date +"%a")
+echo day
+day=$(date +"%a%m")
+day=$(date +"%a %m")
+day=$(date +"%a %m/%d")
+day=$(date +"%hr %a %m/%d")
+day=$(date +"%h %a %m/%d")
+day=$(date +"%t %a %m/%d")
+echo $day
+cal
+w
+date +"%D"
+n=$(date +"%D")
+echo n
+NOW=$(date +"%m-%d-%Y")
+echo $NOW
+printf "%s\n" $NOW
+printf "%s\n\N" $NOW
+printf "%s\n\n" $NOW
+se 'seq'
+for x i in `seq 1 3`; do echo $x; done
+for x i in `seq 1 30`; do echo $x; done
+for x i in `seq 30`; do echo $x; done
+fd -d 1 'z'
+se 'tar.*z'
+fd -d 1 ff
+f1
+alias f1='fd -d 1 '
+f1 'py'
+tar -tf backup.tar.gz ./ffm.py
+f1 'ff'
+tar -tf backup.tar.gz | rg 'py$'
+tar -tf backup.tar.gz ./proc.py
+f1 'proc'
+v proc.py
+v pa proc.py
+fd -d 1 'his'
+strings -eS ~/.cache/zsh/history > ~/.cache/zsh/history.bak
+fd -H -I --changed-within=10min   
+fd -H -I --changed-within=10min   | stat
+fd -H -I --changed-within=10min  | xargs stat
+ag canbus
+ag python
+cd tar
+rm -rf tar
+rm -rf db
+fm .
+echo $HISTFILE
+ag python | v -
+v ve.sh
+stat -f DumpStack.log
+stat -fh DumpStack.log
+stat -fH DumpStack.log
+stat -f /
+stat --print='%n\n' /etc/passwd
+stat --printf='%n\n%a\n%b\n' /
+stat --printf='%U\n%G\n%C\n%z\n' /
+stat --printf='%U\n%G\n%C\n%z\n' /mnt/c/
+stat -f /home
+stat /home
+stat --printf='%x' /mnt/c/
+stat --printf='%x\n' /mnt/c/
+stat --printf='%x\n' duh2.txt
+fd 'duh.txt'
+stat --printf='%y\n' duh2.txt
+stat --printf='%z\n' duh2.txt
+lt duh.txt
+stat --printf='%2\n' duh2.txt
+stat --printf='%w\n' duh2.txt
+stat --printf='%w\n%y\n' duh2.txt
+stat --printf='%w\n access %y\n' duh2.txt
+v duh2
+v duh2.txt
+lt duh2.txt
+stat --printf='access %y\n' duh2.txt
+stat --printf='access %y\n' dd.txt
+cd AppData/Local
+rm rf Yarn
+rm -rf Yarn
+se 'docker.*rm'
+docker rm $(docker ps -a -q) 
+docker ps -a
+cd Users/jayst/
+duh > dd.txt &
+v git.sh
+lt git.sh
+k=(1 2 3)
+${k[1]}
+fc 2933
+ech
+fc 2929
+echo $k[1]
+fc 2930
+echo ${k[1]}
+fc -l
+alias fcl="fc -l"
+fc 2924
+stat git.sh
+fc 2910
+se 'docker'
+fcl
+fd 'yarn'
+memHogsPs
+ran
+winsh
+ls -i
+stat phelp
+stat --printf='access %y\n' *
+stat --printf='access %y\n' * | sort
+manv stat
+stat --printf='access %y name %n\n' * | sort
+stat --printf='access %y name %n\n' * | sort | v -
+20:25:34.247368500 -0500\n17:48:21.886724700 -0500\n17:48:21.887727700 -0500\n17:48:21.898247900 -0500\n17:48:21.899685600 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.946562900 -0500\n17:48:21.962187300 -0500\n17:48:23.382622800 -0500\n17:50:46.474657800 -0500\n17:52:08.176372300 -0500\n23:35:53.161752200 -0500\n19:53:01.901248300 -0500\n12:34:32.948387200 -0500\n16:27:24.771689100 -0500\n22:52:58.098610600 -0500\n20:00:01.914456300 -0500\n22:44:09.193459000 -0500\n15:38:05.040856200 -0500\n15:51:48.183654300 -0500\n23:56:44.159188200 -0500\n16:04:55.925133900 -0500\n08:47:03.464118200 -0500\n17:36:57.069281700 -0500\n06:51:08.800383900 -0500\n19:43:13.701630500 -0500\n10:45:00.819786900 -0500\n08:11:12.529622800 -0500\n11:49:35.634385900 -0600\n16:44:47.405421800 -0600\n17:08:32.377324100 -0600\n23:17:52.321060500 -0600\n09:31:17.113861800 -0600\n22:15:25.280495700 -0600\n02:45:06.303052500 -0600\n14:03:05.048558200 -0600\n23:37:00.311601100 -0500\n15:11:41.203458900 -0500\n03:31:51.474237800 -0500\n13:24:07.467083600 -0500\n19:31:58.748263700 -0500\n01:00:55.257433900 -0500\n21:03:25.314174600 -0500\n21:08:01.078353300 -0500\n22:26:53.427449400 -0500\n11:34:09.451474300 -0500\n15:27:37.461481500 -0500\n15:28:19.609332300 -0500\n10:29:54.229624400 -0500\n18:53:50.372032600 -0500\n23:10:08.237507400 -0500\n23:10:08.253124400 -0500\n21:03:41.408234000 -0500\n11:52:33.370989500 -0500\n12:39:16.582676200 -0500\n12:39:16.582676200 -0500\n12:39:16.598309100 -0500\n22:28:34.816515400 -0500\n00:02:34.156023600 -0500\n11:17:28.173540300 -0500
+11:03:28.354167600 -0500
+11:46:33.054292600 -0500
+13:48:12.292595800 -0500
+13:48:41.746130000 -0500
+fd -H -I --changed-before=1mnth
+manv fd
+fd -H -I --change-older-than 2months
+fd -d 1 -H -I --change-older-than 2months | xargs echo
+fd -d 1 -H -I --change-older-than 2months | xargs echo {}
+fd -d 1 -H -I --change-older-than 2months  
+fd -d 1 -H -I --change-older-than 2months  | xargs -n1 echo
+fd -d 1 -H -I --change-older-than 2months  | xargs -n1 stat
+fd -d 1 -H -I --change-older-than 2months  | xargs -n1 ls -lhrt | v -
+se 'fd.*zip'
+se 'find.*zip'
+se 'find.*'
+fd -d 1 -H -I --change-older-than 2months  | xargs -n1 rm -rf
+fd -d 1 -H -I --change-older-than 2months
+v ntuser.dat.log1
+fd -d 1 -H -I --change-older-than 2months | ls
+fd -d 1 -H -I --change-older-than 2months | column
+fd -d 1 -H -I --change-newer-than 2months | column
+fd -d 2 -H -I --change-older-than 2months | column
+fd -d 2 -H -I --change-older-than 2months | v -
+fd -d 2 -H -I --change-older-than 1months | v -
+fd -d 2 -H -I  | v -
+fd -H -I  | v -
+heading() {\n    bold=$(tput bold)$(tput setaf 220)\n    normal=$(tput sgr0)\n    echo\n    echo\n    printf "\n%s%s%s\n\n" "$bold" "$1" "$normal"\n\n    echo -e "\n### $1\n" >> "$REPORT"\n}
+heading
+heading "No pattern"
+fd duh
+fd1 duh
+cat duh
+v duh.txt
+alias rg 'duh'
+fd -d 1 epy
+fd -d 1 -epy
+fd -d 2 -epy
+v pys/ipysql.py
+./ipy.sh
+export PATH="$HOME/pys:$PATH"
+mps
+du --all --human-readable
+du --all --human-readable \\n--one-file-system \\n--max-depth=1 /var
+du --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null /var
+du --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null /
+du --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null / | sort -k1 -rh
+du --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null / | sort -k1 -rh | rg -v "^0"
+du --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null / | sort -k1 -rh | rg -v "^0" #! cool sort https://www.redhat.com/sysadmin/sort-du-output
+dufun .
+dufun /mnt/c/Users/jayst
+dufun ~/script
+dufun ~/script/
+ls ~/scripts
+dufun ~/scripts/
+du --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null / | sort -k1 -rh | rg -v "^0" #! cool sort https://www.redhat.com/sysadmin/sort-du-output
+dufun()\n{\n\ndu --all --human-readable \\n--one-file-system \\n--max-depth=1 2>/dev/null $1 | sort -k1 -rh | rg -v "^0" #! cool sort https://www.redhat.com/sysadmin/sort-du-output\n}
+dufun ~
+dufun ~ | v -
+declare -f dufun
+du --all --human-readable \\n--one-file-system \\n--max-depth=0 . 2> /dev/null | sort -k1 -rh | rg -v "^0"
+cd ~
+duh |  sort -k1 -rh | rg '^0'
+duh |  sort -k1 -rh | rg -v '^0'
+duh |  sort -k1 -rh | rg -v '^0' | v -
+alias duh='du -h --max-depth=1'\nalias ddh="duh |  sort -k1 -rh | rg -v '^0' | v -"
+pstree
+ddh 2>/dev/null &
+killall5 -9
+fd -d 1 -H -I --change-older-than 2months  | xargs -n1 ls -lhrt
+du -h
+echo -e "Tecmint \bis \ba \bcommunity \bof \bLinux \bNerds"
+echo  "Tecmint \bis \ba \bcommunity \bof \bLinux \bNerds"
+echo "Tecmint \nis \na \ncommunity \nof \nLinux \nNerds"
+bash -c echo "Tecmint \nis \na \ncommunity \nof \nLinux \nNerds"
+echo *
+echo *.sh
+echo "file are $(ls)"
+echo "file are $(ls)" | less
+tput cols
+tput columns
+tput lines
+printf "\t%s\n\n" $NOW
+printf "\t%s\n\n" $HOST
+printf "%113s"
+printf "%113s" "x"
+printf "%113s" "x" | tr " 
+printf "%113s" "x" | tr " " "-"
+VAR="hello"\necho '$VAR' => $ VAR\necho "$VAR" => hello
+echo '$VAR'
+echo "$VAR"
+printf $VAR
+manv printf
+manv printf\n
+printf jim\n
+printf here are some words
+se 'zip'
+fd -H -I | wc
+rm -rf newhome
+rm -rf greetings
+rm -rf link phelp position
+rm -rf IdeaProjects PycharmProjects
+ls -d */
+v ~/functions.sh
+lcd () { \n  echo  ${FUNCNAME[0]}\n  alias ldc =ls -d */}\n}
+lcd () { \n  echo  ${FUNCNAME[0]}\n  alias ldc =ls -d */\n}
+lcd () { \n  echo  ${FUNCNAME[0]}\n  ls -d */\n}
+lcd
+test -n "$ZSH_VERSION" && echo $funcstack[1]; test -n "$BASH_VERSION" && echo ${FUNCNAME[0]}"
+file="/etc/passwd"; if [ -e $file ]; then echo "whew"; else echo "uh-oh"; fi
+file="/etc/passwds"; if [ -e $file ]; then echo "whew"; else echo "uh-oh"; fi
+if test false; then \n  echo "Test always returns true for only one argument, unless it is null."; \nfi
+test false
+test true
+test
+test -e git.sh; echo $?
+test -e ~/git.sh; echo $?
+test -e ~/git.shs; echo $?
+if test -d /home; then echo "/home is a directory"; fi
+if test -d /homes; then echo "/home is a directory"; fi
+if test -d /homes; then echo "/home is a directory"; else echo "no"; fi
+if test -d /home; then echo "/home is a directory"; else echo "no"; fi
+if test -e /home; then echo "/home is a directory"; else echo "no"; fi
+if test -e /homes; then echo "/home is a directory"; else echo "no"; fi
+se 'Path'
+v .bashrc
+fd -H -I 'z.*'
+fd -d 2 -H -I 'z.*'
+v .zshrc
+fd -d 2 -esh
+v
+v setup.sh
+ls scripts
+ls pys
+fd -d 1 fun
+p3 ipysql.py
+v ipy_linux3
+cd bb
+v README.md
+rm -rf bb
+cd Music
+fd .
+fd -ejpg
+fd -ejpg | xargs -n1 ls -lhrt
+fd -ejpg | xargs -n1 ls echo
+fd -ejpg  
+cd scripts
+take junk
+for a in [\n    "We",\n    "also",\n    "have",\n    "another",\n    "alternative"\n]; do echo $a; done
+for a in (1,3,3); do echo $a; done
+a = [\n    "We",\n    "also",\n    "have",\n    "another",\n    "alternative"\n]
+myArray=("cat" "dog" "mouse" "frog)
+n=("We is","also is","have is","another is","alternative is")
+echo $n[2]
+for a in ${n[@]}; do echo $a; done
+for a in ${n[@]}; do printf $a; done
+for a in ${n[@]}; do printf\n $a; done
+for a in ${n[@]}; do printf "$a\n"; done
+for a in ${n[@]}; do printf $a\n; done
+myArray=("cat" "dog" "mouse" "frog")
+myArray[1]
+for str in ${myArray[@]}; do\n  echo $str\ndone
+echo $myArray[1]
+n=("We is" "also is" "have is" "another is" "alternative is")
+for str in $n; do echo $str; done
+for F in `find -type f`; do\n    ls "$F"\ndone
+n=("We is" "also is" "have is\nbreak" "another is" "alternative is")
+find -type f | while read F; do\n    ls "$F"\ndone
+chmod +x work_on_file.sh
+./work_on_file.sh 'have is'
+find -type f -exec ./work_on_file.sh {} \;
+find -type f -print0
+find -type f -printf
+fd 'have'
+h
+h3 | tail
+fd 'have' -exec ./work_on_file.sh {} \;
+v work_on_file.sh
+fd 'have' -exec rm {} \;
+fd 'is' -exec ./work_on_file.sh {} \;
+n=(American professional baseball pitcher for the Minnesota Twins of Major League Baseball (MLB). He made his MLB debut in 2017 with the Cincinnati Reds.)
+n=(American professional baseball pitcher for the Minnesota Twins of Major League Baseball MLB. He made his MLB debut in 2017 with the Cincinnati Reds.)
+echo $n
+echo $n[1]
+for str in $n; do touch $str; done
+v e.sh
+chmod +x e.sh
+./e.sh x
+`ls`
+$`ls`
+$"ls"
+$(ls)
+a =$(ls)
+se '$'
+printf "%s\n\n" "${n[@]}"
+p = $( ls )
+p =3
+p=3
+p=$( ls )
+echo $p
+for a in $P; do rm $a; done
+for a in $P; do echo $a; done
+for a in $p; do echo $a; done
+declare -a mahabharata
+mahabharata[0]="Krishna"\nmahabharata[1]="Yudhishthira"\nmahabharata[2]="Bheema"\nmahabharata[3]="Arjuna"\nmahabharata[4]="Draupadi"\nmahabharata[5]="Duryodhana"
+mahabharata[1]="Yudhishthira"
+mahabharata[2]="Bheema"\nmahabharata[3]="Arjuna"\nmahabharata[4]="Draupadi"\nmahabharata[5]="Duryodhana"
+echo $mahabharata
+chmod +x she.sh
+source she.sh
+v ~/.bashrc
+cat she.sh
+echo ${ZSH_VERSION}
+foo=2
+[ -n "$foo" ] && echo "foo is not null"
+man z
+man if
+man &&
+man test
+if [ -n $string1 ]    # string1 has not been declared or initialized.\nthen\n  echo "String \"string1\" is not null."\nelse  \n  echo "String \"string1\" is null."\nfi                    # Wrong result.\n# Shows $
+echo $string1
+ech [ -n $string1 ]
+echo [ -n $string1 ]
+echo `if [ -n $string1 ]`
+file e.sh
+fd 'have' -exec file {} \;
+which 2017
+which she.sh
+fd  -exec file {} \;
+ps
+ps -f
+ps -x
+ps -e
+ps -ef
+top
+cat /etc/passwd | sed '1d' |more
+cat /etc/passwd | sed '3d' |more
+cat /etc/passwd | sed '8d'
+cat /etc/passwd | sed '28d'
+cat /etc/passwd | sed '1, 5d' |more
+cat /etc/passwd | sed '1, 25d' |more
+cat /etc/passwd | sed '3, 25d' |more
+cat /etc/passwd | sed '3, 125d' |more
+cat /etc/passwd | sed '3, 225d' |more
+cat /etc/passwd | sed '1, 225d' |more
+cat /etc/passwd | sed '1, 22d' |more
+echo $$
+./she.sh
+$?
+echo $?
+v she.sh
+./she.sh 2 3
+printf "%s\n" "${n[@]}"
+printf "%s\n" "jim"
+echo $!
+[ -b she.sh ] is false.
+[ -b she.sh ]  
+if [ -b she.sh ]  \necho 'x'\n\n;\n;\ndone
+if [ -b she.sh ]  \necho 'x'\n\n;\n;\nfi
+if 1=1\nthen echo one\nfi
+if [ -b she.sh ]  \necho "she"\nfi
+if [ -b she.sh ]  \nthen echo she\nfi
+if [ -c she.sh ]  \nthen echo she\nfi
+if [ -c she.sh ]  then echo she\n  fi
+if [ -c she.sh ]\nthen echo "she"\nfi
+-c e.sh
+echo [ -b she.sh ]  
+sc b.sh
+source b.sh
+expr ss64 : ss6
+expr abc : 'a\(.\)c'
+se 'size'
+ls -Slra
+wc -l she.sh
+wc -c she.sh
+wc  she.sh
+read m
+echo $m
+echo $mjim
+echo "$m jim"
+echo "rm $m jim"
+type ls
+type history
+type omz_history
+read -a m
+bash -c "read -a m\nthis is\n
+echo $0
+echo $00
+echo ?
+k=`date`
+echo $k
+set this is
+echo $PATH
+IFS=:
+a=$PATH
+set $a
+echo $a[1]
+echo $a[2]
+md /mnt/c/you/linux2
+bas
+v yv.sh
+bash yv.sh
+man dd
+file *
+ls *.py
+ls -l *.py
+ls -lh *.py
+ls -lhrt *.py
+ls -lht *.py
+ipysql.py
+if ls; echo yes; fi
+if 2=2; echo yes; fi
+if 2=2; echo yes; fi;
+if 2=2; do echo yes; fi;
+2=2 && echo yes
+2=2 && echo yes || echo no
+ls && echo yes 
+lsq && echo yes 
+2 -eq 2
+2=3 && echo yes || echo no
+if 2=2; then echo yes; fi;
+if 2=3; then echo yes; fi;
+if 2=3; then echo yes; else echo no;fi;
+if [2=3]; then echo yes; else echo no;fi;
+if [ 2=3 ]; then echo yes; else echo no;fi;
+if [ 2 -eq 3 ]; then echo yes; else echo no;fi;
+if [ 2 == 2 ]; then echo yes; else echo no;fi;
+if [ 2 -eq 2 ]; then echo yes; else echo no;fi;
+echo $$$$
+lsq 2>/dev/null
+lsq 2>/dev/null; if [ $? -eq 0 ]; then echo good; else echo bad; fi
+ls 2>/dev/null; if [ $? -eq 0 ]; then echo good; else echo bad; fi
+lst 2>/dev/null; if [ $? -eq 0 ]; then echo good; else echo bad; fi
+ltt && echo no
+ltt 2>/dev/null && echo no
+ls>ls 2>/dev/null && echo no
+ltt>ls 2>/dev/null && echo no
+cat ls
+ls -t
+ls -l
+ls -l | sed 's/d/xxxxxxxxxxxxx/g'
+ls -l | sed 's/Aug/August/g'
+ls | sed 's/Aug/August/g'
+ls -l | sed 's/Aug August g'
+find /etc -type f > etc
+v etc
+find /etc -type f 2>/dev/null > etc
+se 's/a/xxxxx/' etc
+sed 's/a/xxxxx/' etc
+sed 's.a.xxxxx.' etc
+sed 's/[a-z]/xxxxx/' etc
+sed 's/[a-z]/xxxxx/g' etc
+sed 's/[a-z]/xxxxx/g' `ls /ect`
+ls /etc
+sed 's/[a-z]/xxxxx/g' $(ls /etc)
+sed 's/[a-z]/xxxxx/g' $(ls /etc 2>/dev/null)
+sed 's/[a-z]/xxxxx/g' $(ls)
+sed 's/[a-z]/xxxxx/g' $(find type=f)
+sed 's/[a-z]/xxxxx/g' $(find -type f)
+find -type f
+cd you
+cd linux2
+lt | wc
+fd '"'
+fd '''
+fd '\''
+fd "\'"
+fd "Shel.*\-"
+fd "Shel.*\-" | sed -i 's/shell//g'
+fd "Shel.*\-"  
+fd "Shel.*\-" | sed 's/shell//g'
+fd "Shel.*\-" | sed 's/Shell//g'
+fd -i 'sleep'
+fd "Shel.*\-" | sed 's/Shell.*\-\s//g' > files
+se 'exec
+se 'exec'
+fd "Shel.*\-" -exec echo {}
+fd "Shel.*\-" | -exec echo sed 's/Shell.*\-\s//g' > files
+fd "Shel.*\-"  -exec echo sed 's/Shell.*\-\s//g' > files
+fd "Shel.*\-"  -exec echo sed 's/Shell.*\-\s//g' 
+fd "Shel.*\-" | -exec echo sed -p 's/Shell.*\-\s//g
+fd "Shel.*\-"  -exec echo sed -p 's/Shell.*\-\s//g' 
+fd "Shel.*\-"  -exec  sed -p 's/Shell.*\-\s//g' 
+fd "Shel.*\-"  -exec sed 's/Shell.*\-\s//g' 
+fd "Shel.*\-" | -exec echo sed 's/Shell.*\-\s//g'
+fd "Shel.*\-"  -exec echo sed 's/Shell.*\-\s//g'
+fd "Shel.*\-"  -exec sed 's/Shell.*\-\s//g'
+take t
+rm files
+fd "Shel.*\-" | sed 's/Shell.*\-//g'
+fd "Shel.*\-" | sed 's/Shell.*\-//g' >files
+rm t/files
+v files
+fd "Shel.*"
+fd "Shel.*" > files
+mv files t
+cd t
+cat files
+ip
+cd pys
+date
+which ipy.sh
+v ipy.sh
+fd -a 'l'
+v ipysql.py
+fd "Shel.*\-" | sed 's/Shell.*\-\s//g'
+find * -type f -name "* *" -exec rename "s/\s/_/g" {} \;
+find * -type f -name "*" -exec rename "s/Shell.*\-\s//g" {} \;
+fd "mp4" -exec echo {} \;
+fd "mp4" -exec echo {}  
+fd "mp4" -exec rename "s/\s/_/g" {} \;
+fd -d 1 -x stat --printf='access %y name %n\n' * | sort | v -
+fd -d 1 |
+fd -d 1 | xargs ls 
+find * -type f -name "*" -exec rename "s/\''//g" {} \;
+find * -type f -name "*" -exec rename "s/,//g" {} \;
+fd "'"
+fd -d 1 "'" -exec rename "s/\'//g" {} \;
+fd -d 1 "'" -exec rename "s/\&//g" {} \;
+fd -d 1 "'" -exec rename "s/&//g" {} \;
+fd -d 1 "&" -exec rename "s/&//g" {} \;
+ls | wc
+fd -d 1 "'"
+fd -d 1 "#"
+fd -d 1 "__" -exec rename "s/__/_/g" {} \;
+fd -d 1 "__"
+f3
+apt install -y banner
+sudo apt install -y banner
+banner hello
+ls; cal && echo sucess
+lst; cal && echo sucess
+lst && echo sucess
+lst || echo sucess
+lst && echo sucess || echo fail
+ls && echo sucess || echo fail
+ls 2>/dev/null && echo sucess || echo fail
+ls 2>/dev/null >f && echo sucess || echo fail
+v f
+ls1 2>/dev/null >f && echo sucess || echo fail
+vz
+3 \* 4
+expr 3 \* 4
+echo `ll`
+echo `ls`
+a=echo `ls`
+a=echo `fd 'loop'`
+@a=echo `fd 'loop'`
+echo `fd 'loop'`
+fd d 1 | rg -v "\.sh"
+fd -d 1 | rg -v "\.sh"
+fd -d 1 | rg -v "\.sh" | xargs rm {}
+fd -d 1 | rg -v "\.sh" | xargs rm 
+fd -d 1 | rg -v "\.sh" | xargs echo
+fd -d 1 | rg -v "\.sh"  
+sh arr.sh
+cat arr.sh nl
+cat arr.sh -nl
+cat arr.sh |-nl
+cat arr.sh | nl
+bash arr.sh
+chmod +x arr.sh
+./arr.sh
+v arr.sh
+text="Welcome to GeeksforGeeks"\n\n# Set space as the delimiter\nIFS=' '\n\n# Read the split words into an array\n# based on space delimiter\nread -ra newarr <<< "$text"
+bash
+ipy.sh
+set i am me
+IFS=,
+set jim is me
+echo $1
+echo /usr/bin/env bash
+env
+env | rg -v 'LS'
+sh count.sh
+v count.sh
+bash count.sh
+2 = 3
+2=3
+echo $2
+cat python3
+fd -d 1 | rg -v "\.sh"  | xargs head
+fd -d 1 | rg  "\.sh"  | xargs head
+fd -d 1 | rg  "\.sh"  | xargs head -n 2
+fd -d 1 | rg  "\.sh"  | xargs files
+fd -d 1 | rg  "\.sh"  | xargs file
+fd "sh" -exec echo \;
+md copy
+ls sh
+sh *.sh
+chmod +x c.sh
+touch 
+touch jim is here
+fd "sh" -exec c.sh \;
+rm *
+fd --changed-within=10min   
+fd --changed-within=10min   | rg 'c\.sh'
+fd --changed-within=10min   | rg -v 'c\.sh'
+fd --changed-within=10min   | rg -v 'c\.sh' -exec rm \;
+fd --changed-within=10min   | rg -v 'c\.sh'  
+fd --changed-within=10min   | rg -v 'c\.sh'  -exec echo \;
+fd --changed-within=10min   | rg -v 'c\.sh'  -exec echo {} \;
+fd --changed-within=10min   | rg -v 'sh' | xargs echo {} \;
+fd --changed-within=10min   | rg -v 'sh' | xargs echo  \;
+fd --changed-within=10min   | rg -v 'sh' | xargs echo   
+fd --changed-within=10min   | rg -v 'sh' | xargs rm
+rm copy/*
+cd copy
+fd --changed-within=10min   | rg -v 'sh' | xargs c.sh
+fd --changed-within=10min   | rg -v 'sh' | -exec echo {} \;
+fd --changed-within=10min   | rg -v 'sh'  -exec echo {} \;
+fd --changed-within=10min    -exec echo {} \;
+fd --changed-within=20min    -exec echo {} \;
+fd --changed-within=20min    -exec mv {} {}_rname\;
+fd 'rname'
+fd 'rname' -exec mv {} c.sh
+ls copy
+v c.sh
+fd | rg '*.sh'
+fd | rg '.*'
+fd | rg '.*sh'
+fd | rg '.*sh' -exec echo {} \;
+fd | rg '.*sh' | xargs echo {} \;
+fd | rg '.*sh' | xargs echo {}  
+fd | rg '.*sh' | xargs printf {}  
+fd | rg '.*sh' | xargs echo {}\n  
+fd | rg '.*sh' | xargs echo \n  
+fd | rg '.*sh' | xargs printf  
+man echo
+fd | rg '.*sh' | xargs echo -e {}\n  
+fd | rg '.*sh' | xargs echo -e \n  
+fd | rg '.*sh' | xargs echo -e \n\n  
+fd | rg '.*sh' | xargs echo  \n\n  
+fd | rg '.*sh' | xargs echo   
+fd | rg '.*sh' | xargs du -sh
+cd you/linux2
+alias duh
+ddh
+duh |  sort -k1 -rh
+du -hs
+fd | rg '.*mp4' | xargs du -sh
+v dd.txt
+sudo rm -rf m2 jdks
+rm -rf jdks
+rm -rf Saved\ Games
+fd -tf | rg -v 'ntu.*' | column
+fd d 1 -tf | rg -v 'ntu.*' | column
+fd -d 1 -tf | rg -v 'ntu.*' | column
+fd -d 1 -td | rg -v 'ntu.*' | column
+alias dirs="fd -d 1 -td | rg -v 'ntu.*' | column"
+dirs
+ld | rg go
+rm -rf go
+lf
+alias
+ddh > ddh.txt 2>/dev/null &
+ddh 2>/dev/null> ddh.txt  
+ddh 2>/dev/null > ddh.txt  
+ddh 2>/dev/null 
+winh
+df -h
+lll 2>/dev/null
+lll 2>x
+v x
+ddh > ddh.txt 2>&1
+ddh > ddh.txt 2>&1 &
+cat x
+rm x
+jobs
+htop
+cd AppData
+touch -- foo\ -o\ index.html; find . | xargs cat
+find * -type f -name "*" -exec cat 
+find * -type f -name "*" | xargs cat 
+find * -type f -name "*" -exec cat {} +
+find * -type f -name "*" -exec head -n 2 {} +
+find * -type f -name "*" -exec head -n 2 {} \;
+man head
+ls | wc -l
+v foo\ -o\ index.html
+find * -type f -name "*" -exec head -v -n 2 {} \;
+chmod +x ex.sh
+v ex.sh
+find * -type f -name "*" -exec ex.sh {} \;
+find * -type f -name "*" -exec ex.sh {} \; | v -
+fd -d 1 -exec ex.sh {} \; 
+fd -d 1 -x ex.sh {} \; 
+fd -d 1 -x ls
+fd -d 1 -x ll
+fd -d 1 -x cat
+fd -d 1 -x stat
+fd -d 1 -x ex.sh
+fd -x ls -lhrt
+fd | xargs ex.sh
+fd | xargs ex.sh {}
+fd | xargs -0 ex.sh 
+fd | xargs -0 ls
+fd | xargs -0 ls -lhrt
+fd 'foo'
+fd 'foo' -x rm
+find | xargs -0 ls -lhrt
+find | xargs -0 ls  
+find Pictures/tecmint/ -name "*.png" -type f -print0 | xargs -0 tar -cvzf images.tar.gz
+v ddh.txt
+duh |  sort -k1 -rh > duhh.txt
+v duhh.txt
+rmt cli
+alias rmt
+which trash-put
+which trash-put | xargs echo
+which trash-put | xargs v
+which trash-put | xargs nvim
+ls -1 | xargs
+cut -d: -f1 < /etc/passwd | sort | xargs
+$a=cut -d: -f1 < /etc/passwd | sort | xargs
+$a=cut -d: -f1 < /etc/passwd | sort | xargs>aa
+v aa
+$a=cut -d: -f1 < /etc/passwd | sort > bb
+v bb
+ls *.txt | args wc
+ls *.txt | xargs wc
+ls *.txt | xargs wc -l
+ls *.* | xargs wc -l
+ls *.* | xargs stat
+man stat
+se 'stat'
+stat --printf='access %y name %n\n' * | sort  
+cd Favorites
+set 'tar'
+tmux
+se 'tar'
+touch x.png
+find -name "*.png" -type f -print0 | xargs -0 tar -cvzf images.tar.gz
+.t
+fd -epng
+fd -H -I -epng
+cp images.tar.gz /mnt/c/all
+rm images.tar.gz
+tree
+fd -d 1 "*.png"  -print0 | xargs -0 tar -cvzf images.tar.gz
+fd -d 1 "*.png"   | xargs -0 tar -cvzf images.tar.gz
+fd -d 1 "*.png"    
+fd -d 1
+fd *.png -d 1
+fd *.png -d 1 | xargs -0 tar -cvzf images.tar.gz
+fd *.png -d 1 
+fd *.png -d 1 -print0
+fdh
+fd *.png -d 1 -0
+fd *.png -d -0 | xargs -0 tar -cvzf images.tar.gz
+fd *.png -d 1 -0 | xargs -0 tar -cvzf images.tar.gz
+fd -0 | gr 'gz'
+fd -0 | rg 'gz'
+fd -0
+lq  1>&- 2>&-
+lq  1>&- 2>a
+lq  1>a- 2>&-
+lq  1>a- 2>b
+v a b
+rm a b a-
+fd *.* -d 1 -0 | xargs -0 tar -cvzf images.tar.gz
+fd  -d 1 -0 | xargs -0 tar -cvzf images.tar.gz
+fd  -d 2 -0 | xargs -0 tar -cvzf images.tar.gz
+fd   -0 | xargs -0 tar -cvzf images.tar.gz
+fd -g '*.py' -X vim
+fd -g 't*.py' -X vim
+fd -g 'test_*.py' -X vim
+fd *.sh
+fd '.*sh'
+fd 'f.*sh' -X nvim
+fd '.*sh' -X nvim
+fd '.*sh' --changed-within=2weeks -X nvim
+cd .config/nvim
+v init.vim
+1
+fd '.*sh' --changed-within=2days -X nvim
+fd '.*sh' --changed-within=1days -X nvim
+a=`fd '*.sh'`
+a=`fd '*.sh' -0`
+a=`fd '.*sh' -0`
+a=`fd '.*sh' `
+echo $a
+echo $a > a
+v a
+for x in $a; do echo $x ; done
+v b.sh
+sh nn.sh
+v nn.sh
+man ifconfig
+ifconfig -a
+ifconfig -a | v -
+ping 172.58.87.140
+me
+traceroute www.google.com
+ping ibm.com
+traceroute ibm.com
+echo .
+exit
+left
+fd -H -I --changed-within=30min  
+fd -H -I --changed-within=60min  
+fd -H -I --changed-within=360min  
+unalias rm
+rm -rf .rustup
+du
+fd -H -I  -0 | xargs -0 tar -cvzf images.tar.gz
+v images.tar.gz
+fd -H -I  -0
+fd -H -I '.*git'
+fd -H -I '.*\.git'
+fd -H -I '.*\.git' | less
+fd -d 2 -H -I '.*\.git' | less
+fd -d 2 -H -I '.*\.git'  
+mv .gitignore .gitb
+fd -H
+fd -H -I 
+v .gitb
+mv .gitb .gitignore
+fd
+fd -I
+find
+find | wc -l
+fd | wc -l
+fd -H -I | wc -l
+cat .gitignore
+v .gitignore
+fd -I | wc -l
+fd -H | wc -l
+ls -ld .?*
+ls -ld .?* | less
+ls -ld .?* 
+v .viminfo
+ls -1
+ls -a
+rmt .cargo
+duh
+cd .T
+cd .Trash
+man trash
+which trash-list
+which trash-list 
+v /usr/bin/trash-list
+trash-list
+rmt images.tar.gz
+cd .local/share/Trash
+find .
+cd files
+ld
+cd
+d
+tar -cvf back.tar
+apt list --installed | rg sync
+which rsync
+rsync --version
+md backup temp
+rmdir temp
+md tmp
+touch ~/tmp/ata.txt
+fd -H -I --changed-within=2mins
+cd tmp
+ll
+cd backup
+rsync -v ata.txt ~/backup
+v ata.txt
+fd -d 1 ".*sh"
+se 'fd.*xarg'
+fd -d 1 ".*sh" | xargs cp /temp
+fd -d 1 ".*sh" -0 | xargs -0 cp /temp
+md temp
+fd -d 1 ".*sh" -0 | xargs -0 cp /temp/
+fd -d 1 ".*sh" -0 | xargs -0 echo
+fd -d 1 ".*sh" -0 | xargs -0 cp ~/temp/
+ls
+cp git.sh ~/temp
+ls ~/temp
+ls ~/tmp
+fd -d 1 ".*sh" | xargs  cp ~/temp/
+fd -d 1 ".*sh" | echo
+fd -d 1 ".*sh" | xargs echo
+fd -d 1 ".*sh" -x echo
+ls -R
+ls -Ra
+c
+cd all
+take wsl
+fd -d 2 '.*history.*'
+fd -d 2 '.*his.*'
+fd -H -I -d 2 '.*his.*'
+fd -H -I -d 2 '.*his.*' -exec echo {} \;
+fd -H -I -d 2 '.*his.*' | xargs echo
+fd -H -I -d 2 '.*his.*' | xargs echo {}
+fd -H -I -d 2 '.*his.*'  
+touch x
+fd -H -I -d 2 '.*his.*' | xargs -0 -I _ echo _ .
+fd -H -I -d 2 '.*' | xargs -0 -I _ echo _ .
+fd -H -I -d 2 '.*' | xargs -0 -I _ cp _ ~/
+fd -H -I -d 2 '.*' |   -exec cp {} . ;\;
+fd -H -I -d 2 '.*' |   -x cp {} . ;\;
+fd -H -I -d 2 '.*'   -x cp {} . ;\;
+fd -H -I -d 2 '.*'   -x cp {} ~/ ;\;
+rm ~/x
+fd -H -I -d 2 '.*'   -x cp {} ~/ \;
+ls ~ 
+h3
+fd -H -I -d 2 '.*his.*'   -x cp {} ~/junk/ \;
+cd junk
+u
+cdc
+fd -H -I -d 2 '.*his.*'   -x cp {} ~/mnt/c/all/wsl/ \;
+fc
+fd -H -I -d 2 '.*his.*'   -x cp {} /mnt/c/all/wsl/ \;
+la
+v .zsh_history
+lt
+lt -a

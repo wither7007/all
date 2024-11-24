@@ -1,0 +1,23 @@
+const { chromium } = require('playwright');
+const browser = await chromium.launch()
+const page = await browser.newPage()
+await page.goto('https://voice.google.com/u/0/calls')
+
+await page.setViewportSize({ width: 1821, height: 778 })
+
+await page.waitForSelector('.input-row > .mat-focus-indicator > .mat-button-wrapper > .mat-icon > svg')
+await page.click('.input-row > .mat-focus-indicator > .mat-button-wrapper > .mat-icon > svg')
+
+await page.waitForSelector('.call-response:nth-child(2) > .respond-container > .mat-focus-indicator > .mat-button-wrapper > .mat-icon > svg')
+await page.click('.call-response:nth-child(2) > .respond-container > .mat-focus-indicator > .mat-button-wrapper > .mat-icon > svg')
+d=document.querySelector('.call-response:nth-child(2) > .respond-container > .mat-focus-indicator > .mat-button-wrapper > .mat-icon > svg')
+await browser.close()
+
+let e=document.querySelector('#gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call-ng2 > gv-make-call-panel > div > div.input-row.ng-tns-c306-41 > button')
+
+
+e=document.querySelector('#gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call-ng2 > gv-make-call-panel > div > div.input-row.ng-tns-c306-31 > button')
+setTimeout(() => {
+  console.log("Delayed for 5 second.");
+  e.click()
+}, "10000")
