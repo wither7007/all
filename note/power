@@ -1,3 +1,5 @@
+Doctor Scripto
+https://devblogs.microsoft.com/powershell-community/
 
 New-Item -ItemType SymbolicLink -Path "c:\you\to\x" -Target "C:\you\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 [HD]-crSux0Lmui8.mp3"
 New-Item -ItemType SymbolicLink -Path "c:\you\to\x" -Target "c:\you\zz"
@@ -9,4 +11,4 @@ New-Item -ItemType HardLink -Path "Link" -Target "Target"
 
 
 
-
+Get-ChildItem -Path C:\ -Recurse -Directory -Force -ErrorAction SilentlyContinue | Select-Object FullName

@@ -1,18 +1,59 @@
+apt-get update && apt install busybox && apt install wget
+awk '!a[$0]++' 
+gopls
+
+/usr/local/go/bin 
+
+curl https://twit.tv/shows/windows-weekly/episodes/908?autostart=false | rg '\.mp3'
+
+
+Dec 9 Mon Arrive by 3:10 PM CST  With Farooqua B Jafri
+
+dc https://www.youtube.com/watch?v=agl8Ewv_S8g
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=wp43OdtAAkM
+"All this access to information is making us dumber" 
+
+smith 763.550.9802
+“ WANT and ennui,” says Schopenhauer, “ are the two poles of human life.”The further we escape from one evil, the nearer we inevitably draw to the other.
+Open the Main menu	Alt + f or Alt + e or F10 + Enter
+Show or hide the Bookmarks bar	Ctrl + Shift + b
+Open the Bookmarks Manager	Ctrl + Shift + o
+Open the History page in a new tab	Ctrl + h
+Open the Downloads page in a new tab	Ctrl + j
+Open the Brave Task Manager	Shift + Esc
+Set focus on the first item in the toolbar	Shift + Alt + t
+Set focus on the last item in the toolbar	F10 
+Switch focus to unfocused dialog (if showing) 	F6
+Open the Find Bar to search the current page	Ctrl + f or F3
+Jump to the next match to your Find Bar search	Ctrl + g
+Jump to the previous match to your Find Bar search	Ctrl + Shift + g
+Open Developer Tools	Ctrl + Shift + j or F12
+Open the Clear Browsing Data options	Ctrl + Shift + Delete
+Open the Brave Help Center in a new tab	F1
+Open Profile menu	Ctrl + Shift + m
+Reload the current page	F5 or Ctrl + r
+Reload the current page, ignoring cached content	Shift + F5 or Ctrl + Shift + r
+Turn full-screen mode on or off	F11
+Return everything on the page to default size	Ctrl + 0
+Source ctrl-u
+
+4440 Snelling Ave, Minneapolis, MN 55406
+A122
+
+fedora debian
+anton putra bun from fireship
 ppi
 320px or 480px (for mobil phones), 768px (for tablets), and 1920px (for desktop computers)e
+ubuntu centos
 
 jonathan Haidt
 cd $(wslpath 'c:\users')
 cd $(wslpath 'C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine')
-convert bash path to windows
 pwd | sed 's.\/mnt\/c.c:.g'
 
 rename "s/[^a-zA-Z0-9\.]/_/g"')
 rename "s/_+/_/g"')
 https://www.youtube.com/watch?v=Ht62CQnT1PQ&t=42s
-Dr. Lala
-tues 9/24 3:20
-
 qualrics survey
 bill_withers707@outlook.com
 jonray007@yahoo.com
@@ -109,11 +150,6 @@ have minds or souls that existed separately from their living bodies
  consciousness can exist independently of the brain
 , “clinical death” is said to occur at the moment the heart stops pumping blood, and the pulse stops
 
-You have Microsoft Outlook Version 1.2024.319.300 (Production).
-
-Client Version is 20240315003.14 .
-work
-
 The bassist is John Clayton!
 const boxes = document.querySelectorAll('div[class*="box"]');
 const elements1 = document.querySelectorAll(
@@ -144,6 +180,7 @@ https://alvarotrigo.com/blog/change-css-javascript/
 kurzgetsagt
 https://www.youtube.com/watch?v=isdLel273rQ
 
+git!!!
 git indepth
 …or create a new repository on the command line
 echo "# projects" >> README.md
@@ -207,17 +244,6 @@ Elliptic Curve Digital Signature Algorithm, or ECDSA
 guitar pen trick
 https://www.youtube.com/watch?v=wgIYWFvyPaI
 lots of songs
-https://www.youtube.com/watch?v=MIt86Mr9o8Y&list=PL10FTzm-zsiL4eHVbKeJWR5uRgrJfJpxLbiomusicalogical entrainmentprogressophobiaHennepin County social services
- 612-543-5500
-
-social worker
- 612-348-4111
-
-https://mnhelp.org/
-nystrom  
-
-https://onlineservices.dps.mn.gov/EServices/_/#1
-
 justin blues
 https://www.youtube.com/watch?v=E6X80uAzqFQ&list=PL05D69B7AE9077E05
 atheist Francesca Stavrakopoulou
@@ -272,8 +298,6 @@ According to the Energy Information Administration (EIA), the average American h
 What is truth? said jesting Pilate; and would not stay for an answer.
 HyperCard was created by Bill Atkinson following an LSD trip.[11] Work for it began in March 1985 under the name of WildCard (hence its creator code of WILD).
 
-debugg chrome!!!
-https://news.ycombinator.com/item?id=38226743
 
 chrome home
 /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default 
@@ -726,17 +750,42 @@ find . -iregex '.*\.\(jpg\|gif\|png\|jpeg\)$'
 (\n find /mnt/c/you/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/m.txt 2>yy & \n )
 standard error https://www.cyberciti.biz/faq/how-to-redirect-standard-error-in-bash/
 redirect bash man
+awk!!!
+awk 'NR < 13' alias
+awk -F ":" '{print $1}' /etc/passwd | column # get all users
+#https://stackoverflow.com/questions/8019617/how-to-write-finding-output-to-same-file-using-awk-command
+awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history #awk unique
+sed!!!
+sed '/^$/d'
+multiple seds
+sed "s.0.xxx.g;s.1.yy.g" test1.txt
+delete lines with
+sed "/Dec/d" test1.txt
+chrome!!!
+debugg chrome!!!
+https://news.ycombinator.com/item?id=38226743
+ctrl shft f find
+
+bash!!!
 !!create x files cool
 seq -w 1 10 | xargs -n1 -I% sh -c 'dd if=/dev/urandom of=file.% bs=$(shuf -i1-10 -n1) count=1024'
+
+this create huge text file???
+yes 'This is a test file.' | head -c 10MB > testfile.txt
+
+get sizes
+fd -emp3  -x fu -sh
 https://stackoverflow.com/questions/617182/how-can-i-suppress-all-output-from-a-command-using-bash
 https://www.tutorialspoint.com/redirect-output-of-process-to-a-file-and-streams
 https://stackoverflow.com/questions/56336084/move-files-that-no-not-contain-specific-string
+You can also prefix a back slash to disable the alias: \ls
 
 !! download site
 wget -r -p -U Mozilla https://www.thegeekstuff.com
 wget -r -p -U Mozilla --wait=10 --limit-rate=35K https://www.thegeekstuff.com
 top five largest
 find . -type f -exec ls -s {} \; | sort -n -r | head -5
+python!!!
 request list of files
 
 def last(x):
@@ -1486,13 +1535,19 @@ fd  -esh | xargs  -I{} /bin/bash -c "echo {}; cat {}; stat {}; printf '*********
 
 voluntary death
 
-fucking every fucking other fucking word is motherfucking fuck
-
 find . -maxdepth 1 -type f | xargs grep -n 'frumious'
 
 https://www.wandinround.com/other.html
 
-vim ****
+vim!!!
+paste path and file name
+:r! echo %:p
+single space does'nt work with bat
+%! cat -s
+remove blanks 
+%s/\n\n\zs\n\+
+:%s/\s\+$//e
+
 remove blanks at beginning
 %s/^[ \t]*//
 Surround
@@ -1505,8 +1560,6 @@ MetaCharacters (Need to be escaped):
 quote each line
 %s/\(^.*$\)/"\1"/g
 awsk () {
-#https://stackoverflow.com/questions/8019617/how-to-write-finding-output-to-same-file-using-awk-command
-awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history #awk unique
 nvim ~/.sqlite_history
 }
 vim You got into insert mode inside Ex mode with :i, so you need to leave it with a line containing only a period:
@@ -1639,8 +1692,6 @@ dns renewal
 
 vscode switch slashes
 s///////g
-housing update
-  sent a message from wither7007@gmail.com
 
 const chunk = (arr, size) =>
   Array.from({ length: Math.ceil(arr.length / size) }, (v, i) =>
@@ -1964,7 +2015,7 @@ keybindings.json
 posh git
 bash profile vs rc
 
-powershell
+powershell!!!
 $Function:Pause
 dir env:
 gci env: | nvim -
@@ -2204,3 +2255,7 @@ https://www.theguardian.com/wellness/2024/mar/21/why-we-do-things-bad-for-us-imp
 Abraham fake Lincoln's quote "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
 The enlightened despotism of Emperor Joseph II of the Holy Roman Empire is summarized as, "Everything for the people, nothing by the people".[4]
  "Where Id was [Wo es war]," Freud said famously, "there ego shall be [soll ich werden]" (S.E., 22:80).
+library
+21972086245722
+9139
+

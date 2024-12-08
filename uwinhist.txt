@@ -1,0 +1,1697 @@
+wsl --install
+wsl
+ls
+whoami
+ls -l
+ls -a
+shell
+cd
+l
+lt
+man ls
+exit
+wsl --install Ubuntu
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+Start-Process powershell -Verb runAs
+choco
+ Get-ExecutionPolicy.
+ Get-ExecutionPolicy
+choco upgrade chocolatey
+cd \
+md all
+fd
+git
+cd all
+md bin
+cd bin
+ld
+.\fd
+c
+cls
+mem
+ps
+vscode
+code .
+mps
+cd C:\projects\
+mc
+wsk
+cd \all
+gci env:*
+cd .\AppData\
+gci $PROFILE
+$PROFILE
+notepad C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+cd .\note\
+notepad .\notes
+gcm notepad++
+$path
+gci env:path
+gci env:path > path
+gcm notepad
+his
+history
+notepad path
+v profile
+notepad
+function np {`
+    start "C:\Program Files\Notepad++\notepad++.exe"`
+}
+np
+cd C:\Users\
+cd .\jimst\
+cd .\OneDrive\
+cd .\Documents\
+md PowerShell
+cd .\PowerShell\
+.\Microsoft.PowerShell_profile.ps1
+function mps{`
+    cd c:\projects`
+cd -
+powershell
+cd C:\ProgramData\
+start .
+delete .\chocolatey\
+rm .\chocolatey\
+choco install fd
+choco install neovim -y
+nvim
+env :path
+cd C:\all\
+fd -eahk
+.\first.ahk
+cd ..
+.\nashville.jpg
+fd -eps1
+nvim .\start.ps1
+np .\start.ps1
+cat .\start.ps1
+.\start.ps1
+notepad .\start.ps1
+fd .\start.ps1
+fd s
+gcm nvim
+fd star
+function v {`
+ start "C:\tools\neovim\nvim-win64\bin\nvim.exe"`
+v
+rg
+choco install ripgrep
+cd C:\ProgramData\chocolatey\lib\ripgrep\tools
+.\chocolateyinstall.ps1
+v .\chocolateyinstall.ps1
+fd -help
+fd -help | np
+gci
+function pc {`
+$CurrentDirectory = Get-Location`
+echo "$CurrentDirectory" | clip`
+function fdd {`
+  fd -d 1 -tf`
+function ffc {`
+gci -File | Format-Wide  -Column 5`
+function l {`
+   `
+  param(`
+    [Parameter()]`
+    [String]$m = ".*"`
+    )`
+  echo $m`
+    gci | sort LastWriteTime | rg -i $m`
+unction Get-MyCommands {`
+    Get-Content -Path $profile | Select-String -Pattern "^function.+" | ForEach-Object {`
+        # Find function names that contains letters, numbers and dashes`
+        [Regex]::Matches($_, "^function ([a-z0-9.-]+)","IgnoreCase").Groups[1].Value`
+    } | Where-Object { $_ -ine "prompt" } | Sort-Object`
+function Get-MyCommands {`
+get-myCommands
+Get-MyCommands
+Function Get-MyCommands {`
+np C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+function cpu(){`
+Get-Process | Where-Object {$_.CPU -gt 10} | Sort-Object -Property CPU -Descending | Select-Object ProcessName, CPU | nvim -`
+}    
+cpu
+Get-Process | Where-Object {$_.CPU -gt 10} | Sort-Object -Property CPU -Descending | Select-Object ProcessName, CPU
+function Getc`
+{`
+    $CPUPercent = @{`
+        Name = 'CPUPercent'`
+        Expression = {`
+            $TotalSec = (New-TimeSpan -Start $_.StartTime).TotalSeconds`
+            [Math]::Round( ($_.CPU * 100 / $TotalSec), 2)`
+        }`
+    }`
+    Get-Process |`
+    Select-Object -Property Name, $CPUPercent, Description |`
+    Sort-Object -Property CPUPercent -Descending |`
+    Select-Object -First 15`
+getc
+function f1 {`
+  echo "fd -a -tf --changed-within 1d | more"`
+fd -a -tf --changed-within 1d | more`
+f1
+gci | sort LastWriteTime
+cd .\tools\
+ffc
+alias
+v .\start.ps1
+gcm np
+gcm npx
+fd -e
+fd -a first
+C:\all\note\first.ahk
+dir function
+dir function;
+dir function:
+notepad $PROFILE
+Import-Module PSReadLine
+history > prof2
+. . '.\onedrive profile.ps1'
+. '.\onedrive profile.ps1'
+history > 6
+. . .\start.ps1
+Import-module start.ps1 -Force
+fd sta
+np $PSHOME\Profile.ps1
+$PSHOME\Profile.ps1
+$PSHOME
+$profile
+echo "This is a sentence."
+history 6:19
+history > 8281
+fun
+choco install lf
+lf
+fd --changed-within 2hours
+rm .\dockerf\
+cd bash
+cd note
+    gci | sort LastWriteTime `
+cd C:\Users\jimst\OneDrive\Documents\WindowsPowerShell
+gci sort
+fd --changed-within 6hours
+functions
+rg his
+v C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+set-alias v nvim
+gcm nvim | v
+cd C:\tools\neovim\nvim-win64\bin
+mkdir ~\AppData\Local\nvim && New-Item -Path ~\AppData\Local\nvim\init.vim -Type File
+mkdir ~\AppData\Local\nvim -and New-Item -Path ~\AppData\Local\nvim\init.vim -Type File
+v init.vim
+choco install -y
+choco install ditto -y
+ choco install ditto -y
+ choco install -y ditto 
+cd ~
+cd .\AppData\cd '.\Local Settings\'
+cd '.\Local Settings\'
+dir
+md nvim
+cd nvim
+fd -a
+v .\init.vim
+nvim C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+test
+profile
+jjj
+note
+get-version
+Install-Module -Name PSReadLine -AllowClobber -Force
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Install-PackageProvider -Name NuGet
+(Get-PSReadLineOption).HistorySavePath
+v C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+nvim C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+history | nvim
+nvim ~\AppData\Local\nvim\init.vim
+fd app
+fd vim
+u
+fd init
+ditto
+pwd
+fd init.vim
+fd init.vim | v
+v tools\neovim\nvim-win64\bin\init.vim
+nvim tools\neovim\nvim-win64\bin\init.vim
+ nvi ~\AppData\Local\nvim\init.vim
+ nvim ~\AppData\Local\nvim\init.vim
+cd ...
+nvim c:\tools\neovim\nvim-win64\bin\init.vim
+vinit
+vinit 
+fd -eafk
+gcm rg
+C:\ProgramData\chocolatey\bin\rg.exe
+ dir | Sort-Object LastAccessTime
+date
+v x
+code
+c:\all\note\first.ahk
+cd .\Users\jimst\
+cd dow
+cd .\Downloads\
+local
+cd .\Dell\
+pc
+pop
+cp .\OneDrive_5_8-30-2024.zip C:\all\Dell\
+start
+start. 
+fd -td
+v .\note\first.ahk
+v .\first.ahk
+cd.
+v .\pass
+fd settings
+fd settings | V
+v OneDrive\dell 7490\all\vscode\settings.json
+cd .\vscode\
+v .\settings.json
+function u {cd ..}
+cd .\Users\jimst\AppData\
+cd .\Roaming\
+cd .\Code\
+cd .\User\
+fd .\settings.json
+fd set
+fd sett
+v .\vscode\settings.json
+np .\settings.json
+fd .\profile
+fd prof
+cd .\Dell\OneDrive_5_8-30-2024\
+v .\Microsoft.PowerShell_profile.ps1
+fdd
+fdc
+v .\ssssteff007@localhost
+cd l
+rm .\OneDrive_5_8-30-2024.zip
+cd .\OneDrive_5_8-30-2024\
+fd setti
+fd settings.json
+v .\Roaming\Code\User\settings.json
+fd roa
+..
+fd roam
+cd roa
+v $HOME/.vscodevimrc
+code 
+code .\one.html
+df
+cd C:\all\Dell\
+mv * ..
+v .\.zshrc
+cd mps
+func
+cd one
+wget https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/favicon.ico
+hit
+hi
+hit 5
+v .\favicon.ico
+irfan
+cl
+qqq
+zsh
+echo $0
+cd 'C:\Program Files\'
+fd ditt
+cd .\Ditto\
+.\Ditto.exe
+ git ls-tree -r main --name-only | nvim -
+down
+sup
+hsc
+Function profile {`
+nvim C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+Function down {`
+cd c:\users\jimst\downloads`
+wsl.exe -l -v
+ws;
+wsl`
+echo $PS1
+get-volume
+fd -emp3
+fd tw
+md twit
+cd twit
+cd c:\\test\\dash\\apps\\tomcat
+wslpath
+cd \\wsl.localhost\Ubuntu\home\steff007
+cd c:
+h1
+v .\.gitconfig
+powershell --version
+pwsh --version
+$PSVersionTable.PSVersion
+$env:PATH
+$env
+printenv
+PowerShell-7.4.5-win-x64.msi
+.\PowerShell-7.4.5-win-x64.msi
+pwsh
+star
+gst
+cd config
+md .config
+cd .\.config\
+cd .\nvim\
+ls > l
+v l
+rm l
+snap list | tail -n +2 | cut -d' ' -f1 | xargs snap info --verbose | grep --color=never -E 'name|confinement'
+mkcd fb
+cd .\fb\
+uptime
+first
+echo $MYVIMRC
+env
+dir env:
+dir env: | notepad
+dir env: > jj
+notepad jj
+v jjj
+v jj
+dir env:path > jj
+cat jj
+Get-ChildItem -Path "C:\MyFolder\" -Recurse | Select-Object -ExpandProperty FullName
+Get-ChildItem -Path "C:\" -Recurse | Select-Object -ExpandProperty FullName
+dir Env:
+Get-Service | Where-Object { $_.Status -eq 'Running' }
+Get-Service | Where-Object { $_.Status -eq 'Running' } | notepad
+Get-Service | Where-Object { $_.Status -eq 'Running' } | edit
+edit
+dir C:\, fakepath 2>&1 > .\dir.log
+$PSDefaultParameterValues['out-file:width'] = 2000
+dir env
+gci env: > e
+v ed
+v e
+notepad e
+gic nvim
+gci nvim
+cd .\grid\
+
+mv .\PXL_20240626_112231783.jpg feral.jpg
+fd -egz
+go
+golang
+fd -egz | xargs rm
+name
+$env:COMPUTERNAME
+gci $env
+dir $env
+print $env
+$env:USERNAME
+Get-ChildItem env:
+Get-ChildItem env: | nvim -
+Get-LocalUser | Select *
+Get-LocalUser | Select * | nvim -
+login someuser
+$Username = "su"
+$group = "Administrators"
+$adsi = [ADSI]"WinNT://$env:COMPUTERNAME"
+$existing = $adsi.Children | where {$_.SchemaClassName -eq 'user' -and $_.Name -eq $Username }
+su
+fday
+ye
+recent
+wsh
+ wsl wslpath -a 'C:\\aaa\\bbb\\ccc\\foo.zip'
+ wsl wslpath -a pwd
+vlc
+star2
+stars
+all
+cd .\all_wsl\
+fd p
+v .\pass.gpg
+cd C:\all\note\
+fd -tf --changed-within=1weeks
+fd -tf --changed-within=4weeks
+v .\steff007@localhost
+Get-LocalUser
+login
+start powershell -credential ""
+h
+cd .\junk\responsive-nav-flexbox\
+dser
+wind
+lind
+wsl wslpath -a 'C:\\aaa\\bbb\\ccc\\foo.zip'
+C:\Users\jimst
+wsl wslpath -a 'C:\Users\jimst'
+pathInWSL = wsl wslpath -a -u "$(Get-Location)\foo.txt".Replace('\', '\\')
+get-location
+ wsl wslpath -a -u get-location
+ wsl wslpath -a -u $(get-location)
+ wsl wslpath -a -u $(get-location)..Replace('\', '\\')
+tree
+fdi
+pwd | sed 's/c/xx/g'
+$pc
+e $pc
+echo $pc
+net user
+get-localuser
+perl -lne '/^--ERROR---.*Name="(.*?)" Age="(.*?)"/ && print "$1 $2"' file
+Remove-LocalUser -Name User02
+Remove-LocalUser -Name re
+Remove-LocalUser -Name remote
+systeminfo | findstr /B /C:"Domain"
+systeminfo
+systeminfo | nvim -
+C:\Users\jimst | sed -e 's/C:\\/mnt\/c\//;s/\\/\//g'
+echo C:\Users\jimst | sed -e 's/C:\\/mnt\/c\//;s/\\/\//g'
+start.
+mv pass C:\temp\
+msinfo
+tsdiscon
+psa
+md re
+robocopy
+cd 'C:\Users\All Users\'
+msinfo | nvim -
+Get-ComputerInfo
+Get-ComputerInfo | nvim -
+`
+ping 192.168.0.109
+nslookup 192.168.0.109
+sshe 192.168.0.109
+wsl hostname -I
+ping 172.56.12.121
+ipconfig
+ipconfig | nvim -
+cd /mnt/c/temp/g
+cd temp
+net user | vim
+net user | v
+cd C:\temp\
+v pass
+fdh
+gci -r| sort -descending -property length | select -first 10 name, length
+gci -r| sort -descending -property length | select -first 10 name, length > c:\temp\big
+cd .\temp\
+v big
+Get-Volume
+DIR
+d:
+c:
+DISK-volume
+d
+net users
+Name    Enabled  Description
+hs
+type -f vinit
+echo %userprofile%AppDataLocalPackages
+print %userprofile%AppDataLocalPackages
+echo %PATH%
+set
+Write-Host $Env:USERPROFILE
+Write-Host $Env:
+gci env:
+gci env: | nvim -
+gci: env:
+als
+C:\Users\jimst\OneDrive
+cd \wsl.localhost\Ubuntu\home\steff007\g
+C:\projects\twt
+cd C:\projects\twt
+.\R1_twit1005.mp3
+cp .\R1_twit1005.mp3 twit11-12.mp3
+rm .\R1_twit1005.mp3
+computers=Get-Content-PathC:\data\computers.txt
+echo $$XDG_CONFIG_HOME
+echo $XDG_CONFIG_HOME
+v C:\Users\jimst\.config\nvim\init.vim
+where vinit
+Get-Command vinit
+Function sup {`
+ v C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+ v C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1}
+ v C:\Users\jimst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+Function vinit {`
+nvim C:\Users\jimst\.config\nvim\init.vim`
+fd | nvim -
+ls | nvim -
+cd C:\you\
+cd .\golang\
+gcm init
+gcm *init*
+gcm his
+wpath
+Function myip{`
+curl ifconfig.me`
+myip
+gcm myip
+Get-Command Pause | Select -ExpandProperty ScriptBlock
+Get-Command Pause | Select -ExpandProperty sup
+Get-Command Pause | Select -ExpandProperty gci
+$Function:Pause
+$Function:sup
+$function: sup
+$function:sup
+Get-PSDrive
+gci Function
+function: sup
+echo $home
+Get-ExecutionPolicy
+choco -?
+choco list --localonly
+choco list 
+get-volume | nvim -
+net user | nvim -
+ping 172.56.12.170
+ifconfig
+ipconfig | clip
+systmeinfo | nvim -
+control
+ping 172.58.9.164
+ping  172.22.96.1
+awk '!a[$0]++' h
+Get-Content -reverse
+Get-Content
+Get-Content h
+1..100 | ForEach-Object { Add-Content -Path .\LineNumbers.txt -Value "This is line $_." }
+Get-Content -Path h
+Get-Item -Path h | Get-Content -Tail 50
+Get-Item -Path h | Get-Content -Tail 50 | nvim -
+l
+his
+Get-Item -Path h | Get-Content -Tail 50 | nvim -
+Get-Item -Path h | Get-Content -Tail 50
+h
+cat h
+Get-Item -Path h | Get-Content -Tail 5
+v h
+sup
+Function his {`
+nvim C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt`
+        cat C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt > h`
+}
+cd C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+cd C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\
+cd
+cd -
+cd .
+cd $home
+        cat C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt > $home/his`
+v his
+Get-Item -Path his | Get-Content -Tail 5
+cat his
+Get-Item -Path his | Get-Content -Tail 50
+Get-Item -Path his | Get-Content -Tail 50 | nvim -
+Get-Item -Path $home\his | Get-Content -Tail 50 | nvim -
+echo $home
+tail his
+Get-Content his -Tail 5
+Get-Content his -Tail 50 | nvim -
+Get-Content $home/his -Tail 50 | nvim -
+        Get-Content $home/his -Tail 50 | nvim -`
+#nvim C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt`
+echo "nw"
+Get-Content $home/his -Tail 50
+# The commands to import.
+$commands = "awk", "emacs", "grep", "head", "less", "ls", "man", "sed", "seq", "ssh", "tail", "vim"
+# Register a function for each command.
+$commands | ForEach-Object { Invoke-Expression @"`
+Remove-Alias $_ -Force -ErrorAction Ignore`
+function global:$_() {`
+    for (`$i = 0; `$i -lt `$args.Count; `$i++) {`
+        # If a path is absolute with a qualifier (e.g. C:), run it through wslpath to map it to the appropriate mount point.`
+        if (Split-Path `$args[`$i] -IsAbsolute -ErrorAction Ignore) {`
+            `$args[`$i] = Format-WslArgument (wsl.exe wslpath (`$args[`$i] -replace "\\", "/"))`
+        # If a path is relative, the current working directory will be translated to an appropriate mount point, so just format it.`
+        } elseif (Test-Path `$args[`$i] -ErrorAction Ignore) {`
+            `$args[`$i] = Format-WslArgument (`$args[`$i] -replace "\\", "/")`
+    if (`$input.MoveNext()) {`
+        `$input.Reset()`
+        `$input | wsl.exe $_ (`$args -split ' ')`
+    } else {`
+        wsl.exe $_ (`$args -split ' ')`
+}`
+"@`
+choco install awk
+gawk
+awk
+awk '{f = f $0 "\n"}END{for(i=split(f, lines, "\n"); i >=1; i--) {print lines[i]}}' h
+whoami
+awk '{f = f $0 "\n"}END{for(i=split(f, lines, "\n"); i >=1; i--) {print lines[i]}}'
+note
+awk '!a[$0]++' his
+awk '{ sum += $1 }; END { print sum }' h
+awk '{ sum += $1 }; END { print sum }' his
+exit
+awk '!a[$0]++' his | wc
+tac
+Get-CimInstance -ClassName Win32_OperatingSystem
+awk '!a[$0]++' his > his2
+v his2
+awk '!a[$0]++' his 
+awk '!a[$0]++' his > x
+v x
+awk '!a[$0]++' his | nvim -
+fd --change-within=3hours
+fdh
+fd --help
+fd --help | nvim -
+Function fdh {`
+fd --help | nvim -`
+fd --changed-within 2hours
+rem h
+rm h
+lf
+choco install cygwin
+netstat -n -o output:
+netstat
+fd | nvim -
+fd -d1 -tf
+fd -d1 -tf | nvim -
+rm LineNumbers.txt
+rm e
+rm h!
+rm his
+rm his2
+rm jj
+rm x
+bash
+gcm bash
+bash --version
+C:\cygwin\bin\mintty.exe -i /Cygwin-Terminal.ico -
+cd\
+cd '.\Program Files\'
+ld
+cd \
+cd .\tools\
+cd .\cygwin\
+cd .\bin\
+fd *.exe
+fd -eexe
+cat
+vi
+fd -eexe | column
+gci --table
+gci | Format-Table
+fd -eexe | nvim -
+bash.exe
+fd ba
+.\bash.exe
+.\split.exe
+fd -exe
+fd t-exe
+fd
+fd -texe
+.\whoami.exe
+.\cat
+t x
+touch
+cat x
+.\cal.exe x
+.\cat.exe x
+.\tac.exe x
+gci env:
+gci env: | nvim -
+gci path:
+gci env:pat
+gci env:path
+gci env:path | nvim -
+curl "http://time.jsontest.com/" | Format-List Content
+gci | Format-List Content
+gci | Format-List Content | less
+gci
+$env:path
+$env
+gic $env
+gci $env
+$env:path | nvim -
+md c:\bin
+$env:path = "$env:path;c:\bin"
+$env:path = "$env:pathc:\bin"
+cd C:\bin
+pc
+fd .\tac.exe
+copy .\tac.exe C:\bin
+v abc
+tac abc
+cat abc
+gcm tac
+c:\bin\tac.exe abc
+c:\bin\tac.exe --version
+tac --versio
+tac --help
+echo $profile. SetEnvironmentVariable()
+$profile. SetEnvironmentVariable()
+$profile.SetEnvironmentVariable()
+echo $profile.SetEnvironmentVariable()
+echo $profile
+cd C:\bin\
+v rev.ps1
+.\rev.ps1
+function Test-Script {`
+    param($Name,$Age)`
+    "$Name is roughly $Age years old"`
+Test-Script "The Doctor" "4.5 billion"
+Test-Script -Name Mother -Age 29
+v x.ps1
+function x {`
+  param ($test)`
+  echo $test`
+x jim
+x jim ste
+x "jim s"
+cat .\x.ps1
+v .\rev.ps1
+.\rev.ps1 jim
+.\rev.ps1 one
+.\x.ps1 j
+.\x.ps1 jim
+.\rev.ps1 abc
+$arr = Get-Content  $param1
+Get-Content .\x.ps1
+$a Get-Content .\x.ps1
+$a= Get-Content .\x.ps1
+echo $a
+ginit
+git init
+git
+choco install git
+git help -g
+git help git
+cd $HOME
+rev .\x.ps1
+cd ..
+fd his
+echo 'myhis'
+fun
+rev .\his
+rev .\his > shis
+v shit
+v shis
+cargo install uq
+choco install rust
+dos2unit
+qqq
+star
+wsl
+v $profile
+v .\ConsoleHost_history.txt
+cp .\ConsoleHost_history.txt hist.bak
+wind
+wslpah
+wslpath
+pwd
+pwd Format-Table -HideTableHeaders | Out-String).Trim()
+pwd | Format-Table -HideTableHeaders | Out-String).Trim()
+pwd | format-table
+pwd | Format-Table -HideTableHeaders
+sed
+which wslpath
+echo 'done'
+mps
+path=$(/usr/bin/wslpath -a "$path")
+read $path
+wsl wslpath -u
+wsl wslpath 
+wsl wslpath -a
+wsl wslpath -w $(pwd)
+        Get-Content $home/his -Tail 150 | nvim -`
+        Get-Content $home/his -Tail 250 | nvim -`
+echo "now"
+wsl ls
+wsl pwd
+cd $PROFILE
+Get-ChildItem -Path Env:
+Get-ChildItem -Path Env: | nvim -
+down
+ffc
+fd -emp3
+rm '.\InOurTime-20240919-BenjaminDisraeli (1).mp3'
+md c:\inourtime
+fd inour
+fd inour -x echo
+echo
+fd inour -x echo {}
+fd inour -x Get-ChildItem
+fd inour -x gci
+$pwd
+fd -e mp3 | list
+fd -e mp3 > list
+v .\list
+cp list c:\temp
+cd C:\temp\
+wsl c:/mnt/c
+wsl cd c:/mnt/c
+wsl cd /mnt/c
+cd C:\tar\
+cd te
+vlc .
+vlc
+choco install vlc
+ls in
+fd 'in'
+fd -a 'inour'
+vlc *.mp3
+cd .\Downloads\
+gcm vlc
+echo env:
+$env:path ="$env:path;C:\Program Files\VideoLAN\VLC"
+VLC
+cd C:\you\
+cp .\t\new.mp3 $home
+ffd
+gci 
+man gci
+man gci | Format-Wide
+gci | Format-Wide
+cp OneDrive\Music\01 All My Loving Demo.mp3 .
+cp "OneDrive\Music\01 All My Loving Demo.mp3" .
+$path ="C:\Users\jimst"
+$files = Get-ChildItem -Path $path -Recurse
+echo $files
+$file
+echo $file
+gci -d1
+gic | 'all'
+gci *.mp3
+rm new
+rm .\new.mp3
+mv '.\01 All My Loving Demo.mp3' all.mp3
+fd -a 'all'
+fd -a -d1 'all'
+v a.m3u
+vlc .\a.m3u
+v .\a.m3u
+cd \temp
+fd -a 'inour' > in.m3u
+vlc .\in.m3u
+rm .\in.m3u
+fd -emp3 'inour'
+fd -emp3 'inour' > in.m3u
+v .\in.m3u
+cp .\in.m3u o.m3u
+vlc .\o.m3u
+md x
+mkdir x
+makedir
+md
+md n
+cp .\o.m3u .\n\
+cd .\n\
+v .\o.m3u
+u
+vlc .\InOurTime-20240704-Bacteriophages.mp3
+v .\InOurTime-20241017-HayeksTheRoadToSerfdom.m3u
+start 
+cp .\one.m3u two.m3u
+vlc .\one.m3u
+v .\two.m3u
+fd -d1 'ino' -emp3
+fd -d1 'ino' -emp3 | clip
+vlc .\two.m3u
+gc n
+gci -file
+gc pass
+gc pass|sort-object
+(Get-CimInstance -ClassName Win32`
+)
+echo '{smartname}';Invoke-Command -ComputerName {smartname} {Get-Process |Sort-Object -Descending WorkingSet |Select-Object -first 10 Name,ID,@{Name='WorkingSet';Expression={[math]::Round($_.WorkingSet/1KB,2)}} |FT Name,@{L='PID';E={$_.id}},@{L='Memory';E={$_.workingset}}}
+ps
+ls
+cpu
+msconfig
+Get-Counter -Counter "\Process(notepad)\% Processor Time", "\Process(notepad)\Working Set"
+get-command gci
+get-command get-childitem
+get-help
+get-help Save-Help
+save-help
+Get-Service | ConvertTo-Html | Put-File C:\Services.htm.
+Get-Service | ConvertTo-Html | Put-File C:\Services.html
+Get-Service | ConvertTo-Html 
+Get-ChildItem -Path HKLM:\HARDWARE
+Get-Service | Out-File -FilePath C:\Temp\Services.txt.
+v C:\temp\Services.txt
+Get-NetTCPConnection  -State Established
+ifconfig
+ipconfig
+nslookup 192.168.0.109
+Get-NetTCPConnection
+Get-NetTCPConnection | nvim -
+ipconfg
+.\Autoruns.zip
+.\Autoruns64.exe
+cd C:\t2
+cd .\script\
+code .
+Get-ChildItem Function:Pause | Select *
+Get-ChildItem Function:get-childitem | Select *
+help gci
+Get-ChildItem Function:Get-ChildItem  | Select *
+Get-Command -CommandType Function
+Get-Command -CommandType Function | nvim -
+test
+fdd
+gcm fdd
+$function:fdd
+gcm node
+node
+cd .\WebstormProjects\
+cd .\untitled\
+k
+fd -ejs
+cd .\src\
+v .\main.js
+fd -ehtml
+v .\index.html
+cls
+v .\pass
+fd -td
+gcm ld
+gci -Directory
+man gic
+C:\Users\jimst
+echo $pc
+Get-Location
+gci -hidetableheaders
+gci | ft -HideTableHeaders
+ft
+gci |  -HideTableHeaders
+gci | ft
+gci | select node
+gci | Format-Table -HideTableHeaders
+fd -d1
+echo 'a' | sed 's.a.b.'
+'word'.Replace('word','@#$+')
+'/'.Replace('/','\')
+'C:\Users\jimst'.Replace('\','/')
+'C:\Users\jimst'.Replace('\','/').replace('C:','mnt/c')
+'C:\Users\jimst'.Replace('\','/').replace('C:','/mnt/c')
+'C:\Users\jimst'.Replace('\','/').replace('C:','/mnt/c') | clip.exe
+get-location
+get-location | ft
+Get-LocalGroup |Format-Table -HideTableHeaders
+Get-location |Format-Table -HideTableHeaders
+a=$(Get-location |Format-Table -HideTableHeaders)
+# installs fnm (Fast Node Manager)
+winget install Schniz.fnm
+# configure fnm environment
+fnm env --use-on-cd | Out-String | Invoke-Expression
+# download and install Node.js
+fnm use --install-if-missing 23
+# verifies the right Node.js version is in the environment
+node -v # should print `v23.2.0`
+# verifies the right npm version is in the environment
+npm
+nvm debug
+v env:
+nvm
+nvm current
+nvm install lts
+node -v
+& '.\node-v22.11.0-x64 (1).msi'
+echo $get
+x=get-location
+$cmdOutput = Get-Date
+echo cmdOutput
+echo $cmdOutput
+$g=get-location
+e $g
+echo $g
+hus
+$g=get-location | ft -HideTableHeaders
+echo $g 'jim'
+echo $g + 'jim'
+$g=get-location | ft -HideTableHeaders + "jim"
+$g=get-location | ft -HideTableHeaders "jim"
+Function e {`
+  echo`
+e 1
+function Greet-User {`
+    param (`
+        [string]$Name`
+ `
+    Write-host "Hello, $Name!"`
+Greet-User jim
+function Greet-User {``
+    param (``
+        [string]$Name``
+    )``
+ ``
+    Write-host "Hello, $Name!"``
+greet-user 2
+function Gr {``
+    $l=get-location`
+    Write-host "Hello, $Name!" $l`h`
+gr
+gr 'jim'
+v .\l.py
+    $m=$l.Replace('\','/').replace('C:','/mnt/c') | clip.exe`
+    Write-host  $m`
+$l
+e $l
+    $l=get-location
+$g.replace('a','b')
+trim('jim')
+$g.trim
+v t.ps1
+.\t.ps1 x
+.\t.ps1 xx y
+$g='h '
+echo $g.trim()
+$g='    h '
+md ps1
+mv .\t.ps1 .\ps1\
+cd ps1
+$e=$g.trim()
+$g.Trim()
+$string = " a String "
+$string.Trim()
+$locate=get-location | ft -HideTableHeaders
+$locate.Trim()
+$g
+$g.toString()
+$k=$g.toString()
+echo $k
+$G
+$g | out-string
+$s=$g | out-string
+$s
+$s.trim()
+$string=$locate | Out-String
+$string
+$string=$locate | Out-String.trim()
+$strimg.trim()
+$string.type()
+$string.gettype()
+echo $string.Trim()
+echo $string.Trim().relace('i','a')
+echo $string.Trim().replace('i','a')
+echo $string.Trim().replace('o','a')
+$x= $string.Trim().replace('o','a')
+echo $x
+$x
+$string.Replace('\','/').replace('C:','/mnt/c') | clip.exe
+$string.Replace('\','/')
+$string.Replace('\','/').replace('C:','/mnt/c')
+$final=$string.Replace('\','/').replace('C:','/mnt/c')
+$final
+echo $final | clip.exe
+/mnt/c/projects/ps1
+/mnt/c/projects
+cat .idea
+node .\index.js
+fd *vim*
+fd v*
+fdd v*
+fdd id*
+fd -d2
+cd .\jimst\
+fd .
+ls | grep
+fd | rg 'a'
+rg
+rg --version
+choco install ripgrep
+choco install ripgrep --force
+ripgrep -v
+fd | rg '^a'
+fd | rg '^\.'
+fd -H -I | rg '\.'
+fd -H -I | rg 'ide'
+fd -H -I | rg 'idea'
+fd -H -I | rg 'idea' | nvim -
+v ~/.ideavimrc
+v .ideavimrc
+vinit
+v .\.ideavimrc
+Function ahk {`
+  start c:\all\note\first.ahk`
+ahk
+v b.m3u
+vlc .\b.m3u
+all
+cd C:\you
+vlc .\x.mp3
+vlc .\x.webm
+rm .\x.webm
+rm .\x.mp3
+cd \\wsl.localhost\Ubuntu\home\steff007
+cd \\wsl.localhost\Ubuntu\home\steff007\myou
+vlc '.\How to Set Up and Configure LF (The Best Terminal File Manager) [2oWqD3JCXuI].webm'
+t ' j'
+touch 'j'
+ni ' jim '
+rm jim
+rm ' jim '
+get-childitem *.mp3 | foreach {rename-item $_ $_.name.replace(" ","")}
+get-childitem *.* | foreach {rename-item $_ $_.name.replace(" ","")}
+get-childitem *.* | foreach { rename-item $_ $_.Name.Replace(" ", "") }
+ni '  x y.mp3'
+get-childitem *.mp3 | foreach { rename-item $_ $_.Name.Replace(" ", "") }
+disk-volume
+get-volume
+vlc '.\What Is WebStorm？ [gQe3LHU7F_U].webm'
+rm '.\What Is WebStorm？ `[gQe3LHU7F_U`].webm'
+v '.\Mastering WebStorm Shortcuts and Productivity Tips [8TBx0YCpdcg].webm'
+vlc '.\Mastering WebStorm Shortcuts and Productivity Tips [8TBx0YCpdcg].webm'
+cd C:\Users\jimst\Downloads
+fd -em3u
+v .\b.m3u
+rm .\WebStorm-2024.2.4.exe
+lts
+v
+Get-ChildItem -File | `
+    Sort-Object -Property Length |`
+    Select-Object -Property Length, Name |`
+    Format-Table -AutoSize
+v size.ps1
+.\size.ps1
+rm .\R1_twig0783.mp3 .\R1_twit0995.mp3 .\OneDrive_5_8-30-2024.zip.crdownload '.\Docker Desktop Installer.exe'
+rm '.\R1_twig0783.mp3'
+rm '.\R1_twit0995.mp3'
+rm .\WebStorm-2024.3.exe
+rm '.\Docker Desktop Installer.exe'
+rm .\OneDrive_4_8-30-2024.zip
+rm .\OneDrive_5_8-30-2024.zip
+rm .\OneDrive_5_8-30-2024.zip.crdownload
+size
+rm .\Git-2.46.0-64-bit.exe
+v .\all.zip
+rm .\R1_twit1002.mp3
+rm .\R1_ww0896.mp3
+pkzip .\all.zip
+dir
+cd c:
+wpath
+/mnt/c/Users/jimst/Downloads
+Function lpath {`
+  $locate=get-location | ft -HideTableHeaders`
+  $string=$locate | Out-String`
+  $string.Replace('\','/').replace('C:','/mnt/c') | clip.exe`
+  $final=$string.Replace('\','/').replace('C:','/mnt/c')`
+  echo $final`
+  echo $final | clip.exe`
+lpath
+psa
+mem
+Get-CIMInstance Win32_OperatingSystem | Select FreePhysicalMemory,TotalVisibleMemory
+$ProcessList = Get-Process | Sort-Object -Descending WS
+Write-Host $ProcessList[0].Handle "::" $Process.ProcessName "::" $Process.WorkingSet
+Get-Process | Sort-Object -Descending WS
+Get-Process | Sort-Object -Descending WS | nvim -
+Function mem {`
+Get-Process | Sort-Object -Descending WS | nvim -`
+$function me,
+$function mem
+Get-Process | Sort-Object -Descending WS | select -first 1 | select -ExpandProperty ProcessName
+Get-Process | Sort-Object -Descending WS | select -first 5 | select -ExpandProperty ProcessName
+Get-Process | Sort-Object -Descending WS | select -first 15 | select -ExpandProperty ProcessName
+rm C:\Users\jimst\AppData\Local\nvim-data\shada\main.shada.tmp.e
+Get-Process | Sort-Object -Descending WS | select -first 15
+Get-Process | Sort-Object -Descending WS | select -first 15 | select -ExpandProperty ProcessName, handles
+Get-Process | Sort-Object -Descending WS | select -first 15 | select -ExpandProperty ProcessName, Handles
+Get-Process | Sort-Object -Descending WS | select -first 15 | select  ProcessName, Handles
+Get-Process | Sort-Object -Descending WS | select -first 15 | select  ProcessName, Handles, WKS
+Get-Process | Sort-Object -Descending WS | select -first 15 | select  ProcessName, Handles, WKS(K)
+Get-Process | Sort-Object -Descending WS | select -first 15 | select  ProcessName, Handles, Id
+Get-Process | Sort-Object -Descending WS | select -first 20 | select  ProcessName, Handles, Id
+Function hogs {`
+  Get-Process | Sort-Object -Descending WS | select -first 20 | select  ProcessName, Handles, Id`
+hogs
+cd ~/.config/nvim-data/shada/
+cd .\.config\
+fd -H -I shada
+cd .\nvim\
+fdi
+fd -h -I
+fd -H -I
+gci -Recurse
+cd C:\Users\jimst\AppData\Local\nvim-data\shada\
+rm *
+  Get-Process | Sort-Object -Descending WS | select -first 20 | select  ProcessName, Handles, Id | nvim -`
+ps | select first 5
+ps | select -first 5
+get-childitem *.webm | foreach { rename-item $_ $_.Name.Replace(" ", "") }
+get-childitem *.webm | foreach { rename-item $_ $_.Name.Replace(" ", "") } > e
+v e
+gci | foreach {echo $_.name}
+gci | foreach { echo $_.name.Replace(" ", "") }
+vlc ./Mastering WebStorm Shortcuts and Productivity Tips [8TBx0YCpdcg].webm
+fd r
+fd -tf
+vlc .\webstorm__s_power_user_manual__angular_edition_.mkv
+exit`
+docker-compose --version
+kill
+kill 8204
+vlc lf.webm`
+vlc lf.webm
+fd lfrc
+fd lf
+vlc .\lf.webm
+choco install firefox
+v pass
+ws
+Stop-Process -Name chrome
+hog
+Stop-Process -Name msedge
+cd '/mnt/c/Users/jimst/AppData/Local/Google/Chrome/User Data'
+Function spc{`
+Stop-Process -Name chrome, msedge`
+spc
+Stop-Process -Name chrome`
+f2
+Function f2{`
+fd -I -a -tf --ignore-file c:\.fdignore --changed-within 2d `
+f2 | nvim -
+cd C:\projects\pens\vertical-gallery\dist
+ldc
+fdc
+cd .\gits\
+cd 50
+cd .\dad-jokes\
+nkill
+cd .\junk\
+..
+cd .\grid\
+f1
+mc
+fd -emp3 | less
+fd -emp3 | more
+cd .\inour\
+cd \all
+gst
+git stash
+msinfo
+msinfo32
+ipython
+net user
+t xxxx
+ni xxx
+v xxx
+WSL
+cd one
+duh
+mkcd day
+cd fri
+curl http://127.0.0.1:2019/
+curl www.msn.com
+nuke
+v .\style.css .\index.html .\script.js
+ps | nvim -
+Function spb{`
+Stop-Process -Name brave`
+spb
+Function mc{`
+cd \`
+cd .\temp\
+akh
+cd .\media\
+cd C:\projects\media
+cd 'C:\Program Files\'
+fd irf
+fd '^i'
+fd -d1 '^i'
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\IrfanView\IrfanView 4.67.lnk"
+fd 'Irfav'
+cd '.\Program Files (x86)\'
+Function ld{`
+  GCI -directory`
+cd .\IrfanView\
+fdi -eexe
+fd -a 'i_'
+start C:\Program Files (x86)\IrfanView\i_view32.exe
+start "C:\Program Files (x86)\IrfanView\i_view32.exe"
+d
+cd 
+/mnt/c/projects/media
+irf
+Function irf{`
+ start "C:\Program Files (x86)\IrfanView\i_view32.exe"`
+"C:\Program Files (x86)\IrfanView\i_view32.exe"
+start "C:\Program Files (x86)\IrfanView\i_view32.exe /thumbs"
+.\iview470_plugins_setup.exe
+spd
+ifr
+unzip
+start .
+fdi -a cel| clip.exe
+fd -a cel| clip.exe
+fd 'ce'
+kb
+Function kc{`
+Function kb{`
+v c.ps1
+tasklist
+tasklist | nvim -
+v ah
+tasklist /FI
+v w.ps1
+tasklist /FI "IMAGENAME eq POWERPNT.EXE" 2>NUL | find /I /N "POWERPNT.EXE">NUL if NOT "%ERRORLEVEL%" == "0" start "" "C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE"
+tasklist /FI "IMAGENAME eq POWERPNT.EXE"
+v ah .\w.ps1
+v ) ah .\w.ps1
+v -O ah .\w.ps1
+v .\w.ps1
+cd .\ps1\
+gci | find 'a'
+gci env:* | sort name | out-string | select-string "Pro"
+gci env:* | sort name | out-string | select-string "x"
+ps| Where-Object {$_.name -match ".*sql.*" }
+ps| Where-Object {$_.name -match ".*ahk*" }
+ps| Where-Object {$_.name -match ".*ahk*" } | Select-Object -Last 10
+ps | Select-Object -Last 10
+ps | Where-Object { $_.ProcessName -match ".*ahk*" } | Select-Object -Last 10
+ps | Where-Object { $_.ProcessName -match ".*a*" } | Select-Object -Last 10
+ps | Where-Object { $_.ProcessName -match ".*a*" } | nvim -
+man vim | col -b > textfile.txt
+ps | Where-Object { $_.ProcessName -match ".*Auto*" } | nvim -
+gci env: | ? Name -match "PG" | sort Name
+gci env: | ? Name -match "" | sort Name
+gci env: | ? Name -match "a" | sort Name
+$programName = "prog"
+$isRunning = (Get-Process | Where-Object { $_.Name -eq $programName }).Count -gt 0
+echo $isRunning
+v run.ps1
+v .\run.ps1
+.
+.\run.ps1
+cd C:\all\
+fd ahk
+cd .\note\
+fd -a .\first.ahk | nvim -
+fd -a first | nvim -
+mv .\run.ps1 C:\all\note\
+cd C:\all\note\
+mv .\run.ps1 autoKRunning.psq
+mv .\autoKRunning.psq autoKRunning.ps1
+fd -a autoK
+v psall
+v .\autoKRunning.ps1
+v .\first.ahk
+v invoke.ps1
+v in.ps1
+v .\invoke.ps1
+.\invoke.ps1
+f -a .\in.ps1
+fd -a .\in.ps1
+fd -a in
+cp .\invoke.ps1 ..
+cd note
+v -O .\invoke.ps1 .\autoKRunning.ps1
+C:\all\note\first.ahk
+.\autoKRunning.ps1
+fd -a auto
+func
+cd C:\Users\
+v .\lfrc
+v C:\Users\jimst\AppData\Local\lf\lfr
+cd C:\Users\jimst\AppData\Local\
+cd lf
+uu
+fd all
+fd -d1 al
+rm .\all1\
+cd C:\projects\yt-dlp
+fd '_3_'
+fd '_3_' -X vlc
+cd C:\projects\yt-dlp\test
+vlc .\13_Pass_By_Value.mkv
+md dboot
+cd .\dboot\
+wsl --version
+ssh -p 2022 localhost
+wsl --shutdown
+(New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+# Start the sshd service
+Start-Service sshd
+winget search "openssh beta"
+winget install "openssh beta"
+ssh.exe steff007@localhost
+ssh.exe newuser1@localhost
+ssh.exe newuser1@localhost -p 2022
+myip
+ip
+ssh.exe newuser1@192.168.0.109 -p 2022
+ping 192.168.0.109
+cd .\trav\
+vlc .\Ultimate_Guide_To_Web_Scraping.webm
+cd .\node-scrape\
+v .\package.json
+t scrape.js
+ni scrape.js
+cd .\AppData\
+cd .\Roaming\
+cd .\Code\
+cd .\User\
+v .\settings.json
+als
+node .\scrape.js
+npx puppeteer browsers install chrome
+type ag
+curl https://thepiratebay.org/search.php?q=citizen+kane&video=on&search=Pirate+Search&page=0&orderby= | nvim -
+curl https://thepiratebay.org
+Get-Process | Where-Object {$_.MainWindowTitle -ne ""} | stop-process
+Function killAll {`
+  Get-Process | Where-Object {$_.MainWindowTitle -ne ""} | stop-process`
+killAll
+killall
+cd .\all\note\
+autoRunning.ps1
+fd -a .\autoKRunning.ps1
+Function h {`
+vim $home/his
+v $home/his
+v $home/his -c "normal Gzz"
+nvim
+##nvim C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt`
+#    cat C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt > $home/his`
+    nvim $home/his -c "normal Gzz"`
+h2
+h1
+gcm h
+Remove-Alias -Name h
+get-alias h
+Remove-Alias 
+$PSVersionTable
+winget search Microsoft.PowerShell
+winget install --id Microsoft.Powershell --source winget
+winget vlc
+wing get search vlc
+winget get search vlc
+winget search vlc
+.\PowerShell-7.4.6-win-x64.msi
+winget install --id Microsoft.PowerShell --source winget
+.\PowerShell-7.4.6-win-x86.msi
+PSVersionTable
+pwsh
+v C:\Users\jimst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+C:\Users\jimst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+get-alias 
+help
+get-help alias
+get-help get-alias
+Get-Help Get-Alias -Online
+e $profile
+gci | nvim -
+Function cpa { RunDll32.exe shell32.dll,Control_RunDLL }
+#https://github.com/equalsraf/win32yank
+win32yank -o
+function ditto() {`
+start "C:\Program Files\Ditto\Ditto.exe"`
+function spoken() {`
+cd c:\you\spoken\`
+function guts(){`
+gci C:\projects\music\gut\script`
+cd C:\projects\music\gut`
+function ms4() {`
+  start "C:\Program Files\MuseScore 4\bin\MuseScore4.exe"`
+function midi() {`
+  start "C:\Users\jayst\OneDrive\Desktop\MidiSheetMusic-2.6.exe"`
+function syn() {`
+start "C:\Program Files (x86)\Synthesia\Synthesia.exe"`
+function vt ($a) {`
+Start-Process  "vlc"  -ArgumentList "--no-video-title", "$a"`
+guts
+Get-Verb | Sort-Object -Property Verb
+function Get-Version {`
+    $PSVersionTable.PSVersion`
+get-version
+$PROFILE
+psc
+i3
+v C:\temp\pass
+fd ahk*
+v .\note\first.ahk
+v C:\Users\jimst\AppData\Local\nvim-data\shada\main.shada.tmp.f
+rm C:\Users\jimst\AppData\Local\nvim-data\shada\main.shada.tmp.f
+md back
+mv * .\back\
+mv * back\
+mv
+fdi -emp3
+fd -H -I -emp3
+ssh.exe steffes@192.168.0.109 -p 2022
+ping 127.0.0.1
+ssh.exe steffes@127.0.0.1 -p 2022
+ping 172.56.11.201
+ping 72.58.9.33
+h5
+h3
+Get-NetIPAddress | Format-Table
+cd .\ssh\
+v .\instruct
+Get-NetIPAddress -InterfaceIndex 12
+Get-Net6to4Configuration
+Get-NetAdapter
+cd nvim C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\
+v hist
+fd -a ons
+    #nvim $home/his -c "normal Gzz"`
+    nvim C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt -c "normal Gzz"`
+cd .config
+cd nvim
+v .\init.vim
+gci env
+echo $MYVIMRC
+cd c:\Users\jimst\AppData\Local
+fd vin
+fd vim
+cd C:\Users\jimst\AppData\Local\nvim\
+v init
+fd -a i
+#nvim C:\Users\jimst\.config\nvim\init.vim`
+nvim C:\Users\jimst\AppData\Local\nvim\init.vim`
+rm .\you.gz
+v .\h.tar
+rm C:\Users\jimst\AppData\Local\nvim-data\shada\main.shada.tmp.b
+cd C:\Users\jimst\AppData\Local\nvim-data\shada
+home
+nvim -v
+nvim -V1 -v
+echo $VIM
+cd "C:/Program Files (x86)/nvim/share/nvim"
+cd "C:/Program Files (x86)/nvim/share/"
+gci env: > env
+cat env
+cd ~
+  gci -Directory`
+fd -H -I init
+fd -H -I init.vim
+set VIM "AppData\Local\nvim\init.vim"
+v`
+set VIM .config\nvim\init.vim
+type -f v
+gcm v
+printenv
+$env:Path
+$env:vim
+gci:env
+gci env$
+gci env:| nvim -
+set
+set jim="jim"
+set word="frumios"
+gcm nvim
+np .config\nvim\init.vim
+cd C:\Users\jimst\AppData\Local\nvim
+gci:env:
+find 'init.vim'
+fd 'init.vim'
+cd .\Local\nvim\
+ps -a ini
+fd -a ini
+v C:\Users\jimst\AppData\Local\nvim\init.vim
+git add .
+git commit -m "Initial"
+mv init.vim init.bak
+ni init.vim
+v -V
+cd C:\tools\neovim\nvim-win64\bin
+choco install neovim
+choco install neovim --force
+neovim
+cd C:\tools\
+cd .\neovim\
+cd .\nvim-win64\
+cd bin
+.\nvim.exe
+np Local\nvim\init.vim
+cd Local\nvim
+cp .\init.bak init.vim
+cd home
+np .\init.vim
+np init.vim
+v init.vim
+cd .\AppData\Local\nvim\
+fd -a vim
+v -clean
+nvim -V
+v .\init.bak
+Function home{`
+  cd $home`
+fd -emsi
+fd -emsi -x rm
+fd -emsi -x del
+fd -emsi -x remove-item
+exif
+cd .\you\
+gci . -Force
+gci . -Force | nvim -
+gci . -Force | nvim - | table
+gci . -Force | nvim - | Format-Table -GroupBy
+gci . -Force | nvim - | Format-Table 
+fd -H -I 'go'
+vlc .\webstorm_2024.1_explained_3_ne.webm
+ping msn.com
+kmc
+cd .\minour\
+ping https://www.msnbc.com/
+Get-ChildItem -Path C:\ -Recurse -Directory -Force -ErrorAction SilentlyContinue | Select-Object FullName
+cd C:\Windows\
+fd 'sys2'
+fd -H -I 'sys2'
+ripgrep
+echo 'jim' | rg 'i'
+fd -tf | rg 'winsx'
+fd -tf | nvim -
+ping 8.8.8.8
+ws -l -v
+wsl -l -v
+wsl --export Ubuntu ubuntu.tar
+v .\ubuntu.tar
+ls -h
+wsl --import UbuntuDev1 .\UbuntuDev1 ubuntu.tar
+wsl -d UbuntuDev1
+wsl --install
+wsl --list --online
+wsl --list --verbose
+wsl -status
+wsl --status
+md wsl
+mv .\ubuntu.tar .\wsl\
+cd wsl
+Get-Command -Verb Format -Module Microsoft.PowerShell.Utility
+Get-Command -Verb Format | Format-Wide
+Get-Command | Format-Wide
+gci | format-wide
+gci | less
+vim 
+nvim --version
+v 
+rm .\all.mp3
+fd 'init'
+fd 'vim'
+C:\Users\jimst\AppData\Local\nvim
+np
+nhis
+np lfrc
+gcm notepad
+gcm notepad++
+.\t.ps1
+.\t.ps1 1 2 3
+v .\t.ps1
+np .\l.py

@@ -1,16 +1,17 @@
 
 #SingleInstance Force
-!a::run, C:\tools\neovim\nvim-win64\bin\nvim.exe -c "cd c:\all"      ; Correct
+!a::run, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Vim 9.1\gVim.lnk" 
+!e::run, "C:\Program Files\Double Commander\doublecmd.exe"
 !t::run, C:\Users\jayst\AppData\Local\Microsoft\WindowsApps\wt.exe
 !p::runwait, PowerShell.exe -ExecutionPolicy Bypass -Command c:\all\ps\mus.ps1
 
 ^SPACE::  Winset, Alwaysontop, , A
 
-!v:: send,  | nvim -
+!v:: send,  | v -
 
-!d::run, C:\tools\neovim\nvim-win64\bin\nvim.exe "c:\all\note\notes"
+!d:: send, C:\Users\jimst\AppData\Local\nvim\init.vim\vim91\gvim.exe 
 
-!c::run,  C:\tools\neovim\nvim-win64\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work c:\all\note\python c:\all\note\other
+!c::run, C:\Users\jimst\AppData\Local\nvim\init.vim\vim91\gvim.exe    -p c:\all\note\notes c:\all\note\js c:\all\note\power c:\all\note\bash c:\all\note\python c:\all\note\other
 
 !q:: Send !{f4}
 return

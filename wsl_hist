@@ -1,0 +1,2283 @@
+hh
+cat myhistory
+cat myhistory >> ../temp/myhistory
+echo 'fffff'
+fdi -'his'
+v .zhistory
+cat history
+ls -d '*his*'
+find . -type f -name '*his*'
+find . -type f -name '*his*' | xargs ls -hrt
+find . -type f -name '*his*' | xargs ls -lhrt
+jjjjjjjjjjkk,qjjj
+find . -name '*ignore*'
+find . -name '*ignore*' | nvim -
+v ./.local/share/Trash/files/junk/bback/bash/.fdignore
+fdi --changed-within=2days
+fdi -d1 --changed-within=2days
+ls -lhrt '*fd*'
+ls -lhrt '*fd*' 
+ls -lhrt .fdignore
+sar
+The enlightened despotism of Emperor Joseph II of the Holy Roman Empire is summarized as, "Everything for the people, nothing by the people".[4]
+type -f pwd
+echo "/mnt/c" | sed -e 's/c:'
+echo "a" | sed 's/s/x'
+echo  "version: '2.1.0-beta.12'," | sed -En "s/version: '(.*)',/\1/p"
+echo "a" | sed -En 's/s/x'
+echo "a" | sed -En "s/a/x"
+echo AAXXAAYYBB | sed 's/[AB]/C/g'
+echo "a" | sed -En "s/a/x/g"
+echo "a" | sed - "s/a/x/g"
+echo "a" | sed  "s/a/x/g"
+echo "a" | sed  "s/a/x/"
+echo "/mnt" | sed  "s/mnt/c/"
+echo "/mnt" | sed  "s/mnt/c:/"
+echo "/mnt" | sed  "s/\/mnt/c:/"
+echo "/mnt" | sed  "s.\/mnt.c:/"
+echo "/mnt" | sed  "s|\/mnt|c:/"
+echo a
+echo a | sed "s|a|b"
+echo a | sed "s|a|b|g"
+echo /mnt | sed "s|/mnt|c:\|g"
+echo /mnt | sed "s|/mnt|c:\\|g"
+echo /mnt | sed "s|\/mnt|c:\\|g"
+echo /mnt
+echo /mnt | sed "s|m|c:\\|g"
+echo /mnt | sed "s|m|xxx|g"
+gawk -F: '{print $1}' /etc/passwd
+pwd | '{print $1}'
+'{print $1}'
+$a
+echo $a
+a='mnt/c/home'
+e $a
+e $a | tr '/\'
+e $a | tr '/\' 'xx'
+seq 42
+seq 3
+seq 42 | sed -n '/0$/!d; n; N; s/\n/ /p'
+sudo ls -lR | grep drwx
+ps -ef | grep systemd | awk '{ print $2 }'
+ps -ef
+awk --version
+filenames=(\n  'C:\Users\abcd\Downloads\testingFile.log'\n  # ... add more here ...\n)\n\nfor f in "${filenames[@]}"; do\n  f="${f/C://c}"\n  f="${f//\\//}"\n  echo "$f"\ndone
+cd what
+mkcd hwat
+wgat filenames=(\n  'C:\Users\abcd\Downloads\testingFile.log'\n  # ... add more here ...\n)\n\nfor f in "${filenames[@]}"; do\n  f="${f/C://c}"\n  f="${f//\\//}"\n  echo "$f"\ndone
+pgp
+v myhis
+fd pass
+fdi pass
+fd note
+fdi not
+d:
+cd no
+v .zsh_history
+man pgp
+allist
+alls
+apps
+sudo apt-get install gnupg
+gpg –version
+cat pass
+md /mnt/c/temp
+v .gitignore2
+fdi git
+fdi -d 1 git
+v .gitignore.1
+git remote add origin git@github.com:wither7007/7490.git
+gst add .
+nvm --version
+node --version
+win
+wpwd
+wslp
+curl localhost:
+curl http://localhost:3000/styles.css
+curl http://127.0.0.1:5500/junk/responsive-nav-flexbox/index.html | nvim -
+curl http://127.0.0.1:5500/junk/responsive-nav-flexbox/index.html
+curl http://127.0.0.1:5500/junk/responsive-nav-flexbox/index.html\#
+curl http://127.0.0.1:5500/
+curl http://localhost:3000/
+curl http://localhost:3000/styles.css | nvim -
+rg font
+rg font | nvim -
+rg import 
+rfh
+rg "import\s"
+rg "import/s"
+rg import
+f index.html
+wget https://www.nytimes.com/ 
+v index.html.1
+pretty index.html.1
+v pindex.html.1
+mkcd center
+nill
+cp favicon.ico favicon.svg
+fd fav
+/favicon.svg
+cat favicon.svg
+mv accessibility-svgrepo-com.svg /mnt/c/projects/junk/center/favicon.svg
+b
+rg import | nvim -
+curl 10.255.255.254:53
+hostname
+kill   5629
+ps | nvim -
+ps | rg node
+ps -a | rg node
+d 1
+git ls-files
+gitfiles(){\ngit ls-files\n}\n
+gitfiles| nvim -
+git commit 'what'
+git add . -am
+find . -type f \( -iname ".*" ! -iname ".htaccess" \)
+find . -type f \( -iname ".*" ! -iname "./vite*" \)
+find . -type f \( -iname ".*" ! -iname "./vite*" \) | rg -v vite
+find . -type f \( -iname ".*" ! -iname "./vite*" \) | rg -v "vite|server"
+rec 1
+unalias fdi
+fdi(){\nfd  -H -I\n}\n
+fd brow
+cd brow
+trash brow
+type -f h
+h(){\n  history 1 |tac |cut -c 1-7 --complement | nvim -\n}\n
+day
+recv
+fd --changed-within=2days
+unalias fd
+fd(){\n/usr/bin/fdfind\n}\n
+type -f fd| nvim -
+fd --changed-within=1days | xargs ls -lhrt
+fd --help
+type -f fdh
+unalias fdh
+/usr/bin/fdfind --help
+fdh(){\n/usr/bin/fdfind --help\n}\n
+fdh | nvim -
+fd                 --changed-within 2weeks
+fd                 --changed-within 1days
+fd                 --changed-within 1days | xargs ls -lhrt
+fd -tf --changed-within=1weeks
+/usr/bin/fdfind
+fd -tf --changed-within=4weeks
+fd -tf --changed-within=1weeks | xargs ls -lhrt
+/usr/bin/fdfind --changed-within=1days
+/usr/bin/fdfind --changed-within=7days
+/usr/bin/fdfind --changed-within=2weeks
+/usr/bin/fdfind --changed-within=8weeks
+fd --changed-within=8weeks
+/usr/bin/fdfind --changed-within=1weeks
+fd | wc
+fdh | wc
+type -f fdfind
+cp fdfind fd
+sudo cp fdfind fd
+type -f fd
+fd --changed-within=1weeks
+fd -ego
+fd -h | nvim -
+fd -h
+fd -ego | xargs rm
+start .
+ls hwat
+ls hwats
+cd hwat
+v btop-x86_64-linux-musl.tbz
+rm btop-x86_64-linux-musl.tbz
+rm one.html
+git add . -am "first"
+fd -tf -d 1
+fd |wc
+gdif
+git config pull.ff only
+git diff
+git config | nvim -
+git config | less
+git config
+fd i 'con'
+fd 'con'
+fdi 'con'
+cd mnt
+cd /mnt
+fd remote
+ca pass.gpg
+ssh-agent
+ssh-add tcJump(3409\n
+gpg --decrypt pass.gpg < tcJump(3409\n\n\n\n\n\n\ntcJump(3409
+pgp --list-keys
+echo This is an encryption test > file1.txt
+gpg -c file1.txt
+ls -l $(which gpg gpg2 gpg1)
+gpg --fingerprint
+gpg -c file1.txt.gpg
+gpg pass.gpg tcJump(3409
+gpg pass.gpg 
+ps 0a
+ps a 
+kill 2992
+gpg --export-secret-keys
+gpg
+df 
+man df
+fd gri
+cd grid
+v hwat
+rm hwat
+rm -rf what
+rm -rf -d hwa
+rm -rfd hwat
+fday 1
+cd fb
+wget https://www.redditstatic.com/shreddit/assets/favicon/128x128.png
+type -f dserve
+knode
+cd junk/responsive-nav-flexbox
+npx live-server
+wget https://en.wikipedia.org/wiki/Tonga
+v Tonga
+npx jsbeutify
+npx jsbeutify Tonga
+v  /home/steff007/.npm/_logs/2024-10-06T12_29_40_738Z-debug-0.log
+CD junk
+mkcd pres
+v pres
+cat pres | tr a xxx
+cat pres | tr a 'xxx'
+man tr
+a='/o\'
+echo "$a" | sed 'y|/\\|\\/|'
+pwd| sed 'y|/\\|\\/|' | sed 'y|\mnt|x'
+pwd| sed 'y|/\\|\\/|' | sed 'y|\mnt|x|'
+pwd| sed 'y|/\\|\\/|' | sed 's|\mnt|x|'
+pwd| sed 'y|/\\|\\/|' | sed 's|\mnt\\c|x|'
+pwd| sed 'y|/\\|\\/|' | sed 's|\mnt\c|c:\\|'
+pwd| sed 'y|/\\|\\/|'
+pwd| sed 'y|/\\|\\/|' | sed 's|\mnt\\c|c:\\|'
+pwd| sed 'y|/\\|\\/|' | sed 's|\\mnt\\c|c:\|'
+pwd| sed 'y|/\\|\\/|' | sed 's|\\mnt\\c|c:\\|'
+pathInWSL = wsl wslpath -a -u "$(Get-Location)\foo.txt".Replace('\', '\\')
+pwd | gawk '{print $1}'
+pwd | sed '/mnt/c|xxx|g'
+pwd | sed '/mnt/c|xxx'
+ls | sed '10q'
+pwd | sed '///'
+pwd | sed '///g'
+pwd | sed 's///g'
+pwd | sed 's/a/b/g'
+pwd | tr '/\'
+pwd | sed 'y|/\\|\\/|'
+echo \mnt\c
+pwd \mnt\c
+pwd sed 's.\\./.g'
+pwd | sed 's.\\./.g'
+pwd | sed 's.mnt./.g'
+pwd | sed 's.mnt/./.g'
+pwd | sed 's.mnt/.\.g'
+pwd | sed 's.mnt/.\\.g'
+pwd | sed 's.mnt//.\\.g'
+pwd | sed 's.mnt://.\\.g'
+echo "C:\Windows\Folder\File.txt" | sed -e 's/\\/\//g'
+echo "C:\Windows\Folder\File.txt" | sed -e 's.\\/.//g'
+n
+perl -lne '/^--ERROR---.*Name="(.*?)" Age="(.*?)"/ && print "$1 $2"' file
+perl -p -e 's/a/xxxxxxxxx/g' a
+perl -p -e 's.a.xxxxxxxxx.g' a
+perl -p -e 's./.xxxxxxxxx.g' a
+perl -p -e 's.mnt.xxxxxxxxx.g' a
+perl -p -e 's./.\.g' a
+perl -p -e 's.\/.\.g' a
+perl -p -e 's.\/.xxx.g' a
+perl -p -e 's.\/.//.g' a
+v //mnt//c//projects//junk//pres
+v //mnt//c//projects//junk//pres//a
+s20
+s2p
+//mnt//c//projects//junk//pres
+echo "Runtime: $(date) @ $(hostname)"
+echo 'C:\foo\bar.xml' | sed 's.\\./.g'
+echo 'C:\foo\bar.xml' | sed 's/\\/\//g'
+echo 'C:\foo\bar.xml' | sed 's.x.nn.g'
+echo 'C:\foo\bar.xml' 
+echo 'C:\foo\bar.xml'
+echo 'c:'
+echo 'c:\foo'
+echo 'c:\\foo'
+printf 'c:\foo'
+printf %s 'c:\foo'
+man printf
+printf %s\n 'c:\foo'
+printf "%s\n"  'c:\foo'
+printf "%s\n"  'c:\foo' | sed 's.f.x.g'
+printf "%s\n"  'c:\foo' | sed 's.\.x.g'
+printf "%s\n"  'c:\foo' | sed 's.\\.x.g'
+printf "%s\n"  'c:\foo' | sed 's.\\./.g'
+printf "%s\n"  $(pwd) | sed 's.\\./.g'
+printf "%s\n"  $(pwd) | sed 's.\/.\.g'
+echo "My favorite programming editor is Emacs. Another editor I like is Vim." | sed -e s/editor/tool/g\nMy favorite programming tool is Emacs. Another tool I like is Vim.  
+echo "foo" | sed -e 's/foo/bar/' -e 's/bar/foo/'echo "foo" | sed -e 's/foo/bar/' -e 's/bar/foo/'
+echo "foo" | sed -e 's/foo/bar/' -e 's/bar/foo/'
+ls >a
+awk '$0 ~ /a/ {print $0}' a
+awk '/a' a
+awk '/a/' a
+awk '{sub(/a/, "foobar")} 1' a
+awk '$2 == "a"'
+v a
+awk '$2 == "a"' a
+ls | awk {print $1}
+ls | awk 'print $1'
+h1
+awk '{print $1}' <<< "12/12/2013 14:32"
+awk '{print $1}' > a
+awk '{print $1}' a
+ls | awk '{print $1}
+ls | awk '{print $1}'
+ls | awk '{print $2}'
+ls | awk '{print $0}'
+lt | awk '{print $0}'
+lt | awk '{print $3}'
+lt | awk '{print $4}'
+lt | awk '{print $5}'
+lt |awk 'NF--'
+seq 1 30 | awk 'ORS=NR%5?FS:RS'
+arr=($(cat))\necho ${arr[3]}
+git clone git@github.com:Thomas-George-T/HackerRank-The-Linux-Shell-Challenges-Solutions.git
+cd Arrays\ in\ Bash
+v Concatenate\ an\ array\ with\ itself.sh
+cat ''\''Awk'\'' - 1.sh
+v ''\''Grep'\'' #2.sh\nq\nqq
+v ./'Awk' - 3.sh
+mv ''\''Sed'\'' command #1.sh 1
+ren
+sudo apt-get install rename
+rename \'Awk\'\ -\ 1.sh x
+space
+cd HackerRank-The-Linux-Shell-Challenges-Solutions
+fd hacker
+rename x y
+name xx y
+rename xx y
+autoload zmv
+mv HackerRank-The-Linux-Shell-Challenges-Solutions chall
+cd Bash
+mv A A\ Personalized\ Echo.sh echo.sh
+mv "A Personalized Echo.sh" echo1
+v echo1
+rename 'Arithmetic Operations.sh' aro
+aplit
+v ren
+./ren
+./ren Compute\ the\ average.sh avh.sh
+.ren 'Compute the average.sh' svg.sh
+./ren "Compute the average.sh" avg.sh
+type -f rename
+rename --help
+rename --help | nvim -
+rename "Looping and Skipping.sh" loop.sh
+rename "Looping and Skipping.sh" "loop.sh"
+zmv
+zmv 'Let'\''s Echo.sh' x
+hst
+nit
+hit 22
+hit() {\n  history | tail -n 20\n}\n
+hit
+fd "[^a-zA-Z0-9]" -exec rename "s/[^a-zA-Z0-9]/_/g" #!good replace garbage names
+fd "[^a-zA-Z0-9]"
+ren --version
+cat 'Functions and Fractals - Recursive Trees - Bash!.sh'
+rename 'Functions and Fractals - Recursive Trees - Bash!.sh' 'fractals'
+which rename | xargs rm
+which rename | xargs sudo rm
+which rename
+echo $prompt
+prename
+echo $prompt | nvim -
+npm -i crypto
+for f in *\ *; /
+for f in *\ *; \\necho $f 
+for f in *\ *; \\necho $f; 
+for f in *\ *; do mv "$f" "${f// /_}"; done
+for f in *\n: 1728386451:0;h
+for f in  *; \\necho $f; done
+for f in  *; echo $f; done
+find . -type f -print0 | while IFS= read -r -d $'\0' file;\n  do echo "$file" ;\ndone
+for ((i=0; i<=3; i++)); do\\necho 'jim'
+for ((i=0; i<=3; i++)); do \\necho 'jim'\n\ndone
+seq 2 20
+touch bspl{0001..0003}.c
+touch bspl{0001..0003}.txt
+for f in *.txt; do echo ${f}; done;
+rename --version
+prename --version
+n s.js
+perl
+v x.pl
+perl x.pl
+perl. y.pl
+perl y.pl
+v y.pl
+perl y.pl | less
+npm -i express
+npm install -y
+npm install express
+npm -l
+no s.js
+v s.js
+man rename
+rename 's/c/d/ *.c
+rename 's/c/d//' *.c
+rename
+wi rename
+rename 's/\.bak$//' *.bak
+rename 's/\.bak$//' *.*
+e /
+e //
+e // | sed 's./.x/'
+e // | sed 's./.x/g'
+e // | sed 's.//.x/g'
+e a | sed 's.a.b.g'
+e // | sed 's.//.x.g'
+e // | sed 's.//.\.g'
+e // | sed 's.//.\\.g'
+pwd | sed 's.//.\\.g'
+pwd | sed 's.//..g'
+pwd | sed 's.///..g'
+pwd | sed 's./..g'
+pwd | sed 's./.\\\.g'
+pwd | sed 's././\.g'
+pwd | sed 's./.\.g'
+pwd | sed 's./.x.g'
+pwd | sed 's./.\x.g'
+pwd | sed 's./.\\.g'
+pwd | sed 's.\.//.g'
+pwd | sed 's./\.//.g'
+pwd | sed 's./\.x.g'
+pwd | sed 's.\.x.g'
+pwd | sed 's.\\\.x.g'
+pwd | sed 's.\\.x.g'
+pwd | sed 's.\/.x.g'
+pwd | sed 's.\/. x .g'
+pwd | sed 's.\/. x/ .g'
+pwd | sed 's.\/./ .g'
+pwd | sed 's.\/./.g'
+pwd | sed 's.\/\/mnt./.g'
+pwd | sed 's.\/mnt./.g'
+v psed
+pwd | sed 's/\\/mnt\\/c/c:\\/gm;t'
+pwd | sed 's/\\/mnt\\/c/c:\\/gm'
+sed -E 's/\\/mnt\\/c/c:\\/gm;t' <<< "/mnt/c"
+pwd | sed 's.\/mnt\/c.c.g'
+wind(){\n  #convert bash path to windows\npwd | sed 's.\/mnt\/c.c:.g' |clip\n}\n
+wind(){\n  #convert bash path to windows\npwd | sed 's.\/mnt\/c.c:.g' |clip.exe\n}\n
+pwd | sed 's.\/mnt\/c.c:.g'
+pwd | sed 's.\/mnt\/c..g'
+pwd | sed 's.\/mnt\/\/c..g'
+echo '\/mnt\/c'
+echo '\/mnt\/c' | l
+perl a.pl
+v a.pl
+echo  "C:\Users\San.Tan\My Folder\project1" | sed -e 's/C:\\/mnt\/c\//;s/\\/\//g'
+awk -F'\' -v OFS='/' '$1=/^c:/?"/opt":$1' <<<'c:\IBM\WebSphere'
+v r.js
+gpg --decrypt pass.gpg | nvim -
+he
+gpg --decrypt pass.gpg
+gpg pass.gpg
+gpg-agent
+gpg --decrypt --pinentry-mode=loopback
+gpg --decrypt --pinentry-mode=loopback pass.gpg
+gpg --version
+cat pass.gpg
+gpg --output destination --decrypt pass.gpg
+mv pass  /mnt/c/temp
+c jokw
+v joke
+gpg --list-keys
+fday 5
+fday 99
+find . -mtime -5 -ls | awk '{ print  $11 }'
+find . -mtime -2 -ls | awk '{ print  $11 }'
+find . -mtime -3 -ls | awk '{ print  $11 }'
+fd --changed-within=1days
+fd --changed-within=41days
+fd --changed-within=4days
+myip(){\ncurl ifconfig.me\n}\n
+myip| nvim -
+ping 172.58.12.239
+curl checkip.dyndns.org
+ssh 172.58.12.239
+time ipython3 -c 'pass'
+recents
+type -f recents
+ls btop
+cd jun
+whoaim
+whloami
+C:\Users\jimst\Downloads\R1_twit1002.mp3
+exi
+sudo service ssh start
+net
+hostname -i
+nmcli -p device show
+ssh 172.56.12.76
+nslookupssh 172.56.12.76
+nslookups 172.56.12.76
+nslookup 172.56.12.76
+netsh interface ipv4 show neighbors
+ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+ip addr show eth0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | nvim -
+nslookup ibm.com
+wsl hostname -I
+nslookup ) ✗ hostname -I\n1
+man nslookup
+ssh 172.22.111.101
+hostname -I
+hostname -I | clip
+hostname -I | clip.exe
+ping 172.56.12.121
+git remove \t.gnupg/.#lk0x000055695861a950.steff007.3466\ngit remove \t.gnupg/.#lk0x000055ab6b707950.steff007.2416\n
+gir rm \t.gnupg/.#lk0x000055e050d9d950.steff007.3399
+git rm \t.gnupg/.#lk0x000055e050d9d950.steff007.3399
+gir rm "t.gnupg/.#lk0x000055e050d9d950.steff007.3399"
+git rm "t.gnupg/.#lk0x000055e050d9d950.steff007.3399"
+rm a s.js x.pl y.pl
+git add . && git commit 'x'
+git add . && git commit -m 'x'
+gts
+df
+v pass.gpg
+cd \temp
+cd /mnt/c/temp/g
+dserv
+wget https://www.networkworld.com/wp-content/themes/nww-b2b-child-theme/src/static/img/favicon.ico
+lintow
+t none
+fday 10
+rm none
+wslpath -w /mnt/c/Users
+wpath(){\n\nwslpath -w $(pwd) \nwslpath -w $(pwd) | clip.exe\n}\n
+C:\projects\gits
+type -f qimg
+cd background-slider
+qimg
+fd -ets
+fd -esh
+v scripts/winf.py
+cd 
+cat winf
+rm winf
+cl
+winf.py
+wget http://127.0.0.1:5500/background-slider/
+curl http://127.0.0.1:5500/background-slider/
+v non.html
+pretty non.html
+v pnon.html
+\tnet user
+docker
+docker pull mysql:latest
+$ docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql
+docker run --name test-mysql -e MYSQL_ROOT_PASSWORD=strong_password -d mysql
+docker exec -it test-mysql bash
+docker pull busybox
+docker exec -it my_busybox sh
+docker kill $(docker ps -q)
+docker run --name my_busybox busybox
+docker run --name my_busybox busybox| nvim -
+docker ps
+docker images
+docker rm -vf $(docker ps -aq)
+docker ps -aq
+pass
+ls Tonga
+cat Tonga
+lf --version
+wget https://old.reddit.com/r/popular/
+hs
+npm install js-beautify@next
+npx jsbeutify index.html
+npm ls
+npx js-beautify index.html
+npx js-beautify index.html > x
+curl //www.redditstatic.com/reddit.sniFDqeRvIc.css
+curl www.redditstatic.com/reddit.sniFDqeRvIc.css
+curl www.redditstatic.com/reddit.sniFDqeRvIc.css | nvim -
+curl www.redditstatic.com/reddit.sniFDqeRvIc.css > x.css
+npx js-beautify x.css
+npx js-beautify x.css | nvim -
+mckd men
+mkcd men
+type -f winf
+winf
+type -f wind
+user
+cd ~
+$(whoami)
+use=$(whoami)
+cd /mnt/c/Users/$use
+cd /mnt/u
+alias winh="cd /mnt/c/Users/jimst"
+winh
+fdi lib
+fdi | wc
+cd share
+wget https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting
+curl https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting
+curl https://bringmethenews.com/minnesota-news/hennepin-county-employees-rally-for-higher-wages-call-current-offer-insulting > x
+v b
+npx js-beautify 
+wget 'https://en.wikipedia.org/wiki/Diverticulitis'
+pretty Diverticulitis
+v Diverticulitis
+wi go
+v g
+v main.go
+rm y
+v p
+chmod +x x.sh
+./x.sh
+v s.sh
+v x.sh
+echo "I'm in $(pwd)"
+for i in {5..50..5}; do\n    echo "Welcome $i"\ndone
+sh i
+v i
+mv i xx
+sh xx
+bash xx
+type -f sh
+man sh
+npx deprank .
+notes
+wget 'https://news.ycombinator.com/'
+v index.html.2
+npx js-beautify index.html.2
+fd -tf -d 1 | xargs rm
+cat /etc/
+uname
+mkcd go
+cd .. && go mod init
+go mod init 
+go mod init
+go mod init list.go
+go.mod
+v go.mod
+go build
+ls /tmp
+go run list.go
+godoc fmt Println
+rm go.mod
+go mod init example.com/greetings
+v list.go
+v.go
+v d.go
+for filename in .; do\necho $filename\ndone
+for filename in *; do\necho $filename\ndone
+string ='k'
+$string ='k'
+a=1
+$stri ='k'
+$stri ="k"
+name="k"
+stri ="k"
+striz ="k"
+h 3
+striz ="kaa"
+s ="kaa"h
+s ="kaa"
+name="John"
+names="John"
+n="John"
+sn="John"
+s="John"
+stri="John"
+echo {A,B}.js
+touch {A,B}.js
+t {1..5}
+name=joe\npointer=name\necho ${
+v file.txt
+while read -r line; do\n  echo "$line"\ndone <file.txt
+fd al
+v ~/.config/nvim/init.vim
+cp ~/.config/nvim/init.vim /mnt/c
+cd /mnt/
+cd c
+t z
+sudo t x
+sudo touch x
+ls -l
+cd -
+chmod ugo+rwx /mnt/c
+sudo chmod ugo+rwx /mnt/c
+chmod ug+rwx example.txt
+chmod ug+rwx temp
+chmod ug+rwx .
+ls -
+cp ~/.config/nvim/init.vim .
+sudo apt-get install exa
+curl ifconfig.me/ip
+ipconfg
+ifconfig -a
+ping 172.22.111.101
+nslookup 172.22.111.101
+ifconfig eth0
+ip addr show
+curl ifconfig.me
+trcrt
+trcrout
+ping -c 4 howtogeek.com
+ping -c 4 ms.com
+ping ibm.com
+ping a.com
+traceroute howtogeek.com
+ip address
+ip route
+netstat
+netstat | less
+ss
+dig ms.com
+dig ibm.com
+host
+whois ms.con
+winp
+cd j
+mkcd g
+wpath | cl
+autoload -Uz vcs_info\nprecmd() { vcs_info }
+zstyle ':vcs_info:git:*' formats 'on branch %b'
+setopt PROMPT_SUBST\nPROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
+cd g
+setopt PROMPT_SUBST\nPROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '\nzstyle ':vcs_info:git:*' formats 'on branch %b'\nautoload -Uz vcs_info\nprecmd() { vcs_info }\n
+qqqq
+mkcd twt
+wget 'https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false'
+curl https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false
+curl https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false | nvim -
+curl https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false >
+curl https://twit.tv/shows/this-week-in-tech/episodes/1005\?autostart\=false > x
+npx js-beautify x
+npx js-beautify x > xp
+cat xp
+curl https://twit.tv/shows/this-week-in-tech/episodes/1005
+curl https://twit.tv/shows/this-week-in-tech/episodes/1005 | nvim -
+wget 'https://pdst.fm/e/pscrb.fm/rss/p/cdn.twit.tv/libsyn/twit_1005/b26992aa-b1b1-4f90-a2b7-efc6a7d4b42a/R1_twit1005.mp3'
+ex R1_twit1005.mp3
+wslpath -w $(pwd) | clip.exe
+yt
+ye
+git commit -m 'what'
+fday
+fd fd
+v x
+v xp
+ls g
+rm -rf g
+type -f func
+sudo apt-get install openssh-server
+sudo systemctl start ssh
+mem
+ipconfig
+ping 172.56.12.170
+ping ms.com
+ping 192.168.0.109
+sudo systemctl start ssh\nsudo systemctl enable ssh\n
+ssh 192.168.0.109
+ssh steff007@192.168.0.109
+who
+ifconfig
+ping 172.22.111.111
+myip | clip.exe
+v gp.txt
+awk '!a[$0]++' h
+awk '!a[$0]++' h | wc
+cat h | wc
+awk '!a[$0]++' h | v
+printf "%s\n"
+printf "%s\n"  $(pwd) | sed 's.\/.\\.g'
+printf "%s\n"  $(pwd) | sed 's.\/.\\.g' | sed 's.mnt..g
+printf "%s\n"  $(pwd) | sed 's.\/.\\.g' | sed 's.mnt..g'
+echo "//s3.amazonaws.com/umdheader.umd.edu/app/js/main.min.js" | sed 's#^//##'
+echo "//s3.amazonaws.com/umdheader.umd.edu/app/js/main.min.js" | sed 's#^..##'
+echo "x//s3.amazonaws.com/umdheader.umd.edu/app/js/main.min.js" | sed 's#^..##'
+cd $(wslpath 'c:\users')
+#awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history #awk unique
+v cunq
+v hist.bak
+:g/^/m0
+echo "/home/user" | sed 's#/#\\#g
+echo "/home/user" | sed 's#/#\\#g"
+echo "/home/user" | sed 's#/#\\#g'
+read -r path;
+path=$(/usr/bin/wslpath -a "$path")
+wslpath
+wslpath -u
+wslpath -w $(pwd)
+cd $(wslpath 'C:\Users\jimst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine')
+unq cunq
+dif ConsoleHost_history.txt cunq
+diff ConsoleHost_history.txt cunq
+unq ConsoleHost_history.txt
+nvim --startuptime startup.log -c exit && less startup.log
+nvim --startuptime startup.log -c exit
+v startup.log
+echo "echo getpid()" | nvim -e - -V1
+v --clean
+funcc
+rec 2
+t non.html
+rec 3
+type -f rec
+fdi --changed-within=4days
+frec 2
+type -f fdm
+git commit -m 'vinit'
+rec 32
+recf() {\n  fdi --changed-within="$1"hours --ignore-file ~/.fdignore -x ls -lhr | cut -d' ' -f5-13\n}\n
+v .fdignore
+recf 8
+recf 8 | head
+fdi --ignore-file ~/.fdignore
+fd --ignore-file ~/.fdignore
+v funcCut
+recf() {\n  fd -H -I --changed-within="$1"hours --ignore-file ~/.fdignore -x ls -lhr | cut -d' ' -f5-13\n}\n
+type -f recf
+recf 2
+recf 1
+recf 48
+recf 348
+recf 348 | nvim -
+fd node_modules
+fdi fd node_modules
+fdi node_modules
+fdm(){\n  fd -H -I --ignore-file ~/.fdignore\n}\n
+fdm
+fdm | nvim -
+fdm 'b'
+fdm 'x'
+fd -h -i 'svg'
+fd -H -I 'svg'
+fdi 'x'
+lua
+gcm p3
+type -f p3
+chmod ug+rwx l.py
+p3 l.py
+v l.py
+./l.py
+Get-ChildItem -Path Env:
+cd mnt/c/temp
+cd /mnt/c
+cd down
+cd Downloads
+mv InOurTime-20240704-Bacteriophages.mp3 /mnt/c/temp\nmv InOurTime-20240919-BenjaminDisraeli.mp3 /mnt/c/temp\nmv InOurTime-20240926-Wormholes.mp3 /mnt/c/temp\nmv InOurTime-20241003-TheHaymarketAffair.mp3 /mnt/c/temp\nmv InOurTime-20241010-RobertGraves.mp3 /mnt/c/temp\nmv InOurTime-20241017-HayeksTheRoadToSerfdom.mp3 /mnt/c/temp\n
+cd \mnt\c
+cd \mnt
+cd /mnt/c/temp
+md listen
+vlc .
+find . -name '*.py' -type f -print0
+find . -name '*.py' -type f -print0 | strings | grep -i "$1"
+find . -name '*.py' -type f -print0 | sed 's/\x0/\n/g' | grep -i "$1"
+git add . && git commit -m 'x' && git push
+gst | rg '/'
+find . -name '*.py' -type f  | sed 's/\x0/\n/g' | grep -i "$1"
+fdi -epy
+fd -emp3 | nvim -
+cp ./gits/50/sound-board/sounds/applause.mp3 $home
+e $home
+cp ./gits/50/sound-board/sounds/applause.mp3 $HOME
+$path = "c:\folder"# Path to folder\n$files = Get-ChildItem -Path $path -Recurse 
+du -df
+du -h
+rm android-studio-2024.1.2.12-windows.exe
+fd 'pow'
+fd 'pow' -x rm
+lt
+Get-Content file.txt | Sort-Object
+gc w
+uptime
+size
+fdi --size +30m -x ls
+fdi --size +30m -x ls -lhrt
+fdi --size +30m |
+fdi --size +30m | xargs ls -lhrt
+fdi --size +130m 
+fd --size +130m 
+unset fdi
+type -f fdi
+fd --size +30m 
+fdi --size +30m 
+als
+nvim alias
+lsize
+git add . && git commit -m 'vim play' && git push
+vv
+v .
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\n       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'\n
+md autoload
+cd autoload
+wget 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\n    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+v ~/.config/nvim/autoload
+cd ~/.config/nvim/autoload
+v plug.vim
+ls | nvim -
+cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default
+cd 'cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default'
+cd 'cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/'
+cd 'cd /mnt/c/Users/jayst/AppData/Local'
+df -h
+cd /usr/lib/wsl/drivers
+fdc
+md c:\t2
+md /mnt/c/t2
+fd "inou" -emp3
+fd "inou" -emp3 | xargs mv /mnt/c/t2
+fd "inou" -emp3 | xargs mv -t /mnt/c/t2
+fd "inou" -emp3 -print0 | xargs -r0 mv -t /mnt/c/t2
+ls *.mp3
+cd /mnt/c/t2
+fd > t.m3u
+rm t.m3u
+fd -m3u
+myc() {\n  cd /mnt/c\n}\n
+fd -em3u
+v two.m3u
+vlc a.m3u
+LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/'.
+LC_ALL=C sed -e 's/[^a-zA-Z0-9,._+@%/-]/\\&/g; 1{$s/^$/""/}; 1!s/^/"/; $!s/$/"/'
+kill 6249
+for i in {0..127}; do\n    printf -v var %02X $i\n    printf -v var %b \\x$var\n    sign=E\n    printf -v res %q "$var"\n    [[ $var == "$res" ]] && sign=-\n    printf '%02X %s %-*s %-*s\n' $i $sign $(( 31 < i && i < 96 ? 2 : 8\n        )) "${res}" $(( 31 < i && i < 96 ? 3 : 8)) "${var@Q}"\ndone |\n    pr -w100 --sep-string='' -t4 |\n    sed 's/\o11\+/\o11/g'
+e $0
+type -f bash
+/usr/bin/bash
+v func
+so functions.sh
+source functions.sh
+sudo apt install shellcheck
+functions.sh
+fdh(){\n  /usr/bin/fdfind --help | nvim \n}\n
+myc() {\n  cd /mnt/c\n}\nmpath(){\nwslpath -w $(pwd) | clip.exe\n}\nmyip(){\ncurl ifconfig.me\n}\nfdh(){\n  /usr/bin/fdfind --help | nvim \n}\nfdm(){\n  fd -H -I --ignore-file ~/.fdignore\n}\nwind(){\n  #convert bash path to windows\npwd | sed 's.\/mnt\/c.c:.g' |clip.exe\n}\n
+shellcheck functions.sh
+type -f gitr.py
+shellcheck functions.sh | nvim -
+git add . && git commit -m 'fix functions' && git push
+git add . && git commit -m 'fix functions'
+reflog
+git reflog | nvim -
+git reflog
+uname -a
+uname -r
+cat /etc/os-release
+cd $HOME
+cd /mnt/c/Users
+fd -ehtml
+fd index.html
+dserve
+p3 -m http.server
+sudo rm -rf untitled
+chmod ug+rwx untitled
+cd untitled
+rm -rfv untitled
+sudo rm -r
+sudo rm -r untitled
+ls -ld
+ls -ld untitled
+e
+e \n: 1731938178:0;echo \n: 1731938188:0;echo "\"
+echo "/"
+echo "\^"
+echo "\\"
+echo "\\" | sed 's.\\.z'
+echo "\\" | sed 's.\\.'
+sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
+echo "/mnt/c" | sed -e 's/c:\\'
+echo "x" | sed 's.x.y'
+echo "x" | sed 's.x.y.'
+wsl wslpath -u
+sed
+echo "c:/Project/test" \\n| sed -E 's/^(\w+)+/\L\1/g' \\n| sed -e 's/\\/\//g' \\n| sed -e 's/://g' \\n| sed -e '/^\//!s/^/\//g'
+/home/steff007
+'word'.Replace('word','@#$+')
+mnt
+fd U
+fdd u
+cd mnt/c/Users/jimst
+cd /mnt/c/Users/jimst
+my
+cd Users
+cd jimst
+cd WebstormProjects
+t xx
+rm xx
+rm -rf untitled
+npm
+npm create vite@latest
+cd vite-project
+npm install
+npm run dev
+fd 'inour' | nvim -
+cd \t2
+myc
+ld -td d1
+fd -td -d1
+cd t2
+v a.m3u
+vlc b.m3u
+p
+git add . && git commit -m 'sync'
+mkcd all_fix
+fd lfrc
+cd ~/.config/lfrc
+cd lf
+mv lfrc lfrc 2
+mv lfrc lfrc.2
+cp lfrc /home/steff007/.config/lf
+t x
+t .aaaa
+t .aaaa .aa
+git stash pop
+rm lhrc
+git merge
+git pull
+rm x
+v ssh
+rm ssh
+v consolehis
+gita lfrc
+v .bashrc^M
+msinfo
+lfc
+fd -econfig
+fd -econf
+v wsl.conf
+v Pystart
+v env
+cd /mnt/c/projects/p3/modules
+pip install pyperclip
+#fd -emp3 -x mv {} /mnt/c/inour
+fd -emp3 -x mv {} /mnt/c/inour
+mkcd python
+cd move
+cp * /mnt/c/projects/python
+cd profile_default
+v new.sh
+sudo apt install sqlite3
+sqlite3
+sqlite3 history.sqlite
+y:
+rsync
+rsync -av projects /mnt/c/temp
+fd temp
+trans node_modules
+trash node_modules
+rm -rf vite-project
+ls twt
+cd twt
+rm -rf twt
+rm -rf react
+b sql_hist
+v sql_hist
+cd sq
+cd gserv
+v script.js
+trash gserv
+cd wpdock
+v wp.tar
+trash wp.tar
+trash fb g
+git add . && git commit -m 'clean'
+cd scripts
+fd '^i'
+v ipy
+v ipysql.py
+chmod ug+rwx *
+mv scripts script
+git maintenance run --auto
+nvim -u none
+sudo snap install bfg-repo-cleaner
+bfg --strip-blobs-bigger-than 50M
+bfg
+man bfg
+bgf
+aptlist
+ainstalled
+v path
+cat path
+rm path
+fd path
+fdi path
+echo $path
+rg 'tools'
+v h.tar
+mv h.tar /mnt/c/temp
+rg 'path'
+rgh
+rg -l 'path'
+v alis
+v alias
+ls script
+read -p "Enter fullname: " fullname
+read "Enter fullname: " fullname
+read name
+v .bashrc 
+sudo grep -r "/home/user/dir" /etc
+sudo grep -r "PATH=" /
+rg path
+rg -l path
+apt-get install silversearcher-ag
+sudo apt-get install silversearcher-ag
+ag
+ag -s '/home/user/dir' | egrep '^\d+' | cut -d ':' -f 1 | uniq
+sudo ag -s '/home/user/dir' | egrep '^\d+' | cut -d ':' -f 1 | uniq
+ls -a
+export PATH=$PATH:/home/steff007/script
+printf '%s\n' $PATH
+cd /tmp
+fd -epy
+printenv
+mv Pystart pystart.py
+v pp
+fd -a pys
+fd -a pys | clip
+fd -a pys | clip.exe
+alias i3='ipython /mnt/c/projects/python/pystart.py'
+shellcheck .bashrc
+shellcheck .bashrc| nvim -
+rg -l impirt
+rg -l import
+mv .zshrc .zshrc
+source alias
+source .zshrc.1
+fd z
+source functions.sh 
+v .vimrc
+rg
+ls -a | rg 'z'
+source zshrc
+v /mnt/c/projects/python/pystart.py
+rg pystart
+alias i3='ipython -i /mnt/c/projects/python/pystart.py'
+git config core.eol lf
+fdi -a cargo
+fdi -d1 -a cargo
+cd .ipython
+tf la
+v vim 00-commands.py
+v nvim
+mv nvim 00-commands.py
+cd python
+mv * .ipython/profile_default/startup
+cd .ipython/profile_default/startup
+mv * /home/steff007/.ipython/profile_default/startup
+ipython
+unalias i3
+i3(){\n  cd /mnt/c/projects/python \n  ipython \n}\n
+tf yv
+tf yv | nvim -
+v /home/steff007/script/yv
+yv
+yt-dlp
+yt-dlp  --list-formats
+yt-dlp --help
+yt-dlp -U
+tf nvim
+v .zshrc 
+sudo update-alternatives --config editor
+v a.html
+v twit
+npx jsbeutify twit
+pretty twit
+v ptwit
+cd twit
+wget 'https://radiopublic.com/this-week-in-google-mp3-0G2pv6'
+wget 'https://pdst.fm/e/pscrb.fm/rss/p/cdn.twit.tv/libsyn/twig_795/5b6c1516-7338-4acd-91f1-08131542eeec/R1_twig0795.mp3'
+exif R1_twit1005.mp3
+f2 | awk '{print $5}'
+f2 | awk '{print $6}'
+f2 | awk '{print $6}' | head
+f2 | awk '{print $9}' | head
+f2 | awk '{print $9}' 
+f2 | awk '{print $9}' > f
+v f
+https://twit.tv/shows/this-week-in-google
+ls n2
+cat n2
+rm docs
+gh statu
+gh status
+gh --version
+curl https://api.github.com/users/wither7007
+curl https://api.github.com/users/wither7007 | nvim -
+curl "https://api.github.com/users/wither7007/repos",
+sudo apt-get install jq
+curl "https://api.github.com/users/wither7007/repos" | jq -r "full_name"
+curl "https://api.github.com/users/wither7007/repos" | jq -r ".full_name"
+curl -s 'https://api.github.com/repos/tmux-plugins/tpm' | jq -r '.description'
+curl "https://api.github.com/users/wither7007/repos" | jq -r '.full_name'
+curl -s 'https://api.github.com/repos/tmux-plugins/tpm' | nvim -
+curl "https://api.github.com/users/wither7007/repos"
+curl "https://api.github.com/users/wither7007/repos" | nvim -
+gh repo list SAP-samples --limit 10 --public
+gh repo list --json
+gh repo list SAP-samples --limit 10 --public \\n  --json name \\n  --jq .[].name
+gh repo list SAP-samples --limit 10 --public  --json name  --jq .[].name
+wget 'https://gist.githubusercontent.com/CesarCapillas/457f6b7cba9bfa65e36421d4f3e738de/raw/db9fedcc38ce2be1c7f85b95b52e96b536aca9c9/Alfresco%2520REST%2520API%2520jq%2520examples'
+fd spac
+v space
+type -f yv
+v yv
+v diag
+v -O .bashrc .zshrc
+cat ~/.bash_history
+mv hist histz
+v hist
+v histz
+export HISTSIZE=-1; export HISTFILESIZE=-1
+fdi -d1 'his'
+cat .zhistory
+git rm -rf --cached .
+gita
+git commit -m 'major'
+git commit -m 'fup'
+v ~/.bashrc
+tf gita
+gita 'mess'
+fdi -d1 'prof'
+v .profile
+v history
+v myhistory
+fdi -d1 'his' | xargs ls -lhrt
+echo $HISTSIZE; echo $HISTFILESIZE
+git rev-parse HEAD
+wind
+cd script
+git log --oneline --decorate
+untrack
+git ls-tree --full-tree -r --name-only HEAD
+gfiles(){\n  #shows files included in git repo\n  git ls-tree --full-tree -r --name-only HEAD\n}\n
+cd btop
+btop
+rm -rf btop
+cd server
+rm -rf server
+fdi --size +30m
+fdi --size +1m
+du
+mkcd fri
+qgt
+qth
+fdl
+cd todo-list
+cat style.css
+f2 | awk '{print $9}' | sort
+ff(){\n  f2 | awk '{print $9}' | sort\n}\n
+ff
+ff | nvim -
+gh
+gh search --help
+gh search repos 'javascript'
+gh config get editor
+gh repo create tesss
+gh repo create tesss --public
+gh completions -s zsh
+gh completion -s zsh
+gh issue list -repo cli/cli
+gh issue list --repo cli/cli
+gh repo delete wither7007/deleteme
+gh repo list wither7007
+gh repo list wither7007 | nvim -
+/* ff(){\n  f2 | awk '{print $9}' | sort\n}\n */
+gh repo list wither7007 | awk '{print $1}'
+curl -s -u user:pass http://localhost:8080/alfresco/service/api/groups | jq '.data[] .shortName'
+v Alfresco_REST_API_jq_examples
+yt-dlp --help | nvim -
+yt-dlp -o 'new css fireship' https://www.youtube.com/watch\?v\=A89FMtIkWKc\&t\=63s
+rename "s/[^a-zA-Z0-9\.]/_/g"')
+rename "s/[^a-zA-Z0-9\.]/_/g"
+rm Alfresco_REST_API_jq_examples
+mv h yt-dlp
+mv gh yt-dlp
+fd -td -d1 | column
+f2
+cd \n/mnt/c/projects/junk/fri\n\n\n\n
+mv new_css_fireship.webm /mnt/c/you
+fuc
+gignore
+git commit -m 'initial'
+git branch -M main\ngit push -u origin main\n
+git branch
+git remote add origin https://github.com/tc-streets/projects.git
+git branch -remote
+git config credential.helper
+git config --global credential.useHttpPath true
+git config --global -e
+fdi -d1 'git'
+v .gitconfig
+v functions.sh
+ls -lshrt temp
+cd gits/50
+cd quiz-app
+echo 'jim' | sed -r 's/^.{3}//'
+hi
+echo '-rwxrwxrwx 1 steff007 steff007 1.4K Nov 23 12:40 /mnt/c/projects/media/index.html' sed -r 's/^.{30}//'
+echo '-rwxrwxrwx 1 steff007 steff007 1.4K Nov 23 12:40 /mnt/c/projects/media/index.html' | sed -r 's/^.{30}//'
+mv cell.svg /mnt/c/projects/media
+unalias fdd
+fdd() {\nfd -td -d1 | column\n}\n
+fd -td gh
+fdi -td gh
+mkcd gh
+gh repo list | nvim -
+tf dser
+npx live-server&
+fuh
+tar media.tar media
+tar -cfv media.tar /mnt/c/projects/media
+tar -cfv media.tar /media
+tar -cfv media.tar media
+tar -cfvf media.tar media
+tar -cvzf media.gz media
+tar -cvf media.tar media/
+v media.tar
+fd -a 'med'
+fd -a 'med' | nvim -
+mkcd media
+cd /mnt/c/projects/media.tar .
+cp /mnt/c/projects/media.tar .
+#tar xvfz file.tar.gz -C
+h3
+alias h5='history | tail -n 50'
+unalias h5
+h5(){\n  history | tail -n6\n}\n
+tar xvf media.tar -C ./
+tar xvf media.tar /mnt/c/projects/gits/wither7007.github.io/media
+mv * ../
+rm -rf media
+rm media.tar
+git add 
+git commit -m 'added media dir'
+fdd
+mkcd j2
+seq -w 1 10 | xargs -n1 -I% sh -c 'dd if=/dev/urandom of=file.% bs=$(shuf -i1-10 -n1) count=1024'
+seq -w 1 10
+v file.01
+manv rsync
+manv
+tf manv
+man rsync| nvim -
+manv() { man "$1" | nvim -; }
+man rsync
+rsync --dry-run -rt -Phv --stats --remove-source-files * /temp
+md temp
+rsync  -rt -Phv --stats --remove-source-files * /temp #--dry-run
+rsync  -rt -Phv --stats --remove-source-files * ~/temp #--dry-run
+cd media
+rsync  -rt -Phv --stats --remove-source-files * /mnt/c/projects/gits/wither7007.github.io/media
+git add . && git commit -m 'more media'
+sudo snap install --classic kotlin
+kotlinc hello.kt -include-runtime -d hello.jar
+ag -version
+ag h
+ag alias
+ag alias " less
+ag alias | less
+ag --null -g ./ | xargs -0 dirname | sort -u
+ag  --list-file-types
+ag root ./bin/
+ag root .config
+ag todo
+ag todo | nvim -
+ag kotlin
+ag -c kotlin
+cd /bin
+fd -H -I 'kotlin'
+fd -tF -H -I 'Kotlin'
+fd -tf -H -I 'Kotlin'
+fd -texecutable -H -I 'Kotlin'
+fd -texecutable -H -I 'grep'
+fd -texecutable -H -I 'kotlin'
+fd -texecutable -H -I 'kotlin' > ~/searchKotlin
+v searchKotlin
+cd ./snap/kotlin/85/bin/kotlinc
+cd ./snap/kotlin/85/bin
+cd /snap/kotlin/85/bin
+file kotlinc
+v kotlin-compiler-2.0.21.zip
+mkcd kotlin
+mv kotlin-compiler-2.0.21.zip /mnt/c/kotlin
+man unzip
+unzip kotlin-compiler-2.0.21.zip
+kotlin
+./kotlinc
+v kotlin
+source kotlinc
+v kotlinc
+c
+udo apt update\nsudo apt upgrade
+sudo apt update
+sudo apt upgrade
+apt-cache search openjdk | grep openjdk-17
+sudo apt install openjdk-17-jre
+javac
+java
+java --version
+sudo apt install openjdk-17-jdk
+javac --version
+kotlinc
+cd kotlin
+cd kotlinc
+cd bin
+./kotlin
+v hello.kt
+./kotlinc hello.kt -include-runtime -d hello.jar
+java -jar hello.jar
+/mnt/c/kotlin/kotlinc/bin
+mv ahk.ps1 ../ps1
+cd notes
+rg 'vim' notes
+rg 'vim' notes | less
+rg 'vim' notes | nvim -
+gci env: | ? Name -match "PG" | sort Name
+fd -X head
+gh repo delete wither7007/deletemewither7007/junk
+gh repo delete wither7007/deletemewither7007/junk --yes
+gh repo delete wither7007/deletemewither7007/junk --confirm
+curl https://githubstatus.com | head
+curl https://githubstatus.com | head -n30
+curl https://startribune.com | head -n20
+curl https://startribune.com | head -n20 | nvim -
+curl https://startribune.com | head -n20 > starDel
+pretty starDel
+v pstarDel
+mkcd fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+cd ~/.fzf
+./install
+fzf al
+fd | fzf
+fd you
+fzf
+ilf
+yt-dlp -o '%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s' https://www.youtube.com/watch\?v\=98tQPM3R3qU\&list\=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM\&index\=3
+md trav
+yt-dlp -o '%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s' https://www.youtube.com/watch\?v\=XMu46BRPLqA
+v $(fzf)
+fzf --preview 'bat --color=always {}'
+v ~/new.sh
+sudo apt install bat
+bat
+cat
+cat alias
+fzf --preview 'cat --color=always {}'
+wi cat
+wi bat
+cd /usr/big
+cd /usr/bin
+fd bat
+batcat
+batcat grep
+fzf --preview 'batcat --color=always {}'
+wi batcat
+cat --version
+batcat --version
+cd trav
+mkcd jsdatabase
+v mysq
+npm install sqlite3
+node
+sqlite3 mydb.sqlite
+v sql-database.js
+dser
+type -f dserv
+type -f dser
+lser(){\nnpx live-server&\n}\n
+fd vid
+cd AdvancedVideoSearch
+t yTube.html
+f1
+mv genetic-data.svg s.svg
+rg 'ico'
+t s.svg
+mv s.svg atom.svg
+cd one
+v iconSite
+git clone git@github.com:wither7007/viol.git
+v Basic.js
+gh repo delete wither7007/junk -yes
+gh repo delete wither7007/junk -confirm
+gh repo delete wither7007/junk --confirm
+gh repo delete wither7007/tesss --confirm
+v is
+gh repo delete wither7007/ghTest --confirm
+gh repo delete wither7007/ddd --confirm
+gh repo delete wither7007/steff007 --confirm
+gh repo delete wither7007/home --confirm
+gh ext search
+gh repo view wither7007/wsl
+git clone git@github.com:wither7007/wsl.git
+awk '!a[$0]++' .bash_history .bash_historyU
+awk '!a[$0]++' .bash_history > .bash_historyU
+la -lshrt
+fdi 'his'
+fdi 'his' -x ls -lhrt
+v .bash_history .bash_historyU
+v .bash_historyU
+mv .bash_historyU .bash_history
+rm -rf wsl
+gh repo delete wither7007/wsl --confirm
+gh repo list wither7007 | awk '{print $1}' | nvim -
+git clone git@github.com:wither7007/all.git
+mv kottkeLink.txt /mnt/c/all
+fd -etxt
+fd -etxt -X head
+fd -etxt -X head | less
+yt-dlp --dump-json https://www.youtube.com/watch\?v\=oj_K7OKYmgo
+yt-dlp --dump-json https://www.youtube.com/watch\?v\=oj_K7OKYmgo | nvim -
+yt-dlp --dump-json https://www.youtube.com/watch\?v\=oj_K7OKYmgo | jq .
+yt-dlp --dump-json https://www.youtube.com/watch\?v\=oj_K7OKYmgo | jq . | nvim -
+gh repo delete wither7007/al --confirm
+gh repo delete wither7007/all --confirm
+gh repo delete wither7007/localDj  --confirm
+gh repo delete wither7007/django-rest --confirm
+mygits(){\ngh repo list wither7007 | awk '{print $1}' > list\ngh repo list wither7007 | awk '{print $1}'\n}\n
+git clone git@github.com:wither7007/tailwind-landing-page.git
+cd tailwind-landing-page
+npm run build
+rm -rf tailwind-landing-page
+gh repo delete wither7007/tailwind-landing-page --confirm
+git clone git@github.com:wither7007/responsive-nav-flexbox.git
+cd responsive-nav-flexbox
+v styles.css
+v temp.style
+rm -rf responsive-nav-flexbox
+v li
+gh repo delete wither7007/responsive-nav-flexbox --confirm
+mygits
+gitv(){\n  gh repo view "$1"\n}\n
+rm -rf htmlTemplate
+git clone git@github.com:wither7007/htmlTemplate.git
+cd htmlTemplate
+gb
+type -f qht
+cd html
+v chromeHistory/commands
+v 
+cd \n/mnt/c/Users/jimst/AppData/Local/lf\n\n\n\n
+pw
+cd lf/
+cp lfrc /mnt/c/Users/jimst/AppData/Local/lf
+cd /mnt/c/Users/jimst/AppData/Local/lf
+ag require
+ag -l require
+fd go
+ag go
+ag -l go
+fdi 'go'
+rename "s/[^a-zA-Z0-9\.]/_/g"') *
+rename "s/_+/_/g"')
+rename "s/_+/_/g"
+f | nvim -
+fd '1'
+fd '_1_'
+cd go
+v var.go
+go run new.go
+md test
+cp * test
+cp * test/
+mv Go_Golang_Tutorial_10_Multiple_Return_Values_by_Net_Ninja_on_20210528_in_Go_Tutorial_Golang_for_Beginners.mkv  10_Multiple_Return_Values_by_Net_Ninja_on_20210528_in_Go_Tutorial_Golang_for_Beginners.mkv
+mpc
+ll
+cd yt-dlp
+cd test
+fd | nvim -\n
+trash ./10_Multiple_Return_Values_by_Net_Ninja_on_20210528_in_Go_Tutorial_Golang_for_Beginners.mkv
+files
+files = []\nfor dirname, dirnames, filenames in os.walk('.'):\n    # print path to all subdirectories first.\n    for subdirname in dirnames:\n        files.append(os.path.join(dirname, subdirname))\n\n    # print path to all filenames.\n    for filename in filenames:\n        files.append(os.path.join(dirname, filename))
+import os
+v out.txt
+v OUT_FILE
+rm OUT_FILE 
+rm out.txt
+mv ./Go_Golang_Tutorial_12_Maps_by_Net_Ninja_on_20210601_in_Go_Tutorial_Golang_for_Beginners.mkv ./12_Maps_by_Net_Ninja_on_20210601_in_Go_Tutorial_Golang_for_Beginners.mkv
+rm ./12_Maps_by_Net_Ninja_on_20210601_in_Go_Tutorial_Golang_for_Beginners.mkv
+r='Go_Golang_Tutorial_'\nfiles = []\nfor dirname, dirnames, filenames in os.walk('.'):\n    # print path to all subdirectories first.\n    for subdirname in dirnames:\n        files.append(os.path.join(dirname, subdirname))\n\n    # print path to all filenames.\n    for filename in filenames:\n        files.append(os.path.join(dirname, filename))\n        \nfiles=[x for x in files if 'mkv' in x or 'webm' in x]\nfirst=[f"mv {x} {x.replace(r,'')}" for x in files]\nOUT_FILE= 'results.txt'\nf = open(OUT_FILE, 'w')\nfor a in files:\n    f.write(f"{a}\n")\n\nf.close()
+tf p3
+printenv | nvim -
+/home/steff007/.ipython/profile_default/startup
+v /home/steff007/.ipython/profile_default/startup
+cd '/mnt/c/projects/yt-dlp/test/'
+fd 'Go'
+his
+fd -emp3 -x mv {} test
+fd 'Go' -X cp {} test
+ls test
+cd yt-dlp/test
+v results.txt
+source results.txt
+wipath
+cd /mnt/c/projects/yt-dlp/test
+v results.webm
+mv ./Go_Golang_Tutorial_1_Introduction_Setup_by_Net_Ninja_on_20210519_in_Go_Tutorial_Golang_for_Beginners.webm ./1_Introduction_Setup.mkv\nmv ./Go_Golang_Tutorial_2_Your_First_Go_File_by_Net_Ninja_on_20210519_in_Go_Tutorial_Golang_for_Beginners.webm ./2_Your_First_Go_File.mkv\nmv ./Go_Golang_Tutorial_3_Variables_Strings_Numbers_by_Net_Ninja_on_20210520_in_Go_Tutorial_Golang_for_Beginners.webm ./3_Variables_Strings_Numbers.mkv\nmv ./Go_Golang_Tutorial_4_Printing_Formatting_Strings_by_Net_Ninja_on_20210521_in_Go_Tutorial_Golang_for_Beginners.webm ./4_Printing_Formatting_Strings.mkv\nmv ./Go_Golang_Tutorial_5_Arrays_Slices_by_Net_Ninja_on_20210524_in_Go_Tutorial_Golang_for_Beginners.webm ./5_Arrays_Slices.mkv\n
+fun
+m
+cd you/dboot
+yt-dlp -o '%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s'  https://www.youtube.com/watch\?v\=B97KkFDv86s
+ytd(){\nyt-dlp -o '%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s' "$1"\n}\n
+lsblk
+vnim .oh-my-zsh/plugins/vim-interaction 
+nvimhistz 
+cd **
+docker run -w /root -it --rm alpine:latest sh -uelic '
+docker run -w /root -it --rm alpine:latest sh -uelic '\n  apk add git nodejs neovim ripgrep build-base wget --update\n  git clone https://github.com/NvChad/starter ~/.config/nvim\n  nvim\n  '
+v out
+zdir
+sudo apt install openssh-server
+sudo sed -i -E 's,^#?Port.*$,Port 2022,' /etc/ssh/sshd_config\nsudo service ssh restart
+sudo sh -c "echo '${USER} ALL=(root) NOPASSWD: /usr/sbin/service ssh start' >/etc/sudoers.d/service-ssh-start"
+sudo /usr/sbin/service ssh start
+eval getent passwd {$(awk '/^UID_MIN/ {print $2}' /etc/login.defs)..$(awk '/^UID_MAX/ {print $2}' /etc/login.defs)} | cut -d: -f1
+cat /etc/passwd|more
+v /etc/ssh/sshd
+cd /etc/ssh
+v sshd_config
+sudo v /etc/wsl.conf
+cd .ssh
+ssh steff007@172.22.111.101
+ip
+ipme
+myip | nvim -
+ssh steff007@172.58.13.193
+v /etc/ssh/sshd_config
+users
+sudo adduser newuser
+sudo adduser newuser1
+su
+sudo /etc/init.d/ssh start
+ssh
+myip
+ssh newuser1@172.58.13.193
+su newuser1
+cp How_to_Dual_Boot_Windows_11_Linux_Mint_Step_by_Step_Guide_by_Learn_Linux_TV_on_20240226_in_NA.webm ..
+fd how
+cd dboot
+rename -n 's/^(.{30}).*?(\.[^.]*)$/$1$2/' *
+rename  's/^(.{30}).*?(\.[^.]*)$/$1$2/' *
+rename  's/^(.{30}).*?(\.[^.]*)$/$1$2/' *\nrename "s/[^a-zA-Z0-9\.]/_/g" *\nrename "s/_+/_/g" *\n
+newuser:x:1001:1002::/home/newuser:/bin/bash\nnewuser1:x:1002:1003:Test,11,none,none:/home/newuser1:/bin/bash\n
+userdel -r newuser
+sudo userdel -r newuser
+sudo userdel -r newuser1
+cd you/trav
+rename  's/^(.{30}).*?(\.[^.]*)$/$1$2/' * #replace long name
+vlc Ultimate_Guide_To_Web_Scraping.webm
+mkcd node-scrape
+npm init -y
+wpath
+npm -i puppeteer
+npm i puppeteer
+git clone https://github.com/bradtraversy/web-scraper-youtube.git
+v readme.md
+alias codes="nvim /mnt/c/Users/jimst/AppData/Roaming/Code/User/keybindings.json /mnt/c/Users/jimst/AppData/Roaming/Code/User/settings.json"
+codes
+md
+cp functions.sh /mnt/c/all/functons.sh
+cp alias /mnt/c/alias
+cp alias /mnt/c/all/alias
+cp alias functons.sh /mnt/c/temp
+ginit
+cd node-scrape
+cp scrape.js 1scrape.js
+git checkout ac58a48971383
+glol
+git checkout 2de6baeed0f38e19996a41ba0da88043cf5c3940
+node scrape.js
+v books.json
+git switch -
+v scrape.js
+cd .
+cd web-scraper-youtube/web-scraper-node
+cp /mnt/c/projects/node-scrape /mnt/c/projects/node-scrap/trav.js
+0
+cat scrape.js
+cp scrape.js /mnt/c/projects/node-scrape/web-scraper-youtube/web-scraper-node
+cp scrape.js /mnt/c/projects/node-scrape/web-scraper-youtube/web-scraper-node/trav.js
+fd tra
+fd tra | nvim -
+cp ./web-scraper-youtube/web-scraper-node/trav.js .
+node trav.js
+git add . && git commit -m 'trav.js'
+cd web-scraper-youtube
+cd web-scraper-node
+v sun
+echo $XDG_DATA_HOME
+cd .config
+fd shad
+fdi 'shad'
+cd nvim
+find l
+find.
+mv * /mnt/c/temp
+cd .config/gh
+git rm .config/gh/config.yml
+git add . && git commit -m 'vim'
+v .config/gh/hosts.yml
+lsa | rg 'git'
+gst | nvim -
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tc-streets/bash.git
+duh | nvim -
+cd .local
+stat .aws
+u
+cd caddy-tutorial
+fdi --size +10m
+fdi --size +5m
+fdi --size +5m | nvim -
+git clone https://github.com/tc-streets/bash.git
+cd bash
+fdi --size +10m | nvim -
+f1 | rg -v 'gith'
+f1 | rg -v 'gith|junk'
+v ~/.fdignore
+f1 | rg -v 'gith|junk' | nvim -
+cd 50
+fd -a *.css
+fd -a -ecss
+fd -a -ecss | nvim -
+fd -a -ecss -X head -n20
+fd -a -ecss -X head -n20 | nvim -
+cd viol
+fd -ejs -X head -n10
+v vmAll.js
+v pas
+mkcd ch
+v style.css
+wget 'https://www.svgrepo.com/show/530661/genetic-data.svg'
+fd gene
+fd gene | clip.exe
+trash-list
+trash-remove
+trash-delete
+man trash
+fd py
+git add . && git commit -m 'new'
+git clone git@github.com:wither7007/all_wsl.git
+cd all_wsl
+fd -eps11
+fdi -eps1
+mv all_wsl all
+cd gitGood_files
+cd ..
+trash gitGood_files
+ls dockerf
+cd dockerf
+v docker-compose.yml
+trash dockerf
+trash .git
+ls exer
+rm -rf exer
+ls pys
+git add . && git commit -m 'big clean' 
+gfiles | nvim -
+cd txt
+mv googleapi.txt ../temp
+ls temp
+echo "# all" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/all.git\ngit push -u origin main
+v note/notesM +554
+v note/notesM +562
+git add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/all.git\ngit push -u origin main\n
+v notes.bak +1941
+v note/notes.bak +1941
+fd not
+rm notes.bak
+rm notesM
+git init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/all.git\ngit push -u origin main\n
+v README.md
+v note/notes:1356
+v note/notes
+git init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\n
+v .bashrc .zshrc
+al
+v ~/.zshrc
+echo $HISTFILE
+v ~/.zshrc ~/.bashrc
+lst
+git init\ngit add README.md\ngit add .\ngit commit -m "first commit"\ngit branch -M main\n
+git remote add origin git@github.com:wither7007/all.git
+v note/notes +1356
+rg 'api'
+v note
+v notes
+v ../temp/pass
+v git_add
+git init\ngit add README.md\ngit add .\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/all.git\n
+git push -u origin main
+git push -u origin main -f
+cd gits/all
+lts
+git rev-list --objects --all | grep -f <(git verify-pack -v .git/objects/pack/*.idx| sort -k 3 -n | cut -f 1 -d " " | tail -10)
+git rev-list --objects --all | grep -f <(git verify-pack -v .git/objects/pack/*.idx| sort -k 3 -n | cut -f 1 -d " " | tail -20)
+cd streets
+rm -Rf .git/refs/original
+rm -Rf .git/logs/
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch "assets/*.jpg" "assets/*.png" "assets/*.gif"' --prune-empty --tag-name-filter cat -- --all
+git gc --aggressive --prune=now
+rm -Rf .git
+rm -rf wither7007.github.io
+git clone git@github.com:wither7007/wither7007.github.io.git
+cp .gitignore /mnt/c/projects/gits/wither7007.github.io
+cd gh
+v his
+v lilst
+gh repo view wither7007/htmlTemplate
+gh auth login
+v pass
+trash his
+gh repo list wither7007 | awk '{print $1}' > list
+v ghs
+v list
+gh auth refresh -h github.com -s delete_repo
+gh repo delete wither7007/wither7007.github.io --confirm
+gfile
+gfiles
+k
+echo "# wither7007.github.io" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin git@github.com:wither7007/wither7007.github.io.git\ngit push -u origin main
+git branch -M all
+cd all
+git fetch
+gdiff
+rm -rf all
+cd chall
+cd Challenges
+cd Grep\ Sed\ Awk
+cd Grep_Sed_Awk
+rename "s.^_..g\n"
+rename "s.^_..g"
+v Awk_1.sh
+grep '\([0-9]\) *\1'
+fd -X cat
+v Sed_command_5.sh
+cd Text_Processing
+v Sort\ Command\ \#
+f
+rename "s/[^a-zA-Z0-9\.]/_/g" *
+rename "s._+._.g" *
+rename "s.^_..g" *
+cat Cut_1.sh
+ls | cut -c 3
+v Uniq_Command_4.sh
+l | uniq -u
+fdi | nvim -
+sup
+cd wither7007.github.io
+fd -ejpg
+fdi -ejpg
+fdi -ejpg 'twi'
+fdi -ejpg 'qu\n'
+fdi -ejpg 'qu'\n'
+fdi -ejpg 'qu'
+cd img
+cd gits/wither7007.github.io
+git add . && git commit -m 'more clean' && git push 
+git push origin HEAD:main
+nuke
+nuke(){\n  printf '%s\n' "find -mindepth 1 -maxdepth 1 -print0 | xargs -r0 trash -R"\n  find -mindepth 1 -maxdepth 1 -print0 | xargs -r0 rm -R\n}\n
+git clone https://github.com/tc-streets/tc-streets.github.io.git
+fdi -ejpg 
+gs
+fid
+ls images
+v /mnt/c/projects/p3/modules/start2.py
+v /home/steff007/.ipython/profile_default/startup/start.py
+v ~/start.py
+cd v ~/start.py
+pip install icecream
+cd /home/steff007/.ipython/profile_default/startup
+pip install yt-dlp
+ls ~/script
+ipy
+i3
+rename "s/[^a-zA-Z-0-9\.]._.g" *
+rename "s/[^a-zA-Z-0-9\.]/_/g" *
+# rename "s/_+/_/g" *
+rename "s/_+/_/g" 
+rename "s/_+/_/g" *
+rename "y/A-Z/a-z/" *
+rename -f 'y/A-Z/a-z/' *
+tf note
+v bashn
+v pown
+t gon
+fd -X head -n3
+fd -X head -n3 | nvim -
+lser
+v button
+qht
+nkill
+cat funny
+cat funny -s
+tf cat
+\cat funny
+\cat -s funny
+cat funny >> joke
+rm funny
+cat other
+mv link power
+trash vsEx uni.ps1
+git lens vscode
+t other power
+trash regex
+v ffm power
+t bash
+v index.html
+mv index.html /mnt/c/projects/one/button.html
+h5
+mv button /mnt/c/projects/one/button.html
+v ffm
+cat ffm >>bashe && rm ffm
+rm bash
+mv bashe bash
+v invoke.ps1
+...
+v first.ahk
+t python
+v python
+t pythonn
+v -O notes pythonn
+find . -type f -exec ls -s {} \; | sort -n -r | head -5
+md songs
+5
+.
+6
+fd -mp3
+fd -emp3
+fdi -mp3
+fdi -emp3
+/* fd -emp3 -x mv {} /mnt/you/songs */
+fdi -emp3 -x mv {} /mnt/you/songs
+fdi -emp3 -x {} /mnt/you/songs
+/* fd "inou" -emp3 | xargs mv -t /mnt/c/t2 */
+fdi -emp3 | xargs mv -t /mnt/c/you/songs
+sudo systemctl enable ssh
+sudo vnim /etc/wsl.conf
+nvim /etc/wsl.conf
+sudo nvim /etc/wsl.conf
+sudo adduser steffes
+cat /etc/passwd|more | nvim -
+mkcd ssh
+cd ssh
+sudo systemctl status ssh
+Get-NetIPAddress -InterfaceIndex 12
+v instruct
+v
+vinit
+trash-empty
+l | less
+l | nvim -
+fd -H -I | nvim -
+fd -H -I -d1 -tf | nvim -
+fdf
+fd -emsi
+fd -emsi -x rm
+rm iview470_plugins_setup.exe iv_mmedia.zip OperaSetup.exe
+fd -emp3 -x mv {} /mnt/c/twit
+file webstorm_2024.1_explained_3_ne.webm
+file dates.txt
+fd -tf | xargs file
+cd t
+rm -rf t
+cd golang
+rm golang.mp4
+fd -tf | xargs file | nvim -
+fd 'go'
+fd -d 1 | nvim -
+sudo apt install imagemagick
+identify -verbose mastering_webstorm_shortcuts_a.webm
+man identify
+exif webstorm_2024.1_explained_3_ne.webm
+apt-get update
+sudo apt-get update
+sudo apt install exif
+sudo apt install exif --fix-missing
+gzip -dc Image-ExifTool-13.03.tar.gz | tar -xf -
+perl Makefile.PL\nmake test\nsudo make install\n
+cd Image-ExifTool-13.03
+perl Makefile.PL
+make test
+sudo make install
+exif
+man exif
+perldoc exiftool
+cd /
+fd -H -I -tf exif
+cd mnt/wslg/distro/usr/local/bin
+exiftool
+exiftool --version
+exiftool -help
+exiftool -version
+fd -a ex
+cd you
+/mnt/wslg/distro/usr/local/bin/exiftool getting_started_with_svelte_in.mkv
+/mnt/wslg/distro/usr/local/bin/exiftool getting_started_with_svelte_in.mkv | nvim -
+cd songs
+/mnt/wslg/distro/usr/local/bin/exiftool luther_vandross_-_michelle.mp3
+/mnt/wslg/distro/usr/local/bin/exiftool luther_vandross_-_michelle.mp3 | nvim -
+fd -H -I -tf -a -ejs > /mnt/c/all/alljs&
+cat alljs
+fd -H -I -d1 -tf 'Rec'
+ldf
+v alljs
+v /mnt/c/Program Files/Python312/Doc/html/_static/documentation_options.js
+cd /mnt/c/Program Files/Python312/Doc/html/_static/
+cd '/mnt/c/Program Files/Python312/Doc/html/_static/'
+t js
+v js
+cd gits
+git clone https://github.com/WebDevSimplified/js-util-functions.git
+gh repo clone WebDevSimplified/js-util-functions
+ping https://githubstatus.com
+pkunzip js-util-functions-main.zip
+unzip js-util-functions-main.zip
+cd js-util-functions-main
+cd domUtils
+md /mnt/c/minour
+#fd "inou" -emp3 | xargs mv -t /mnt/c/t2
+fd -emp3 | xargs mv -t /mnt/c/minour
+cd inour
+lib() {\n\n  echo 21972086245722 | clip.exe\n}\n
+lib
+down
+unzip Ex_Files_Docker_EssT.zip
+cd Ex_Files_Docker_EssT
+cd Exercise\ Files
+cd 04_02_before
+v app.sh
+cd include
+fd -H -I -epy 
+find ~ -iregex '.*[0-9]\.jpg$'
+ethtool eth0 | grep Speed
+hyperfine
+time curl https://github.com/
+time wget https://github.com/
+sudo apt install build-essential
+source $HOME/.cargo/env
+cargo install hyperfine
+ping index.crates.io
+ping msn.com
+ping https://wither7007.github.io/media/
+cd note
+v power
+m[s
+cd chromeHistory
+v shell v linux
+v 'shell v linux'
+# rename "s/[^a-zA-Z0-9\.]/_/g" *
+rename -f "s/[^a-zA-Z0-9]/_/g" *
+pretty shell_v_linux
+v shell_v_linux
+wget 'https://threatpicture.com/blog/linux-to-powershell/'
+ping https://www.msnbc.com/
+ping
+ping 8.8.8.8
+bash
+listen
+ps -a
+htop
+cd dock
+v commands
+docker run -it busybox sh
+v getting-started-todo-app
+fdh
+fdi |wc
+man wc
+manv wc
+find . | wc
+wc docker.his
+v docker.his
+#  awk '!a[$0]++' ~/xd >~/testfile.tmp && mv ~/testfile.tmp ~/xd | sed 's/^/cd /g' ~/xd | nvim -
+awk '!a[$0]++' dock.all
+awk '!a[$0]++' dock.all | wc
+awk '!a[$0]++' dock.all > docku
+v docku
+wc dock.all
+wc docku
+diff dock.all docku| nvim -
+vdiff docku dock.all
+mkdir -p tmp/one
+mkdir -p tmp/two
+cd tc-streets.github.io
+tree | nvim -
+trash tc-streets.github.io
+ls -d */
+ls -FhlA
+kill -9 238
+sudo kill -9 238
+sudo kill -9 274
+sudo pip install cheat
+sudo kill -9 1
+ps -e | nvim -
+ps -e | awk '{print $1}' > alps
+v alps
+sudo kill -9 1\nsudo kill -9 2\nsudo kill -9 6\nsudo kill -9 59\nsudo kill -9 81\nsudo kill -9 93\nsudo kill -9 97\nsudo kill -9 99\nsudo kill -9 106\nsudo kill -9 115\nsudo kill -9 120\nsudo kill -9 125\nsudo kill -9 130\nsudo kill -9 134\nsudo kill -9 229\nsudo kill -9 230\nsudo kill -9 240\nsudo kill -9 242\nsudo kill -9 246\nsudo kill -9 247\nsudo kill -9 249\nsudo kill -9 251\nsudo kill -9 275\n
+ps -e | awk '{print $1}'
+sudo kill -9 1\nsudo kill -9 2\nsudo kill -9 6\nsudo kill -9 59\nsudo kill -9 81\nsudo kill -9 93\nsudo kill -9 97\nsudo kill -9 99\nsudo kill -9 106\nsudo kill -9 115\nsudo kill -9 120\nsudo kill -9 125\nsudo kill -9 130\nsudo kill -9 134\nsudo kill -9 229\nsudo kill -9 230\nsudo kill -9 240\nsudo kill -9 242\nsudo kill -9 246\nsudo kill -9 247\nsudo kill -9 249\nsudo kill -9 251\nsudo kill -9 275\nsudo kill -9 280\nsudo kill -9 315\nsudo kill -9 371\nsudo kill -9 411\nsudo kill -9 412\nsudo kill -9 417\nsudo kill -9 796\nsudo kill -9 798\nsudo kill -9 809\nsudo kill -9 893\nsudo kill -9 926\nsudo kill -9 927\nsudo kill -9 934\nsudo kill -9 999\nsudo kill -9 1000\nsudo kill -9 1120\nsudo kill -9 1121\nsudo kill -9 1127\nsudo kill -9 1568\nsudo kill -9 1570\nsudo kill -9 1571\nsudo kill -9 1961\nsudo kill -9 2028\nsudo kill -9 2282\nsudo kill -9 3937\nsudo kill -9 3943\nsudo kill -9 4187\nsudo kill -9 4188\n
+ps -e | awk '{print $1}' | nvim -
+wsl --list --online
+awk '!a[$0]++' >uwinhist.txt
+ps
+awk '!a[$0]++'winhist.txt  >uwinhist.txt
+awk '!a[$0]++' winhist.txt  >uwinhist.txt
+chmod ug+rwx * col.sh
+col.sh
+source col.sh
+v col.sh
+for((i=16; i<256; i++)); do\n    printf "\e[48;5;${i}m%03d" $i;\n    printf '\e[0m';\n    [ ! $((($i - 15) % 6)) -eq 0 ] && printf ' ' || printf '\n'\ndone\n
+bash col.sh
+printf '\e[<fg_bg>;5;<ANSI_color_code>m'
+cd junk
+v a.sh
+bash c.sh
+chmod ug+rwx * c.sh
+c.sh
+/c.sh
+./c.sh
+v c.sh
+echo -ne '\e]11;#000000\e\\'
+wsl
+echo -ne '\e]11;#ffffff\e\\'
+ls
+PROMPT="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
+mv .bashrc .bashrc.1
+mv .zshrc .zshrc.1
+cd /etc
+fd conf
+fd -H -I -d1 conf
+fd -H -I -d1 'conf'
+sudo nvim /etc/resolv.conf
+find . -maxdepth 1
+find . -maxdepth 1 | rg 'b'
+t aaaaaaaaaaaa
+mv .bashrc .bashrc.1 && mv .zshrc .zshrc.1
+ping "https://www.ibm.com"
+git add . --dry-run
+mkcd delete
+cd projects
+cd delete
+mkcd rsync
+mkdir dir1
+mkdir dir2
+touch dir1/file{1..100}
+fdi
+ls dir1
+fd dir1
+rsync -r dir1 dir2
+ls dir2
+ld
+fdi | column
+rm -r * .*
+fg
+find -mindepth 1 -maxdepth 1 -print0 | xargs -r0 rm -R
+tf nuke
+rsync -r dir1/ dir2
+cd dir2
+mkcd proj
+rsync -r wsl/ /mnt/c/proj
+rm *
+md wsl
+cd wsl
+pc
+2
+rsync -rv wsl/ /mnt/c/proj/wsl
+d
+1
+pwd
+glog
+whoami
+t oldoldold
+git commit -m "big clean"
+git push
+git remote -v
+v temp/pass
+cd .git
+rm -rf .git
+fd
+fd | nvim -
+gitinit
+la
+rm -rf .git .gitignore.1
+v .gitignore
+git init
+git add .
+rg '_docker'
+v .zshrc
+cd /usr/share/zsh/vendor-completions
+fd doc
+trash _docker
+gst
+mv _docker ~/
+sudo mv _docker ~/
+rm _docker
+duh
+git status
+cd temp
+mkcd junk
+v vimf
+git clone https://github.com/neovim/neovim.git
+cd /mnt/c/Users/jimst/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine
+# awk '!a[$0]++' "$1" >testfile.tmp && mv testfile.tmp "$1"
+awk '!a[$0]++' ConsoleHost_history.txt > cunq
+mv cunq ConsoleHost_history.txt
+v ConsoleHost_history.txt
+winh(){\n  cd /mnt/c/Users/jimst/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine\n}\n
+func
+winhi(){\n  cd /mnt/c/Users/jimst/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine\n}\n
+lsal
+fd -H -I -tf 'nvim\.exe'&
+kill -9 9708
+fd -H -I -tf 'nvim\.exe'> /mnt/c/all/vvv&
+fd -H -I -tf 'nvim'> /mnt/c/all/vvv&
+all
+v vvv
+ps -e
+cd Windows/Prefetch
+mc
+mkcd gits
+git clone https://github.com/NeuralNine/config-files.git
+cd config-files
+tree
+find .
+psa
+lsa
+v .bashrc
+v .tmux.conf
+lf
+cd
+BLOCKSIZE=1048576; du -x -h | sort -nr | head -10
+find . -type f -print0 | xargs -0 stat --format '%Z :%z %n' | sort -nr | cut -d: -f2- | head -n 2
+..
+mv UbuntuDev1 /mnt/c/temp
+sudo mv UbuntuDev1 /mnt/c/temp
+trash UbuntuDev1
+fd ub
+rm -rf UbuntuDev1
+sudo rm -rf UbuntuDev1
+rm -rf ext4.vhdx
+sudo rm -rf ext4.vhdx
+exit
+mps
+note
+du -s * | sort -n | awk '{print int($1 / 1024)"M\t"$2}'
+cd UbuntuDev1
+l
+wsl --shutdown
+qqq
+ping  raw.githubusercontent.com

@@ -16,7 +16,6 @@ He is a noble Roman, and well given.
 
 CAESAR: Would he were fatter! But I fear him not:
 
-
 find /directory/path -type f -name "*.out" -exec sed -i 's/keystring/newstring/g' {} +
 
 !cool 
@@ -26,9 +25,6 @@ linux trash output
 llllkj > /dev/null 2>&1
 
 “My solitude doesn’t depend on the presence or absence of people; on the contrary, I hate who steals my solitude without, in exchange, offering me true company.”
-
-
-ALTER USER 'root'@'localhost' IDENTIFIED BY '';
 
 The following content may contain suicide or self-harm topics.
 Viewer discretion is advised. Learn more

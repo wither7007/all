@@ -568,3 +568,10 @@ lw
 ls
 pwd
 exit
+{{1..3},{7..9}}
+qqq
+exit
+echo $0
+ls
+pwd
+exit

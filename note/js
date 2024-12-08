@@ -19,3 +19,42 @@ let add_element = () => {
     
     document.body.appendChild(template);
 }
+const { log } = console;
+
+log("Hello world!");
+// Expected output: Hello world!
+
+const select = (selector, scope = document) => {
+  return scope.querySelector(selector);
+};
+
+const title = select("h1");
+const className = select(".class");
+
+
+const listen = (target, event, callback, ...options) => {
+  return target.addEventListener(event, callback, ...options);
+};
+
+listen(buttonElem, "click", () => console.log("Clicked!"));
+
+
+const random = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
+random(5, 10);
+
+
+const storage = {
+  get: (key, defaultValue = null) => {
+    const value = localStorage.getItem(key);
+    return value ? JSON.parse(value) : defaultValue;
+  },
+  set: (key, value) => localStorage.setItem(key, JSON.stringify(value)),
+  remove: (key) => localStorage.removeItem(key),
+  clear: () => localStorage.clear(),
+};
+
+storage.set("motto", "Eat, Sleep, Code, Repeat");
+storage.get("motto");
